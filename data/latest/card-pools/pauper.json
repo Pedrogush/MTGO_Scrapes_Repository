@@ -1,10 +1,10 @@
 {
   "schema_version": "1",
   "kind": "format_card_pool",
-  "generated_at": "2026-03-30T18:45:34Z",
+  "generated_at": "2026-03-30T19:42:29Z",
   "format": "pauper",
   "source": "published-deck-texts",
-  "total_decks_analyzed": 394,
+  "total_decks_analyzed": 401,
   "decks_failed": 0,
   "cards": [
     "Abandon Attachments",
@@ -88,6 +88,7 @@
     "Cauldron Familiar",
     "Celestial Flare",
     "Chain Lightning",
+    "Chainer's Edict",
     "Chittering Rats",
     "Chromatic Star",
     "Circle of Protection: Black",
@@ -142,6 +143,7 @@
     "Dispel",
     "Disrupt",
     "Distant Melody",
+    "Distress",
     "Disturbed Burial",
     "Divest",
     "Dread Return",
@@ -173,6 +175,7 @@
     "Ethereal Armor",
     "Eviscerator's Insight",
     "Evolution Witness",
+    "Exhume",
     "Expedition Map",
     "Experimental Synthesizer",
     "Extract a Confession",
@@ -373,10 +376,12 @@
     "Mystic Remora",
     "Mystical Teachings",
     "Nameless Inversion",
+    "Nausea",
     "Navigator's Compass",
     "Negate",
     "Nested Shambler",
     "Nezumi Linkbreaker",
+    "Night's Whisper",
     "Nihil Spellbomb",
     "Ninja of the Deep Hours",
     "Novice Inspector",
@@ -563,6 +568,7 @@
     "Tectonic Hazard",
     "Temporal Intervention",
     "Temur Battle Rage",
+    "Tendrils of Corruption",
     "Terminate",
     "The Modern Age",
     "Thermo-Alchemist",
@@ -626,6 +632,7 @@
     "Webweaver Changeling",
     "Wedding Invitation",
     "Wellwisher",
+    "Whisper Agent",
     "Whispersilk Cloak",
     "Wild Growth",
     "Wildheart Invoker",
@@ -644,7 +651,7 @@
   "copy_totals": [
     {
       "card_name": "Mountain",
-      "copies_played": 1346
+      "copies_played": 1379
     },
     {
       "card_name": "Island",
@@ -652,91 +659,91 @@
     },
     {
       "card_name": "Forest",
-      "copies_played": 675
+      "copies_played": 691
     },
     {
       "card_name": "Swamp",
-      "copies_played": 505
+      "copies_played": 542
     },
     {
       "card_name": "Lightning Bolt",
-      "copies_played": 433
+      "copies_played": 445
     },
     {
       "card_name": "Pyroblast",
-      "copies_played": 431
+      "copies_played": 439
     },
     {
       "card_name": "Plains",
-      "copies_played": 425
+      "copies_played": 427
     },
     {
       "card_name": "Sneaky Snacker",
-      "copies_played": 403
+      "copies_played": 407
     },
     {
       "card_name": "Lorien Revealed",
-      "copies_played": 389
+      "copies_played": 393
     },
     {
       "card_name": "Counterspell",
-      "copies_played": 388
+      "copies_played": 392
     },
     {
       "card_name": "Brainstorm",
-      "copies_played": 359
-    },
-    {
-      "card_name": "Hydroblast",
-      "copies_played": 347
+      "copies_played": 363
     },
     {
       "card_name": "Nihil Spellbomb",
-      "copies_played": 347
+      "copies_played": 351
+    },
+    {
+      "card_name": "Hydroblast",
+      "copies_played": 349
     },
     {
       "card_name": "Voldaren Epicure",
-      "copies_played": 315
+      "copies_played": 323
     },
     {
       "card_name": "Cast Down",
-      "copies_played": 300
+      "copies_played": 303
     },
     {
       "card_name": "Red Elemental Blast",
-      "copies_played": 279
+      "copies_played": 283
     },
     {
       "card_name": "Weather the Storm",
       "copies_played": 274
     },
     {
+      "card_name": "Faithless Looting",
+      "copies_played": 273
+    },
+    {
+      "card_name": "Fiery Temper",
+      "copies_played": 272
+    },
+    {
       "card_name": "Blue Elemental Blast",
       "copies_played": 271
     },
     {
-      "card_name": "Faithless Looting",
-      "copies_played": 270
-    },
-    {
-      "card_name": "Fiery Temper",
+      "card_name": "Tolarian Terror",
       "copies_played": 268
     },
     {
-      "card_name": "Tolarian Terror",
-      "copies_played": 264
-    },
-    {
       "card_name": "Grab the Prize",
-      "copies_played": 262
-    },
-    {
-      "card_name": "Highway Robbery",
-      "copies_played": 255
+      "copies_played": 266
     },
     {
       "card_name": "Relic of Progenitus",
-      "copies_played": 253
+      "copies_played": 260
+    },
+    {
+      "card_name": "Highway Robbery",
+      "copies_played": 259
     },
     {
       "card_name": "Ichor Wellspring",
@@ -744,23 +751,27 @@
     },
     {
       "card_name": "Generous Ent",
-      "copies_played": 236
+      "copies_played": 242
     },
     {
       "card_name": "Snuff Out",
-      "copies_played": 231
+      "copies_played": 233
     },
     {
       "card_name": "Snow-Covered Island",
-      "copies_played": 219
+      "copies_played": 228
     },
     {
       "card_name": "Lava Dart",
+      "copies_played": 209
+    },
+    {
+      "card_name": "Cast into the Fire",
       "copies_played": 205
     },
     {
       "card_name": "Galvanic Blast",
-      "copies_played": 200
+      "copies_played": 204
     },
     {
       "card_name": "Refurbished Familiar",
@@ -771,28 +782,24 @@
       "copies_played": 200
     },
     {
-      "card_name": "Cast into the Fire",
-      "copies_played": 197
+      "card_name": "Annul",
+      "copies_played": 198
+    },
+    {
+      "card_name": "Masked Vandal",
+      "copies_played": 196
     },
     {
       "card_name": "Winding Way",
       "copies_played": 196
     },
     {
-      "card_name": "Annul",
-      "copies_played": 195
-    },
-    {
-      "card_name": "Masked Vandal",
-      "copies_played": 194
+      "card_name": "Avenging Hunter",
+      "copies_played": 189
     },
     {
       "card_name": "Lead the Stampede",
       "copies_played": 189
-    },
-    {
-      "card_name": "Avenging Hunter",
-      "copies_played": 186
     },
     {
       "card_name": "Drossforge Bridge",
@@ -804,11 +811,11 @@
     },
     {
       "card_name": "Kessig Flamebreather",
-      "copies_played": 176
+      "copies_played": 180
     },
     {
       "card_name": "Breath Weapon",
-      "copies_played": 171
+      "copies_played": 174
     },
     {
       "card_name": "Mental Note",
@@ -824,10 +831,18 @@
     },
     {
       "card_name": "Faerie Macabre",
-      "copies_played": 159
+      "copies_played": 162
+    },
+    {
+      "card_name": "Great Furnace",
+      "copies_played": 160
     },
     {
       "card_name": "Dust to Dust",
+      "copies_played": 158
+    },
+    {
+      "card_name": "Nyxborn Hydra",
       "copies_played": 158
     },
     {
@@ -835,28 +850,24 @@
       "copies_played": 157
     },
     {
-      "card_name": "Great Furnace",
-      "copies_played": 156
-    },
-    {
-      "card_name": "Nyxborn Hydra",
-      "copies_played": 156
+      "card_name": "Ponder",
+      "copies_played": 153
     },
     {
       "card_name": "Fireblast",
-      "copies_played": 149
-    },
-    {
-      "card_name": "Ponder",
-      "copies_played": 149
-    },
-    {
-      "card_name": "Eviscerator's Insight",
-      "copies_played": 148
+      "copies_played": 152
     },
     {
       "card_name": "Guttersnipe",
-      "copies_played": 148
+      "copies_played": 152
+    },
+    {
+      "card_name": "End the Festivities",
+      "copies_played": 150
+    },
+    {
+      "card_name": "Eviscerator's Insight",
+      "copies_played": 150
     },
     {
       "card_name": "Krark-Clan Shaman",
@@ -867,15 +878,15 @@
       "copies_played": 147
     },
     {
-      "card_name": "End the Festivities",
-      "copies_played": 143
+      "card_name": "Murmuring Mystic",
+      "copies_played": 144
     },
     {
-      "card_name": "Lembas",
+      "card_name": "Extract a Confession",
       "copies_played": 141
     },
     {
-      "card_name": "Murmuring Mystic",
+      "card_name": "Lembas",
       "copies_played": 141
     },
     {
@@ -883,16 +894,20 @@
       "copies_played": 141
     },
     {
-      "card_name": "Extract a Confession",
-      "copies_played": 140
-    },
-    {
       "card_name": "Sagu Wildling",
       "copies_played": 132
     },
     {
+      "card_name": "Duress",
+      "copies_played": 129
+    },
+    {
       "card_name": "Priest of Titania",
       "copies_played": 128
+    },
+    {
+      "card_name": "Spell Pierce",
+      "copies_played": 127
     },
     {
       "card_name": "Timberwatch Elf",
@@ -907,14 +922,6 @@
       "copies_played": 124
     },
     {
-      "card_name": "Spell Pierce",
-      "copies_played": 124
-    },
-    {
-      "card_name": "Duress",
-      "copies_played": 123
-    },
-    {
       "card_name": "Thoughtcast",
       "copies_played": 123
     },
@@ -924,19 +931,19 @@
     },
     {
       "card_name": "Bojuka Bog",
-      "copies_played": 118
+      "copies_played": 122
     },
     {
       "card_name": "Campfire",
-      "copies_played": 114
+      "copies_played": 118
     },
     {
       "card_name": "Writhing Chrysalis",
-      "copies_played": 113
+      "copies_played": 116
     },
     {
       "card_name": "Khalni Garden",
-      "copies_played": 111
+      "copies_played": 114
     },
     {
       "card_name": "Mistvault Bridge",
@@ -948,6 +955,10 @@
     },
     {
       "card_name": "Snow-Covered Mountain",
+      "copies_played": 110
+    },
+    {
+      "card_name": "Toxin Analysis",
       "copies_played": 107
     },
     {
@@ -963,10 +974,6 @@
       "copies_played": 105
     },
     {
-      "card_name": "Toxin Analysis",
-      "copies_played": 105
-    },
-    {
       "card_name": "Llanowar Elves",
       "copies_played": 103
     },
@@ -975,12 +982,12 @@
       "copies_played": 103
     },
     {
-      "card_name": "Unexpected Fangs",
+      "card_name": "Smash to Smithereens",
       "copies_played": 99
     },
     {
-      "card_name": "Smash to Smithereens",
-      "copies_played": 98
+      "card_name": "Unexpected Fangs",
+      "copies_played": 99
     },
     {
       "card_name": "Ice Tunnel",
@@ -991,8 +998,16 @@
       "copies_played": 96
     },
     {
+      "card_name": "Skred",
+      "copies_played": 95
+    },
+    {
       "card_name": "Silverbluff Bridge",
       "copies_played": 93
+    },
+    {
+      "card_name": "Troll of Khazad-dum",
+      "copies_played": 92
     },
     {
       "card_name": "Blood Fountain",
@@ -1007,15 +1022,7 @@
       "copies_played": 91
     },
     {
-      "card_name": "Skred",
-      "copies_played": 91
-    },
-    {
       "card_name": "Novice Inspector",
-      "copies_played": 89
-    },
-    {
-      "card_name": "Troll of Khazad-dum",
       "copies_played": 89
     },
     {
@@ -1027,6 +1034,14 @@
       "copies_played": 88
     },
     {
+      "card_name": "Malevolent Rumble",
+      "copies_played": 87
+    },
+    {
+      "card_name": "Gurmag Angler",
+      "copies_played": 85
+    },
+    {
       "card_name": "Utrom Monitor",
       "copies_played": 85
     },
@@ -1035,15 +1050,19 @@
       "copies_played": 84
     },
     {
-      "card_name": "Gurmag Angler",
-      "copies_played": 83
-    },
-    {
       "card_name": "Cleansing Wildfire",
       "copies_played": 81
     },
     {
       "card_name": "Lunarch Veteran",
+      "copies_played": 81
+    },
+    {
+      "card_name": "Tithing Blade",
+      "copies_played": 81
+    },
+    {
+      "card_name": "Volatile Fjord",
       "copies_played": 81
     },
     {
@@ -1055,10 +1074,6 @@
       "copies_played": 80
     },
     {
-      "card_name": "Malevolent Rumble",
-      "copies_played": 79
-    },
-    {
       "card_name": "Raffine's Informant",
       "copies_played": 79
     },
@@ -1067,7 +1082,7 @@
       "copies_played": 79
     },
     {
-      "card_name": "Tithing Blade",
+      "card_name": "Defile",
       "copies_played": 77
     },
     {
@@ -1075,12 +1090,12 @@
       "copies_played": 77
     },
     {
-      "card_name": "Volatile Fjord",
-      "copies_played": 77
-    },
-    {
       "card_name": "Jagged Barrens",
       "copies_played": 76
+    },
+    {
+      "card_name": "Drown in Sorrow",
+      "copies_played": 75
     },
     {
       "card_name": "Augur of Bolas",
@@ -1091,27 +1106,23 @@
       "copies_played": 74
     },
     {
-      "card_name": "Drown in Sorrow",
-      "copies_played": 73
-    },
-    {
       "card_name": "Steel Sabotage",
       "copies_played": 73
     },
     {
-      "card_name": "Defile",
-      "copies_played": 71
+      "card_name": "Thorn of the Black Rose",
+      "copies_played": 73
+    },
+    {
+      "card_name": "Preordain",
+      "copies_played": 72
     },
     {
       "card_name": "Mesmeric Fiend",
       "copies_played": 71
     },
     {
-      "card_name": "Preordain",
-      "copies_played": 70
-    },
-    {
-      "card_name": "Thorn of the Black Rose",
+      "card_name": "Experimental Synthesizer",
       "copies_played": 69
     },
     {
@@ -1135,12 +1146,20 @@
       "copies_played": 67
     },
     {
-      "card_name": "Experimental Synthesizer",
-      "copies_played": 66
-    },
-    {
       "card_name": "Reckless Impulse",
       "copies_played": 65
+    },
+    {
+      "card_name": "Utopia Sprawl",
+      "copies_played": 64
+    },
+    {
+      "card_name": "Goblin Tomb Raider",
+      "copies_played": 63
+    },
+    {
+      "card_name": "Crypt Rats",
+      "copies_played": 61
     },
     {
       "card_name": "Leonardo, Big Brother",
@@ -1155,7 +1174,23 @@
       "copies_played": 60
     },
     {
+      "card_name": "Burning-Tree Emissary",
+      "copies_played": 60
+    },
+    {
+      "card_name": "Clockwork Percussionist",
+      "copies_played": 60
+    },
+    {
       "card_name": "Cryptic Serpent",
+      "copies_played": 60
+    },
+    {
+      "card_name": "Goblin Bushwhacker",
+      "copies_played": 60
+    },
+    {
+      "card_name": "Rally at the Hornburg",
       "copies_played": 60
     },
     {
@@ -1171,31 +1206,7 @@
       "copies_played": 60
     },
     {
-      "card_name": "Utopia Sprawl",
-      "copies_played": 60
-    },
-    {
-      "card_name": "Goblin Tomb Raider",
-      "copies_played": 59
-    },
-    {
-      "card_name": "Crypt Rats",
-      "copies_played": 58
-    },
-    {
-      "card_name": "Burning-Tree Emissary",
-      "copies_played": 56
-    },
-    {
-      "card_name": "Clockwork Percussionist",
-      "copies_played": 56
-    },
-    {
-      "card_name": "Goblin Bushwhacker",
-      "copies_played": 56
-    },
-    {
-      "card_name": "Rally at the Hornburg",
+      "card_name": "Wrenn's Resolve",
       "copies_played": 56
     },
     {
@@ -1232,10 +1243,6 @@
     },
     {
       "card_name": "Urza's Tower",
-      "copies_played": 52
-    },
-    {
-      "card_name": "Wrenn's Resolve",
       "copies_played": 52
     },
     {
@@ -1295,6 +1302,14 @@
       "copies_played": 47
     },
     {
+      "card_name": "Dread Return",
+      "copies_played": 47
+    },
+    {
+      "card_name": "Lotleth Giant",
+      "copies_played": 47
+    },
+    {
       "card_name": "Spinewoods Paladin",
       "copies_played": 47
     },
@@ -1319,23 +1334,19 @@
       "copies_played": 44
     },
     {
+      "card_name": "Flaring Pain",
+      "copies_played": 44
+    },
+    {
+      "card_name": "Gnaw to the Bone",
+      "copies_played": 44
+    },
+    {
       "card_name": "Guardians' Pledge",
       "copies_played": 44
     },
     {
       "card_name": "Accursed Marauder",
-      "copies_played": 43
-    },
-    {
-      "card_name": "Dread Return",
-      "copies_played": 43
-    },
-    {
-      "card_name": "Flaring Pain",
-      "copies_played": 43
-    },
-    {
-      "card_name": "Lotleth Giant",
       "copies_played": 43
     },
     {
@@ -1355,10 +1366,6 @@
       "copies_played": 41
     },
     {
-      "card_name": "Gnaw to the Bone",
-      "copies_played": 40
-    },
-    {
       "card_name": "Razortrap Gorge",
       "copies_played": 40
     },
@@ -1375,6 +1382,14 @@
       "copies_played": 39
     },
     {
+      "card_name": "Chain Lightning",
+      "copies_played": 37
+    },
+    {
+      "card_name": "Standard Bearer",
+      "copies_played": 37
+    },
+    {
       "card_name": "Wellwisher",
       "copies_played": 37
     },
@@ -1383,15 +1398,7 @@
       "copies_played": 36
     },
     {
-      "card_name": "Chain Lightning",
-      "copies_played": 35
-    },
-    {
       "card_name": "First Day of Class",
-      "copies_played": 35
-    },
-    {
-      "card_name": "Standard Bearer",
       "copies_played": 35
     },
     {
@@ -1413,6 +1420,10 @@
     {
       "card_name": "Force Spike",
       "copies_played": 34
+    },
+    {
+      "card_name": "Crimson Fleet Commodore",
+      "copies_played": 33
     },
     {
       "card_name": "Eldrazi Repurposer",
@@ -1443,10 +1454,6 @@
       "copies_played": 32
     },
     {
-      "card_name": "Crimson Fleet Commodore",
-      "copies_played": 31
-    },
-    {
       "card_name": "Deem Inferior",
       "copies_played": 31
     },
@@ -1465,6 +1472,10 @@
     {
       "card_name": "Snap",
       "copies_played": 31
+    },
+    {
+      "card_name": "Black Mage's Rod",
+      "copies_played": 30
     },
     {
       "card_name": "Destroy Evil",
@@ -1489,6 +1500,10 @@
     {
       "card_name": "Sewer-veillance Cam",
       "copies_played": 29
+    },
+    {
+      "card_name": "Ethereal Armor",
+      "copies_played": 28
     },
     {
       "card_name": "Haunted Mire",
@@ -1519,12 +1534,20 @@
       "copies_played": 26
     },
     {
-      "card_name": "Black Mage's Rod",
+      "card_name": "Ancient Grudge",
       "copies_played": 26
     },
     {
       "card_name": "Chromatic Star",
       "copies_played": 26
+    },
+    {
+      "card_name": "Ram Through",
+      "copies_played": 26
+    },
+    {
+      "card_name": "Pestilence",
+      "copies_played": 25
     },
     {
       "card_name": "Sacred Cat",
@@ -1548,10 +1571,6 @@
     },
     {
       "card_name": "Citadel Gate",
-      "copies_played": 24
-    },
-    {
-      "card_name": "Ethereal Armor",
       "copies_played": 24
     },
     {
@@ -1611,20 +1630,8 @@
       "copies_played": 23
     },
     {
-      "card_name": "Pestilence",
-      "copies_played": 23
-    },
-    {
-      "card_name": "Ram Through",
-      "copies_played": 23
-    },
-    {
       "card_name": "Rustvale Bridge",
       "copies_played": 23
-    },
-    {
-      "card_name": "Ancient Grudge",
-      "copies_played": 22
     },
     {
       "card_name": "Apostle's Blessing",
@@ -1647,6 +1654,10 @@
       "copies_played": 22
     },
     {
+      "card_name": "Witch's Cottage",
+      "copies_played": 22
+    },
+    {
       "card_name": "Annoyed Altisaur",
       "copies_played": 21
     },
@@ -1663,7 +1674,19 @@
       "copies_played": 21
     },
     {
+      "card_name": "Seething Landscape",
+      "copies_played": 21
+    },
+    {
       "card_name": "Ancestral Anger",
+      "copies_played": 20
+    },
+    {
+      "card_name": "Armadillo Cloak",
+      "copies_played": 20
+    },
+    {
+      "card_name": "Azure Fleet Admiral",
       "copies_played": 20
     },
     {
@@ -1672,6 +1695,10 @@
     },
     {
       "card_name": "Festival Crasher",
+      "copies_played": 20
+    },
+    {
+      "card_name": "Gladecover Scout",
       "copies_played": 20
     },
     {
@@ -1687,24 +1714,16 @@
       "copies_played": 20
     },
     {
+      "card_name": "Slippery Bogle",
+      "copies_played": 20
+    },
+    {
       "card_name": "Sunscape Familiar",
       "copies_played": 20
     },
     {
       "card_name": "Tectonic Hazard",
       "copies_played": 20
-    },
-    {
-      "card_name": "Witch's Cottage",
-      "copies_played": 20
-    },
-    {
-      "card_name": "Azure Fleet Admiral",
-      "copies_played": 19
-    },
-    {
-      "card_name": "Seething Landscape",
-      "copies_played": 19
     },
     {
       "card_name": "Azorius Chancery",
@@ -1743,6 +1762,10 @@
       "copies_played": 18
     },
     {
+      "card_name": "Ancestral Mask",
+      "copies_played": 17
+    },
+    {
       "card_name": "Cryogen Relic",
       "copies_played": 17
     },
@@ -1771,7 +1794,7 @@
       "copies_played": 17
     },
     {
-      "card_name": "Armadillo Cloak",
+      "card_name": "Abundant Growth",
       "copies_played": 16
     },
     {
@@ -1783,15 +1806,19 @@
       "copies_played": 16
     },
     {
-      "card_name": "Gladecover Scout",
-      "copies_played": 16
-    },
-    {
       "card_name": "Haunting Misery",
       "copies_played": 16
     },
     {
+      "card_name": "Lose Focus",
+      "copies_played": 16
+    },
+    {
       "card_name": "Melded Moxite",
+      "copies_played": 16
+    },
+    {
+      "card_name": "Molten Gatekeeper",
       "copies_played": 16
     },
     {
@@ -1811,12 +1838,32 @@
       "copies_played": 16
     },
     {
-      "card_name": "Slippery Bogle",
+      "card_name": "Satyr Wayfinder",
+      "copies_played": 16
+    },
+    {
+      "card_name": "Scrapwork Mutt",
       "copies_played": 16
     },
     {
       "card_name": "Spider-Man, Web-Slinger",
       "copies_played": 16
+    },
+    {
+      "card_name": "Stinkweed Imp",
+      "copies_played": 16
+    },
+    {
+      "card_name": "Town Greeter",
+      "copies_played": 16
+    },
+    {
+      "card_name": "Circle of the Land Druid",
+      "copies_played": 15
+    },
+    {
+      "card_name": "Cuombajj Witches",
+      "copies_played": 15
     },
     {
       "card_name": "Go for the Throat",
@@ -1831,10 +1878,6 @@
       "copies_played": 15
     },
     {
-      "card_name": "Lose Focus",
-      "copies_played": 15
-    },
-    {
       "card_name": "Revoke Existence",
       "copies_played": 15
     },
@@ -1843,11 +1886,19 @@
       "copies_played": 15
     },
     {
-      "card_name": "Ancestral Mask",
-      "copies_played": 14
+      "card_name": "Survivors' Encampment",
+      "copies_played": 15
     },
     {
       "card_name": "Ash Barrens",
+      "copies_played": 14
+    },
+    {
+      "card_name": "Bannerhide Krushok",
+      "copies_played": 14
+    },
+    {
+      "card_name": "Rancor",
       "copies_played": 14
     },
     {
@@ -1863,6 +1914,10 @@
       "copies_played": 14
     },
     {
+      "card_name": "Eagles of the North",
+      "copies_played": 13
+    },
+    {
       "card_name": "Elves of Deep Shadow",
       "copies_played": 13
     },
@@ -1871,8 +1926,12 @@
       "copies_played": 13
     },
     {
-      "card_name": "Abundant Growth",
-      "copies_played": 12
+      "card_name": "Unearth",
+      "copies_played": 13
+    },
+    {
+      "card_name": "Wooded Ridgeline",
+      "copies_played": 13
     },
     {
       "card_name": "Acorn Harvest",
@@ -1887,15 +1946,11 @@
       "copies_played": 12
     },
     {
-      "card_name": "Bannerhide Krushok",
+      "card_name": "Chittering Rats",
       "copies_played": 12
     },
     {
       "card_name": "Devoted Druid",
-      "copies_played": 12
-    },
-    {
-      "card_name": "Eagles of the North",
       "copies_played": 12
     },
     {
@@ -1907,7 +1962,7 @@
       "copies_played": 12
     },
     {
-      "card_name": "Molten Gatekeeper",
+      "card_name": "Gray Merchant of Asphodel",
       "copies_played": 12
     },
     {
@@ -1927,19 +1982,7 @@
       "copies_played": 12
     },
     {
-      "card_name": "Rancor",
-      "copies_played": 12
-    },
-    {
-      "card_name": "Satyr Wayfinder",
-      "copies_played": 12
-    },
-    {
       "card_name": "Scattershot Archer",
-      "copies_played": 12
-    },
-    {
-      "card_name": "Scrapwork Mutt",
       "copies_played": 12
     },
     {
@@ -1947,7 +1990,7 @@
       "copies_played": 12
     },
     {
-      "card_name": "Stinkweed Imp",
+      "card_name": "Silhana Ledgewalker",
       "copies_played": 12
     },
     {
@@ -1959,23 +2002,11 @@
       "copies_played": 12
     },
     {
-      "card_name": "Town Greeter",
-      "copies_played": 12
-    },
-    {
       "card_name": "Village Rites",
       "copies_played": 12
     },
     {
-      "card_name": "Wooded Ridgeline",
-      "copies_played": 12
-    },
-    {
       "card_name": "Axebane Guardian",
-      "copies_played": 11
-    },
-    {
-      "card_name": "Circle of the Land Druid",
       "copies_played": 11
     },
     {
@@ -1999,11 +2030,11 @@
       "copies_played": 11
     },
     {
-      "card_name": "Survivors' Encampment",
+      "card_name": "Sheltering Landscape",
       "copies_played": 11
     },
     {
-      "card_name": "Unearth",
+      "card_name": "Sign in Blood",
       "copies_played": 11
     },
     {
@@ -2043,7 +2074,7 @@
       "copies_played": 10
     },
     {
-      "card_name": "Silhana Ledgewalker",
+      "card_name": "Spirit Link",
       "copies_played": 10
     },
     {
@@ -2051,15 +2082,15 @@
       "copies_played": 10
     },
     {
-      "card_name": "Cuombajj Witches",
-      "copies_played": 9
-    },
-    {
       "card_name": "Energy Refractor",
       "copies_played": 9
     },
     {
       "card_name": "Golem Foundry",
+      "copies_played": 9
+    },
+    {
+      "card_name": "Holdout Settlement",
       "copies_played": 9
     },
     {
@@ -2084,10 +2115,6 @@
     },
     {
       "card_name": "Spinning Darkness",
-      "copies_played": 9
-    },
-    {
-      "card_name": "Spirit Link",
       "copies_played": 9
     },
     {
@@ -2187,7 +2214,7 @@
       "copies_played": 8
     },
     {
-      "card_name": "Sheltering Landscape",
+      "card_name": "Victim of Night",
       "copies_played": 8
     },
     {
@@ -2219,7 +2246,7 @@
       "copies_played": 7
     },
     {
-      "card_name": "Holdout Settlement",
+      "card_name": "Geth's Verdict",
       "copies_played": 7
     },
     {
@@ -2252,6 +2279,10 @@
     },
     {
       "card_name": "Thrilling Discovery",
+      "copies_played": 7
+    },
+    {
+      "card_name": "Wrench Mind",
       "copies_played": 7
     },
     {
@@ -2295,6 +2326,10 @@
       "copies_played": 6
     },
     {
+      "card_name": "Trespasser's Curse",
+      "copies_played": 6
+    },
+    {
       "card_name": "Voracious Varmint",
       "copies_played": 6
     },
@@ -2312,6 +2347,10 @@
     },
     {
       "card_name": "Disrupt",
+      "copies_played": 5
+    },
+    {
+      "card_name": "Echoing Decay",
       "copies_played": 5
     },
     {
@@ -2339,7 +2378,7 @@
       "copies_played": 5
     },
     {
-      "card_name": "Wrench Mind",
+      "card_name": "Underworld Rage-Hound",
       "copies_played": 5
     },
     {
@@ -2355,6 +2394,10 @@
       "copies_played": 4
     },
     {
+      "card_name": "Barren Moor",
+      "copies_played": 4
+    },
+    {
       "card_name": "Bind the Monster",
       "copies_played": 4
     },
@@ -2367,11 +2410,11 @@
       "copies_played": 4
     },
     {
-      "card_name": "Chittering Rats",
+      "card_name": "Circle of Protection: Red",
       "copies_played": 4
     },
     {
-      "card_name": "Circle of Protection: Red",
+      "card_name": "Coffin Purge",
       "copies_played": 4
     },
     {
@@ -2403,6 +2446,10 @@
       "copies_played": 4
     },
     {
+      "card_name": "Exhume",
+      "copies_played": 4
+    },
+    {
       "card_name": "Fanged Flames",
       "copies_played": 4
     },
@@ -2411,15 +2458,7 @@
       "copies_played": 4
     },
     {
-      "card_name": "Geth's Verdict",
-      "copies_played": 4
-    },
-    {
       "card_name": "Ghoulcaller's Chant",
-      "copies_played": 4
-    },
-    {
-      "card_name": "Gray Merchant of Asphodel",
       "copies_played": 4
     },
     {
@@ -2527,10 +2566,6 @@
       "copies_played": 4
     },
     {
-      "card_name": "Sign in Blood",
-      "copies_played": 4
-    },
-    {
       "card_name": "Somber Hoverguard",
       "copies_played": 4
     },
@@ -2555,15 +2590,7 @@
       "copies_played": 4
     },
     {
-      "card_name": "Trespasser's Curse",
-      "copies_played": 4
-    },
-    {
       "card_name": "Undergrowth Leopard",
-      "copies_played": 4
-    },
-    {
-      "card_name": "Underworld Rage-Hound",
       "copies_played": 4
     },
     {
@@ -2571,7 +2598,7 @@
       "copies_played": 4
     },
     {
-      "card_name": "Victim of Night",
+      "card_name": "Whisper Agent",
       "copies_played": 4
     },
     {
@@ -2595,19 +2622,11 @@
       "copies_played": 3
     },
     {
-      "card_name": "Coffin Purge",
-      "copies_played": 3
-    },
-    {
       "card_name": "Crystal Grotto",
       "copies_played": 3
     },
     {
       "card_name": "Dauthi Slayer",
-      "copies_played": 3
-    },
-    {
-      "card_name": "Echoing Decay",
       "copies_played": 3
     },
     {
@@ -2668,6 +2687,10 @@
     },
     {
       "card_name": "Piracy Charm",
+      "copies_played": 3
+    },
+    {
+      "card_name": "Radiant Grove",
       "copies_played": 3
     },
     {
@@ -2775,6 +2798,10 @@
       "copies_played": 2
     },
     {
+      "card_name": "Distress",
+      "copies_played": 2
+    },
+    {
       "card_name": "Divest",
       "copies_played": 2
     },
@@ -2843,6 +2870,14 @@
       "copies_played": 2
     },
     {
+      "card_name": "Nausea",
+      "copies_played": 2
+    },
+    {
+      "card_name": "Night's Whisper",
+      "copies_played": 2
+    },
+    {
       "card_name": "Obsidian Acolyte",
       "copies_played": 2
     },
@@ -2859,7 +2894,7 @@
       "copies_played": 2
     },
     {
-      "card_name": "Radiant Grove",
+      "card_name": "Ray of Revelation",
       "copies_played": 2
     },
     {
@@ -2935,6 +2970,10 @@
       "copies_played": 2
     },
     {
+      "card_name": "Tendrils of Corruption",
+      "copies_played": 2
+    },
+    {
       "card_name": "Terminate",
       "copies_played": 2
     },
@@ -2999,15 +3038,15 @@
       "copies_played": 1
     },
     {
-      "card_name": "Barren Moor",
-      "copies_played": 1
-    },
-    {
       "card_name": "Beastrider Vanguard",
       "copies_played": 1
     },
     {
       "card_name": "Bloodrite Invoker",
+      "copies_played": 1
+    },
+    {
+      "card_name": "Chainer's Edict",
       "copies_played": 1
     },
     {
@@ -3124,10 +3163,6 @@
     },
     {
       "card_name": "Pristine Talisman",
-      "copies_played": 1
-    },
-    {
-      "card_name": "Ray of Revelation",
       "copies_played": 1
     },
     {
