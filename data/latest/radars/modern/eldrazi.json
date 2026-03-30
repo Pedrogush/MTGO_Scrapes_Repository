@@ -1,50 +1,129 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-03-30T17:35:36Z",
+  "generated_at": "2026-03-30T18:45:37Z",
   "format": "modern",
   "source": "published-deck-texts",
   "archetype": {
     "name": "Eldrazi",
     "href": "modern-eldrazi"
   },
-  "total_decks_analyzed": 2,
+  "total_decks_analyzed": 4,
   "decks_failed": 0,
   "mainboard_cards": [
     {
-      "card_name": "Sowing Mycospawn",
-      "appearances": 2,
-      "total_copies": 8,
+      "card_name": "Devourer of Destiny",
+      "appearances": 4,
+      "total_copies": 16,
       "max_copies": 4,
       "avg_copies": 4.0,
       "inclusion_rate": 100.0,
       "expected_copies": 4.0,
       "copy_distribution": {
-        "4": 2
+        "4": 4
       }
     },
     {
-      "card_name": "Devourer of Destiny",
-      "appearances": 2,
-      "total_copies": 8,
+      "card_name": "Kozilek's Command",
+      "appearances": 4,
+      "total_copies": 16,
       "max_copies": 4,
       "avg_copies": 4.0,
       "inclusion_rate": 100.0,
       "expected_copies": 4.0,
       "copy_distribution": {
-        "4": 2
+        "4": 4
+      }
+    },
+    {
+      "card_name": "Ugin's Labyrinth",
+      "appearances": 4,
+      "total_copies": 16,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 4
+      }
+    },
+    {
+      "card_name": "Sowing Mycospawn",
+      "appearances": 4,
+      "total_copies": 16,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 4
+      }
+    },
+    {
+      "card_name": "Eldrazi Temple",
+      "appearances": 4,
+      "total_copies": 16,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 4
+      }
+    },
+    {
+      "card_name": "Cavern of Souls",
+      "appearances": 4,
+      "total_copies": 12,
+      "max_copies": 4,
+      "avg_copies": 3.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 3.0,
+      "copy_distribution": {
+        "4": 2,
+        "3": 1,
+        "1": 1
       }
     },
     {
       "card_name": "Sire of Seven Deaths",
-      "appearances": 2,
-      "total_copies": 8,
+      "appearances": 3,
+      "total_copies": 12,
       "max_copies": 4,
       "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
+      "inclusion_rate": 75.0,
+      "expected_copies": 3.0,
       "copy_distribution": {
-        "4": 2
+        "4": 3,
+        "0": 1
+      }
+    },
+    {
+      "card_name": "Thought-Knot Seer",
+      "appearances": 3,
+      "total_copies": 11,
+      "max_copies": 4,
+      "avg_copies": 3.67,
+      "inclusion_rate": 75.0,
+      "expected_copies": 2.75,
+      "copy_distribution": {
+        "4": 2,
+        "3": 1,
+        "0": 1
+      }
+    },
+    {
+      "card_name": "Eldrazi Linebreaker",
+      "appearances": 3,
+      "total_copies": 11,
+      "max_copies": 4,
+      "avg_copies": 3.67,
+      "inclusion_rate": 75.0,
+      "expected_copies": 2.75,
+      "copy_distribution": {
+        "4": 2,
+        "3": 1,
+        "0": 1
       }
     },
     {
@@ -53,10 +132,11 @@
       "total_copies": 8,
       "max_copies": 4,
       "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
+      "inclusion_rate": 50.0,
+      "expected_copies": 2.0,
       "copy_distribution": {
-        "4": 2
+        "4": 2,
+        "0": 2
       }
     },
     {
@@ -65,82 +145,11 @@
       "total_copies": 8,
       "max_copies": 4,
       "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
+      "inclusion_rate": 50.0,
+      "expected_copies": 2.0,
       "copy_distribution": {
-        "4": 2
-      }
-    },
-    {
-      "card_name": "Eldrazi Temple",
-      "appearances": 2,
-      "total_copies": 8,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 2
-      }
-    },
-    {
-      "card_name": "Thought-Knot Seer",
-      "appearances": 2,
-      "total_copies": 8,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 2
-      }
-    },
-    {
-      "card_name": "Eldrazi Linebreaker",
-      "appearances": 2,
-      "total_copies": 8,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 2
-      }
-    },
-    {
-      "card_name": "Kozilek's Command",
-      "appearances": 2,
-      "total_copies": 8,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 2
-      }
-    },
-    {
-      "card_name": "Ugin's Labyrinth",
-      "appearances": 2,
-      "total_copies": 8,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 2
-      }
-    },
-    {
-      "card_name": "Cavern of Souls",
-      "appearances": 2,
-      "total_copies": 8,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 2
+        "4": 2,
+        "0": 2
       }
     },
     {
@@ -149,11 +158,25 @@
       "total_copies": 7,
       "max_copies": 4,
       "avg_copies": 3.5,
-      "inclusion_rate": 100.0,
-      "expected_copies": 3.5,
+      "inclusion_rate": 50.0,
+      "expected_copies": 1.75,
       "copy_distribution": {
         "4": 1,
-        "3": 1
+        "3": 1,
+        "0": 2
+      }
+    },
+    {
+      "card_name": "Forest",
+      "appearances": 4,
+      "total_copies": 5,
+      "max_copies": 2,
+      "avg_copies": 1.25,
+      "inclusion_rate": 100.0,
+      "expected_copies": 1.25,
+      "copy_distribution": {
+        "2": 1,
+        "1": 3
       }
     },
     {
@@ -162,11 +185,12 @@
       "total_copies": 5,
       "max_copies": 3,
       "avg_copies": 2.5,
-      "inclusion_rate": 100.0,
-      "expected_copies": 2.5,
+      "inclusion_rate": 50.0,
+      "expected_copies": 1.25,
       "copy_distribution": {
         "3": 1,
-        "2": 1
+        "2": 1,
+        "0": 2
       }
     },
     {
@@ -175,23 +199,233 @@
       "total_copies": 5,
       "max_copies": 3,
       "avg_copies": 2.5,
-      "inclusion_rate": 100.0,
-      "expected_copies": 2.5,
+      "inclusion_rate": 50.0,
+      "expected_copies": 1.25,
       "copy_distribution": {
         "3": 1,
-        "2": 1
+        "2": 1,
+        "0": 2
+      }
+    },
+    {
+      "card_name": "Ugin's Binding",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Yavimaya Coast",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Nulldrifter",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Talisman of Curiosity",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Malevolent Rumble",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Trinisphere",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Breeding Pool",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Writhing Chrysalis",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Ancient Stirrings",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Utopia Sprawl",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Talisman of Impulse",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Bojuka Bog",
+      "appearances": 3,
+      "total_copies": 3,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 75.0,
+      "expected_copies": 0.75,
+      "copy_distribution": {
+        "1": 3,
+        "0": 1
       }
     },
     {
       "card_name": "Gemstone Caverns",
+      "appearances": 3,
+      "total_copies": 3,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 75.0,
+      "expected_copies": 0.75,
+      "copy_distribution": {
+        "1": 3,
+        "0": 1
+      }
+    },
+    {
+      "card_name": "World Breaker",
+      "appearances": 1,
+      "total_copies": 3,
+      "max_copies": 3,
+      "avg_copies": 3.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.75,
+      "copy_distribution": {
+        "3": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Stomping Ground",
+      "appearances": 1,
+      "total_copies": 3,
+      "max_copies": 3,
+      "avg_copies": 3.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.75,
+      "copy_distribution": {
+        "3": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Wastes",
       "appearances": 2,
       "total_copies": 2,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 1.0,
+      "inclusion_rate": 50.0,
+      "expected_copies": 0.5,
       "copy_distribution": {
-        "1": 2
+        "1": 2,
+        "0": 2
+      }
+    },
+    {
+      "card_name": "Ghost Quarter",
+      "appearances": 2,
+      "total_copies": 2,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 50.0,
+      "expected_copies": 0.5,
+      "copy_distribution": {
+        "1": 2,
+        "0": 2
       }
     },
     {
@@ -200,34 +434,24 @@
       "total_copies": 2,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 1.0,
+      "inclusion_rate": 50.0,
+      "expected_copies": 0.5,
       "copy_distribution": {
-        "1": 2
+        "1": 2,
+        "0": 2
       }
     },
     {
-      "card_name": "Bojuka Bog",
-      "appearances": 2,
+      "card_name": "All Is Dust",
+      "appearances": 1,
       "total_copies": 2,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 1.0,
+      "max_copies": 2,
+      "avg_copies": 2.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.5,
       "copy_distribution": {
-        "1": 2
-      }
-    },
-    {
-      "card_name": "Forest",
-      "appearances": 2,
-      "total_copies": 2,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 1.0,
-      "copy_distribution": {
-        "1": 2
+        "2": 1,
+        "0": 3
       }
     },
     {
@@ -236,11 +460,102 @@
       "total_copies": 2,
       "max_copies": 2,
       "avg_copies": 2.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.5,
       "copy_distribution": {
         "2": 1,
-        "0": 1
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Island",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
+      "copy_distribution": {
+        "1": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Verdant Catacombs",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
+      "copy_distribution": {
+        "1": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Wooded Foothills",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
+      "copy_distribution": {
+        "1": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Commercial District",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
+      "copy_distribution": {
+        "1": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Misty Rainforest",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
+      "copy_distribution": {
+        "1": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Arena of Glory",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
+      "copy_distribution": {
+        "1": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Windswept Heath",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
+      "copy_distribution": {
+        "1": 1,
+        "0": 3
       }
     },
     {
@@ -249,11 +564,11 @@
       "total_copies": 1,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.5,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
       "copy_distribution": {
         "1": 1,
-        "0": 1
+        "0": 3
       }
     },
     {
@@ -262,11 +577,11 @@
       "total_copies": 1,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.5,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
       "copy_distribution": {
         "1": 1,
-        "0": 1
+        "0": 3
       }
     },
     {
@@ -275,65 +590,110 @@
       "total_copies": 1,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.5,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
       "copy_distribution": {
         "1": 1,
-        "0": 1
-      }
-    },
-    {
-      "card_name": "Ghost Quarter",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.5,
-      "copy_distribution": {
-        "1": 1,
-        "0": 1
-      }
-    },
-    {
-      "card_name": "Wastes",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.5,
-      "copy_distribution": {
-        "1": 1,
-        "0": 1
+        "0": 3
       }
     }
   ],
   "sideboard_cards": [
     {
-      "card_name": "Trinisphere",
-      "appearances": 2,
-      "total_copies": 7,
-      "max_copies": 4,
-      "avg_copies": 3.5,
+      "card_name": "Disruptor Flute",
+      "appearances": 4,
+      "total_copies": 9,
+      "max_copies": 3,
+      "avg_copies": 2.25,
       "inclusion_rate": 100.0,
-      "expected_copies": 3.5,
+      "expected_copies": 2.25,
       "copy_distribution": {
-        "4": 1,
-        "3": 1
+        "3": 1,
+        "2": 3
       }
     },
     {
-      "card_name": "Disruptor Flute",
+      "card_name": "Trinisphere",
+      "appearances": 3,
+      "total_copies": 9,
+      "max_copies": 4,
+      "avg_copies": 3.0,
+      "inclusion_rate": 75.0,
+      "expected_copies": 2.25,
+      "copy_distribution": {
+        "4": 1,
+        "3": 1,
+        "2": 1,
+        "0": 1
+      }
+    },
+    {
+      "card_name": "Torpor Orb",
       "appearances": 2,
       "total_copies": 5,
       "max_copies": 3,
       "avg_copies": 2.5,
-      "inclusion_rate": 100.0,
-      "expected_copies": 2.5,
+      "inclusion_rate": 50.0,
+      "expected_copies": 1.25,
       "copy_distribution": {
         "3": 1,
-        "2": 1
+        "2": 1,
+        "0": 2
+      }
+    },
+    {
+      "card_name": "Chalice of the Void",
+      "appearances": 2,
+      "total_copies": 5,
+      "max_copies": 4,
+      "avg_copies": 2.5,
+      "inclusion_rate": 50.0,
+      "expected_copies": 1.25,
+      "copy_distribution": {
+        "4": 1,
+        "1": 1,
+        "0": 2
+      }
+    },
+    {
+      "card_name": "Consign to Memory",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 1.0,
+      "copy_distribution": {
+        "4": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Grafdigger's Cage",
+      "appearances": 2,
+      "total_copies": 3,
+      "max_copies": 2,
+      "avg_copies": 1.5,
+      "inclusion_rate": 50.0,
+      "expected_copies": 0.75,
+      "copy_distribution": {
+        "2": 1,
+        "1": 1,
+        "0": 2
+      }
+    },
+    {
+      "card_name": "Vexing Bauble",
+      "appearances": 2,
+      "total_copies": 3,
+      "max_copies": 2,
+      "avg_copies": 1.5,
+      "inclusion_rate": 50.0,
+      "expected_copies": 0.75,
+      "copy_distribution": {
+        "2": 1,
+        "1": 1,
+        "0": 2
       }
     },
     {
@@ -342,50 +702,77 @@
       "total_copies": 3,
       "max_copies": 2,
       "avg_copies": 1.5,
-      "inclusion_rate": 100.0,
-      "expected_copies": 1.5,
+      "inclusion_rate": 50.0,
+      "expected_copies": 0.75,
       "copy_distribution": {
         "2": 1,
-        "1": 1
+        "1": 1,
+        "0": 2
       }
     },
     {
-      "card_name": "Torpor Orb",
+      "card_name": "Relic of Progenitus",
       "appearances": 1,
       "total_copies": 3,
       "max_copies": 3,
       "avg_copies": 3.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 1.5,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.75,
       "copy_distribution": {
         "3": 1,
-        "0": 1
+        "0": 3
       }
     },
     {
-      "card_name": "Grafdigger's Cage",
+      "card_name": "Unholy Heat",
+      "appearances": 1,
+      "total_copies": 3,
+      "max_copies": 3,
+      "avg_copies": 3.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.75,
+      "copy_distribution": {
+        "3": 1,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Soulless Jailer",
+      "appearances": 2,
+      "total_copies": 2,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 50.0,
+      "expected_copies": 0.5,
+      "copy_distribution": {
+        "1": 2,
+        "0": 2
+      }
+    },
+    {
+      "card_name": "Nature's Claim",
       "appearances": 1,
       "total_copies": 2,
       "max_copies": 2,
       "avg_copies": 2.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.5,
       "copy_distribution": {
         "2": 1,
-        "0": 1
+        "0": 3
       }
     },
     {
-      "card_name": "Vexing Bauble",
+      "card_name": "Kozilek's Return",
       "appearances": 1,
       "total_copies": 2,
       "max_copies": 2,
       "avg_copies": 2.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.5,
       "copy_distribution": {
         "2": 1,
-        "0": 1
+        "0": 3
       }
     },
     {
@@ -394,11 +781,11 @@
       "total_copies": 2,
       "max_copies": 2,
       "avg_copies": 2.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.5,
       "copy_distribution": {
         "2": 1,
-        "0": 1
+        "0": 3
       }
     },
     {
@@ -407,11 +794,24 @@
       "total_copies": 2,
       "max_copies": 2,
       "avg_copies": 2.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.5,
       "copy_distribution": {
         "2": 1,
-        "0": 1
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Six",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
+      "copy_distribution": {
+        "1": 1,
+        "0": 3
       }
     },
     {
@@ -420,11 +820,11 @@
       "total_copies": 1,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.5,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
       "copy_distribution": {
         "1": 1,
-        "0": 1
+        "0": 3
       }
     },
     {
@@ -433,37 +833,11 @@
       "total_copies": 1,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.5,
+      "inclusion_rate": 25.0,
+      "expected_copies": 0.25,
       "copy_distribution": {
         "1": 1,
-        "0": 1
-      }
-    },
-    {
-      "card_name": "Soulless Jailer",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.5,
-      "copy_distribution": {
-        "1": 1,
-        "0": 1
-      }
-    },
-    {
-      "card_name": "Chalice of the Void",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.5,
-      "copy_distribution": {
-        "1": 1,
-        "0": 1
+        "0": 3
       }
     }
   ]
