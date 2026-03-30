@@ -1,15 +1,29 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-03-30T15:45:38Z",
+  "generated_at": "2026-03-30T16:38:07Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 46,
-    "skipped": 14
+    "success": 50,
+    "skipped": 12
   },
   "results": [
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "4-5c-omnath",
+      "path": "latest/radars/modern/4-5c-omnath.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "4c-control",
+      "path": "latest/radars/modern/4c-control.json"
+    },
     {
       "scope": "archetype-radar",
       "status": "success",
@@ -201,8 +215,22 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
+      "archetype": "humans",
+      "path": "latest/radars/modern/humans.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
       "archetype": "indomitable-creativity",
       "path": "latest/radars/modern/indomitable-creativity.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "infect",
+      "path": "latest/radars/modern/infect.json"
     },
     {
       "scope": "archetype-radar",
@@ -336,14 +364,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "oops-all-spells",
-      "path": "latest/radars/modern/oops-all-spells.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
       "archetype": "orzhov-genericblink",
@@ -392,14 +412,6 @@
       "format": "modern",
       "archetype": "sultai-midrange",
       "path": "latest/radars/modern/sultai-midrange.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "temur-midrange",
-      "path": "latest/radars/modern/temur-midrange.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-03-30T15:44:03Z",
+  "generated_at": "2026-03-30T16:35:46Z",
   "command": "scrape-deck-texts-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 40,
-    "skipped": 401
+    "success": 46,
+    "skipped": 400
   },
   "results": [
     {
@@ -201,14 +201,6 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pauper",
-      "archetype": "food-retriever-combo",
-      "path": "latest/decks/pauper/food-retriever-combo.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
       "status": "success",
       "format": "pauper",
       "archetype": "glintblade",
@@ -352,6 +344,13 @@
       "format": "pauper",
       "archetype": "mono-red-rally",
       "path": "latest/decks/pauper/mono-red-rally.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "pauper",
+      "archetype": "mono-black",
+      "path": "latest/decks/pauper/mono-black.json"
     },
     {
       "scope": "archetype-decks",
@@ -2867,6 +2866,13 @@
     },
     {
       "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7706673",
+      "path": "archive/deck-texts/pauper/7706673.json"
+    },
+    {
+      "scope": "deck-text",
       "status": "skipped",
       "format": "pauper",
       "deck_id": "7706674",
@@ -3496,6 +3502,34 @@
       "deck_id": "7708118",
       "path": "archive/deck-texts/pauper/7708118.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7708324",
+      "path": "archive/deck-texts/pauper/7708324.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7708325",
+      "path": "archive/deck-texts/pauper/7708325.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7708326",
+      "path": "archive/deck-texts/pauper/7708326.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7708331",
+      "path": "archive/deck-texts/pauper/7708331.json"
     }
   ]
 }

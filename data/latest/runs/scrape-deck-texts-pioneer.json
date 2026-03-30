@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-03-30T15:43:59Z",
+  "generated_at": "2026-03-30T16:35:44Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 22,
+    "success": 24,
     "skipped": 238
   },
   "results": [
@@ -107,6 +107,13 @@
       "archetype": "azorius-flash",
       "path": "latest/decks/pioneer/azorius-flash.json",
       "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "azorius-heroic",
+      "path": "latest/decks/pioneer/azorius-heroic.json"
     },
     {
       "scope": "archetype-decks",
@@ -1738,6 +1745,13 @@
       "deck_id": "7706977",
       "path": "archive/deck-texts/pioneer/7706977.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7706978",
+      "path": "archive/deck-texts/pioneer/7706978.json"
     },
     {
       "scope": "deck-text",
