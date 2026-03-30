@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-03-30T20:31:05Z",
+  "generated_at": "2026-03-30T21:31:07Z",
   "format": "modern",
   "source": "published-deck-texts",
   "archetype": {
@@ -12,7 +12,19 @@
   "decks_failed": 0,
   "mainboard_cards": [
     {
-      "card_name": "Urza's Tower",
+      "card_name": "Kozilek's Command",
+      "appearances": 50,
+      "total_copies": 200,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 50
+      }
+    },
+    {
+      "card_name": "Ugin's Labyrinth",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -36,7 +48,7 @@
       }
     },
     {
-      "card_name": "Kozilek's Command",
+      "card_name": "Urza's Mine",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -60,19 +72,7 @@
       }
     },
     {
-      "card_name": "Urza's Mine",
-      "appearances": 50,
-      "total_copies": 200,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 50
-      }
-    },
-    {
-      "card_name": "Ugin's Labyrinth",
+      "card_name": "Urza's Tower",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -112,14 +112,14 @@
     {
       "card_name": "Thought-Knot Seer",
       "appearances": 50,
-      "total_copies": 194,
+      "total_copies": 195,
       "max_copies": 4,
-      "avg_copies": 3.88,
+      "avg_copies": 3.9,
       "inclusion_rate": 100.0,
-      "expected_copies": 3.88,
+      "expected_copies": 3.9,
       "copy_distribution": {
-        "4": 44,
-        "3": 6
+        "4": 45,
+        "3": 5
       }
     },
     {
@@ -139,14 +139,14 @@
     {
       "card_name": "Devourer of Destiny",
       "appearances": 50,
-      "total_copies": 177,
+      "total_copies": 178,
       "max_copies": 4,
-      "avg_copies": 3.54,
+      "avg_copies": 3.56,
       "inclusion_rate": 100.0,
-      "expected_copies": 3.54,
+      "expected_copies": 3.56,
       "copy_distribution": {
-        "4": 28,
-        "3": 21,
+        "4": 29,
+        "3": 20,
         "2": 1
       }
     },
@@ -166,58 +166,58 @@
     {
       "card_name": "Glaring Fleshraker",
       "appearances": 41,
-      "total_copies": 140,
+      "total_copies": 141,
       "max_copies": 4,
-      "avg_copies": 3.41,
+      "avg_copies": 3.44,
       "inclusion_rate": 82.0,
-      "expected_copies": 2.8,
+      "expected_copies": 2.82,
       "copy_distribution": {
-        "4": 17,
-        "3": 24,
+        "4": 18,
+        "3": 23,
         "0": 9
       }
     },
     {
       "card_name": "Dismember",
       "appearances": 48,
-      "total_copies": 101,
+      "total_copies": 100,
       "max_copies": 3,
-      "avg_copies": 2.1,
+      "avg_copies": 2.08,
       "inclusion_rate": 96.0,
-      "expected_copies": 2.02,
+      "expected_copies": 2.0,
       "copy_distribution": {
-        "3": 5,
-        "2": 43,
+        "3": 4,
+        "2": 44,
         "0": 2
       }
     },
     {
       "card_name": "Sire of Seven Deaths",
       "appearances": 40,
-      "total_copies": 69,
+      "total_copies": 68,
       "max_copies": 3,
-      "avg_copies": 1.73,
+      "avg_copies": 1.7,
       "inclusion_rate": 80.0,
-      "expected_copies": 1.38,
+      "expected_copies": 1.36,
       "copy_distribution": {
-        "3": 5,
-        "2": 19,
+        "3": 4,
+        "2": 20,
         "1": 16,
         "0": 10
       }
     },
     {
       "card_name": "Ulamog, the Ceaseless Hunger",
-      "appearances": 34,
-      "total_copies": 40,
+      "appearances": 33,
+      "total_copies": 39,
       "max_copies": 2,
       "avg_copies": 1.18,
-      "inclusion_rate": 68.0,
-      "expected_copies": 0.8,
+      "inclusion_rate": 66.0,
+      "expected_copies": 0.78,
       "copy_distribution": {
         "2": 6,
-        "1": 28,
-        "0": 16
+        "1": 27,
+        "0": 17
       }
     },
     {
@@ -231,34 +231,6 @@
       "copy_distribution": {
         "1": 37,
         "0": 13
-      }
-    },
-    {
-      "card_name": "Vexing Bauble",
-      "appearances": 28,
-      "total_copies": 30,
-      "max_copies": 2,
-      "avg_copies": 1.07,
-      "inclusion_rate": 56.0,
-      "expected_copies": 0.6,
-      "copy_distribution": {
-        "2": 2,
-        "1": 26,
-        "0": 22
-      }
-    },
-    {
-      "card_name": "Trinisphere",
-      "appearances": 24,
-      "total_copies": 30,
-      "max_copies": 2,
-      "avg_copies": 1.25,
-      "inclusion_rate": 48.0,
-      "expected_copies": 0.6,
-      "copy_distribution": {
-        "2": 6,
-        "1": 18,
-        "0": 26
       }
     },
     {
@@ -277,6 +249,34 @@
       }
     },
     {
+      "card_name": "Vexing Bauble",
+      "appearances": 27,
+      "total_copies": 29,
+      "max_copies": 2,
+      "avg_copies": 1.07,
+      "inclusion_rate": 54.0,
+      "expected_copies": 0.58,
+      "copy_distribution": {
+        "2": 2,
+        "1": 25,
+        "0": 23
+      }
+    },
+    {
+      "card_name": "Trinisphere",
+      "appearances": 23,
+      "total_copies": 29,
+      "max_copies": 2,
+      "avg_copies": 1.26,
+      "inclusion_rate": 46.0,
+      "expected_copies": 0.58,
+      "copy_distribution": {
+        "2": 6,
+        "1": 17,
+        "0": 27
+      }
+    },
+    {
       "card_name": "Wastes",
       "appearances": 25,
       "total_copies": 25,
@@ -287,6 +287,21 @@
       "copy_distribution": {
         "1": 25,
         "0": 25
+      }
+    },
+    {
+      "card_name": "Chalice of the Void",
+      "appearances": 16,
+      "total_copies": 24,
+      "max_copies": 3,
+      "avg_copies": 1.5,
+      "inclusion_rate": 32.0,
+      "expected_copies": 0.48,
+      "copy_distribution": {
+        "3": 1,
+        "2": 6,
+        "1": 9,
+        "0": 34
       }
     },
     {
@@ -314,21 +329,6 @@
         "4": 5,
         "3": 1,
         "0": 44
-      }
-    },
-    {
-      "card_name": "Chalice of the Void",
-      "appearances": 15,
-      "total_copies": 22,
-      "max_copies": 3,
-      "avg_copies": 1.47,
-      "inclusion_rate": 30.0,
-      "expected_copies": 0.44,
-      "copy_distribution": {
-        "3": 1,
-        "2": 5,
-        "1": 9,
-        "0": 35
       }
     },
     {
@@ -706,29 +706,29 @@
     {
       "card_name": "Disruptor Flute",
       "appearances": 46,
-      "total_copies": 76,
+      "total_copies": 74,
       "max_copies": 3,
-      "avg_copies": 1.65,
+      "avg_copies": 1.61,
       "inclusion_rate": 92.0,
-      "expected_copies": 1.52,
+      "expected_copies": 1.48,
       "copy_distribution": {
-        "3": 7,
+        "3": 6,
         "2": 16,
-        "1": 23,
+        "1": 24,
         "0": 4
       }
     },
     {
       "card_name": "Trinisphere",
       "appearances": 46,
-      "total_copies": 53,
+      "total_copies": 54,
       "max_copies": 2,
-      "avg_copies": 1.15,
+      "avg_copies": 1.17,
       "inclusion_rate": 92.0,
-      "expected_copies": 1.06,
+      "expected_copies": 1.08,
       "copy_distribution": {
-        "2": 7,
-        "1": 39,
+        "2": 8,
+        "1": 38,
         "0": 4
       }
     },
@@ -748,32 +748,6 @@
       }
     },
     {
-      "card_name": "Liquimetal Coating",
-      "appearances": 48,
-      "total_copies": 48,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 96.0,
-      "expected_copies": 0.96,
-      "copy_distribution": {
-        "1": 48,
-        "0": 2
-      }
-    },
-    {
-      "card_name": "Tormod's Crypt",
-      "appearances": 48,
-      "total_copies": 48,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 96.0,
-      "expected_copies": 0.96,
-      "copy_distribution": {
-        "1": 48,
-        "0": 2
-      }
-    },
-    {
       "card_name": "Ensnaring Bridge",
       "appearances": 48,
       "total_copies": 48,
@@ -787,7 +761,33 @@
       }
     },
     {
+      "card_name": "Liquimetal Coating",
+      "appearances": 48,
+      "total_copies": 48,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 96.0,
+      "expected_copies": 0.96,
+      "copy_distribution": {
+        "1": 48,
+        "0": 2
+      }
+    },
+    {
       "card_name": "Walking Ballista",
+      "appearances": 48,
+      "total_copies": 48,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 96.0,
+      "expected_copies": 0.96,
+      "copy_distribution": {
+        "1": 48,
+        "0": 2
+      }
+    },
+    {
+      "card_name": "Tormod's Crypt",
       "appearances": 48,
       "total_copies": 48,
       "max_copies": 1,
@@ -826,7 +826,7 @@
       }
     },
     {
-      "card_name": "The Filigree Sylex",
+      "card_name": "The Stone Brain",
       "appearances": 42,
       "total_copies": 42,
       "max_copies": 1,
@@ -839,7 +839,7 @@
       }
     },
     {
-      "card_name": "The Stone Brain",
+      "card_name": "The Filigree Sylex",
       "appearances": 42,
       "total_copies": 42,
       "max_copies": 1,
@@ -868,30 +868,30 @@
     },
     {
       "card_name": "Chalice of the Void",
-      "appearances": 26,
-      "total_copies": 30,
+      "appearances": 27,
+      "total_copies": 31,
       "max_copies": 3,
       "avg_copies": 1.15,
-      "inclusion_rate": 52.0,
-      "expected_copies": 0.6,
+      "inclusion_rate": 54.0,
+      "expected_copies": 0.62,
       "copy_distribution": {
         "3": 1,
         "2": 2,
-        "1": 23,
-        "0": 24
+        "1": 24,
+        "0": 23
       }
     },
     {
       "card_name": "Skysovereign, Consul Flagship",
-      "appearances": 27,
-      "total_copies": 27,
+      "appearances": 26,
+      "total_copies": 26,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 54.0,
-      "expected_copies": 0.54,
+      "inclusion_rate": 52.0,
+      "expected_copies": 0.52,
       "copy_distribution": {
-        "1": 27,
-        "0": 23
+        "1": 26,
+        "0": 24
       }
     },
     {
@@ -910,15 +910,15 @@
     },
     {
       "card_name": "Soulless Jailer",
-      "appearances": 20,
-      "total_copies": 20,
+      "appearances": 21,
+      "total_copies": 21,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 40.0,
-      "expected_copies": 0.4,
+      "inclusion_rate": 42.0,
+      "expected_copies": 0.42,
       "copy_distribution": {
-        "1": 20,
-        "0": 30
+        "1": 21,
+        "0": 29
       }
     },
     {
