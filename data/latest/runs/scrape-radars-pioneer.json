@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-03-31T16:39:55Z",
+  "generated_at": "2026-03-31T17:37:32Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 27,
-    "success": 25
+    "skipped": 26,
+    "success": 27
   },
   "results": [
     {
@@ -44,11 +44,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "4c-scapeshift",
-      "path": "latest/radars/pioneer/4c-scapeshift.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/4c-scapeshift.json"
     },
     {
       "scope": "archetype-radar",
@@ -357,6 +356,13 @@
       "format": "pioneer",
       "archetype": "rakdos-sacrifice",
       "path": "latest/radars/pioneer/rakdos-sacrifice.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "rakdos-vampires",
+      "path": "latest/radars/pioneer/rakdos-vampires.json"
     },
     {
       "scope": "archetype-radar",

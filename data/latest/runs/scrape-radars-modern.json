@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-03-31T16:39:51Z",
+  "generated_at": "2026-03-31T17:37:22Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 51,
-    "skipped": 11
+    "success": 52,
+    "skipped": 10
   },
   "results": [
     {
@@ -23,6 +23,13 @@
       "format": "modern",
       "archetype": "4c-control",
       "path": "latest/radars/modern/4c-control.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "4c-genericblink",
+      "path": "latest/radars/modern/4c-genericblink.json"
     },
     {
       "scope": "archetype-radar",
@@ -230,8 +237,8 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
-      "archetype": "infect",
-      "path": "latest/radars/modern/infect.json"
+      "archetype": "izzet-murktide",
+      "path": "latest/radars/modern/izzet-murktide.json"
     },
     {
       "scope": "archetype-radar",
@@ -308,6 +315,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
+      "archetype": "merfolk",
+      "path": "latest/radars/modern/merfolk.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
       "archetype": "mill",
       "path": "latest/radars/modern/mill.json"
     },
@@ -338,21 +352,6 @@
       "format": "modern",
       "archetype": "mono-green-tron",
       "path": "latest/radars/modern/mono-green-tron.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
-      "archetype": "mono-red-burn",
-      "path": "latest/radars/modern/mono-red-burn.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "naya-energy",
-      "path": "latest/radars/modern/naya-energy.json",
       "message": "No published decks were available for radar generation."
     },
     {
