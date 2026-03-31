@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-03-31T13:54:11Z",
+  "generated_at": "2026-03-31T14:46:34Z",
   "format": "modern",
   "source": "published-deck-texts",
   "archetype": {
@@ -12,7 +12,7 @@
   "decks_failed": 0,
   "mainboard_cards": [
     {
-      "card_name": "Eldrazi Temple",
+      "card_name": "Kozilek's Command",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -24,7 +24,19 @@
       }
     },
     {
-      "card_name": "Urza's Mine",
+      "card_name": "Karn, the Great Creator",
+      "appearances": 50,
+      "total_copies": 200,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 50
+      }
+    },
+    {
+      "card_name": "Eldrazi Temple",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -60,18 +72,6 @@
       }
     },
     {
-      "card_name": "Karn, the Great Creator",
-      "appearances": 50,
-      "total_copies": 200,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 50
-      }
-    },
-    {
       "card_name": "Ugin's Labyrinth",
       "appearances": 50,
       "total_copies": 200,
@@ -84,7 +84,7 @@
       }
     },
     {
-      "card_name": "Kozilek's Command",
+      "card_name": "Urza's Mine",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -151,29 +151,29 @@
     },
     {
       "card_name": "Mind Stone",
-      "appearances": 44,
-      "total_copies": 176,
+      "appearances": 43,
+      "total_copies": 172,
       "max_copies": 4,
       "avg_copies": 4.0,
-      "inclusion_rate": 88.0,
-      "expected_copies": 3.52,
+      "inclusion_rate": 86.0,
+      "expected_copies": 3.44,
       "copy_distribution": {
-        "4": 44,
-        "0": 6
+        "4": 43,
+        "0": 7
       }
     },
     {
       "card_name": "Glaring Fleshraker",
-      "appearances": 42,
-      "total_copies": 145,
+      "appearances": 41,
+      "total_copies": 142,
       "max_copies": 4,
-      "avg_copies": 3.45,
-      "inclusion_rate": 84.0,
-      "expected_copies": 2.9,
+      "avg_copies": 3.46,
+      "inclusion_rate": 82.0,
+      "expected_copies": 2.84,
       "copy_distribution": {
         "4": 19,
-        "3": 23,
-        "0": 8
+        "3": 22,
+        "0": 9
       }
     },
     {
@@ -193,87 +193,114 @@
     },
     {
       "card_name": "Sire of Seven Deaths",
-      "appearances": 42,
-      "total_copies": 70,
+      "appearances": 41,
+      "total_copies": 69,
       "max_copies": 3,
-      "avg_copies": 1.67,
-      "inclusion_rate": 84.0,
-      "expected_copies": 1.4,
+      "avg_copies": 1.68,
+      "inclusion_rate": 82.0,
+      "expected_copies": 1.38,
       "copy_distribution": {
         "3": 3,
         "2": 22,
-        "1": 17,
-        "0": 8
+        "1": 16,
+        "0": 9
       }
     },
     {
       "card_name": "Ulamog, the Ceaseless Hunger",
-      "appearances": 34,
-      "total_copies": 39,
+      "appearances": 35,
+      "total_copies": 41,
       "max_copies": 2,
-      "avg_copies": 1.15,
-      "inclusion_rate": 68.0,
-      "expected_copies": 0.78,
+      "avg_copies": 1.17,
+      "inclusion_rate": 70.0,
+      "expected_copies": 0.82,
       "copy_distribution": {
-        "2": 5,
+        "2": 6,
         "1": 29,
-        "0": 16
+        "0": 15
       }
     },
     {
       "card_name": "Swamp",
-      "appearances": 38,
-      "total_copies": 38,
+      "appearances": 37,
+      "total_copies": 37,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 76.0,
-      "expected_copies": 0.76,
+      "inclusion_rate": 74.0,
+      "expected_copies": 0.74,
       "copy_distribution": {
-        "1": 38,
-        "0": 12
+        "1": 37,
+        "0": 13
       }
     },
     {
       "card_name": "All Is Dust",
-      "appearances": 24,
-      "total_copies": 32,
+      "appearances": 23,
+      "total_copies": 31,
       "max_copies": 3,
-      "avg_copies": 1.33,
-      "inclusion_rate": 48.0,
-      "expected_copies": 0.64,
+      "avg_copies": 1.35,
+      "inclusion_rate": 46.0,
+      "expected_copies": 0.62,
       "copy_distribution": {
         "3": 2,
         "2": 4,
-        "1": 18,
-        "0": 26
-      }
-    },
-    {
-      "card_name": "Trinisphere",
-      "appearances": 23,
-      "total_copies": 30,
-      "max_copies": 2,
-      "avg_copies": 1.3,
-      "inclusion_rate": 46.0,
-      "expected_copies": 0.6,
-      "copy_distribution": {
-        "2": 7,
-        "1": 16,
+        "1": 17,
         "0": 27
       }
     },
     {
       "card_name": "Vexing Bauble",
-      "appearances": 27,
-      "total_copies": 29,
+      "appearances": 26,
+      "total_copies": 28,
       "max_copies": 2,
-      "avg_copies": 1.07,
-      "inclusion_rate": 54.0,
-      "expected_copies": 0.58,
+      "avg_copies": 1.08,
+      "inclusion_rate": 52.0,
+      "expected_copies": 0.56,
       "copy_distribution": {
         "2": 2,
-        "1": 25,
-        "0": 23
+        "1": 24,
+        "0": 24
+      }
+    },
+    {
+      "card_name": "Trinisphere",
+      "appearances": 22,
+      "total_copies": 28,
+      "max_copies": 2,
+      "avg_copies": 1.27,
+      "inclusion_rate": 44.0,
+      "expected_copies": 0.56,
+      "copy_distribution": {
+        "2": 6,
+        "1": 16,
+        "0": 28
+      }
+    },
+    {
+      "card_name": "Sowing Mycospawn",
+      "appearances": 7,
+      "total_copies": 28,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 14.0,
+      "expected_copies": 0.56,
+      "copy_distribution": {
+        "4": 7,
+        "0": 43
+      }
+    },
+    {
+      "card_name": "Talisman of Resilience",
+      "appearances": 7,
+      "total_copies": 27,
+      "max_copies": 4,
+      "avg_copies": 3.86,
+      "inclusion_rate": 14.0,
+      "expected_copies": 0.54,
+      "copy_distribution": {
+        "4": 6,
+        "3": 1,
+        "0": 43
       }
     },
     {
@@ -293,42 +320,15 @@
     },
     {
       "card_name": "Wastes",
-      "appearances": 25,
-      "total_copies": 25,
+      "appearances": 24,
+      "total_copies": 24,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.5,
-      "copy_distribution": {
-        "1": 25,
-        "0": 25
-      }
-    },
-    {
-      "card_name": "Sowing Mycospawn",
-      "appearances": 6,
-      "total_copies": 24,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 12.0,
+      "inclusion_rate": 48.0,
       "expected_copies": 0.48,
       "copy_distribution": {
-        "4": 6,
-        "0": 44
-      }
-    },
-    {
-      "card_name": "Talisman of Resilience",
-      "appearances": 6,
-      "total_copies": 23,
-      "max_copies": 4,
-      "avg_copies": 3.83,
-      "inclusion_rate": 12.0,
-      "expected_copies": 0.46,
-      "copy_distribution": {
-        "4": 5,
-        "3": 1,
-        "0": 44
+        "1": 24,
+        "0": 26
       }
     },
     {
@@ -359,16 +359,30 @@
     },
     {
       "card_name": "Forest",
-      "appearances": 6,
-      "total_copies": 7,
+      "appearances": 7,
+      "total_copies": 8,
       "max_copies": 2,
-      "avg_copies": 1.17,
-      "inclusion_rate": 12.0,
-      "expected_copies": 0.14,
+      "avg_copies": 1.14,
+      "inclusion_rate": 14.0,
+      "expected_copies": 0.16,
       "copy_distribution": {
         "2": 1,
-        "1": 5,
-        "0": 44
+        "1": 6,
+        "0": 43
+      }
+    },
+    {
+      "card_name": "Talisman of Curiosity",
+      "appearances": 4,
+      "total_copies": 7,
+      "max_copies": 2,
+      "avg_copies": 1.75,
+      "inclusion_rate": 8.0,
+      "expected_copies": 0.14,
+      "copy_distribution": {
+        "2": 3,
+        "1": 1,
+        "0": 46
       }
     },
     {
@@ -401,17 +415,17 @@
       }
     },
     {
-      "card_name": "Talisman of Curiosity",
-      "appearances": 3,
+      "card_name": "Relic of Progenitus",
+      "appearances": 4,
       "total_copies": 5,
       "max_copies": 2,
-      "avg_copies": 1.67,
-      "inclusion_rate": 6.0,
+      "avg_copies": 1.25,
+      "inclusion_rate": 8.0,
       "expected_copies": 0.1,
       "copy_distribution": {
-        "2": 2,
-        "1": 1,
-        "0": 47
+        "2": 1,
+        "1": 3,
+        "0": 46
       }
     },
     {
@@ -429,20 +443,6 @@
     },
     {
       "card_name": "Emrakul, the Promised End",
-      "appearances": 3,
-      "total_copies": 4,
-      "max_copies": 2,
-      "avg_copies": 1.33,
-      "inclusion_rate": 6.0,
-      "expected_copies": 0.08,
-      "copy_distribution": {
-        "2": 1,
-        "1": 2,
-        "0": 47
-      }
-    },
-    {
-      "card_name": "Relic of Progenitus",
       "appearances": 3,
       "total_copies": 4,
       "max_copies": 2,
@@ -616,15 +616,15 @@
     {
       "card_name": "Disruptor Flute",
       "appearances": 46,
-      "total_copies": 72,
+      "total_copies": 74,
       "max_copies": 3,
-      "avg_copies": 1.57,
+      "avg_copies": 1.61,
       "inclusion_rate": 92.0,
-      "expected_copies": 1.44,
+      "expected_copies": 1.48,
       "copy_distribution": {
-        "3": 4,
+        "3": 5,
         "2": 18,
-        "1": 24,
+        "1": 23,
         "0": 4
       }
     },
@@ -658,20 +658,7 @@
       }
     },
     {
-      "card_name": "Walking Ballista",
-      "appearances": 49,
-      "total_copies": 49,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 98.0,
-      "expected_copies": 0.98,
-      "copy_distribution": {
-        "1": 49,
-        "0": 1
-      }
-    },
-    {
-      "card_name": "Liquimetal Coating",
+      "card_name": "Ensnaring Bridge",
       "appearances": 49,
       "total_copies": 49,
       "max_copies": 1,
@@ -697,7 +684,20 @@
       }
     },
     {
-      "card_name": "Ensnaring Bridge",
+      "card_name": "Liquimetal Coating",
+      "appearances": 49,
+      "total_copies": 49,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 98.0,
+      "expected_copies": 0.98,
+      "copy_distribution": {
+        "1": 49,
+        "0": 1
+      }
+    },
+    {
+      "card_name": "Walking Ballista",
       "appearances": 49,
       "total_copies": 49,
       "max_copies": 1,
@@ -711,41 +711,28 @@
     },
     {
       "card_name": "Cityscape Leveler",
-      "appearances": 45,
-      "total_copies": 45,
+      "appearances": 44,
+      "total_copies": 44,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 90.0,
-      "expected_copies": 0.9,
+      "inclusion_rate": 88.0,
+      "expected_copies": 0.88,
       "copy_distribution": {
-        "1": 45,
-        "0": 5
+        "1": 44,
+        "0": 6
       }
     },
     {
       "card_name": "Extinguisher Battleship",
-      "appearances": 42,
-      "total_copies": 42,
+      "appearances": 43,
+      "total_copies": 43,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 84.0,
-      "expected_copies": 0.84,
+      "inclusion_rate": 86.0,
+      "expected_copies": 0.86,
       "copy_distribution": {
-        "1": 42,
-        "0": 8
-      }
-    },
-    {
-      "card_name": "The Stone Brain",
-      "appearances": 42,
-      "total_copies": 42,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 84.0,
-      "expected_copies": 0.84,
-      "copy_distribution": {
-        "1": 42,
-        "0": 8
+        "1": 43,
+        "0": 7
       }
     },
     {
@@ -762,33 +749,46 @@
       }
     },
     {
+      "card_name": "The Stone Brain",
+      "appearances": 41,
+      "total_copies": 41,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 82.0,
+      "expected_copies": 0.82,
+      "copy_distribution": {
+        "1": 41,
+        "0": 9
+      }
+    },
+    {
       "card_name": "Vexing Bauble",
-      "appearances": 35,
-      "total_copies": 39,
+      "appearances": 36,
+      "total_copies": 40,
       "max_copies": 3,
       "avg_copies": 1.11,
-      "inclusion_rate": 70.0,
-      "expected_copies": 0.78,
+      "inclusion_rate": 72.0,
+      "expected_copies": 0.8,
       "copy_distribution": {
         "3": 1,
         "2": 2,
-        "1": 32,
-        "0": 15
+        "1": 33,
+        "0": 14
       }
     },
     {
       "card_name": "Chalice of the Void",
-      "appearances": 26,
-      "total_copies": 30,
+      "appearances": 25,
+      "total_copies": 29,
       "max_copies": 3,
-      "avg_copies": 1.15,
-      "inclusion_rate": 52.0,
-      "expected_copies": 0.6,
+      "avg_copies": 1.16,
+      "inclusion_rate": 50.0,
+      "expected_copies": 0.58,
       "copy_distribution": {
         "3": 1,
         "2": 2,
-        "1": 23,
-        "0": 24
+        "1": 22,
+        "0": 25
       }
     },
     {
@@ -806,29 +806,29 @@
     },
     {
       "card_name": "Grafdigger's Cage",
-      "appearances": 23,
-      "total_copies": 24,
+      "appearances": 22,
+      "total_copies": 23,
       "max_copies": 2,
-      "avg_copies": 1.04,
-      "inclusion_rate": 46.0,
-      "expected_copies": 0.48,
+      "avg_copies": 1.05,
+      "inclusion_rate": 44.0,
+      "expected_copies": 0.46,
       "copy_distribution": {
         "2": 1,
-        "1": 22,
-        "0": 27
+        "1": 21,
+        "0": 28
       }
     },
     {
       "card_name": "Soulless Jailer",
-      "appearances": 20,
-      "total_copies": 20,
+      "appearances": 21,
+      "total_copies": 21,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 40.0,
-      "expected_copies": 0.4,
+      "inclusion_rate": 42.0,
+      "expected_copies": 0.42,
       "copy_distribution": {
-        "1": 20,
-        "0": 30
+        "1": 21,
+        "0": 29
       }
     },
     {
@@ -859,6 +859,19 @@
     },
     {
       "card_name": "Haywire Mite",
+      "appearances": 7,
+      "total_copies": 7,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 14.0,
+      "expected_copies": 0.14,
+      "copy_distribution": {
+        "1": 7,
+        "0": 43
+      }
+    },
+    {
+      "card_name": "Damping Sphere",
       "appearances": 6,
       "total_copies": 6,
       "max_copies": 1,
@@ -910,19 +923,6 @@
       }
     },
     {
-      "card_name": "Damping Sphere",
-      "appearances": 5,
-      "total_copies": 5,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 10.0,
-      "expected_copies": 0.1,
-      "copy_distribution": {
-        "1": 5,
-        "0": 45
-      }
-    },
-    {
       "card_name": "Oblivion Stone",
       "appearances": 3,
       "total_copies": 3,
@@ -946,19 +946,6 @@
       "copy_distribution": {
         "1": 3,
         "0": 47
-      }
-    },
-    {
-      "card_name": "Kozilek, Butcher of Truth",
-      "appearances": 2,
-      "total_copies": 2,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 4.0,
-      "expected_copies": 0.04,
-      "copy_distribution": {
-        "1": 2,
-        "0": 48
       }
     },
     {
@@ -1131,33 +1118,20 @@
       }
     },
     {
+      "card_name": "Kozilek, Butcher of Truth",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 2.0,
+      "expected_copies": 0.02,
+      "copy_distribution": {
+        "1": 1,
+        "0": 49
+      }
+    },
+    {
       "card_name": "Wurmcoil Engine",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 2.0,
-      "expected_copies": 0.02,
-      "copy_distribution": {
-        "1": 1,
-        "0": 49
-      }
-    },
-    {
-      "card_name": "Ornithopter",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 2.0,
-      "expected_copies": 0.02,
-      "copy_distribution": {
-        "1": 1,
-        "0": 49
-      }
-    },
-    {
-      "card_name": "Darksteel Citadel",
       "appearances": 1,
       "total_copies": 1,
       "max_copies": 1,
