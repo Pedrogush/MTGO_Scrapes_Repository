@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-03-31T01:56:21Z",
+  "generated_at": "2026-03-31T03:24:27Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 50,
-    "skipped": 10
+    "success": 49,
+    "skipped": 11
   },
   "results": [
     {
@@ -75,10 +75,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "burn",
-      "path": "latest/radars/legacy/burn.json"
+      "path": "latest/radars/legacy/burn.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

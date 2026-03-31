@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-03-31T01:56:19Z",
+  "generated_at": "2026-03-31T03:24:24Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 54,
-    "skipped": 8
+    "success": 51,
+    "skipped": 11
   },
   "results": [
     {
@@ -76,17 +76,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "boros-midrange",
-      "path": "latest/radars/modern/boros-midrange.json"
+      "path": "latest/radars/modern/boros-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "death-s-shadow",
-      "path": "latest/radars/modern/death-s-shadow.json"
+      "path": "latest/radars/modern/death-s-shadow.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -197,10 +199,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "hammer-time",
-      "path": "latest/radars/modern/hammer-time.json"
+      "path": "latest/radars/modern/hammer-time.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
