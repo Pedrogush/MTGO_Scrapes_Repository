@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-03-31T10:37:54Z",
+  "generated_at": "2026-03-31T11:35:09Z",
   "format": "modern",
   "source": "published-deck-texts",
   "archetype": {
@@ -11,18 +11,6 @@
   "total_decks_analyzed": 50,
   "decks_failed": 0,
   "mainboard_cards": [
-    {
-      "card_name": "Ajani, Nacatl Pariah",
-      "appearances": 50,
-      "total_copies": 200,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 50
-      }
-    },
     {
       "card_name": "Galvanic Discharge",
       "appearances": 50,
@@ -36,7 +24,7 @@
       }
     },
     {
-      "card_name": "Guide of Souls",
+      "card_name": "Ocelot Pride",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -48,7 +36,19 @@
       }
     },
     {
-      "card_name": "Ocelot Pride",
+      "card_name": "Ajani, Nacatl Pariah",
+      "appearances": 50,
+      "total_copies": 200,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 50
+      }
+    },
+    {
+      "card_name": "Guide of Souls",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -140,21 +140,6 @@
       }
     },
     {
-      "card_name": "Flooded Strand",
-      "appearances": 41,
-      "total_copies": 151,
-      "max_copies": 4,
-      "avg_copies": 3.68,
-      "inclusion_rate": 82.0,
-      "expected_copies": 3.02,
-      "copy_distribution": {
-        "4": 32,
-        "3": 7,
-        "1": 2,
-        "0": 9
-      }
-    },
-    {
       "card_name": "Goblin Bombardment",
       "appearances": 50,
       "total_copies": 150,
@@ -176,6 +161,21 @@
       "expected_copies": 3.0,
       "copy_distribution": {
         "3": 50
+      }
+    },
+    {
+      "card_name": "Flooded Strand",
+      "appearances": 40,
+      "total_copies": 148,
+      "max_copies": 4,
+      "avg_copies": 3.7,
+      "inclusion_rate": 80.0,
+      "expected_copies": 2.96,
+      "copy_distribution": {
+        "4": 32,
+        "3": 6,
+        "1": 2,
+        "0": 10
       }
     },
     {
@@ -246,17 +246,17 @@
     },
     {
       "card_name": "Windswept Heath",
-      "appearances": 14,
-      "total_copies": 48,
+      "appearances": 15,
+      "total_copies": 52,
       "max_copies": 4,
-      "avg_copies": 3.43,
-      "inclusion_rate": 28.0,
-      "expected_copies": 0.96,
+      "avg_copies": 3.47,
+      "inclusion_rate": 30.0,
+      "expected_copies": 1.04,
       "copy_distribution": {
-        "4": 9,
+        "4": 10,
         "3": 2,
         "2": 3,
-        "0": 36
+        "0": 35
       }
     },
     {
@@ -275,15 +275,15 @@
     },
     {
       "card_name": "Mountain",
-      "appearances": 39,
-      "total_copies": 39,
+      "appearances": 38,
+      "total_copies": 38,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 78.0,
-      "expected_copies": 0.78,
+      "inclusion_rate": 76.0,
+      "expected_copies": 0.76,
       "copy_distribution": {
-        "1": 39,
-        "0": 11
+        "1": 38,
+        "0": 12
       }
     },
     {
@@ -465,20 +465,6 @@
       }
     },
     {
-      "card_name": "Wear // Tear",
-      "appearances": 46,
-      "total_copies": 83,
-      "max_copies": 2,
-      "avg_copies": 1.8,
-      "inclusion_rate": 92.0,
-      "expected_copies": 1.66,
-      "copy_distribution": {
-        "2": 37,
-        "1": 9,
-        "0": 4
-      }
-    },
-    {
       "card_name": "Orim's Chant",
       "appearances": 43,
       "total_copies": 83,
@@ -490,6 +476,20 @@
         "2": 40,
         "1": 3,
         "0": 7
+      }
+    },
+    {
+      "card_name": "Wear // Tear",
+      "appearances": 46,
+      "total_copies": 82,
+      "max_copies": 2,
+      "avg_copies": 1.78,
+      "inclusion_rate": 92.0,
+      "expected_copies": 1.64,
+      "copy_distribution": {
+        "2": 36,
+        "1": 10,
+        "0": 4
       }
     },
     {
@@ -508,16 +508,16 @@
     },
     {
       "card_name": "Blood Moon",
-      "appearances": 47,
-      "total_copies": 57,
+      "appearances": 46,
+      "total_copies": 56,
       "max_copies": 2,
-      "avg_copies": 1.21,
-      "inclusion_rate": 94.0,
-      "expected_copies": 1.14,
+      "avg_copies": 1.22,
+      "inclusion_rate": 92.0,
+      "expected_copies": 1.12,
       "copy_distribution": {
         "2": 10,
-        "1": 37,
-        "0": 3
+        "1": 36,
+        "0": 4
       }
     },
     {
@@ -551,30 +551,16 @@
     },
     {
       "card_name": "Clarion Conqueror",
-      "appearances": 11,
-      "total_copies": 16,
+      "appearances": 12,
+      "total_copies": 18,
       "max_copies": 2,
-      "avg_copies": 1.45,
-      "inclusion_rate": 22.0,
-      "expected_copies": 0.32,
+      "avg_copies": 1.5,
+      "inclusion_rate": 24.0,
+      "expected_copies": 0.36,
       "copy_distribution": {
-        "2": 5,
+        "2": 6,
         "1": 6,
-        "0": 39
-      }
-    },
-    {
-      "card_name": "Damping Sphere",
-      "appearances": 6,
-      "total_copies": 10,
-      "max_copies": 2,
-      "avg_copies": 1.67,
-      "inclusion_rate": 12.0,
-      "expected_copies": 0.2,
-      "copy_distribution": {
-        "2": 4,
-        "1": 2,
-        "0": 44
+        "0": 38
       }
     },
     {
@@ -591,17 +577,44 @@
       }
     },
     {
-      "card_name": "Vexing Bauble",
-      "appearances": 4,
-      "total_copies": 6,
+      "card_name": "Damping Sphere",
+      "appearances": 5,
+      "total_copies": 8,
       "max_copies": 2,
-      "avg_copies": 1.5,
-      "inclusion_rate": 8.0,
-      "expected_copies": 0.12,
+      "avg_copies": 1.6,
+      "inclusion_rate": 10.0,
+      "expected_copies": 0.16,
+      "copy_distribution": {
+        "2": 3,
+        "1": 2,
+        "0": 45
+      }
+    },
+    {
+      "card_name": "Vexing Bauble",
+      "appearances": 5,
+      "total_copies": 7,
+      "max_copies": 2,
+      "avg_copies": 1.4,
+      "inclusion_rate": 10.0,
+      "expected_copies": 0.14,
       "copy_distribution": {
         "2": 2,
-        "1": 2,
-        "0": 46
+        "1": 3,
+        "0": 45
+      }
+    },
+    {
+      "card_name": "Ghost Vacuum",
+      "appearances": 5,
+      "total_copies": 5,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 10.0,
+      "expected_copies": 0.1,
+      "copy_distribution": {
+        "1": 5,
+        "0": 45
       }
     },
     {
@@ -615,19 +628,6 @@
       "copy_distribution": {
         "1": 5,
         "0": 45
-      }
-    },
-    {
-      "card_name": "Ghost Vacuum",
-      "appearances": 4,
-      "total_copies": 4,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 8.0,
-      "expected_copies": 0.08,
-      "copy_distribution": {
-        "1": 4,
-        "0": 46
       }
     },
     {
