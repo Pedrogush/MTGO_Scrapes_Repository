@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-03-31T20:28:47Z",
+  "generated_at": "2026-03-31T21:26:43Z",
   "command": "scrape-deck-texts-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 47,
-    "skipped": 424
+    "success": 48,
+    "skipped": 425
   },
   "results": [
     {
@@ -802,14 +802,6 @@
       "format": "pauper",
       "deck_id": "7703069",
       "path": "archive/deck-texts/pauper/7703069.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pauper",
-      "deck_id": "7703070",
-      "path": "archive/deck-texts/pauper/7703070.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -3718,17 +3710,40 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "deck_id": "7710173",
-      "path": "archive/deck-texts/pauper/7710173.json"
+      "path": "archive/deck-texts/pauper/7710173.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pauper",
+      "deck_id": "7710174",
+      "path": "archive/deck-texts/pauper/7710174.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
       "status": "success",
       "format": "pauper",
-      "deck_id": "7710174",
-      "path": "archive/deck-texts/pauper/7710174.json"
+      "deck_id": "7710178",
+      "path": "archive/deck-texts/pauper/7710178.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7710225",
+      "path": "archive/deck-texts/pauper/7710225.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7710226",
+      "path": "archive/deck-texts/pauper/7710226.json"
     }
   ]
 }
