@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-03-31T18:36:04Z",
+  "generated_at": "2026-03-31T19:39:12Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 17,
-    "success": 44
+    "skipped": 16,
+    "success": 45
   },
   "results": [
     {
@@ -390,11 +390,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "selesnya-ramp",
-      "path": "latest/radars/pauper/selesnya-ramp.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/selesnya-ramp.json"
     },
     {
       "scope": "archetype-radar",
