@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-04-01T08:44:37Z",
+  "generated_at": "2026-04-01T09:42:38Z",
   "format": "modern",
   "source": "published-deck-texts",
   "archetype": {
@@ -13,6 +13,30 @@
   "mainboard_cards": [
     {
       "card_name": "Eldrazi Temple",
+      "appearances": 50,
+      "total_copies": 200,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 50
+      }
+    },
+    {
+      "card_name": "Karn, the Great Creator",
+      "appearances": 50,
+      "total_copies": 200,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 50
+      }
+    },
+    {
+      "card_name": "Kozilek's Command",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -48,30 +72,6 @@
       }
     },
     {
-      "card_name": "Karn, the Great Creator",
-      "appearances": 50,
-      "total_copies": 200,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 50
-      }
-    },
-    {
-      "card_name": "Urza's Tower",
-      "appearances": 50,
-      "total_copies": 200,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 50
-      }
-    },
-    {
       "card_name": "Ugin's Labyrinth",
       "appearances": 50,
       "total_copies": 200,
@@ -84,7 +84,7 @@
       }
     },
     {
-      "card_name": "Kozilek's Command",
+      "card_name": "Urza's Tower",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -138,14 +138,14 @@
     {
       "card_name": "Devourer of Destiny",
       "appearances": 50,
-      "total_copies": 179,
+      "total_copies": 178,
       "max_copies": 4,
-      "avg_copies": 3.58,
+      "avg_copies": 3.56,
       "inclusion_rate": 100.0,
-      "expected_copies": 3.58,
+      "expected_copies": 3.56,
       "copy_distribution": {
-        "4": 30,
-        "3": 19,
+        "4": 29,
+        "3": 20,
         "2": 1
       }
     },
@@ -164,29 +164,29 @@
     },
     {
       "card_name": "Glaring Fleshraker",
-      "appearances": 42,
-      "total_copies": 146,
+      "appearances": 43,
+      "total_copies": 149,
       "max_copies": 4,
-      "avg_copies": 3.48,
-      "inclusion_rate": 84.0,
-      "expected_copies": 2.92,
+      "avg_copies": 3.47,
+      "inclusion_rate": 86.0,
+      "expected_copies": 2.98,
       "copy_distribution": {
         "4": 20,
-        "3": 22,
-        "0": 8
+        "3": 23,
+        "0": 7
       }
     },
     {
       "card_name": "Dismember",
       "appearances": 49,
-      "total_copies": 99,
+      "total_copies": 98,
       "max_copies": 3,
-      "avg_copies": 2.02,
+      "avg_copies": 2.0,
       "inclusion_rate": 98.0,
-      "expected_copies": 1.98,
+      "expected_copies": 1.96,
       "copy_distribution": {
-        "3": 3,
-        "2": 44,
+        "3": 2,
+        "2": 45,
         "1": 2,
         "0": 1
       }
@@ -194,14 +194,14 @@
     {
       "card_name": "Sire of Seven Deaths",
       "appearances": 42,
-      "total_copies": 71,
+      "total_copies": 72,
       "max_copies": 3,
-      "avg_copies": 1.69,
+      "avg_copies": 1.71,
       "inclusion_rate": 84.0,
-      "expected_copies": 1.42,
+      "expected_copies": 1.44,
       "copy_distribution": {
-        "3": 2,
-        "2": 25,
+        "3": 3,
+        "2": 24,
         "1": 15,
         "0": 8
       }
@@ -222,15 +222,15 @@
     },
     {
       "card_name": "Swamp",
-      "appearances": 38,
-      "total_copies": 38,
+      "appearances": 39,
+      "total_copies": 39,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 76.0,
-      "expected_copies": 0.76,
+      "inclusion_rate": 78.0,
+      "expected_copies": 0.78,
       "copy_distribution": {
-        "1": 38,
-        "0": 12
+        "1": 39,
+        "0": 11
       }
     },
     {
@@ -250,31 +250,16 @@
     },
     {
       "card_name": "Vexing Bauble",
-      "appearances": 25,
-      "total_copies": 28,
+      "appearances": 26,
+      "total_copies": 29,
       "max_copies": 2,
       "avg_copies": 1.12,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.56,
+      "inclusion_rate": 52.0,
+      "expected_copies": 0.58,
       "copy_distribution": {
         "2": 3,
-        "1": 22,
-        "0": 25
-      }
-    },
-    {
-      "card_name": "All Is Dust",
-      "appearances": 20,
-      "total_copies": 27,
-      "max_copies": 3,
-      "avg_copies": 1.35,
-      "inclusion_rate": 40.0,
-      "expected_copies": 0.54,
-      "copy_distribution": {
-        "3": 2,
-        "2": 3,
-        "1": 15,
-        "0": 30
+        "1": 23,
+        "0": 24
       }
     },
     {
@@ -302,6 +287,21 @@
         "2": 4,
         "1": 17,
         "0": 29
+      }
+    },
+    {
+      "card_name": "All Is Dust",
+      "appearances": 20,
+      "total_copies": 25,
+      "max_copies": 3,
+      "avg_copies": 1.25,
+      "inclusion_rate": 40.0,
+      "expected_copies": 0.5,
+      "copy_distribution": {
+        "3": 1,
+        "2": 3,
+        "1": 16,
+        "0": 30
       }
     },
     {
@@ -399,6 +399,19 @@
       }
     },
     {
+      "card_name": "Relic of Progenitus",
+      "appearances": 4,
+      "total_copies": 4,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 8.0,
+      "expected_copies": 0.08,
+      "copy_distribution": {
+        "1": 4,
+        "0": 46
+      }
+    },
+    {
       "card_name": "Cavern of Souls",
       "appearances": 4,
       "total_copies": 4,
@@ -413,20 +426,6 @@
     },
     {
       "card_name": "Emrakul, the Promised End",
-      "appearances": 3,
-      "total_copies": 4,
-      "max_copies": 2,
-      "avg_copies": 1.33,
-      "inclusion_rate": 6.0,
-      "expected_copies": 0.08,
-      "copy_distribution": {
-        "2": 1,
-        "1": 2,
-        "0": 47
-      }
-    },
-    {
-      "card_name": "Warping Wail",
       "appearances": 3,
       "total_copies": 4,
       "max_copies": 2,
@@ -466,29 +465,29 @@
       }
     },
     {
-      "card_name": "Relic of Progenitus",
-      "appearances": 3,
-      "total_copies": 3,
+      "card_name": "Abstergo Entertainment",
+      "appearances": 2,
+      "total_copies": 2,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 6.0,
-      "expected_copies": 0.06,
+      "inclusion_rate": 4.0,
+      "expected_copies": 0.04,
       "copy_distribution": {
-        "1": 3,
-        "0": 47
+        "1": 2,
+        "0": 48
       }
     },
     {
-      "card_name": "Abstergo Entertainment",
-      "appearances": 3,
-      "total_copies": 3,
+      "card_name": "Warping Wail",
+      "appearances": 2,
+      "total_copies": 2,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 6.0,
-      "expected_copies": 0.06,
+      "inclusion_rate": 4.0,
+      "expected_copies": 0.04,
       "copy_distribution": {
-        "1": 3,
-        "0": 47
+        "1": 2,
+        "0": 48
       }
     },
     {
@@ -600,15 +599,15 @@
     {
       "card_name": "Disruptor Flute",
       "appearances": 46,
-      "total_copies": 77,
+      "total_copies": 78,
       "max_copies": 3,
-      "avg_copies": 1.67,
+      "avg_copies": 1.7,
       "inclusion_rate": 92.0,
-      "expected_copies": 1.54,
+      "expected_copies": 1.56,
       "copy_distribution": {
         "3": 5,
-        "2": 21,
-        "1": 20,
+        "2": 22,
+        "1": 19,
         "0": 4
       }
     },
@@ -629,42 +628,16 @@
     {
       "card_name": "Torpor Orb",
       "appearances": 46,
-      "total_copies": 51,
+      "total_copies": 52,
       "max_copies": 3,
-      "avg_copies": 1.11,
+      "avg_copies": 1.13,
       "inclusion_rate": 92.0,
-      "expected_copies": 1.02,
+      "expected_copies": 1.04,
       "copy_distribution": {
-        "3": 1,
-        "2": 3,
+        "3": 2,
+        "2": 2,
         "1": 42,
         "0": 4
-      }
-    },
-    {
-      "card_name": "Liquimetal Coating",
-      "appearances": 49,
-      "total_copies": 49,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 98.0,
-      "expected_copies": 0.98,
-      "copy_distribution": {
-        "1": 49,
-        "0": 1
-      }
-    },
-    {
-      "card_name": "Walking Ballista",
-      "appearances": 49,
-      "total_copies": 49,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 98.0,
-      "expected_copies": 0.98,
-      "copy_distribution": {
-        "1": 49,
-        "0": 1
       }
     },
     {
@@ -681,7 +654,33 @@
       }
     },
     {
+      "card_name": "Liquimetal Coating",
+      "appearances": 49,
+      "total_copies": 49,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 98.0,
+      "expected_copies": 0.98,
+      "copy_distribution": {
+        "1": 49,
+        "0": 1
+      }
+    },
+    {
       "card_name": "Tormod's Crypt",
+      "appearances": 49,
+      "total_copies": 49,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 98.0,
+      "expected_copies": 0.98,
+      "copy_distribution": {
+        "1": 49,
+        "0": 1
+      }
+    },
+    {
+      "card_name": "Walking Ballista",
       "appearances": 49,
       "total_copies": 49,
       "max_copies": 1,
@@ -735,7 +734,7 @@
       }
     },
     {
-      "card_name": "The Stone Brain",
+      "card_name": "The Filigree Sylex",
       "appearances": 42,
       "total_copies": 42,
       "max_copies": 1,
@@ -748,16 +747,16 @@
       }
     },
     {
-      "card_name": "The Filigree Sylex",
-      "appearances": 42,
-      "total_copies": 42,
+      "card_name": "The Stone Brain",
+      "appearances": 41,
+      "total_copies": 41,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 84.0,
-      "expected_copies": 0.84,
+      "inclusion_rate": 82.0,
+      "expected_copies": 0.82,
       "copy_distribution": {
-        "1": 42,
-        "0": 8
+        "1": 41,
+        "0": 9
       }
     },
     {
@@ -775,44 +774,44 @@
     },
     {
       "card_name": "Chalice of the Void",
-      "appearances": 21,
-      "total_copies": 26,
+      "appearances": 20,
+      "total_copies": 25,
       "max_copies": 3,
-      "avg_copies": 1.24,
-      "inclusion_rate": 42.0,
-      "expected_copies": 0.52,
+      "avg_copies": 1.25,
+      "inclusion_rate": 40.0,
+      "expected_copies": 0.5,
       "copy_distribution": {
         "3": 2,
         "2": 1,
-        "1": 18,
-        "0": 29
-      }
-    },
-    {
-      "card_name": "Grafdigger's Cage",
-      "appearances": 18,
-      "total_copies": 19,
-      "max_copies": 2,
-      "avg_copies": 1.06,
-      "inclusion_rate": 36.0,
-      "expected_copies": 0.38,
-      "copy_distribution": {
-        "2": 1,
         "1": 17,
-        "0": 32
+        "0": 30
       }
     },
     {
       "card_name": "Soulless Jailer",
-      "appearances": 18,
-      "total_copies": 18,
+      "appearances": 19,
+      "total_copies": 19,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 36.0,
+      "inclusion_rate": 38.0,
+      "expected_copies": 0.38,
+      "copy_distribution": {
+        "1": 19,
+        "0": 31
+      }
+    },
+    {
+      "card_name": "Grafdigger's Cage",
+      "appearances": 17,
+      "total_copies": 18,
+      "max_copies": 2,
+      "avg_copies": 1.06,
+      "inclusion_rate": 34.0,
       "expected_copies": 0.36,
       "copy_distribution": {
-        "1": 18,
-        "0": 32
+        "2": 1,
+        "1": 16,
+        "0": 33
       }
     },
     {
@@ -830,15 +829,15 @@
     },
     {
       "card_name": "Cavern of Souls",
-      "appearances": 7,
-      "total_copies": 7,
+      "appearances": 8,
+      "total_copies": 8,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 14.0,
-      "expected_copies": 0.14,
+      "inclusion_rate": 16.0,
+      "expected_copies": 0.16,
       "copy_distribution": {
-        "1": 7,
-        "0": 43
+        "1": 8,
+        "0": 42
       }
     },
     {
@@ -959,19 +958,6 @@
       }
     },
     {
-      "card_name": "Sundering Titan",
-      "appearances": 2,
-      "total_copies": 2,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 4.0,
-      "expected_copies": 0.04,
-      "copy_distribution": {
-        "1": 2,
-        "0": 48
-      }
-    },
-    {
       "card_name": "Snow-Covered Wastes",
       "appearances": 1,
       "total_copies": 1,
@@ -1064,6 +1050,19 @@
     },
     {
       "card_name": "Forsaken Monument",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 2.0,
+      "expected_copies": 0.02,
+      "copy_distribution": {
+        "1": 1,
+        "0": 49
+      }
+    },
+    {
+      "card_name": "Sundering Titan",
       "appearances": 1,
       "total_copies": 1,
       "max_copies": 1,
