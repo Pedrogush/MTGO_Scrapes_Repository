@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-04-01T15:46:34Z",
+  "generated_at": "2026-04-01T16:36:17Z",
   "format": "modern",
   "source": "published-deck-texts",
   "archetype": {
@@ -12,7 +12,19 @@
   "decks_failed": 0,
   "mainboard_cards": [
     {
-      "card_name": "Ajani, Nacatl Pariah",
+      "card_name": "Galvanic Discharge",
+      "appearances": 50,
+      "total_copies": 200,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 50
+      }
+    },
+    {
+      "card_name": "Ocelot Pride",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -48,30 +60,6 @@
       }
     },
     {
-      "card_name": "Ocelot Pride",
-      "appearances": 50,
-      "total_copies": 200,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 50
-      }
-    },
-    {
-      "card_name": "Galvanic Discharge",
-      "appearances": 50,
-      "total_copies": 200,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 50
-      }
-    },
-    {
       "card_name": "Phlage, Titan of Fire's Fury",
       "appearances": 50,
       "total_copies": 199,
@@ -87,70 +75,56 @@
     {
       "card_name": "Ragavan, Nimble Pilferer",
       "appearances": 50,
-      "total_copies": 198,
+      "total_copies": 197,
       "max_copies": 4,
-      "avg_copies": 3.96,
+      "avg_copies": 3.94,
       "inclusion_rate": 100.0,
-      "expected_copies": 3.96,
+      "expected_copies": 3.94,
       "copy_distribution": {
-        "4": 49,
+        "4": 48,
+        "3": 1,
         "2": 1
       }
     },
     {
+      "card_name": "Ajani, Nacatl Pariah",
+      "appearances": 49,
+      "total_copies": 196,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 98.0,
+      "expected_copies": 3.92,
+      "copy_distribution": {
+        "4": 49,
+        "0": 1
+      }
+    },
+    {
       "card_name": "Marsh Flats",
-      "appearances": 50,
-      "total_copies": 188,
+      "appearances": 49,
+      "total_copies": 184,
       "max_copies": 4,
       "avg_copies": 3.76,
-      "inclusion_rate": 100.0,
-      "expected_copies": 3.76,
+      "inclusion_rate": 98.0,
+      "expected_copies": 3.68,
       "copy_distribution": {
-        "4": 40,
+        "4": 39,
         "3": 8,
-        "2": 2
+        "2": 2,
+        "0": 1
       }
     },
     {
       "card_name": "Arena of Glory",
       "appearances": 50,
-      "total_copies": 149,
+      "total_copies": 148,
       "max_copies": 3,
-      "avg_copies": 2.98,
+      "avg_copies": 2.96,
       "inclusion_rate": 100.0,
-      "expected_copies": 2.98,
+      "expected_copies": 2.96,
       "copy_distribution": {
-        "3": 49,
-        "2": 1
-      }
-    },
-    {
-      "card_name": "Goblin Bombardment",
-      "appearances": 50,
-      "total_copies": 149,
-      "max_copies": 3,
-      "avg_copies": 2.98,
-      "inclusion_rate": 100.0,
-      "expected_copies": 2.98,
-      "copy_distribution": {
-        "3": 49,
-        "2": 1
-      }
-    },
-    {
-      "card_name": "Seasoned Pyromancer",
-      "appearances": 49,
-      "total_copies": 149,
-      "max_copies": 4,
-      "avg_copies": 3.04,
-      "inclusion_rate": 98.0,
-      "expected_copies": 2.98,
-      "copy_distribution": {
-        "4": 5,
-        "3": 42,
-        "2": 1,
-        "1": 1,
-        "0": 1
+        "3": 48,
+        "2": 2
       }
     },
     {
@@ -168,30 +142,62 @@
       }
     },
     {
-      "card_name": "Flooded Strand",
-      "appearances": 33,
-      "total_copies": 124,
+      "card_name": "Goblin Bombardment",
+      "appearances": 49,
+      "total_copies": 146,
+      "max_copies": 3,
+      "avg_copies": 2.98,
+      "inclusion_rate": 98.0,
+      "expected_copies": 2.92,
+      "copy_distribution": {
+        "3": 48,
+        "2": 1,
+        "0": 1
+      }
+    },
+    {
+      "card_name": "Seasoned Pyromancer",
+      "appearances": 48,
+      "total_copies": 146,
       "max_copies": 4,
-      "avg_copies": 3.76,
-      "inclusion_rate": 66.0,
-      "expected_copies": 2.48,
+      "avg_copies": 3.04,
+      "inclusion_rate": 96.0,
+      "expected_copies": 2.92,
+      "copy_distribution": {
+        "4": 5,
+        "3": 41,
+        "2": 1,
+        "1": 1,
+        "0": 2
+      }
+    },
+    {
+      "card_name": "Flooded Strand",
+      "appearances": 34,
+      "total_copies": 126,
+      "max_copies": 4,
+      "avg_copies": 3.71,
+      "inclusion_rate": 68.0,
+      "expected_copies": 2.52,
       "copy_distribution": {
         "4": 25,
         "3": 8,
-        "0": 17
+        "2": 1,
+        "0": 16
       }
     },
     {
       "card_name": "Thraben Charm",
       "appearances": 50,
-      "total_copies": 115,
+      "total_copies": 114,
       "max_copies": 3,
-      "avg_copies": 2.3,
+      "avg_copies": 2.28,
       "inclusion_rate": 100.0,
-      "expected_copies": 2.3,
+      "expected_copies": 2.28,
       "copy_distribution": {
         "3": 15,
-        "2": 35
+        "2": 34,
+        "1": 1
       }
     },
     {
@@ -210,28 +216,29 @@
     {
       "card_name": "Plains",
       "appearances": 48,
-      "total_copies": 96,
-      "max_copies": 2,
-      "avg_copies": 2.0,
+      "total_copies": 97,
+      "max_copies": 3,
+      "avg_copies": 2.02,
       "inclusion_rate": 96.0,
-      "expected_copies": 1.92,
+      "expected_copies": 1.94,
       "copy_distribution": {
-        "2": 48,
+        "3": 1,
+        "2": 47,
         "0": 2
       }
     },
     {
       "card_name": "Voice of Victory",
-      "appearances": 41,
-      "total_copies": 81,
+      "appearances": 40,
+      "total_copies": 79,
       "max_copies": 2,
       "avg_copies": 1.98,
-      "inclusion_rate": 82.0,
-      "expected_copies": 1.62,
+      "inclusion_rate": 80.0,
+      "expected_copies": 1.58,
       "copy_distribution": {
-        "2": 40,
+        "2": 39,
         "1": 1,
-        "0": 9
+        "0": 10
       }
     },
     {
@@ -252,14 +259,14 @@
     {
       "card_name": "Ranger-Captain of Eos",
       "appearances": 34,
-      "total_copies": 65,
+      "total_copies": 64,
       "max_copies": 2,
-      "avg_copies": 1.91,
+      "avg_copies": 1.88,
       "inclusion_rate": 68.0,
-      "expected_copies": 1.3,
+      "expected_copies": 1.28,
       "copy_distribution": {
-        "2": 31,
-        "1": 3,
+        "2": 30,
+        "1": 4,
         "0": 16
       }
     },
@@ -279,30 +286,30 @@
     },
     {
       "card_name": "Mountain",
-      "appearances": 37,
-      "total_copies": 37,
+      "appearances": 36,
+      "total_copies": 36,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 74.0,
-      "expected_copies": 0.74,
+      "inclusion_rate": 72.0,
+      "expected_copies": 0.72,
       "copy_distribution": {
-        "1": 37,
-        "0": 13
+        "1": 36,
+        "0": 14
       }
     },
     {
       "card_name": "The Legend of Roku",
-      "appearances": 14,
-      "total_copies": 24,
+      "appearances": 15,
+      "total_copies": 25,
       "max_copies": 3,
-      "avg_copies": 1.71,
-      "inclusion_rate": 28.0,
-      "expected_copies": 0.48,
+      "avg_copies": 1.67,
+      "inclusion_rate": 30.0,
+      "expected_copies": 0.5,
       "copy_distribution": {
         "3": 1,
         "2": 8,
-        "1": 5,
-        "0": 36
+        "1": 6,
+        "0": 35
       }
     },
     {
@@ -320,17 +327,31 @@
     },
     {
       "card_name": "Fable of the Mirror-Breaker",
-      "appearances": 7,
-      "total_copies": 12,
+      "appearances": 8,
+      "total_copies": 14,
       "max_copies": 4,
-      "avg_copies": 1.71,
-      "inclusion_rate": 14.0,
-      "expected_copies": 0.24,
+      "avg_copies": 1.75,
+      "inclusion_rate": 16.0,
+      "expected_copies": 0.28,
       "copy_distribution": {
         "4": 1,
-        "2": 2,
+        "2": 3,
         "1": 4,
-        "0": 43
+        "0": 42
+      }
+    },
+    {
+      "card_name": "Phelia, Exuberant Shepherd",
+      "appearances": 3,
+      "total_copies": 8,
+      "max_copies": 3,
+      "avg_copies": 2.67,
+      "inclusion_rate": 6.0,
+      "expected_copies": 0.16,
+      "copy_distribution": {
+        "3": 2,
+        "2": 1,
+        "0": 47
       }
     },
     {
@@ -345,20 +366,6 @@
         "2": 1,
         "1": 4,
         "0": 45
-      }
-    },
-    {
-      "card_name": "Phelia, Exuberant Shepherd",
-      "appearances": 2,
-      "total_copies": 5,
-      "max_copies": 3,
-      "avg_copies": 2.5,
-      "inclusion_rate": 4.0,
-      "expected_copies": 0.1,
-      "copy_distribution": {
-        "3": 1,
-        "2": 1,
-        "0": 48
       }
     },
     {
@@ -388,6 +395,46 @@
       }
     },
     {
+      "card_name": "Starfield Shepherd",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 2.0,
+      "expected_copies": 0.08,
+      "copy_distribution": {
+        "4": 1,
+        "0": 49
+      }
+    },
+    {
+      "card_name": "Solitude",
+      "appearances": 1,
+      "total_copies": 4,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 2.0,
+      "expected_copies": 0.08,
+      "copy_distribution": {
+        "4": 1,
+        "0": 49
+      }
+    },
+    {
+      "card_name": "Witch Enchanter",
+      "appearances": 2,
+      "total_copies": 3,
+      "max_copies": 2,
+      "avg_copies": 1.5,
+      "inclusion_rate": 4.0,
+      "expected_copies": 0.06,
+      "copy_distribution": {
+        "2": 1,
+        "1": 1,
+        "0": 48
+      }
+    },
+    {
       "card_name": "Lightning Bolt",
       "appearances": 2,
       "total_copies": 2,
@@ -398,6 +445,19 @@
       "copy_distribution": {
         "1": 2,
         "0": 48
+      }
+    },
+    {
+      "card_name": "Ephemerate",
+      "appearances": 1,
+      "total_copies": 2,
+      "max_copies": 2,
+      "avg_copies": 2.0,
+      "inclusion_rate": 2.0,
+      "expected_copies": 0.04,
+      "copy_distribution": {
+        "2": 1,
+        "0": 49
       }
     },
     {
@@ -451,35 +511,22 @@
         "1": 1,
         "0": 49
       }
-    },
-    {
-      "card_name": "Witch Enchanter",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 2.0,
-      "expected_copies": 0.02,
-      "copy_distribution": {
-        "1": 1,
-        "0": 49
-      }
     }
   ],
   "sideboard_cards": [
     {
       "card_name": "Obsidian Charmaw",
-      "appearances": 43,
-      "total_copies": 117,
+      "appearances": 42,
+      "total_copies": 114,
       "max_copies": 4,
-      "avg_copies": 2.72,
-      "inclusion_rate": 86.0,
-      "expected_copies": 2.34,
+      "avg_copies": 2.71,
+      "inclusion_rate": 84.0,
+      "expected_copies": 2.28,
       "copy_distribution": {
         "4": 1,
-        "3": 29,
+        "3": 28,
         "2": 13,
-        "0": 7
+        "0": 8
       }
     },
     {
@@ -498,29 +545,29 @@
     },
     {
       "card_name": "Orim's Chant",
-      "appearances": 44,
-      "total_copies": 87,
+      "appearances": 43,
+      "total_copies": 85,
       "max_copies": 2,
       "avg_copies": 1.98,
-      "inclusion_rate": 88.0,
-      "expected_copies": 1.74,
+      "inclusion_rate": 86.0,
+      "expected_copies": 1.7,
       "copy_distribution": {
-        "2": 43,
+        "2": 42,
         "1": 1,
-        "0": 6
+        "0": 7
       }
     },
     {
       "card_name": "Celestial Purge",
       "appearances": 44,
-      "total_copies": 83,
+      "total_copies": 82,
       "max_copies": 2,
-      "avg_copies": 1.89,
+      "avg_copies": 1.86,
       "inclusion_rate": 88.0,
-      "expected_copies": 1.66,
+      "expected_copies": 1.64,
       "copy_distribution": {
-        "2": 39,
-        "1": 5,
+        "2": 38,
+        "1": 6,
         "0": 6
       }
     },
@@ -555,59 +602,59 @@
     },
     {
       "card_name": "Blood Moon",
-      "appearances": 44,
-      "total_copies": 56,
+      "appearances": 43,
+      "total_copies": 55,
       "max_copies": 3,
-      "avg_copies": 1.27,
-      "inclusion_rate": 88.0,
-      "expected_copies": 1.12,
+      "avg_copies": 1.28,
+      "inclusion_rate": 86.0,
+      "expected_copies": 1.1,
       "copy_distribution": {
         "3": 1,
         "2": 10,
-        "1": 33,
-        "0": 6
+        "1": 32,
+        "0": 7
       }
     },
     {
       "card_name": "Surgical Extraction",
       "appearances": 40,
-      "total_copies": 46,
+      "total_copies": 47,
       "max_copies": 2,
-      "avg_copies": 1.15,
+      "avg_copies": 1.18,
       "inclusion_rate": 80.0,
-      "expected_copies": 0.92,
+      "expected_copies": 0.94,
       "copy_distribution": {
-        "2": 6,
-        "1": 34,
+        "2": 7,
+        "1": 33,
         "0": 10
       }
     },
     {
       "card_name": "High Noon",
-      "appearances": 18,
-      "total_copies": 39,
+      "appearances": 19,
+      "total_copies": 41,
       "max_copies": 3,
-      "avg_copies": 2.17,
-      "inclusion_rate": 36.0,
-      "expected_copies": 0.78,
+      "avg_copies": 2.16,
+      "inclusion_rate": 38.0,
+      "expected_copies": 0.82,
       "copy_distribution": {
         "3": 3,
-        "2": 15,
-        "0": 32
+        "2": 16,
+        "0": 31
       }
     },
     {
       "card_name": "Clarion Conqueror",
-      "appearances": 10,
-      "total_copies": 15,
+      "appearances": 9,
+      "total_copies": 14,
       "max_copies": 2,
-      "avg_copies": 1.5,
-      "inclusion_rate": 20.0,
-      "expected_copies": 0.3,
+      "avg_copies": 1.56,
+      "inclusion_rate": 18.0,
+      "expected_copies": 0.28,
       "copy_distribution": {
         "2": 5,
-        "1": 5,
-        "0": 40
+        "1": 4,
+        "0": 41
       }
     },
     {
@@ -639,15 +686,15 @@
     },
     {
       "card_name": "Containment Priest",
-      "appearances": 6,
-      "total_copies": 6,
+      "appearances": 5,
+      "total_copies": 5,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 12.0,
-      "expected_copies": 0.12,
+      "inclusion_rate": 10.0,
+      "expected_copies": 0.1,
       "copy_distribution": {
-        "1": 6,
-        "0": 44
+        "1": 5,
+        "0": 45
       }
     },
     {
@@ -705,6 +752,19 @@
       }
     },
     {
+      "card_name": "White Orchid Phantom",
+      "appearances": 1,
+      "total_copies": 3,
+      "max_copies": 3,
+      "avg_copies": 3.0,
+      "inclusion_rate": 2.0,
+      "expected_copies": 0.06,
+      "copy_distribution": {
+        "3": 1,
+        "0": 49
+      }
+    },
+    {
       "card_name": "Drannith Magistrate",
       "appearances": 1,
       "total_copies": 2,
@@ -740,6 +800,45 @@
       "expected_copies": 0.04,
       "copy_distribution": {
         "2": 1,
+        "0": 49
+      }
+    },
+    {
+      "card_name": "Curious Farm Animals",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 2.0,
+      "expected_copies": 0.02,
+      "copy_distribution": {
+        "1": 1,
+        "0": 49
+      }
+    },
+    {
+      "card_name": "Path to Exile",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 2.0,
+      "expected_copies": 0.02,
+      "copy_distribution": {
+        "1": 1,
+        "0": 49
+      }
+    },
+    {
+      "card_name": "Giant Killer",
+      "appearances": 1,
+      "total_copies": 1,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 2.0,
+      "expected_copies": 0.02,
+      "copy_distribution": {
+        "1": 1,
         "0": 49
       }
     },
