@@ -1,15 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-03-31T22:27:11Z",
+  "generated_at": "2026-04-01T01:04:39Z",
   "command": "scrape-mtgo-decklists-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 16,
-    "success": 1
+    "success": 2,
+    "cached": 15
   },
   "results": [
+    {
+      "scope": "mtgo-event",
+      "status": "success",
+      "format": "standard",
+      "path": "archive/mtgo-decklists/standard/standard-challenge-64-2026-03-3112836807.json",
+      "message": "Cached 32/32 decks."
+    },
     {
       "scope": "mtgo-event",
       "status": "cached",
@@ -114,13 +121,6 @@
       "format": "standard",
       "path": "archive/mtgo-decklists/standard/standard-last-chance-2026-03-2512836044.json",
       "message": "Loaded 32 decks from archive."
-    },
-    {
-      "scope": "mtgo-event",
-      "status": "cached",
-      "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-league-2026-03-2510429.json",
-      "message": "Loaded 11 decks from archive."
     },
     {
       "scope": "mtgo-decklists",

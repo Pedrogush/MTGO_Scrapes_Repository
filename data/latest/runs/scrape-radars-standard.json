@@ -1,22 +1,21 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-03-31T23:27:05Z",
+  "generated_at": "2026-04-01T01:06:25Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 25,
-    "success": 33
+    "success": 33,
+    "skipped": 25
   },
   "results": [
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "standard",
       "archetype": "4c-control",
-      "path": "latest/radars/standard/4c-control.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/standard/4c-control.json"
     },
     {
       "scope": "archetype-radar",
@@ -429,10 +428,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "temur-prowess",
-      "path": "latest/radars/standard/temur-prowess.json"
+      "path": "latest/radars/standard/temur-prowess.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "format-card-pool",
