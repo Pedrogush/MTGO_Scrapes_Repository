@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-02T21:27:32Z",
+  "generated_at": "2026-04-02T22:28:16Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 54,
-    "skipped": 8
+    "success": 55,
+    "skipped": 7
   },
   "results": [
     {
@@ -169,11 +169,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "grixis-control",
-      "path": "latest/radars/modern/grixis-control.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/grixis-control.json"
     },
     {
       "scope": "archetype-radar",
