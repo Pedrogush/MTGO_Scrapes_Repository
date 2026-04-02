@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-01T23:28:58Z",
+  "generated_at": "2026-04-02T00:56:19Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 50,
-    "skipped": 10
+    "success": 48,
+    "skipped": 12
   },
   "results": [
     {
@@ -214,10 +214,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "grixis-tempo",
-      "path": "latest/radars/legacy/grixis-tempo.json"
+      "path": "latest/radars/legacy/grixis-tempo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -250,10 +251,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "jeskai-stoneblade",
-      "path": "latest/radars/legacy/jeskai-stoneblade.json"
+      "path": "latest/radars/legacy/jeskai-stoneblade.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

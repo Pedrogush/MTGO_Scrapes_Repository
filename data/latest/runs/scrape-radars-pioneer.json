@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-01T23:29:02Z",
+  "generated_at": "2026-04-02T00:56:28Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 26,
-    "success": 27
+    "skipped": 30,
+    "success": 23
   },
   "results": [
     {
@@ -117,10 +117,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "boros-convoke",
-      "path": "latest/radars/pioneer/boros-convoke.json"
+      "path": "latest/radars/pioneer/boros-convoke.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -254,10 +255,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "mono-black-discard",
-      "path": "latest/radars/pioneer/mono-black-discard.json"
+      "path": "latest/radars/pioneer/mono-black-discard.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -322,10 +324,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "orzhov-midrange",
-      "path": "latest/radars/pioneer/orzhov-midrange.json"
+      "path": "latest/radars/pioneer/orzhov-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -366,10 +369,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "selesnya-angels",
-      "path": "latest/radars/pioneer/selesnya-angels.json"
+      "path": "latest/radars/pioneer/selesnya-angels.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
