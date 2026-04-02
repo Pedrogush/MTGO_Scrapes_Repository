@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-02T00:56:43Z",
+  "generated_at": "2026-04-02T01:55:20Z",
   "command": "scrape-mtgo-decklists-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "cached": 18,
-    "skipped": 1,
-    "success": 1
+    "success": 2
   },
   "results": [
     {
@@ -125,9 +124,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
-      "message": "https://www.mtgo.com/decklist/modern-league-2026-04-0210397: Event returned no decklists."
+      "path": "archive/mtgo-decklists/modern/modern-league-2026-04-0210397.json",
+      "message": "Cached 2/2 decks."
     },
     {
       "scope": "mtgo-event",
