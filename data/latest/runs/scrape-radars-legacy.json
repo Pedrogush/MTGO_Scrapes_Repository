@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-02T15:38:47Z",
+  "generated_at": "2026-04-02T16:36:06Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
@@ -10,6 +10,13 @@
     "skipped": 12
   },
   "results": [
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "8-cast",
+      "path": "latest/radars/legacy/8-cast.json"
+    },
     {
       "scope": "archetype-radar",
       "status": "success",
@@ -136,6 +143,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "death-and-taxes-yorion-red-white",
+      "path": "latest/radars/legacy/death-and-taxes-yorion-red-white.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "death-s-shadow",
       "path": "latest/radars/legacy/death-s-shadow.json"
     },
@@ -207,25 +221,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "grixis-control",
-      "path": "latest/radars/legacy/grixis-control.json"
-    },
-    {
-      "scope": "archetype-radar",
       "status": "skipped",
       "format": "legacy",
       "archetype": "grixis-tempo",
       "path": "latest/radars/legacy/grixis-tempo.json",
       "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "hogaak",
-      "path": "latest/radars/legacy/hogaak.json"
     },
     {
       "scope": "archetype-radar",

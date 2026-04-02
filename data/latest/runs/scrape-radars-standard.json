@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-02T15:38:42Z",
+  "generated_at": "2026-04-02T16:36:12Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 34,
-    "skipped": 24
+    "skipped": 25
   },
   "results": [
     {
@@ -124,6 +124,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "bant-omniscience",
+      "path": "latest/radars/standard/bant-omniscience.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "bant-ouroboroid",
@@ -224,6 +232,14 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
+      "archetype": "grixis-discard",
+      "path": "latest/radars/standard/grixis-discard.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
       "archetype": "grixis-monument",
       "path": "latest/radars/standard/grixis-monument.json",
       "message": "No published decks were available for radar generation."
@@ -241,14 +257,6 @@
       "format": "standard",
       "archetype": "gruul-landfall",
       "path": "latest/radars/standard/gruul-landfall.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "izzet-elementals",
-      "path": "latest/radars/standard/izzet-elementals.json",
       "message": "No published decks were available for radar generation."
     },
     {

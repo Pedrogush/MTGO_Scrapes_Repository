@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-02T15:37:21Z",
+  "generated_at": "2026-04-02T16:34:14Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 34,
-    "skipped": 371
+    "skipped": 372
   },
   "results": [
     {
@@ -130,6 +130,14 @@
     },
     {
       "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "bant-omniscience",
+      "path": "latest/decks/standard/bant-omniscience.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
       "status": "success",
       "format": "standard",
       "archetype": "bant-ouroboroid",
@@ -230,6 +238,14 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "standard",
+      "archetype": "grixis-discard",
+      "path": "latest/decks/standard/grixis-discard.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
       "archetype": "grixis-monument",
       "path": "latest/decks/standard/grixis-monument.json",
       "message": "No decks found within the last 7 days."
@@ -247,14 +263,6 @@
       "format": "standard",
       "archetype": "gruul-landfall",
       "path": "latest/decks/standard/gruul-landfall.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "izzet-elementals",
-      "path": "latest/decks/standard/izzet-elementals.json",
       "message": "No decks found within the last 7 days."
     },
     {
