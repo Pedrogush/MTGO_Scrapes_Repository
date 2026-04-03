@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-03T08:32:35Z",
+  "generated_at": "2026-04-03T09:34:20Z",
   "command": "scrape-deck-texts-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 56,
-    "skipped": 787
+    "success": 57,
+    "skipped": 786
   },
   "results": [
     {
@@ -1656,14 +1656,6 @@
       "format": "modern",
       "deck_id": "7706815",
       "path": "archive/deck-texts/modern/7706815.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
-      "deck_id": "7706817",
-      "path": "archive/deck-texts/modern/7706817.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -5182,14 +5174,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
-      "deck_id": "7710587",
-      "path": "archive/deck-texts/modern/7710587.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
       "deck_id": "7710588",
       "path": "archive/deck-texts/modern/7710588.json",
       "message": "Reused existing published deck-text blob."
@@ -6692,10 +6676,25 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7713043",
-      "path": "archive/deck-texts/modern/7713043.json"
+      "path": "archive/deck-texts/modern/7713043.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "modern",
+      "deck_id": "7713097",
+      "path": "archive/deck-texts/modern/7713097.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "modern",
+      "deck_id": "7713098",
+      "path": "archive/deck-texts/modern/7713098.json"
     }
   ]
 }
