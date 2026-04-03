@@ -1,13 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-03T18:28:32Z",
+  "generated_at": "2026-04-03T19:31:59Z",
   "command": "scrape-mtgo-decklists-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 9,
-    "skipped": 1,
+    "cached": 10,
     "success": 1
   },
   "results": [
@@ -62,9 +61,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "skipped",
+      "status": "cached",
       "format": "vintage",
-      "message": "https://www.mtgo.com/decklist/vintage-challenge-32-2026-04-0112838098: Event returned no decklists."
+      "path": "archive/mtgo-decklists/vintage/vintage-challenge-32-2026-04-0212838098.json",
+      "message": "Loaded 32 decks from archive."
     },
     {
       "scope": "mtgo-event",
