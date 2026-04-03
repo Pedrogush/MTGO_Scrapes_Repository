@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-03T17:27:19Z",
+  "generated_at": "2026-04-03T18:29:19Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
@@ -16,14 +16,6 @@
       "format": "pauper",
       "archetype": "4c-ephemerate",
       "path": "latest/radars/pauper/4c-ephemerate.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pauper",
-      "archetype": "4c-reanimator",
-      "path": "latest/radars/pauper/4c-reanimator.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -233,14 +225,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pauper",
-      "archetype": "infect",
-      "path": "latest/radars/pauper/infect.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "pauper",
       "archetype": "izzet-faeries",
@@ -313,10 +297,26 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "pauper",
+      "archetype": "monarch",
+      "path": "latest/radars/pauper/monarch.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "pauper",
       "archetype": "mono-black",
       "path": "latest/radars/pauper/mono-black.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "pauper",
+      "archetype": "mono-blue-delver",
+      "path": "latest/radars/pauper/mono-blue-delver.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

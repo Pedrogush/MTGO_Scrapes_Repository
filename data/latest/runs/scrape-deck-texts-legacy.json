@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-03T17:25:50Z",
+  "generated_at": "2026-04-03T18:27:54Z",
   "command": "scrape-deck-texts-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 48,
-    "skipped": 348
+    "success": 47,
+    "skipped": 346
   },
   "results": [
     {
@@ -15,13 +15,6 @@
       "status": "success",
       "format": "legacy",
       "path": "latest/archetypes/legacy.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "8-cast",
-      "path": "latest/decks/legacy/8-cast.json"
     },
     {
       "scope": "archetype-decks",
@@ -296,6 +289,14 @@
       "format": "legacy",
       "archetype": "maverick",
       "path": "latest/decks/legacy/maverick.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "mill",
+      "path": "latest/decks/legacy/mill.json",
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -1063,14 +1064,6 @@
       "format": "legacy",
       "deck_id": "7706175",
       "path": "archive/deck-texts/legacy/7706175.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "legacy",
-      "deck_id": "7706176",
-      "path": "archive/deck-texts/legacy/7706176.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -2133,14 +2126,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "legacy",
-      "deck_id": "7708014",
-      "path": "archive/deck-texts/legacy/7708014.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "legacy",
       "deck_id": "7708017",
       "path": "archive/deck-texts/legacy/7708017.json",
       "message": "Reused existing published deck-text blob."
@@ -2959,14 +2944,6 @@
       "format": "legacy",
       "deck_id": "7712836",
       "path": "archive/deck-texts/legacy/7712836.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "legacy",
-      "deck_id": "7713044",
-      "path": "archive/deck-texts/legacy/7713044.json",
       "message": "Reused existing published deck-text blob."
     },
     {
