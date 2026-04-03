@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-03T03:23:18Z",
+  "generated_at": "2026-04-03T05:00:02Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 47,
-    "skipped": 14
+    "success": 48,
+    "skipped": 13
   },
   "results": [
     {
@@ -198,11 +198,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "goblins",
-      "path": "latest/radars/pauper/goblins.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/goblins.json"
     },
     {
       "scope": "archetype-radar",

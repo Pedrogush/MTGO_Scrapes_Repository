@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-03T03:21:43Z",
+  "generated_at": "2026-04-03T04:57:20Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 29,
-    "skipped": 331
+    "success": 32,
+    "skipped": 330
   },
   "results": [
     {
@@ -117,11 +117,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "standard",
       "archetype": "bant-airbending-combo",
-      "path": "latest/decks/standard/bant-airbending-combo.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/standard/bant-airbending-combo.json"
     },
     {
       "scope": "archetype-decks",
@@ -2859,6 +2858,20 @@
       "deck_id": "7712578",
       "path": "archive/deck-texts/standard/7712578.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7712839",
+      "path": "archive/deck-texts/standard/7712839.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7712840",
+      "path": "archive/deck-texts/standard/7712840.json"
     }
   ]
 }

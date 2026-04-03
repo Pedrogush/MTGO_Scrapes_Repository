@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-03T03:21:40Z",
+  "generated_at": "2026-04-03T04:57:24Z",
   "command": "scrape-deck-texts-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 47,
-    "skipped": 327
+    "success": 49,
+    "skipped": 326
   },
   "results": [
     {
@@ -139,11 +139,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "death-and-taxes-yorion-mono-white",
-      "path": "latest/decks/legacy/death-and-taxes-yorion-mono-white.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/legacy/death-and-taxes-yorion-mono-white.json"
     },
     {
       "scope": "archetype-decks",
@@ -2953,6 +2952,13 @@
       "deck_id": "7712704",
       "path": "archive/deck-texts/legacy/7712704.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7712836",
+      "path": "archive/deck-texts/legacy/7712836.json"
     }
   ]
 }
