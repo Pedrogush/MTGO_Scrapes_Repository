@@ -1,21 +1,63 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-03T15:31:09Z",
+  "generated_at": "2026-04-03T16:27:31Z",
   "command": "scrape-mtgo-decklists-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 1,
-    "cached": 3,
-    "success": 1
+    "cached": 9,
+    "success": 2
   },
   "results": [
     {
       "scope": "mtgo-event",
-      "status": "skipped",
+      "status": "cached",
       "format": "vintage",
-      "message": "https://www.mtgo.com/decklist/vintage-league-2026-04-0310421: Event returned no decklists."
+      "path": "archive/mtgo-decklists/vintage/vintage-league-2026-03-3110421.json",
+      "message": "Loaded 1 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "cached",
+      "format": "vintage",
+      "path": "archive/mtgo-decklists/vintage/vintage-league-2026-03-3010421.json",
+      "message": "Loaded 2 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "cached",
+      "format": "vintage",
+      "path": "archive/mtgo-decklists/vintage/vintage-league-2026-03-2910421.json",
+      "message": "Loaded 3 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "cached",
+      "format": "vintage",
+      "path": "archive/mtgo-decklists/vintage/vintage-challenge-32-2026-03-2812836770.json",
+      "message": "Loaded 32 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "cached",
+      "format": "vintage",
+      "path": "archive/mtgo-decklists/vintage/vintage-league-2026-03-2810421.json",
+      "message": "Loaded 3 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "cached",
+      "format": "vintage",
+      "path": "archive/mtgo-decklists/vintage/vintage-challenge-32-2026-03-2712836758.json",
+      "message": "Loaded 32 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "success",
+      "format": "vintage",
+      "path": "archive/mtgo-decklists/vintage/vintage-league-2026-04-0310421.json",
+      "message": "Cached 1/1 decks."
     },
     {
       "scope": "mtgo-event",
