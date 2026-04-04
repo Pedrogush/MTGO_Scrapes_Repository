@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-03T23:26:49Z",
+  "generated_at": "2026-04-04T00:56:48Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 30,
-    "skipped": 29
+    "success": 26,
+    "skipped": 33
   },
   "results": [
     {
@@ -104,10 +104,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "azorius-tempo",
-      "path": "latest/radars/standard/azorius-tempo.json"
+      "path": "latest/radars/standard/azorius-tempo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -118,10 +119,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "bant-gearhulk",
-      "path": "latest/radars/standard/bant-gearhulk.json"
+      "path": "latest/radars/standard/bant-gearhulk.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -314,10 +316,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "jeskai-elementals",
-      "path": "latest/radars/standard/jeskai-elementals.json"
+      "path": "latest/radars/standard/jeskai-elementals.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -350,10 +353,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "rakdos-monument",
-      "path": "latest/radars/standard/rakdos-monument.json"
+      "path": "latest/radars/standard/rakdos-monument.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

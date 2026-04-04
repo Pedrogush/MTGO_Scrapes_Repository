@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-03T23:26:52Z",
+  "generated_at": "2026-04-04T00:56:43Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 9,
-    "success": 16
+    "skipped": 12,
+    "success": 13
   },
   "results": [
     {
@@ -28,10 +28,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "vintage",
       "archetype": "blue-tempo",
-      "path": "latest/radars/vintage/blue-tempo.json"
+      "path": "latest/radars/vintage/blue-tempo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -51,17 +52,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "vintage",
       "archetype": "dimir-lurrus-control",
-      "path": "latest/radars/vintage/dimir-lurrus-control.json"
+      "path": "latest/radars/vintage/dimir-lurrus-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "vintage",
       "archetype": "doomsday",
-      "path": "latest/radars/vintage/doomsday.json"
+      "path": "latest/radars/vintage/doomsday.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
