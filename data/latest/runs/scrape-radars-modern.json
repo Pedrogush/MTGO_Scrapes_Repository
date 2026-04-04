@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T22:26:02Z",
+  "generated_at": "2026-04-04T23:28:40Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 54,
-    "skipped": 9
+    "success": 55,
+    "skipped": 8
   },
   "results": [
     {
@@ -91,11 +91,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "death-s-shadow",
-      "path": "latest/radars/modern/death-s-shadow.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/death-s-shadow.json"
     },
     {
       "scope": "archetype-radar",

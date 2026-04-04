@@ -1,22 +1,21 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T22:26:08Z",
+  "generated_at": "2026-04-04T23:28:42Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 8,
-    "success": 16
+    "success": 18,
+    "skipped": 6
   },
   "results": [
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "azorius-initiative",
-      "path": "latest/radars/vintage/azorius-initiative.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/vintage/azorius-initiative.json"
     },
     {
       "scope": "archetype-radar",
@@ -35,11 +34,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "counter-vine",
-      "path": "latest/radars/vintage/counter-vine.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/vintage/counter-vine.json"
     },
     {
       "scope": "archetype-radar",
