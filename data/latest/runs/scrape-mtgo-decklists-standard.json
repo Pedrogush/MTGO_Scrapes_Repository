@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T18:26:38Z",
+  "generated_at": "2026-04-04T19:26:07Z",
   "command": "scrape-mtgo-decklists-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "cached": 15,
-    "success": 1
+    "success": 2
   },
   "results": [
     {
@@ -61,6 +61,13 @@
     },
     {
       "scope": "mtgo-event",
+      "status": "success",
+      "format": "standard",
+      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0412838128.json",
+      "message": "Cached 32/32 decks."
+    },
+    {
+      "scope": "mtgo-event",
       "status": "cached",
       "format": "standard",
       "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0412838123.json",
@@ -84,6 +91,13 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "standard",
+      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0312838105.json",
+      "message": "Loaded 32 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "cached",
+      "format": "standard",
       "path": "archive/mtgo-decklists/standard/standard-league-2026-04-0310429.json",
       "message": "Loaded 2 decks from archive."
     },
@@ -91,7 +105,7 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0312838105.json",
+      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0212838092.json",
       "message": "Loaded 32 decks from archive."
     },
     {
@@ -100,13 +114,6 @@
       "format": "standard",
       "path": "archive/mtgo-decklists/standard/standard-league-2026-04-0210429.json",
       "message": "Loaded 1 decks from archive."
-    },
-    {
-      "scope": "mtgo-event",
-      "status": "cached",
-      "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0212838092.json",
-      "message": "Loaded 32 decks from archive."
     },
     {
       "scope": "mtgo-event",
