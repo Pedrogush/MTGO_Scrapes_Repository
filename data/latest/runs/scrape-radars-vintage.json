@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T20:27:18Z",
+  "generated_at": "2026-04-04T21:27:27Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 9,
-    "success": 15
+    "skipped": 8,
+    "success": 16
   },
   "results": [
     {
@@ -20,11 +20,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "blue-tempo",
-      "path": "latest/radars/vintage/blue-tempo.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/vintage/blue-tempo.json"
     },
     {
       "scope": "archetype-radar",
