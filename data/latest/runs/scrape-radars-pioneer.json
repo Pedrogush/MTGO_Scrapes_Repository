@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T15:26:45Z",
+  "generated_at": "2026-04-04T16:28:09Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 30,
-    "success": 23
+    "skipped": 27,
+    "success": 26
   },
   "results": [
     {
@@ -35,11 +35,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "4c-rona-combo",
-      "path": "latest/radars/pioneer/4c-rona-combo.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/4c-rona-combo.json"
     },
     {
       "scope": "archetype-radar",
@@ -164,11 +163,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "esper-control",
-      "path": "latest/radars/pioneer/esper-control.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/esper-control.json"
     },
     {
       "scope": "archetype-radar",
@@ -239,11 +237,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "jund-goblins",
-      "path": "latest/radars/pioneer/jund-goblins.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/jund-goblins.json"
     },
     {
       "scope": "archetype-radar",

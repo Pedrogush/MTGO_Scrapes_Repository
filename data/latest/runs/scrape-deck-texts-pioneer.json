@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T15:25:19Z",
+  "generated_at": "2026-04-04T16:25:04Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 23,
-    "skipped": 222
+    "success": 33,
+    "skipped": 219
   },
   "results": [
     {
@@ -41,11 +41,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "4c-rona-combo",
-      "path": "latest/decks/pioneer/4c-rona-combo.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pioneer/4c-rona-combo.json"
     },
     {
       "scope": "archetype-decks",
@@ -170,11 +169,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "esper-control",
-      "path": "latest/decks/pioneer/esper-control.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pioneer/esper-control.json"
     },
     {
       "scope": "archetype-decks",
@@ -245,11 +243,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "jund-goblins",
-      "path": "latest/decks/pioneer/jund-goblins.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pioneer/jund-goblins.json"
     },
     {
       "scope": "archetype-decks",
@@ -1945,6 +1942,55 @@
       "deck_id": "7714562",
       "path": "archive/deck-texts/pioneer/7714562.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7714985",
+      "path": "archive/deck-texts/pioneer/7714985.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7714986",
+      "path": "archive/deck-texts/pioneer/7714986.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7714988",
+      "path": "archive/deck-texts/pioneer/7714988.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7714989",
+      "path": "archive/deck-texts/pioneer/7714989.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7714990",
+      "path": "archive/deck-texts/pioneer/7714990.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7714996",
+      "path": "archive/deck-texts/pioneer/7714996.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7714999",
+      "path": "archive/deck-texts/pioneer/7714999.json"
     }
   ]
 }
