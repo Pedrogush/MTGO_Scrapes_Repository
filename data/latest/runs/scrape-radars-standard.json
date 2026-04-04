@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T19:26:38Z",
+  "generated_at": "2026-04-04T20:27:13Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 26,
-    "skipped": 32
+    "success": 27,
+    "skipped": 31
   },
   "results": [
     {
@@ -96,11 +96,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "standard",
       "archetype": "azorius-tempo",
-      "path": "latest/radars/standard/azorius-tempo.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/standard/azorius-tempo.json"
     },
     {
       "scope": "archetype-radar",
