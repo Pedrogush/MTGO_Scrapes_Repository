@@ -1,12 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T07:37:44Z",
+  "generated_at": "2026-04-04T08:26:50Z",
   "command": "scrape-mtgo-decklists-standard",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "cached": 15,
+    "hard-failure": 1,
     "success": 1
   },
   "results": [
@@ -68,6 +69,12 @@
     },
     {
       "scope": "mtgo-event",
+      "status": "hard-failure",
+      "format": "standard",
+      "message": "https://www.mtgo.com/decklist/standard-challenge-32-2026-04-0412838123: Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    },
+    {
+      "scope": "mtgo-event",
       "status": "cached",
       "format": "standard",
       "path": "archive/mtgo-decklists/standard/standard-league-2026-04-0410429.json",
@@ -98,15 +105,15 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0212838092.json",
-      "message": "Loaded 32 decks from archive."
+      "path": "archive/mtgo-decklists/standard/standard-league-2026-04-0210429.json",
+      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-event",
       "status": "cached",
       "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-league-2026-04-0210429.json",
-      "message": "Loaded 1 decks from archive."
+      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0212838092.json",
+      "message": "Loaded 32 decks from archive."
     },
     {
       "scope": "mtgo-event",
