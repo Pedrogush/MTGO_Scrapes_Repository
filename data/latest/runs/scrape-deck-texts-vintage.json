@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T03:16:26Z",
+  "generated_at": "2026-04-04T04:53:11Z",
   "command": "scrape-deck-texts-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 13,
-    "skipped": 68
+    "success": 15,
+    "skipped": 67
   },
   "results": [
     {
@@ -66,11 +66,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "doomsday",
-      "path": "latest/decks/vintage/doomsday.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/vintage/doomsday.json"
     },
     {
       "scope": "archetype-decks",
@@ -643,6 +642,13 @@
       "deck_id": "7713969",
       "path": "archive/deck-texts/vintage/7713969.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "vintage",
+      "deck_id": "7714189",
+      "path": "archive/deck-texts/vintage/7714189.json"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T03:18:07Z",
+  "generated_at": "2026-04-04T04:55:39Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 32,
-    "success": 21
+    "skipped": 30,
+    "success": 23
   },
   "results": [
     {
@@ -195,11 +195,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "grixis-midrange",
-      "path": "latest/radars/pioneer/grixis-midrange.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/grixis-midrange.json"
     },
     {
       "scope": "archetype-radar",
@@ -371,11 +370,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "selesnya-angels",
-      "path": "latest/radars/pioneer/selesnya-angels.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/selesnya-angels.json"
     },
     {
       "scope": "archetype-radar",
