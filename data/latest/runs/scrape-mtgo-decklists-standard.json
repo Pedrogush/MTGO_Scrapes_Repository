@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T08:26:50Z",
+  "generated_at": "2026-04-04T10:26:54Z",
   "command": "scrape-mtgo-decklists-standard",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "cached": 15,
-    "hard-failure": 1,
-    "success": 1
+    "success": 2
   },
   "results": [
     {
@@ -69,9 +68,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "hard-failure",
+      "status": "success",
       "format": "standard",
-      "message": "https://www.mtgo.com/decklist/standard-challenge-32-2026-04-0412838123: Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0412838123.json",
+      "message": "Cached 32/32 decks."
     },
     {
       "scope": "mtgo-event",
