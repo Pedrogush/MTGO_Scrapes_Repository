@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T17:26:05Z",
+  "generated_at": "2026-04-04T18:28:34Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 27,
-    "success": 26
+    "success": 30
   },
   "results": [
     {
@@ -124,6 +124,13 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "boros-hammer-time",
+      "path": "latest/radars/pioneer/boros-hammer-time.json"
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "pioneer",
       "archetype": "boros-heroic",
@@ -175,6 +182,13 @@
       "archetype": "esper-legends",
       "path": "latest/radars/pioneer/esper-legends.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "esper-midrange",
+      "path": "latest/radars/pioneer/esper-midrange.json"
     },
     {
       "scope": "archetype-radar",
@@ -252,6 +266,13 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "mardu-transmogrify",
+      "path": "latest/radars/pioneer/mardu-transmogrify.json"
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "pioneer",
       "archetype": "mono-black-discard",
@@ -288,6 +309,13 @@
       "format": "pioneer",
       "archetype": "mono-red-prowess",
       "path": "latest/radars/pioneer/mono-red-prowess.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "mono-white-humans",
+      "path": "latest/radars/pioneer/mono-white-humans.json"
     },
     {
       "scope": "archetype-radar",
@@ -383,8 +411,8 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "pioneer",
-      "archetype": "simic-scapeshift",
-      "path": "latest/radars/pioneer/simic-scapeshift.json"
+      "archetype": "selesnya-hardened-scales",
+      "path": "latest/radars/pioneer/selesnya-hardened-scales.json"
     },
     {
       "scope": "archetype-radar",

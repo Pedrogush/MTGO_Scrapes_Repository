@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T17:26:02Z",
+  "generated_at": "2026-04-04T18:28:32Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 54,
-    "skipped": 8
+    "skipped": 9
   },
   "results": [
     {
@@ -351,6 +351,14 @@
       "format": "modern",
       "archetype": "mono-green-tron",
       "path": "latest/radars/modern/mono-green-tron.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "modern",
+      "archetype": "naya-energy",
+      "path": "latest/radars/modern/naya-energy.json",
       "message": "No published decks were available for radar generation."
     },
     {
