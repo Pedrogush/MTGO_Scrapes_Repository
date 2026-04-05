@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T08:29:14Z",
+  "generated_at": "2026-04-05T09:27:57Z",
   "command": "scrape-mtgo-decklists-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 11,
-    "success": 1
+    "cached": 9,
+    "success": 2
   },
   "results": [
     {
@@ -40,24 +40,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "cached",
+      "status": "success",
       "format": "vintage",
-      "path": "archive/mtgo-decklists/vintage/vintage-showcase-qualifier-2026-04-0412838086.json",
-      "message": "Loaded 29 decks from archive."
-    },
-    {
-      "scope": "mtgo-event",
-      "status": "cached",
-      "format": "vintage",
-      "path": "archive/mtgo-decklists/vintage/vintage-league-2026-04-0410421.json",
-      "message": "Loaded 2 decks from archive."
-    },
-    {
-      "scope": "mtgo-event",
-      "status": "cached",
-      "format": "vintage",
-      "path": "archive/mtgo-decklists/vintage/vintage-challenge-32-2026-04-0312838119.json",
-      "message": "Loaded 32 decks from archive."
+      "path": "archive/mtgo-decklists/vintage/vintage-showcase-qualifier-2026-04-0312838086.json",
+      "message": "Cached 29/29 decks."
     },
     {
       "scope": "mtgo-event",
@@ -70,7 +56,7 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "vintage",
-      "path": "archive/mtgo-decklists/vintage/vintage-challenge-32-2026-04-0212838098.json",
+      "path": "archive/mtgo-decklists/vintage/vintage-challenge-32-2026-04-0312838119.json",
       "message": "Loaded 32 decks from archive."
     },
     {
@@ -79,6 +65,13 @@
       "format": "vintage",
       "path": "archive/mtgo-decklists/vintage/vintage-league-2026-04-0210421.json",
       "message": "Loaded 1 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "cached",
+      "format": "vintage",
+      "path": "archive/mtgo-decklists/vintage/vintage-challenge-32-2026-04-0212838098.json",
+      "message": "Loaded 32 decks from archive."
     },
     {
       "scope": "mtgo-event",

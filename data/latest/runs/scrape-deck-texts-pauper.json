@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T08:27:52Z",
+  "generated_at": "2026-04-05T09:27:01Z",
   "command": "scrape-deck-texts-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 42,
-    "skipped": 331
+    "success": 45,
+    "skipped": 330
   },
   "results": [
     {
@@ -33,11 +33,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "azorius-faeries",
-      "path": "latest/decks/pauper/azorius-faeries.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pauper/azorius-faeries.json"
     },
     {
       "scope": "archetype-decks",
@@ -2950,6 +2949,20 @@
       "deck_id": "7715841",
       "path": "archive/deck-texts/pauper/7715841.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7716033",
+      "path": "archive/deck-texts/pauper/7716033.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7716035",
+      "path": "archive/deck-texts/pauper/7716035.json"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T08:29:14Z",
+  "generated_at": "2026-04-05T09:30:03Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 42,
-    "skipped": 19
+    "success": 43,
+    "skipped": 18
   },
   "results": [
     {
@@ -27,11 +27,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "azorius-faeries",
-      "path": "latest/radars/pauper/azorius-faeries.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/azorius-faeries.json"
     },
     {
       "scope": "archetype-radar",
