@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T17:26:09Z",
+  "generated_at": "2026-04-05T18:29:42Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 51,
-    "skipped": 9
+    "success": 52,
+    "skipped": 8
   },
   "results": [
     {
@@ -217,6 +217,13 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "hogaak",
+      "path": "latest/radars/legacy/hogaak.json"
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "legacy",
       "archetype": "infect",
@@ -278,14 +285,6 @@
       "format": "legacy",
       "archetype": "maverick",
       "path": "latest/radars/legacy/maverick.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "mill",
-      "path": "latest/radars/legacy/mill.json",
       "message": "No published decks were available for radar generation."
     },
     {

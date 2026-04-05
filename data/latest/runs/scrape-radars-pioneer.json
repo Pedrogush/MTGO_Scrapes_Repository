@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T17:26:11Z",
+  "generated_at": "2026-04-05T18:29:45Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 29,
-    "success": 28
+    "skipped": 28,
+    "success": 29
   },
   "results": [
     {
@@ -132,11 +132,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
-      "archetype": "boros-heroic",
-      "path": "latest/radars/pioneer/boros-heroic.json",
-      "message": "No published decks were available for radar generation."
+      "archetype": "boros-midrange",
+      "path": "latest/radars/pioneer/boros-midrange.json"
     },
     {
       "scope": "archetype-radar",

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T17:26:11Z",
+  "generated_at": "2026-04-05T18:29:45Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 47,
-    "skipped": 16
+    "success": 49,
+    "skipped": 14
   },
   "results": [
     {
@@ -146,6 +146,13 @@
       "format": "modern",
       "archetype": "eldrazi",
       "path": "latest/radars/modern/eldrazi.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "esper-control",
+      "path": "latest/radars/modern/esper-control.json"
     },
     {
       "scope": "archetype-radar",
@@ -357,14 +364,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "naya-energy",
-      "path": "latest/radars/modern/naya-energy.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
       "archetype": "neobrand",
@@ -409,11 +408,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "simic-midrange",
-      "path": "latest/radars/modern/simic-midrange.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/simic-midrange.json"
     },
     {
       "scope": "archetype-radar",
