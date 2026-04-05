@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T16:25:32Z",
+  "generated_at": "2026-04-05T17:24:51Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 33,
-    "skipped": 271
+    "success": 28,
+    "skipped": 276
   },
   "results": [
     {
@@ -2375,38 +2375,43 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7716534",
-      "path": "archive/deck-texts/standard/7716534.json"
+      "path": "archive/deck-texts/standard/7716534.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7716536",
-      "path": "archive/deck-texts/standard/7716536.json"
+      "path": "archive/deck-texts/standard/7716536.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7716537",
-      "path": "archive/deck-texts/standard/7716537.json"
+      "path": "archive/deck-texts/standard/7716537.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7716538",
-      "path": "archive/deck-texts/standard/7716538.json"
+      "path": "archive/deck-texts/standard/7716538.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7716541",
-      "path": "archive/deck-texts/standard/7716541.json"
+      "path": "archive/deck-texts/standard/7716541.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }
