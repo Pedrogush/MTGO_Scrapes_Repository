@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T07:41:31Z",
+  "generated_at": "2026-04-05T08:29:10Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 44,
-    "skipped": 16
+    "success": 45,
+    "skipped": 15
   },
   "results": [
     {
@@ -236,11 +236,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "jeskai-control",
-      "path": "latest/radars/legacy/jeskai-control.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/jeskai-control.json"
     },
     {
       "scope": "archetype-radar",
