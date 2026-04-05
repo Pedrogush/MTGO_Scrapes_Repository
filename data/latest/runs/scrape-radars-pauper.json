@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T23:28:43Z",
+  "generated_at": "2026-04-05T01:02:51Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 45,
-    "skipped": 16
+    "success": 42,
+    "skipped": 19
   },
   "results": [
     {
@@ -19,10 +19,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "archetype": "azorius-affinity",
-      "path": "latest/radars/pauper/azorius-affinity.json"
+      "path": "latest/radars/pauper/azorius-affinity.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -294,17 +295,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "archetype": "mardu-synthesizer",
-      "path": "latest/radars/pauper/mardu-synthesizer.json"
+      "path": "latest/radars/pauper/mardu-synthesizer.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "archetype": "mono-black",
-      "path": "latest/radars/pauper/mono-black.json"
+      "path": "latest/radars/pauper/mono-black.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

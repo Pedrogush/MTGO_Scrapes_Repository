@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-04T23:28:44Z",
+  "generated_at": "2026-04-05T01:02:47Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 27,
-    "success": 30
+    "skipped": 30,
+    "success": 27
   },
   "results": [
     {
@@ -101,10 +101,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "azorius-heroic",
-      "path": "latest/radars/pioneer/azorius-heroic.json"
+      "path": "latest/radars/pioneer/azorius-heroic.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -373,10 +374,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "rakdos-midrange",
-      "path": "latest/radars/pioneer/rakdos-midrange.json"
+      "path": "latest/radars/pioneer/rakdos-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -388,10 +390,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "rakdos-vampires",
-      "path": "latest/radars/pioneer/rakdos-vampires.json"
+      "path": "latest/radars/pioneer/rakdos-vampires.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
