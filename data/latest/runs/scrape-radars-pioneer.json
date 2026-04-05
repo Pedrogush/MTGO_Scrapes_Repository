@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T06:42:14Z",
+  "generated_at": "2026-04-05T07:41:28Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 30,
-    "success": 27
+    "skipped": 29,
+    "success": 28
   },
   "results": [
     {
@@ -350,11 +350,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "orzhov-midrange",
-      "path": "latest/radars/pioneer/orzhov-midrange.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/orzhov-midrange.json"
     },
     {
       "scope": "archetype-radar",

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T06:40:51Z",
+  "generated_at": "2026-04-05T07:38:42Z",
   "command": "scrape-deck-texts-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 42,
-    "skipped": 240
+    "success": 48,
+    "skipped": 238
   },
   "results": [
     {
@@ -39,11 +39,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "azorius-stoneblade",
-      "path": "latest/decks/legacy/azorius-stoneblade.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/legacy/azorius-stoneblade.json"
     },
     {
       "scope": "archetype-decks",
@@ -324,11 +323,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "naya-initiative",
-      "path": "latest/decks/legacy/naya-initiative.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/legacy/naya-initiative.json"
     },
     {
       "scope": "archetype-decks",
@@ -2222,6 +2220,34 @@
       "deck_id": "7715647",
       "path": "archive/deck-texts/legacy/7715647.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7715836",
+      "path": "archive/deck-texts/legacy/7715836.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7715837",
+      "path": "archive/deck-texts/legacy/7715837.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7715920",
+      "path": "archive/deck-texts/legacy/7715920.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7715921",
+      "path": "archive/deck-texts/legacy/7715921.json"
     }
   ]
 }

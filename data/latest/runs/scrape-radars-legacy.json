@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T06:42:18Z",
+  "generated_at": "2026-04-05T07:41:31Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 42,
-    "skipped": 18
+    "success": 44,
+    "skipped": 16
   },
   "results": [
     {
@@ -33,11 +33,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "azorius-stoneblade",
-      "path": "latest/radars/legacy/azorius-stoneblade.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/azorius-stoneblade.json"
     },
     {
       "scope": "archetype-radar",
@@ -318,11 +317,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "naya-initiative",
-      "path": "latest/radars/legacy/naya-initiative.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/naya-initiative.json"
     },
     {
       "scope": "archetype-radar",
