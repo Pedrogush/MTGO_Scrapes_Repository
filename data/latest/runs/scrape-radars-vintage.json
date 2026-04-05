@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-05T12:27:52Z",
+  "generated_at": "2026-04-05T13:40:09Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 18,
-    "skipped": 6
+    "success": 19,
+    "skipped": 5
   },
   "results": [
     {
@@ -171,11 +171,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "sultai-midrange",
-      "path": "latest/radars/vintage/sultai-midrange.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/vintage/sultai-midrange.json"
     },
     {
       "scope": "format-card-pool",
