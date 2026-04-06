@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-06T01:57:04Z",
+  "generated_at": "2026-04-06T03:25:01Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 29,
-    "success": 28
+    "skipped": 27,
+    "success": 30
   },
   "results": [
     {
@@ -221,11 +221,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "hidden-strings",
-      "path": "latest/radars/pioneer/hidden-strings.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/hidden-strings.json"
     },
     {
       "scope": "archetype-radar",
@@ -425,11 +424,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "sultai-scapeshift",
-      "path": "latest/radars/pioneer/sultai-scapeshift.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/sultai-scapeshift.json"
     },
     {
       "scope": "format-card-pool",
