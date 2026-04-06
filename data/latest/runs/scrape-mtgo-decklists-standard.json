@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-06T05:11:18Z",
+  "generated_at": "2026-04-06T05:57:03Z",
   "command": "scrape-mtgo-decklists-standard",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 12,
-    "success": 3,
-    "hard-failure": 1
+    "cached": 14,
+    "success": 2
   },
   "results": [
     {
@@ -34,16 +33,17 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "success",
+      "status": "cached",
       "format": "standard",
       "path": "archive/mtgo-decklists/standard/standard-league-2026-04-0610429.json",
-      "message": "Cached 2/2 decks."
+      "message": "Loaded 2 decks from archive."
     },
     {
       "scope": "mtgo-event",
-      "status": "hard-failure",
+      "status": "success",
       "format": "standard",
-      "message": "https://www.mtgo.com/decklist/standard-challenge-32-2026-04-0512838148: Could not locate deck JSON payload"
+      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0512838148.json",
+      "message": "Cached 32/32 decks."
     },
     {
       "scope": "mtgo-event",
@@ -61,10 +61,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "success",
+      "status": "cached",
       "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0212838123.json",
-      "message": "Cached 32/32 decks."
+      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0412838123.json",
+      "message": "Loaded 32 decks from archive."
     },
     {
       "scope": "mtgo-event",
