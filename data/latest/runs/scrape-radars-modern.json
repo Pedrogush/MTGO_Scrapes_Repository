@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-06T06:57:11Z",
+  "generated_at": "2026-04-06T07:54:27Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 48,
-    "skipped": 15
+    "success": 49,
+    "skipped": 14
   },
   "results": [
     {
@@ -191,11 +191,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "grixis-murktide",
-      "path": "latest/radars/modern/grixis-murktide.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/grixis-murktide.json"
     },
     {
       "scope": "archetype-radar",
