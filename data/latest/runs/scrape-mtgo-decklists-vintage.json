@@ -1,15 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-06T21:27:39Z",
+  "generated_at": "2026-04-06T22:26:59Z",
   "command": "scrape-mtgo-decklists-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 11,
+    "cached": 12,
     "success": 1
   },
   "results": [
+    {
+      "scope": "mtgo-event",
+      "status": "cached",
+      "format": "vintage",
+      "path": "archive/mtgo-decklists/vintage/vintage-league-2026-03-3110421.json",
+      "message": "Loaded 1 decks from archive."
+    },
     {
       "scope": "mtgo-event",
       "status": "cached",
