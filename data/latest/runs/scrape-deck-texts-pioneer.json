@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-06T15:32:09Z",
+  "generated_at": "2026-04-06T16:31:11Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 30,
-    "skipped": 248
+    "success": 44,
+    "skipped": 236
   },
   "results": [
     {
@@ -22,14 +22,6 @@
       "format": "pioneer",
       "archetype": "4c-auras",
       "path": "latest/decks/pioneer/4c-auras.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "4c-elves",
-      "path": "latest/decks/pioneer/4c-elves.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -117,14 +109,6 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "pioneer",
-      "archetype": "azorius-spirits",
-      "path": "latest/decks/pioneer/azorius-spirits.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
       "archetype": "boros-convoke",
       "path": "latest/decks/pioneer/boros-convoke.json",
       "message": "No decks found within the last 7 days."
@@ -153,14 +137,6 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "dimir-control",
-      "path": "latest/decks/pioneer/dimir-control.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
       "status": "success",
       "format": "pioneer",
       "archetype": "dimir-midrange",
@@ -168,26 +144,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "dimir-mill",
-      "path": "latest/decks/pioneer/dimir-mill.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
       "status": "success",
       "format": "pioneer",
       "archetype": "esper-control",
       "path": "latest/decks/pioneer/esper-control.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "esper-legends",
-      "path": "latest/decks/pioneer/esper-legends.json",
-      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -231,14 +191,6 @@
       "format": "pioneer",
       "archetype": "hidden-strings",
       "path": "latest/decks/pioneer/hidden-strings.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "izzet-indomitable-creativity",
-      "path": "latest/decks/pioneer/izzet-indomitable-creativity.json",
-      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -296,14 +248,6 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "pioneer",
-      "archetype": "mono-green-hardened-scales",
-      "path": "latest/decks/pioneer/mono-green-hardened-scales.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
       "archetype": "mono-red-aggro",
       "path": "latest/decks/pioneer/mono-red-aggro.json",
       "message": "No decks found within the last 7 days."
@@ -339,11 +283,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "nykthos-ramp",
-      "path": "latest/decks/pioneer/nykthos-ramp.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pioneer/nykthos-ramp.json"
     },
     {
       "scope": "archetype-decks",
@@ -361,27 +304,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "quintorius-combo",
-      "path": "latest/decks/pioneer/quintorius-combo.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "rakdos-goblins",
-      "path": "latest/decks/pioneer/rakdos-goblins.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "rakdos-midrange",
-      "path": "latest/decks/pioneer/rakdos-midrange.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pioneer/rakdos-midrange.json"
     },
     {
       "scope": "archetype-decks",
@@ -422,6 +348,13 @@
     },
     {
       "scope": "archetype-decks",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "simic-scapeshift",
+      "path": "latest/decks/pioneer/simic-scapeshift.json"
+    },
+    {
+      "scope": "archetype-decks",
       "status": "skipped",
       "format": "pioneer",
       "archetype": "soulflayer",
@@ -434,14 +367,6 @@
       "format": "pioneer",
       "archetype": "sultai-scapeshift",
       "path": "latest/decks/pioneer/sultai-scapeshift.json"
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pioneer",
-      "deck_id": "7709239",
-      "path": "archive/deck-texts/pioneer/7709239.json",
-      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
@@ -1597,6 +1522,13 @@
     },
     {
       "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7716820",
+      "path": "archive/deck-texts/pioneer/7716820.json"
+    },
+    {
+      "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
       "deck_id": "7716821",
@@ -1949,6 +1881,13 @@
     },
     {
       "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7717239",
+      "path": "archive/deck-texts/pioneer/7717239.json"
+    },
+    {
+      "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
       "deck_id": "7717240",
@@ -2149,6 +2088,13 @@
     },
     {
       "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7717949",
+      "path": "archive/deck-texts/pioneer/7717949.json"
+    },
+    {
+      "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
       "deck_id": "7717950",
@@ -2202,6 +2148,62 @@
       "deck_id": "7717958",
       "path": "archive/deck-texts/pioneer/7717958.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7718855",
+      "path": "archive/deck-texts/pioneer/7718855.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7718858",
+      "path": "archive/deck-texts/pioneer/7718858.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7718859",
+      "path": "archive/deck-texts/pioneer/7718859.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7718860",
+      "path": "archive/deck-texts/pioneer/7718860.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7718861",
+      "path": "archive/deck-texts/pioneer/7718861.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7718862",
+      "path": "archive/deck-texts/pioneer/7718862.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7718863",
+      "path": "archive/deck-texts/pioneer/7718863.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7718864",
+      "path": "archive/deck-texts/pioneer/7718864.json"
     }
   ]
 }

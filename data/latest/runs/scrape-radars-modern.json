@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-06T15:33:22Z",
+  "generated_at": "2026-04-06T16:33:12Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 49,
-    "skipped": 14
+    "success": 48,
+    "skipped": 15
   },
   "results": [
     {
@@ -23,6 +23,14 @@
       "format": "modern",
       "archetype": "4c-control",
       "path": "latest/radars/modern/4c-control.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "modern",
+      "archetype": "4c-genericblink",
+      "path": "latest/radars/modern/4c-genericblink.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -188,13 +196,6 @@
       "format": "modern",
       "archetype": "grixis-midrange",
       "path": "latest/radars/modern/grixis-midrange.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
-      "archetype": "grixis-murktide",
-      "path": "latest/radars/modern/grixis-murktide.json"
     },
     {
       "scope": "archetype-radar",
