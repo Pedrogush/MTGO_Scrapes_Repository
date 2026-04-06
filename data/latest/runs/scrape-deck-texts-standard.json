@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-06T07:52:46Z",
+  "generated_at": "2026-04-06T08:47:04Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 35,
-    "skipped": 274
+    "success": 30,
+    "skipped": 279
   },
   "results": [
     {
@@ -2197,10 +2197,11 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7717349",
-      "path": "archive/deck-texts/standard/7717349.json"
+      "path": "archive/deck-texts/standard/7717349.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
@@ -2252,10 +2253,11 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7717356",
-      "path": "archive/deck-texts/standard/7717356.json"
+      "path": "archive/deck-texts/standard/7717356.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
@@ -2315,10 +2317,11 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7717364",
-      "path": "archive/deck-texts/standard/7717364.json"
+      "path": "archive/deck-texts/standard/7717364.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
@@ -2434,17 +2437,19 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7717379",
-      "path": "archive/deck-texts/standard/7717379.json"
+      "path": "archive/deck-texts/standard/7717379.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7717395",
-      "path": "archive/deck-texts/standard/7717395.json"
+      "path": "archive/deck-texts/standard/7717395.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }
