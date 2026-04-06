@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-06T22:26:59Z",
+  "generated_at": "2026-04-06T23:26:37Z",
   "command": "scrape-mtgo-decklists-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 12,
-    "success": 1
+    "cached": 10,
+    "success": 2
   },
   "results": [
     {
@@ -21,8 +21,8 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "vintage",
-      "path": "archive/mtgo-decklists/vintage/vintage-league-2026-04-0610421.json",
-      "message": "Loaded 2 decks from archive."
+      "path": "archive/mtgo-decklists/vintage/vintage-league-2026-04-0310421.json",
+      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -40,10 +40,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "cached",
+      "status": "success",
       "format": "vintage",
-      "path": "archive/mtgo-decklists/vintage/vintage-challenge-32-2026-04-0412838131.json",
-      "message": "Loaded 32 decks from archive."
+      "path": "archive/mtgo-decklists/vintage/vintage-challenge-32-2026-04-0512838131.json",
+      "message": "Cached 32/32 decks."
     },
     {
       "scope": "mtgo-event",
@@ -65,13 +65,6 @@
       "format": "vintage",
       "path": "archive/mtgo-decklists/vintage/vintage-challenge-32-2026-04-0312838119.json",
       "message": "Loaded 32 decks from archive."
-    },
-    {
-      "scope": "mtgo-event",
-      "status": "cached",
-      "format": "vintage",
-      "path": "archive/mtgo-decklists/vintage/vintage-league-2026-04-0310421.json",
-      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-event",
