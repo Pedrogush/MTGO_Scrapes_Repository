@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-06T23:27:15Z",
+  "generated_at": "2026-04-07T01:00:13Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 49,
-    "skipped": 14
+    "success": 48,
+    "skipped": 15
   },
   "results": [
     {
@@ -387,10 +387,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "rakdos-midrange",
-      "path": "latest/radars/modern/rakdos-midrange.json"
+      "path": "latest/radars/modern/rakdos-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

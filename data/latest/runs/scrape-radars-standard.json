@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-06T23:27:16Z",
+  "generated_at": "2026-04-07T01:00:18Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 31,
-    "skipped": 29
+    "success": 28,
+    "skipped": 32
   },
   "results": [
     {
@@ -42,10 +42,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "4c-ouroboroid",
-      "path": "latest/radars/standard/4c-ouroboroid.json"
+      "path": "latest/radars/standard/4c-ouroboroid.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -327,10 +328,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "mono-white-momo",
-      "path": "latest/radars/standard/mono-white-momo.json"
+      "path": "latest/radars/standard/mono-white-momo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -426,10 +428,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "temur-harmonizer-combo",
-      "path": "latest/radars/standard/temur-harmonizer-combo.json"
+      "path": "latest/radars/standard/temur-harmonizer-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

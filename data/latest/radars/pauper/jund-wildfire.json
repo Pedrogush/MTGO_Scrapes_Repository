@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-04-06T23:27:20Z",
+  "generated_at": "2026-04-07T01:00:11Z",
   "format": "pauper",
   "source": "published-deck-texts",
   "archetype": {
@@ -11,6 +11,18 @@
   "total_decks_analyzed": 14,
   "decks_failed": 0,
   "mainboard_cards": [
+    {
+      "card_name": "Cast Down",
+      "appearances": 14,
+      "total_copies": 56,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 14
+      }
+    },
     {
       "card_name": "Cleansing Wildfire",
       "appearances": 14,
@@ -84,18 +96,6 @@
       }
     },
     {
-      "card_name": "Cast Down",
-      "appearances": 14,
-      "total_copies": 56,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 14
-      }
-    },
-    {
       "card_name": "Nihil Spellbomb",
       "appearances": 14,
       "total_copies": 47,
@@ -124,28 +124,28 @@
     {
       "card_name": "Ichor Wellspring",
       "appearances": 14,
-      "total_copies": 43,
+      "total_copies": 44,
       "max_copies": 4,
-      "avg_copies": 3.07,
+      "avg_copies": 3.14,
       "inclusion_rate": 100.0,
-      "expected_copies": 3.07,
+      "expected_copies": 3.14,
       "copy_distribution": {
-        "4": 6,
-        "3": 3,
+        "4": 7,
+        "3": 2,
         "2": 5
       }
     },
     {
       "card_name": "Swamp",
       "appearances": 14,
-      "total_copies": 40,
+      "total_copies": 41,
       "max_copies": 3,
-      "avg_copies": 2.86,
+      "avg_copies": 2.93,
       "inclusion_rate": 100.0,
-      "expected_copies": 2.86,
+      "expected_copies": 2.93,
       "copy_distribution": {
-        "3": 12,
-        "2": 2
+        "3": 13,
+        "2": 1
       }
     },
     {
@@ -188,19 +188,6 @@
       }
     },
     {
-      "card_name": "Forest",
-      "appearances": 14,
-      "total_copies": 27,
-      "max_copies": 2,
-      "avg_copies": 1.93,
-      "inclusion_rate": 100.0,
-      "expected_copies": 1.93,
-      "copy_distribution": {
-        "2": 13,
-        "1": 1
-      }
-    },
-    {
       "card_name": "Eviscerator's Insight",
       "appearances": 14,
       "total_copies": 27,
@@ -215,30 +202,42 @@
       }
     },
     {
-      "card_name": "Toxin Analysis",
-      "appearances": 13,
-      "total_copies": 25,
+      "card_name": "Forest",
+      "appearances": 14,
+      "total_copies": 27,
       "max_copies": 2,
-      "avg_copies": 1.92,
-      "inclusion_rate": 92.9,
-      "expected_copies": 1.79,
+      "avg_copies": 1.93,
+      "inclusion_rate": 100.0,
+      "expected_copies": 1.93,
       "copy_distribution": {
-        "2": 12,
-        "1": 1,
-        "0": 1
+        "2": 13,
+        "1": 1
+      }
+    },
+    {
+      "card_name": "Toxin Analysis",
+      "appearances": 14,
+      "total_copies": 27,
+      "max_copies": 2,
+      "avg_copies": 1.93,
+      "inclusion_rate": 100.0,
+      "expected_copies": 1.93,
+      "copy_distribution": {
+        "2": 13,
+        "1": 1
       }
     },
     {
       "card_name": "Mountain",
       "appearances": 14,
-      "total_copies": 21,
+      "total_copies": 20,
       "max_copies": 2,
-      "avg_copies": 1.5,
+      "avg_copies": 1.43,
       "inclusion_rate": 100.0,
-      "expected_copies": 1.5,
+      "expected_copies": 1.43,
       "copy_distribution": {
-        "2": 7,
-        "1": 7
+        "2": 6,
+        "1": 8
       }
     },
     {
@@ -257,42 +256,42 @@
     },
     {
       "card_name": "Nyxborn Hydra",
-      "appearances": 12,
-      "total_copies": 14,
+      "appearances": 13,
+      "total_copies": 16,
       "max_copies": 2,
-      "avg_copies": 1.17,
-      "inclusion_rate": 85.7,
-      "expected_copies": 1.0,
+      "avg_copies": 1.23,
+      "inclusion_rate": 92.9,
+      "expected_copies": 1.14,
       "copy_distribution": {
-        "2": 2,
+        "2": 3,
         "1": 10,
-        "0": 2
+        "0": 1
       }
     },
     {
       "card_name": "Makeshift Munitions",
-      "appearances": 10,
-      "total_copies": 10,
+      "appearances": 11,
+      "total_copies": 11,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 71.4,
-      "expected_copies": 0.71,
+      "inclusion_rate": 78.6,
+      "expected_copies": 0.79,
       "copy_distribution": {
-        "1": 10,
-        "0": 4
+        "1": 11,
+        "0": 3
       }
     },
     {
       "card_name": "Pulse of Murasa",
-      "appearances": 6,
-      "total_copies": 6,
+      "appearances": 5,
+      "total_copies": 5,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 42.9,
-      "expected_copies": 0.43,
+      "inclusion_rate": 35.7,
+      "expected_copies": 0.36,
       "copy_distribution": {
-        "1": 6,
-        "0": 8
+        "1": 5,
+        "0": 9
       }
     },
     {
@@ -336,33 +335,19 @@
     },
     {
       "card_name": "Bojuka Bog",
-      "appearances": 3,
-      "total_copies": 3,
+      "appearances": 2,
+      "total_copies": 2,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 21.4,
-      "expected_copies": 0.21,
-      "copy_distribution": {
-        "1": 3,
-        "0": 11
-      }
-    },
-    {
-      "card_name": "Sagu Wildling",
-      "appearances": 2,
-      "total_copies": 3,
-      "max_copies": 2,
-      "avg_copies": 1.5,
       "inclusion_rate": 14.3,
-      "expected_copies": 0.21,
+      "expected_copies": 0.14,
       "copy_distribution": {
-        "2": 1,
-        "1": 1,
+        "1": 2,
         "0": 12
       }
     },
     {
-      "card_name": "Galvanic Blast",
+      "card_name": "Sagu Wildling",
       "appearances": 1,
       "total_copies": 2,
       "max_copies": 2,
@@ -373,33 +358,20 @@
         "2": 1,
         "0": 13
       }
-    },
-    {
-      "card_name": "Reckoner's Bargain",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 7.1,
-      "expected_copies": 0.07,
-      "copy_distribution": {
-        "1": 1,
-        "0": 13
-      }
     }
   ],
   "sideboard_cards": [
     {
       "card_name": "Weather the Storm",
       "appearances": 14,
-      "total_copies": 51,
+      "total_copies": 52,
       "max_copies": 4,
-      "avg_copies": 3.64,
+      "avg_copies": 3.71,
       "inclusion_rate": 100.0,
-      "expected_copies": 3.64,
+      "expected_copies": 3.71,
       "copy_distribution": {
-        "4": 10,
-        "3": 3,
+        "4": 11,
+        "3": 2,
         "2": 1
       }
     },
@@ -420,16 +392,16 @@
     {
       "card_name": "Troublemaker Ouphe",
       "appearances": 14,
-      "total_copies": 32,
+      "total_copies": 34,
       "max_copies": 4,
-      "avg_copies": 2.29,
+      "avg_copies": 2.43,
       "inclusion_rate": 100.0,
-      "expected_copies": 2.29,
+      "expected_copies": 2.43,
       "copy_distribution": {
         "4": 1,
-        "3": 5,
+        "3": 6,
         "2": 5,
-        "1": 3
+        "1": 2
       }
     },
     {
@@ -461,6 +433,19 @@
       }
     },
     {
+      "card_name": "Nihil Spellbomb",
+      "appearances": 6,
+      "total_copies": 6,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 42.9,
+      "expected_copies": 0.43,
+      "copy_distribution": {
+        "1": 6,
+        "0": 8
+      }
+    },
+    {
       "card_name": "Krark-Clan Shaman",
       "appearances": 6,
       "total_copies": 6,
@@ -488,21 +473,7 @@
       }
     },
     {
-      "card_name": "Red Elemental Blast",
-      "appearances": 2,
-      "total_copies": 6,
-      "max_copies": 4,
-      "avg_copies": 3.0,
-      "inclusion_rate": 14.3,
-      "expected_copies": 0.43,
-      "copy_distribution": {
-        "4": 1,
-        "2": 1,
-        "0": 12
-      }
-    },
-    {
-      "card_name": "Nihil Spellbomb",
+      "card_name": "Chainer's Edict",
       "appearances": 5,
       "total_copies": 5,
       "max_copies": 1,
@@ -512,19 +483,6 @@
       "copy_distribution": {
         "1": 5,
         "0": 9
-      }
-    },
-    {
-      "card_name": "Chainer's Edict",
-      "appearances": 4,
-      "total_copies": 4,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 28.6,
-      "expected_copies": 0.29,
-      "copy_distribution": {
-        "1": 4,
-        "0": 10
       }
     },
     {
@@ -538,6 +496,19 @@
       "copy_distribution": {
         "4": 1,
         "0": 13
+      }
+    },
+    {
+      "card_name": "Last Rites",
+      "appearances": 3,
+      "total_copies": 3,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 21.4,
+      "expected_copies": 0.21,
+      "copy_distribution": {
+        "1": 3,
+        "0": 11
       }
     },
     {
@@ -555,7 +526,7 @@
       }
     },
     {
-      "card_name": "Last Rites",
+      "card_name": "Go for the Throat",
       "appearances": 2,
       "total_copies": 2,
       "max_copies": 1,
@@ -565,6 +536,19 @@
       "copy_distribution": {
         "1": 2,
         "0": 12
+      }
+    },
+    {
+      "card_name": "Red Elemental Blast",
+      "appearances": 1,
+      "total_copies": 2,
+      "max_copies": 2,
+      "avg_copies": 2.0,
+      "inclusion_rate": 7.1,
+      "expected_copies": 0.14,
+      "copy_distribution": {
+        "2": 1,
+        "0": 13
       }
     },
     {
@@ -581,46 +565,7 @@
       }
     },
     {
-      "card_name": "Tithing Blade",
-      "appearances": 1,
-      "total_copies": 2,
-      "max_copies": 2,
-      "avg_copies": 2.0,
-      "inclusion_rate": 7.1,
-      "expected_copies": 0.14,
-      "copy_distribution": {
-        "2": 1,
-        "0": 13
-      }
-    },
-    {
-      "card_name": "Go for the Throat",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 7.1,
-      "expected_copies": 0.07,
-      "copy_distribution": {
-        "1": 1,
-        "0": 13
-      }
-    },
-    {
       "card_name": "Heritage Reclamation",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 7.1,
-      "expected_copies": 0.07,
-      "copy_distribution": {
-        "1": 1,
-        "0": 13
-      }
-    },
-    {
-      "card_name": "Unexpected Fangs",
       "appearances": 1,
       "total_copies": 1,
       "max_copies": 1,
