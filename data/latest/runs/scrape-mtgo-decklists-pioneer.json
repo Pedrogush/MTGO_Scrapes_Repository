@@ -1,21 +1,21 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-07T15:47:16Z",
+  "generated_at": "2026-04-07T17:36:57Z",
   "command": "scrape-mtgo-decklists-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 12,
+    "skipped": 1,
+    "cached": 13,
     "success": 1
   },
   "results": [
     {
       "scope": "mtgo-event",
-      "status": "cached",
+      "status": "skipped",
       "format": "pioneer",
-      "path": "archive/mtgo-decklists/pioneer/pioneer-league-2026-04-0310413.json",
-      "message": "Loaded 2 decks from archive."
+      "message": "https://www.mtgo.com/decklist/pioneer-league-2026-04-0710413: Event returned no decklists."
     },
     {
       "scope": "mtgo-event",
@@ -28,8 +28,8 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "pioneer",
-      "path": "archive/mtgo-decklists/pioneer/pioneer-league-2026-04-0510413.json",
-      "message": "Loaded 2 decks from archive."
+      "path": "archive/mtgo-decklists/pioneer/pioneer-league-2026-04-0610413.json",
+      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -44,6 +44,13 @@
       "format": "pioneer",
       "path": "archive/mtgo-decklists/pioneer/pioneer-challenge-32-2026-04-0512838142.json",
       "message": "Loaded 32 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "cached",
+      "format": "pioneer",
+      "path": "archive/mtgo-decklists/pioneer/pioneer-league-2026-04-0510413.json",
+      "message": "Loaded 2 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -72,6 +79,13 @@
       "format": "pioneer",
       "path": "archive/mtgo-decklists/pioneer/pioneer-challenge-32-2026-04-0312838110.json",
       "message": "Loaded 32 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "cached",
+      "format": "pioneer",
+      "path": "archive/mtgo-decklists/pioneer/pioneer-league-2026-04-0310413.json",
+      "message": "Loaded 2 decks from archive."
     },
     {
       "scope": "mtgo-event",
