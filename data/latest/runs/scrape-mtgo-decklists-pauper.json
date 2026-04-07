@@ -1,27 +1,20 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-07T03:23:03Z",
+  "generated_at": "2026-04-07T05:02:12Z",
   "command": "scrape-mtgo-decklists-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 1,
-    "cached": 10,
+    "cached": 9,
     "success": 1
   },
   "results": [
     {
       "scope": "mtgo-event",
-      "status": "skipped",
-      "format": "pauper",
-      "message": "https://www.mtgo.com/decklist/pauper-league-2026-04-0710405: Event returned no decklists."
-    },
-    {
-      "scope": "mtgo-event",
       "status": "cached",
       "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-0610405.json",
+      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-0210405.json",
       "message": "Loaded 1 decks from archive."
     },
     {
@@ -72,13 +65,6 @@
       "format": "pauper",
       "path": "archive/mtgo-decklists/pauper/pauper-challenge-32-2026-04-0212838101.json",
       "message": "Loaded 32 decks from archive."
-    },
-    {
-      "scope": "mtgo-event",
-      "status": "cached",
-      "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-0210405.json",
-      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-event",

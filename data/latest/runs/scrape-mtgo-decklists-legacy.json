@@ -1,21 +1,21 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-07T03:23:08Z",
+  "generated_at": "2026-04-07T05:02:07Z",
   "command": "scrape-mtgo-decklists-legacy",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 1,
-    "cached": 12,
-    "success": 1
+    "success": 2,
+    "cached": 12
   },
   "results": [
     {
       "scope": "mtgo-event",
-      "status": "hard-failure",
+      "status": "success",
       "format": "legacy",
-      "message": "https://www.mtgo.com/decklist/legacy-league-2026-04-0710381: Could not locate deck JSON payload"
+      "path": "archive/mtgo-decklists/legacy/legacy-league-2026-04-0710381.json",
+      "message": "Cached 6/6 decks."
     },
     {
       "scope": "mtgo-event",
@@ -28,15 +28,15 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "legacy",
-      "path": "archive/mtgo-decklists/legacy/legacy-showcase-qualifier-2026-04-0512838087.json",
-      "message": "Loaded 29 decks from archive."
+      "path": "archive/mtgo-decklists/legacy/legacy-challenge-32-2026-04-0512838143.json",
+      "message": "Loaded 32 decks from archive."
     },
     {
       "scope": "mtgo-event",
       "status": "cached",
       "format": "legacy",
-      "path": "archive/mtgo-decklists/legacy/legacy-challenge-32-2026-04-0512838143.json",
-      "message": "Loaded 32 decks from archive."
+      "path": "archive/mtgo-decklists/legacy/legacy-showcase-qualifier-2026-04-0512838087.json",
+      "message": "Loaded 29 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -63,15 +63,15 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "legacy",
-      "path": "archive/mtgo-decklists/legacy/legacy-challenge-32-2026-04-0412838121.json",
-      "message": "Loaded 32 decks from archive."
+      "path": "archive/mtgo-decklists/legacy/legacy-league-2026-04-0410381.json",
+      "message": "Loaded 3 decks from archive."
     },
     {
       "scope": "mtgo-event",
       "status": "cached",
       "format": "legacy",
-      "path": "archive/mtgo-decklists/legacy/legacy-league-2026-04-0410381.json",
-      "message": "Loaded 3 decks from archive."
+      "path": "archive/mtgo-decklists/legacy/legacy-challenge-32-2026-04-0412838121.json",
+      "message": "Loaded 32 decks from archive."
     },
     {
       "scope": "mtgo-event",

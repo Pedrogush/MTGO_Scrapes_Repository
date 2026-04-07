@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-07T03:22:18Z",
+  "generated_at": "2026-04-07T05:01:06Z",
   "command": "scrape-deck-texts-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 49,
-    "skipped": 321
+    "success": 47,
+    "skipped": 325
   },
   "results": [
     {
@@ -2894,31 +2894,49 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "deck_id": "7720055",
-      "path": "archive/deck-texts/pauper/7720055.json"
+      "path": "archive/deck-texts/pauper/7720055.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "deck_id": "7720056",
-      "path": "archive/deck-texts/pauper/7720056.json"
+      "path": "archive/deck-texts/pauper/7720056.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "deck_id": "7720057",
-      "path": "archive/deck-texts/pauper/7720057.json"
+      "path": "archive/deck-texts/pauper/7720057.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pauper",
+      "deck_id": "7720058",
+      "path": "archive/deck-texts/pauper/7720058.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
       "status": "success",
       "format": "pauper",
-      "deck_id": "7720058",
-      "path": "archive/deck-texts/pauper/7720058.json"
+      "deck_id": "7720129",
+      "path": "archive/deck-texts/pauper/7720129.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7720130",
+      "path": "archive/deck-texts/pauper/7720130.json"
     }
   ]
 }
