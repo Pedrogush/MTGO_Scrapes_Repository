@@ -1,15 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-07T15:47:40Z",
+  "generated_at": "2026-04-07T16:38:52Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 29,
-    "skipped": 31
+    "success": 30,
+    "skipped": 29
   },
   "results": [
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "4c-artifacts",
+      "path": "latest/radars/standard/4c-artifacts.json"
+    },
     {
       "scope": "archetype-radar",
       "status": "success",
@@ -23,6 +30,14 @@
       "format": "standard",
       "archetype": "4c-elementals",
       "path": "latest/radars/standard/4c-elementals.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "4c-harmonizer-combo",
+      "path": "latest/radars/standard/4c-harmonizer-combo.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -76,14 +91,6 @@
       "format": "standard",
       "archetype": "5c-ouroboroid",
       "path": "latest/radars/standard/5c-ouroboroid.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "allies",
-      "path": "latest/radars/standard/allies.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -193,14 +200,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "dimir-self-bounce",
-      "path": "latest/radars/standard/dimir-self-bounce.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "esper-self-bounce",
@@ -225,16 +224,16 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
-      "archetype": "grixis-discard",
-      "path": "latest/radars/standard/grixis-discard.json",
+      "archetype": "grixis-monument",
+      "path": "latest/radars/standard/grixis-monument.json",
       "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
-      "archetype": "grixis-monument",
-      "path": "latest/radars/standard/grixis-monument.json",
+      "archetype": "gruul-aggro",
+      "path": "latest/radars/standard/gruul-aggro.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -392,14 +391,6 @@
       "format": "standard",
       "archetype": "sultai-control",
       "path": "latest/radars/standard/sultai-control.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "sultai-ouroboroid",
-      "path": "latest/radars/standard/sultai-ouroboroid.json",
       "message": "No published decks were available for radar generation."
     },
     {

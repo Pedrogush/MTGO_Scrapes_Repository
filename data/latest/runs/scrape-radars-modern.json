@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-07T15:47:40Z",
+  "generated_at": "2026-04-07T16:38:52Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 48,
+    "success": 49,
     "skipped": 15
   },
   "results": [
@@ -222,6 +222,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
+      "archetype": "hardened-scales",
+      "path": "latest/radars/modern/hardened-scales.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
       "archetype": "hollow-one",
       "path": "latest/radars/modern/hollow-one.json"
     },
@@ -321,14 +328,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "merfolk",
-      "path": "latest/radars/modern/merfolk.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
       "archetype": "mill",
@@ -361,6 +360,14 @@
       "format": "modern",
       "archetype": "mono-green-tron",
       "path": "latest/radars/modern/mono-green-tron.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "modern",
+      "archetype": "naya-energy",
+      "path": "latest/radars/modern/naya-energy.json",
       "message": "No published decks were available for radar generation."
     },
     {
