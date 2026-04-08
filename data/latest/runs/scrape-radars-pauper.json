@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-08T15:47:57Z",
+  "generated_at": "2026-04-08T16:45:01Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 43,
-    "skipped": 18
+    "success": 46,
+    "skipped": 15
   },
   "results": [
     {
@@ -16,14 +16,6 @@
       "format": "pauper",
       "archetype": "4c-ephemerate",
       "path": "latest/radars/pauper/4c-ephemerate.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pauper",
-      "archetype": "4c-reanimator",
-      "path": "latest/radars/pauper/4c-reanimator.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -39,6 +31,13 @@
       "format": "pauper",
       "archetype": "azorius-faeries",
       "path": "latest/radars/pauper/azorius-faeries.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pauper",
+      "archetype": "black-burn",
+      "path": "latest/radars/pauper/black-burn.json"
     },
     {
       "scope": "archetype-radar",
@@ -86,11 +85,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "burn",
-      "path": "latest/radars/pauper/burn.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/burn.json"
     },
     {
       "scope": "archetype-radar",
@@ -280,11 +278,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "kiln-fiend",
-      "path": "latest/radars/pauper/kiln-fiend.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/kiln-fiend.json"
     },
     {
       "scope": "archetype-radar",

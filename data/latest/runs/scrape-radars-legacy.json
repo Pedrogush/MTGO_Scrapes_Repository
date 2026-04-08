@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-08T15:47:53Z",
+  "generated_at": "2026-04-08T16:44:47Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 52,
-    "skipped": 8
+    "success": 53,
+    "skipped": 7
   },
   "results": [
     {
@@ -135,6 +135,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "death-and-taxes-60-card",
+      "path": "latest/radars/legacy/death-and-taxes-60-card.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "death-and-taxes-yorion-black-white",
       "path": "latest/radars/legacy/death-and-taxes-yorion-black-white.json"
     },
@@ -186,13 +193,6 @@
       "format": "legacy",
       "archetype": "esper-control",
       "path": "latest/radars/legacy/esper-control.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "esper-vial",
-      "path": "latest/radars/legacy/esper-vial.json"
     },
     {
       "scope": "archetype-radar",
@@ -410,11 +410,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "sultai-tempo",
-      "path": "latest/radars/legacy/sultai-tempo.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/sultai-tempo.json"
     },
     {
       "scope": "archetype-radar",
