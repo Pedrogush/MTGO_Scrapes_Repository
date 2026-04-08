@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-07T23:28:07Z",
+  "generated_at": "2026-04-08T01:00:33Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 49,
-    "skipped": 15
+    "success": 45,
+    "skipped": 19
   },
   "results": [
     {
@@ -220,17 +220,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "hardened-scales",
-      "path": "latest/radars/modern/hardened-scales.json"
+      "path": "latest/radars/modern/hardened-scales.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "hollow-one",
-      "path": "latest/radars/modern/hollow-one.json"
+      "path": "latest/radars/modern/hollow-one.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -321,10 +323,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "mardu-genericblink",
-      "path": "latest/radars/modern/mardu-genericblink.json"
+      "path": "latest/radars/modern/mardu-genericblink.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -342,10 +345,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "mono-blue-tron",
-      "path": "latest/radars/modern/mono-blue-tron.json"
+      "path": "latest/radars/modern/mono-blue-tron.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
