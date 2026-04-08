@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-04-08T01:56:11Z",
+  "generated_at": "2026-04-08T03:25:33Z",
   "format": "modern",
   "source": "published-deck-texts",
   "archetype": {
@@ -11,6 +11,18 @@
   "total_decks_analyzed": 50,
   "decks_failed": 0,
   "mainboard_cards": [
+    {
+      "card_name": "Mox Opal",
+      "appearances": 50,
+      "total_copies": 200,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 50
+      }
+    },
     {
       "card_name": "Pinnacle Emissary",
       "appearances": 50,
@@ -25,18 +37,6 @@
     },
     {
       "card_name": "Mishra's Bauble",
-      "appearances": 50,
-      "total_copies": 200,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 50
-      }
-    },
-    {
-      "card_name": "Mox Opal",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -120,62 +120,62 @@
     {
       "card_name": "Tormod's Crypt",
       "appearances": 49,
-      "total_copies": 158,
+      "total_copies": 157,
       "max_copies": 4,
-      "avg_copies": 3.22,
+      "avg_copies": 3.2,
       "inclusion_rate": 98.0,
-      "expected_copies": 3.16,
+      "expected_copies": 3.14,
       "copy_distribution": {
-        "4": 13,
-        "3": 34,
+        "4": 12,
+        "3": 35,
         "2": 2,
+        "0": 1
+      }
+    },
+    {
+      "card_name": "Fiery Islet",
+      "appearances": 49,
+      "total_copies": 142,
+      "max_copies": 4,
+      "avg_copies": 2.9,
+      "inclusion_rate": 98.0,
+      "expected_copies": 2.84,
+      "copy_distribution": {
+        "4": 17,
+        "3": 12,
+        "2": 18,
+        "1": 2,
         "0": 1
       }
     },
     {
       "card_name": "Claws of Gix",
       "appearances": 46,
-      "total_copies": 141,
+      "total_copies": 140,
       "max_copies": 4,
-      "avg_copies": 3.07,
+      "avg_copies": 3.04,
       "inclusion_rate": 92.0,
-      "expected_copies": 2.82,
+      "expected_copies": 2.8,
       "copy_distribution": {
-        "4": 9,
-        "3": 33,
+        "4": 8,
+        "3": 34,
         "2": 2,
         "1": 2,
         "0": 4
       }
     },
     {
-      "card_name": "Fiery Islet",
-      "appearances": 49,
-      "total_copies": 140,
-      "max_copies": 4,
-      "avg_copies": 2.86,
-      "inclusion_rate": 98.0,
-      "expected_copies": 2.8,
-      "copy_distribution": {
-        "4": 16,
-        "3": 12,
-        "2": 19,
-        "1": 2,
-        "0": 1
-      }
-    },
-    {
       "card_name": "Metallic Rebuke",
       "appearances": 45,
-      "total_copies": 127,
+      "total_copies": 128,
       "max_copies": 4,
-      "avg_copies": 2.82,
+      "avg_copies": 2.84,
       "inclusion_rate": 90.0,
-      "expected_copies": 2.54,
+      "expected_copies": 2.56,
       "copy_distribution": {
         "4": 2,
-        "3": 33,
-        "2": 10,
+        "3": 34,
+        "2": 9,
         "0": 5
       }
     },
@@ -197,18 +197,18 @@
     },
     {
       "card_name": "Emry, Lurker of the Loch",
-      "appearances": 44,
-      "total_copies": 100,
+      "appearances": 45,
+      "total_copies": 102,
       "max_copies": 4,
       "avg_copies": 2.27,
-      "inclusion_rate": 88.0,
-      "expected_copies": 2.0,
+      "inclusion_rate": 90.0,
+      "expected_copies": 2.04,
       "copy_distribution": {
         "4": 1,
         "3": 14,
-        "2": 25,
+        "2": 26,
         "1": 4,
-        "0": 6
+        "0": 5
       }
     },
     {
@@ -229,15 +229,15 @@
     {
       "card_name": "Arcbound Ravager",
       "appearances": 40,
-      "total_copies": 70,
+      "total_copies": 71,
       "max_copies": 3,
-      "avg_copies": 1.75,
+      "avg_copies": 1.77,
       "inclusion_rate": 80.0,
-      "expected_copies": 1.4,
+      "expected_copies": 1.42,
       "copy_distribution": {
         "3": 1,
-        "2": 28,
-        "1": 11,
+        "2": 29,
+        "1": 10,
         "0": 10
       }
     },
@@ -271,19 +271,6 @@
       }
     },
     {
-      "card_name": "Skateboard",
-      "appearances": 49,
-      "total_copies": 49,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 98.0,
-      "expected_copies": 0.98,
-      "copy_distribution": {
-        "1": 49,
-        "0": 1
-      }
-    },
-    {
       "card_name": "Shadowspear",
       "appearances": 49,
       "total_copies": 49,
@@ -297,17 +284,45 @@
       }
     },
     {
+      "card_name": "Skateboard",
+      "appearances": 49,
+      "total_copies": 49,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 98.0,
+      "expected_copies": 0.98,
+      "copy_distribution": {
+        "1": 49,
+        "0": 1
+      }
+    },
+    {
       "card_name": "Shivan Reef",
-      "appearances": 37,
-      "total_copies": 44,
+      "appearances": 38,
+      "total_copies": 45,
       "max_copies": 2,
-      "avg_copies": 1.19,
-      "inclusion_rate": 74.0,
-      "expected_copies": 0.88,
+      "avg_copies": 1.18,
+      "inclusion_rate": 76.0,
+      "expected_copies": 0.9,
       "copy_distribution": {
         "2": 7,
-        "1": 30,
-        "0": 13
+        "1": 31,
+        "0": 12
+      }
+    },
+    {
+      "card_name": "Krang, Master Mind",
+      "appearances": 32,
+      "total_copies": 43,
+      "max_copies": 3,
+      "avg_copies": 1.34,
+      "inclusion_rate": 64.0,
+      "expected_copies": 0.86,
+      "copy_distribution": {
+        "3": 2,
+        "2": 7,
+        "1": 23,
+        "0": 18
       }
     },
     {
@@ -324,46 +339,31 @@
       }
     },
     {
-      "card_name": "Krang, Master Mind",
-      "appearances": 31,
-      "total_copies": 41,
-      "max_copies": 3,
-      "avg_copies": 1.32,
-      "inclusion_rate": 62.0,
-      "expected_copies": 0.82,
-      "copy_distribution": {
-        "3": 2,
-        "2": 6,
-        "1": 23,
-        "0": 19
-      }
-    },
-    {
       "card_name": "Thoughtcast",
-      "appearances": 9,
-      "total_copies": 24,
+      "appearances": 8,
+      "total_copies": 22,
       "max_copies": 4,
-      "avg_copies": 2.67,
-      "inclusion_rate": 18.0,
-      "expected_copies": 0.48,
+      "avg_copies": 2.75,
+      "inclusion_rate": 16.0,
+      "expected_copies": 0.44,
       "copy_distribution": {
         "4": 4,
-        "2": 3,
+        "2": 2,
         "1": 2,
-        "0": 41
+        "0": 42
       }
     },
     {
       "card_name": "Aether Spellbomb",
-      "appearances": 21,
-      "total_copies": 21,
+      "appearances": 20,
+      "total_copies": 20,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 42.0,
-      "expected_copies": 0.42,
+      "inclusion_rate": 40.0,
+      "expected_copies": 0.4,
       "copy_distribution": {
-        "1": 21,
-        "0": 29
+        "1": 20,
+        "0": 30
       }
     },
     {
@@ -398,16 +398,16 @@
     },
     {
       "card_name": "Scalding Tarn",
-      "appearances": 6,
-      "total_copies": 17,
+      "appearances": 5,
+      "total_copies": 14,
       "max_copies": 3,
-      "avg_copies": 2.83,
-      "inclusion_rate": 12.0,
-      "expected_copies": 0.34,
+      "avg_copies": 2.8,
+      "inclusion_rate": 10.0,
+      "expected_copies": 0.28,
       "copy_distribution": {
-        "3": 5,
+        "3": 4,
         "2": 1,
-        "0": 44
+        "0": 45
       }
     },
     {
@@ -479,20 +479,20 @@
       }
     },
     {
-      "card_name": "Thundering Falls",
-      "appearances": 5,
-      "total_copies": 5,
+      "card_name": "Salvage Titan",
+      "appearances": 4,
+      "total_copies": 4,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 10.0,
-      "expected_copies": 0.1,
+      "inclusion_rate": 8.0,
+      "expected_copies": 0.08,
       "copy_distribution": {
-        "1": 5,
-        "0": 45
+        "1": 4,
+        "0": 46
       }
     },
     {
-      "card_name": "Salvage Titan",
+      "card_name": "Thundering Falls",
       "appearances": 4,
       "total_copies": 4,
       "max_copies": 1,
@@ -758,59 +758,45 @@
     {
       "card_name": "Consign to Memory",
       "appearances": 47,
-      "total_copies": 104,
+      "total_copies": 105,
       "max_copies": 3,
-      "avg_copies": 2.21,
+      "avg_copies": 2.23,
       "inclusion_rate": 94.0,
-      "expected_copies": 2.08,
+      "expected_copies": 2.1,
       "copy_distribution": {
-        "3": 10,
-        "2": 37,
+        "3": 11,
+        "2": 36,
         "0": 3
       }
     },
     {
       "card_name": "Whipflare",
-      "appearances": 47,
-      "total_copies": 94,
+      "appearances": 48,
+      "total_copies": 96,
       "max_copies": 3,
       "avg_copies": 2.0,
-      "inclusion_rate": 94.0,
-      "expected_copies": 1.88,
+      "inclusion_rate": 96.0,
+      "expected_copies": 1.92,
       "copy_distribution": {
         "3": 4,
-        "2": 39,
+        "2": 40,
         "1": 4,
-        "0": 3
+        "0": 2
       }
     },
     {
       "card_name": "Galvanic Blast",
       "appearances": 46,
-      "total_copies": 92,
+      "total_copies": 91,
       "max_copies": 3,
-      "avg_copies": 2.0,
+      "avg_copies": 1.98,
       "inclusion_rate": 92.0,
-      "expected_copies": 1.84,
+      "expected_copies": 1.82,
       "copy_distribution": {
-        "3": 6,
-        "2": 34,
+        "3": 5,
+        "2": 35,
         "1": 6,
         "0": 4
-      }
-    },
-    {
-      "card_name": "Vexing Bauble",
-      "appearances": 41,
-      "total_copies": 53,
-      "max_copies": 2,
-      "avg_copies": 1.29,
-      "inclusion_rate": 82.0,
-      "expected_copies": 1.06,
-      "copy_distribution": {
-        "2": 12,
-        "1": 29,
-        "0": 9
       }
     },
     {
@@ -825,6 +811,20 @@
         "2": 10,
         "1": 32,
         "0": 8
+      }
+    },
+    {
+      "card_name": "Vexing Bauble",
+      "appearances": 40,
+      "total_copies": 52,
+      "max_copies": 2,
+      "avg_copies": 1.3,
+      "inclusion_rate": 80.0,
+      "expected_copies": 1.04,
+      "copy_distribution": {
+        "2": 12,
+        "1": 28,
+        "0": 10
       }
     },
     {
@@ -845,56 +845,56 @@
     {
       "card_name": "Swan Song",
       "appearances": 27,
-      "total_copies": 37,
+      "total_copies": 38,
       "max_copies": 2,
-      "avg_copies": 1.37,
+      "avg_copies": 1.41,
       "inclusion_rate": 54.0,
-      "expected_copies": 0.74,
+      "expected_copies": 0.76,
       "copy_distribution": {
-        "2": 10,
-        "1": 17,
+        "2": 11,
+        "1": 16,
         "0": 23
       }
     },
     {
       "card_name": "Grafdigger's Cage",
-      "appearances": 33,
-      "total_copies": 33,
+      "appearances": 32,
+      "total_copies": 32,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 66.0,
-      "expected_copies": 0.66,
+      "inclusion_rate": 64.0,
+      "expected_copies": 0.64,
       "copy_distribution": {
-        "1": 33,
-        "0": 17
+        "1": 32,
+        "0": 18
       }
     },
     {
       "card_name": "Metallic Rebuke",
-      "appearances": 15,
-      "total_copies": 19,
+      "appearances": 14,
+      "total_copies": 18,
       "max_copies": 2,
-      "avg_copies": 1.27,
-      "inclusion_rate": 30.0,
-      "expected_copies": 0.38,
+      "avg_copies": 1.29,
+      "inclusion_rate": 28.0,
+      "expected_copies": 0.36,
       "copy_distribution": {
         "2": 4,
-        "1": 11,
-        "0": 35
+        "1": 10,
+        "0": 36
       }
     },
     {
       "card_name": "Harbinger of the Seas",
-      "appearances": 12,
-      "total_copies": 15,
+      "appearances": 13,
+      "total_copies": 16,
       "max_copies": 2,
-      "avg_copies": 1.25,
-      "inclusion_rate": 24.0,
-      "expected_copies": 0.3,
+      "avg_copies": 1.23,
+      "inclusion_rate": 26.0,
+      "expected_copies": 0.32,
       "copy_distribution": {
         "2": 3,
-        "1": 9,
-        "0": 38
+        "1": 10,
+        "0": 37
       }
     },
     {
@@ -927,16 +927,16 @@
     },
     {
       "card_name": "Emry, Lurker of the Loch",
-      "appearances": 7,
-      "total_copies": 11,
+      "appearances": 6,
+      "total_copies": 9,
       "max_copies": 2,
-      "avg_copies": 1.57,
-      "inclusion_rate": 14.0,
-      "expected_copies": 0.22,
+      "avg_copies": 1.5,
+      "inclusion_rate": 12.0,
+      "expected_copies": 0.18,
       "copy_distribution": {
-        "2": 4,
+        "2": 3,
         "1": 3,
-        "0": 43
+        "0": 44
       }
     },
     {
@@ -953,6 +953,20 @@
       }
     },
     {
+      "card_name": "Ashiok, Dream Render",
+      "appearances": 4,
+      "total_copies": 6,
+      "max_copies": 3,
+      "avg_copies": 1.5,
+      "inclusion_rate": 8.0,
+      "expected_copies": 0.12,
+      "copy_distribution": {
+        "3": 1,
+        "1": 3,
+        "0": 46
+      }
+    },
+    {
       "card_name": "Test of Talents",
       "appearances": 3,
       "total_copies": 6,
@@ -964,20 +978,6 @@
         "3": 1,
         "2": 1,
         "1": 1,
-        "0": 47
-      }
-    },
-    {
-      "card_name": "Ashiok, Dream Render",
-      "appearances": 3,
-      "total_copies": 5,
-      "max_copies": 3,
-      "avg_copies": 1.67,
-      "inclusion_rate": 6.0,
-      "expected_copies": 0.1,
-      "copy_distribution": {
-        "3": 1,
-        "1": 2,
         "0": 47
       }
     },
