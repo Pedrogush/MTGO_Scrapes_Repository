@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-08T03:25:33Z",
+  "generated_at": "2026-04-08T05:05:37Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 46,
-    "skipped": 18
+    "success": 47,
+    "skipped": 17
   },
   "results": [
     {
@@ -382,11 +382,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "orzhov-genericblink",
-      "path": "latest/radars/modern/orzhov-genericblink.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/orzhov-genericblink.json"
     },
     {
       "scope": "archetype-radar",
