@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-09T15:50:10Z",
+  "generated_at": "2026-04-09T16:44:34Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 31,
-    "skipped": 340
+    "success": 30,
+    "skipped": 342
   },
   "results": [
     {
@@ -29,14 +29,6 @@
       "format": "standard",
       "archetype": "4c-control",
       "path": "latest/decks/standard/4c-control.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "4c-elementals",
-      "path": "latest/decks/standard/4c-elementals.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -91,6 +83,14 @@
       "format": "standard",
       "archetype": "5c-ouroboroid",
       "path": "latest/decks/standard/5c-ouroboroid.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "allies",
+      "path": "latest/decks/standard/allies.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -196,6 +196,14 @@
       "format": "standard",
       "archetype": "dimir-midrange",
       "path": "latest/decks/standard/dimir-midrange.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "dimir-self-bounce",
+      "path": "latest/decks/standard/dimir-self-bounce.json",
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -2941,10 +2949,11 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7723559",
-      "path": "archive/deck-texts/standard/7723559.json"
+      "path": "archive/deck-texts/standard/7723559.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }

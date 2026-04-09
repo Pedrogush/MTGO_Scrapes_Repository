@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-09T15:51:43Z",
+  "generated_at": "2026-04-09T16:47:15Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 21,
+    "skipped": 22,
     "success": 43
   },
   "results": [
@@ -252,6 +252,14 @@
       "format": "modern",
       "archetype": "indomitable-creativity",
       "path": "latest/radars/modern/indomitable-creativity.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "modern",
+      "archetype": "infect",
+      "path": "latest/radars/modern/infect.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
