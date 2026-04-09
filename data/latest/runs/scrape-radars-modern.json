@@ -1,21 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-08T23:29:51Z",
+  "generated_at": "2026-04-09T00:52:31Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 47,
-    "skipped": 17
+    "skipped": 21,
+    "success": 43
   },
   "results": [
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "4-5c-omnath",
-      "path": "latest/radars/modern/4-5c-omnath.json"
+      "path": "latest/radars/modern/4-5c-omnath.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -35,10 +36,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "5c-midrange",
-      "path": "latest/radars/modern/5c-midrange.json"
+      "path": "latest/radars/modern/5c-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -114,10 +116,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "dimir-murktide",
-      "path": "latest/radars/modern/dimir-murktide.json"
+      "path": "latest/radars/modern/dimir-murktide.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -185,10 +188,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "grixis-control",
-      "path": "latest/radars/modern/grixis-control.json"
+      "path": "latest/radars/modern/grixis-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
