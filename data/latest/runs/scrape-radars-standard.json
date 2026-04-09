@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-09T01:56:06Z",
+  "generated_at": "2026-04-09T03:24:07Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 29,
-    "skipped": 31
+    "success": 30,
+    "skipped": 30
   },
   "results": [
     {
@@ -336,11 +336,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "standard",
       "archetype": "mono-white-momo",
-      "path": "latest/radars/standard/mono-white-momo.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/standard/mono-white-momo.json"
     },
     {
       "scope": "archetype-radar",
