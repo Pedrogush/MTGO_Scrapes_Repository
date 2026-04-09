@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-09T20:32:21Z",
+  "generated_at": "2026-04-09T21:32:20Z",
   "command": "scrape-deck-texts-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 45,
-    "skipped": 310
+    "success": 46,
+    "skipped": 311
   },
   "results": [
     {
@@ -2799,10 +2799,25 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "deck_id": "7723844",
-      "path": "archive/deck-texts/pauper/7723844.json"
+      "path": "archive/deck-texts/pauper/7723844.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7723962",
+      "path": "archive/deck-texts/pauper/7723962.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7723963",
+      "path": "archive/deck-texts/pauper/7723963.json"
     }
   ]
 }

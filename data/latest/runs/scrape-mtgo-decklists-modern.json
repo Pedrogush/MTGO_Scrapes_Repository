@@ -1,15 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-09T20:34:22Z",
+  "generated_at": "2026-04-09T21:34:58Z",
   "command": "scrape-mtgo-decklists-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
+    "skipped": 1,
     "cached": 17,
     "success": 1
   },
   "results": [
+    {
+      "scope": "mtgo-event",
+      "status": "skipped",
+      "format": "modern",
+      "message": "https://www.mtgo.com/decklist/modern-challenge-64-2026-04-0912838854: Event returned no decklists."
+    },
     {
       "scope": "mtgo-event",
       "status": "cached",
