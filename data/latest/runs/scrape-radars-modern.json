@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-10T01:56:25Z",
+  "generated_at": "2026-04-10T03:26:06Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 23,
-    "success": 42
+    "skipped": 21,
+    "success": 44
   },
   "results": [
     {
@@ -58,11 +58,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "asmo-food",
-      "path": "latest/radars/modern/asmo-food.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/asmo-food.json"
     },
     {
       "scope": "archetype-radar",
@@ -327,11 +326,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "mardu-energy",
-      "path": "latest/radars/modern/mardu-energy.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/mardu-energy.json"
     },
     {
       "scope": "archetype-radar",
