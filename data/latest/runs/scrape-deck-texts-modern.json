@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-10T07:52:39Z",
+  "generated_at": "2026-04-10T08:47:17Z",
   "command": "scrape-deck-texts-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 45,
-    "skipped": 568
+    "success": 43,
+    "skipped": 570
   },
   "results": [
     {
@@ -1405,14 +1405,6 @@
       "format": "modern",
       "deck_id": "7716116",
       "path": "archive/deck-texts/modern/7716116.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
-      "deck_id": "7716119",
-      "path": "archive/deck-texts/modern/7716119.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -4849,24 +4841,34 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7724498",
-      "path": "archive/deck-texts/modern/7724498.json"
+      "path": "archive/deck-texts/modern/7724498.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7724500",
-      "path": "archive/deck-texts/modern/7724500.json"
+      "path": "archive/deck-texts/modern/7724500.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "modern",
+      "deck_id": "7724501",
+      "path": "archive/deck-texts/modern/7724501.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
       "status": "success",
       "format": "modern",
-      "deck_id": "7724501",
-      "path": "archive/deck-texts/modern/7724501.json"
+      "deck_id": "7724528",
+      "path": "archive/deck-texts/modern/7724528.json"
     }
   ]
 }
