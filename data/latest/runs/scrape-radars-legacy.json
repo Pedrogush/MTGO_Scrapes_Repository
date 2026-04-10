@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-10T15:35:08Z",
+  "generated_at": "2026-04-10T16:36:59Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 51,
-    "skipped": 9
+    "success": 50,
+    "skipped": 10
   },
   "results": [
     {
@@ -72,14 +72,6 @@
       "format": "legacy",
       "archetype": "blue-cloudpost",
       "path": "latest/radars/legacy/blue-cloudpost.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "blue-dredge",
-      "path": "latest/radars/legacy/blue-dredge.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -148,10 +140,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
-      "archetype": "death-and-taxes-yorion-mono-white",
-      "path": "latest/radars/legacy/death-and-taxes-yorion-mono-white.json"
+      "archetype": "death-and-taxes-yorion-red-white",
+      "path": "latest/radars/legacy/death-and-taxes-yorion-red-white.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -187,6 +180,14 @@
       "format": "legacy",
       "archetype": "eldrazi",
       "path": "latest/radars/legacy/eldrazi.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "elves",
+      "path": "latest/radars/legacy/elves.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

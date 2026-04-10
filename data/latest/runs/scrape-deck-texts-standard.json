@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-10T15:33:01Z",
+  "generated_at": "2026-04-10T16:33:55Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
@@ -29,6 +29,14 @@
       "format": "standard",
       "archetype": "4c-control",
       "path": "latest/decks/standard/4c-control.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "4c-elementals",
+      "path": "latest/decks/standard/4c-elementals.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -196,14 +204,6 @@
       "format": "standard",
       "archetype": "dimir-midrange",
       "path": "latest/decks/standard/dimir-midrange.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "dimir-self-bounce",
-      "path": "latest/decks/standard/dimir-self-bounce.json",
-      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",

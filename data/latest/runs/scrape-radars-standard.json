@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-10T15:35:12Z",
+  "generated_at": "2026-04-10T16:37:03Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
@@ -23,6 +23,14 @@
       "format": "standard",
       "archetype": "4c-control",
       "path": "latest/radars/standard/4c-control.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "4c-elementals",
+      "path": "latest/radars/standard/4c-elementals.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -198,14 +206,6 @@
       "format": "standard",
       "archetype": "dimir-midrange",
       "path": "latest/radars/standard/dimir-midrange.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "dimir-self-bounce",
-      "path": "latest/radars/standard/dimir-self-bounce.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
