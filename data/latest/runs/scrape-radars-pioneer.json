@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-09T23:29:51Z",
+  "generated_at": "2026-04-10T01:00:44Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 15,
-    "success": 34
+    "skipped": 18,
+    "success": 31
   },
   "results": [
     {
@@ -49,10 +49,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "5c-legends",
-      "path": "latest/radars/pioneer/5c-legends.json"
+      "path": "latest/radars/pioneer/5c-legends.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -108,10 +109,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "boros-hammer-time",
-      "path": "latest/radars/pioneer/boros-hammer-time.json"
+      "path": "latest/radars/pioneer/boros-hammer-time.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -254,10 +256,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "mono-white-humans",
-      "path": "latest/radars/pioneer/mono-white-humans.json"
+      "path": "latest/radars/pioneer/mono-white-humans.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
