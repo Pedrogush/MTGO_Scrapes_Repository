@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-10T23:27:52Z",
+  "generated_at": "2026-04-11T00:57:34Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 29,
-    "skipped": 32
+    "success": 28,
+    "skipped": 33
   },
   "results": [
     {
@@ -43,10 +43,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "4c-kona",
-      "path": "latest/radars/standard/4c-kona.json"
+      "path": "latest/radars/standard/4c-kona.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
