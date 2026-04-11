@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-11T22:26:41Z",
+  "generated_at": "2026-04-11T23:28:28Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 17,
-    "success": 48
+    "skipped": 16,
+    "success": 49
   },
   "results": [
     {
@@ -324,11 +324,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "mardu-genericblink",
-      "path": "latest/radars/modern/mardu-genericblink.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/mardu-genericblink.json"
     },
     {
       "scope": "archetype-radar",

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-11T22:26:30Z",
+  "generated_at": "2026-04-11T23:28:26Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 8,
-    "success": 17
+    "skipped": 7,
+    "success": 18
   },
   "results": [
     {
@@ -35,11 +35,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "blue-tinker",
-      "path": "latest/radars/vintage/blue-tinker.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/vintage/blue-tinker.json"
     },
     {
       "scope": "archetype-radar",
