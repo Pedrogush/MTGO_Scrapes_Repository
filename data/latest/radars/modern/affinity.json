@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-04-11T13:41:32Z",
+  "generated_at": "2026-04-11T14:27:39Z",
   "format": "modern",
   "source": "published-deck-texts",
   "archetype": {
@@ -13,6 +13,18 @@
   "mainboard_cards": [
     {
       "card_name": "Pinnacle Emissary",
+      "appearances": 50,
+      "total_copies": 200,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 50
+      }
+    },
+    {
+      "card_name": "Mishra's Bauble",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -37,18 +49,6 @@
     },
     {
       "card_name": "Urza's Saga",
-      "appearances": 50,
-      "total_copies": 200,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 50
-      }
-    },
-    {
-      "card_name": "Mishra's Bauble",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -133,15 +133,15 @@
     {
       "card_name": "Claws of Gix",
       "appearances": 48,
-      "total_copies": 149,
+      "total_copies": 148,
       "max_copies": 4,
-      "avg_copies": 3.1,
+      "avg_copies": 3.08,
       "inclusion_rate": 96.0,
-      "expected_copies": 2.98,
+      "expected_copies": 2.96,
       "copy_distribution": {
         "4": 6,
-        "3": 41,
-        "2": 1,
+        "3": 40,
+        "2": 2,
         "0": 2
       }
     },
@@ -210,29 +210,44 @@
     {
       "card_name": "Steam Vents",
       "appearances": 50,
-      "total_copies": 81,
+      "total_copies": 82,
       "max_copies": 3,
-      "avg_copies": 1.62,
+      "avg_copies": 1.64,
       "inclusion_rate": 100.0,
-      "expected_copies": 1.62,
+      "expected_copies": 1.64,
       "copy_distribution": {
         "3": 2,
-        "2": 27,
-        "1": 21
+        "2": 28,
+        "1": 20
       }
     },
     {
       "card_name": "Arcbound Ravager",
       "appearances": 43,
-      "total_copies": 71,
+      "total_copies": 72,
       "max_copies": 2,
-      "avg_copies": 1.65,
+      "avg_copies": 1.67,
       "inclusion_rate": 86.0,
-      "expected_copies": 1.42,
+      "expected_copies": 1.44,
       "copy_distribution": {
-        "2": 28,
-        "1": 15,
+        "2": 29,
+        "1": 14,
         "0": 7
+      }
+    },
+    {
+      "card_name": "Welding Jar",
+      "appearances": 39,
+      "total_copies": 53,
+      "max_copies": 4,
+      "avg_copies": 1.36,
+      "inclusion_rate": 78.0,
+      "expected_copies": 1.06,
+      "copy_distribution": {
+        "4": 2,
+        "2": 8,
+        "1": 29,
+        "0": 11
       }
     },
     {
@@ -246,21 +261,6 @@
       "copy_distribution": {
         "2": 2,
         "1": 48
-      }
-    },
-    {
-      "card_name": "Welding Jar",
-      "appearances": 39,
-      "total_copies": 52,
-      "max_copies": 4,
-      "avg_copies": 1.33,
-      "inclusion_rate": 78.0,
-      "expected_copies": 1.04,
-      "copy_distribution": {
-        "4": 2,
-        "2": 7,
-        "1": 30,
-        "0": 11
       }
     },
     {
@@ -291,72 +291,72 @@
     },
     {
       "card_name": "Pithing Needle",
-      "appearances": 43,
-      "total_copies": 43,
+      "appearances": 42,
+      "total_copies": 42,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 86.0,
-      "expected_copies": 0.86,
+      "inclusion_rate": 84.0,
+      "expected_copies": 0.84,
       "copy_distribution": {
-        "1": 43,
-        "0": 7
+        "1": 42,
+        "0": 8
       }
     },
     {
       "card_name": "Shivan Reef",
-      "appearances": 37,
-      "total_copies": 43,
+      "appearances": 36,
+      "total_copies": 42,
       "max_copies": 2,
-      "avg_copies": 1.16,
-      "inclusion_rate": 74.0,
-      "expected_copies": 0.86,
+      "avg_copies": 1.17,
+      "inclusion_rate": 72.0,
+      "expected_copies": 0.84,
       "copy_distribution": {
         "2": 6,
-        "1": 31,
-        "0": 13
+        "1": 30,
+        "0": 14
       }
     },
     {
       "card_name": "Preordain",
-      "appearances": 15,
-      "total_copies": 39,
+      "appearances": 16,
+      "total_copies": 42,
       "max_copies": 3,
-      "avg_copies": 2.6,
-      "inclusion_rate": 30.0,
-      "expected_copies": 0.78,
+      "avg_copies": 2.62,
+      "inclusion_rate": 32.0,
+      "expected_copies": 0.84,
       "copy_distribution": {
-        "3": 9,
+        "3": 10,
         "2": 6,
-        "0": 35
+        "0": 34
       }
     },
     {
       "card_name": "Krang, Master Mind",
-      "appearances": 23,
-      "total_copies": 27,
+      "appearances": 22,
+      "total_copies": 26,
       "max_copies": 2,
-      "avg_copies": 1.17,
-      "inclusion_rate": 46.0,
-      "expected_copies": 0.54,
+      "avg_copies": 1.18,
+      "inclusion_rate": 44.0,
+      "expected_copies": 0.52,
       "copy_distribution": {
         "2": 4,
-        "1": 19,
-        "0": 27
+        "1": 18,
+        "0": 28
       }
     },
     {
       "card_name": "Ravenous Robots",
-      "appearances": 12,
-      "total_copies": 24,
+      "appearances": 11,
+      "total_copies": 22,
       "max_copies": 4,
       "avg_copies": 2.0,
-      "inclusion_rate": 24.0,
-      "expected_copies": 0.48,
+      "inclusion_rate": 22.0,
+      "expected_copies": 0.44,
       "copy_distribution": {
         "4": 1,
-        "2": 9,
+        "2": 8,
         "1": 2,
-        "0": 38
+        "0": 39
       }
     },
     {
@@ -693,29 +693,29 @@
     },
     {
       "card_name": "Consign to Memory",
-      "appearances": 46,
-      "total_copies": 107,
+      "appearances": 45,
+      "total_copies": 104,
       "max_copies": 3,
-      "avg_copies": 2.33,
-      "inclusion_rate": 92.0,
-      "expected_copies": 2.14,
+      "avg_copies": 2.31,
+      "inclusion_rate": 90.0,
+      "expected_copies": 2.08,
       "copy_distribution": {
-        "3": 15,
+        "3": 14,
         "2": 31,
-        "0": 4
+        "0": 5
       }
     },
     {
       "card_name": "Whipflare",
       "appearances": 46,
-      "total_copies": 94,
+      "total_copies": 95,
       "max_copies": 3,
-      "avg_copies": 2.04,
+      "avg_copies": 2.07,
       "inclusion_rate": 92.0,
-      "expected_copies": 1.88,
+      "expected_copies": 1.9,
       "copy_distribution": {
-        "3": 2,
-        "2": 44,
+        "3": 3,
+        "2": 43,
         "0": 4
       }
     },
@@ -736,16 +736,16 @@
     },
     {
       "card_name": "Mystical Dispute",
-      "appearances": 45,
-      "total_copies": 59,
+      "appearances": 44,
+      "total_copies": 58,
       "max_copies": 2,
-      "avg_copies": 1.31,
-      "inclusion_rate": 90.0,
-      "expected_copies": 1.18,
+      "avg_copies": 1.32,
+      "inclusion_rate": 88.0,
+      "expected_copies": 1.16,
       "copy_distribution": {
         "2": 14,
-        "1": 31,
-        "0": 5
+        "1": 30,
+        "0": 6
       }
     },
     {
@@ -763,44 +763,44 @@
       }
     },
     {
-      "card_name": "Swan Song",
-      "appearances": 35,
+      "card_name": "Force of Negation",
+      "appearances": 22,
       "total_copies": 45,
-      "max_copies": 2,
-      "avg_copies": 1.29,
-      "inclusion_rate": 70.0,
+      "max_copies": 3,
+      "avg_copies": 2.05,
+      "inclusion_rate": 44.0,
       "expected_copies": 0.9,
       "copy_distribution": {
-        "2": 10,
-        "1": 25,
-        "0": 15
+        "3": 1,
+        "2": 21,
+        "0": 28
       }
     },
     {
-      "card_name": "Force of Negation",
-      "appearances": 21,
+      "card_name": "Swan Song",
+      "appearances": 34,
       "total_copies": 43,
-      "max_copies": 3,
-      "avg_copies": 2.05,
-      "inclusion_rate": 42.0,
+      "max_copies": 2,
+      "avg_copies": 1.26,
+      "inclusion_rate": 68.0,
       "expected_copies": 0.86,
       "copy_distribution": {
-        "3": 1,
-        "2": 20,
-        "0": 29
+        "2": 9,
+        "1": 25,
+        "0": 16
       }
     },
     {
       "card_name": "Grafdigger's Cage",
-      "appearances": 35,
-      "total_copies": 35,
+      "appearances": 36,
+      "total_copies": 36,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 70.0,
-      "expected_copies": 0.7,
+      "inclusion_rate": 72.0,
+      "expected_copies": 0.72,
       "copy_distribution": {
-        "1": 35,
-        "0": 15
+        "1": 36,
+        "0": 14
       }
     },
     {
@@ -834,16 +834,16 @@
     },
     {
       "card_name": "Strix Serenade",
-      "appearances": 9,
-      "total_copies": 14,
+      "appearances": 8,
+      "total_copies": 13,
       "max_copies": 2,
-      "avg_copies": 1.56,
-      "inclusion_rate": 18.0,
-      "expected_copies": 0.28,
+      "avg_copies": 1.62,
+      "inclusion_rate": 16.0,
+      "expected_copies": 0.26,
       "copy_distribution": {
         "2": 5,
-        "1": 4,
-        "0": 41
+        "1": 3,
+        "0": 42
       }
     },
     {
@@ -876,15 +876,15 @@
     },
     {
       "card_name": "Pithing Needle",
-      "appearances": 6,
-      "total_copies": 6,
+      "appearances": 7,
+      "total_copies": 7,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 12.0,
-      "expected_copies": 0.12,
+      "inclusion_rate": 14.0,
+      "expected_copies": 0.14,
       "copy_distribution": {
-        "1": 6,
-        "0": 44
+        "1": 7,
+        "0": 43
       }
     },
     {
@@ -902,20 +902,21 @@
       }
     },
     {
-      "card_name": "Test of Talents",
-      "appearances": 1,
-      "total_copies": 3,
+      "card_name": "Hurkyl's Recall",
+      "appearances": 2,
+      "total_copies": 4,
       "max_copies": 3,
-      "avg_copies": 3.0,
-      "inclusion_rate": 2.0,
-      "expected_copies": 0.06,
+      "avg_copies": 2.0,
+      "inclusion_rate": 4.0,
+      "expected_copies": 0.08,
       "copy_distribution": {
         "3": 1,
-        "0": 49
+        "1": 1,
+        "0": 48
       }
     },
     {
-      "card_name": "Hurkyl's Recall",
+      "card_name": "Test of Talents",
       "appearances": 1,
       "total_copies": 3,
       "max_copies": 3,
