@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-11T15:25:20Z",
+  "generated_at": "2026-04-11T16:25:58Z",
   "command": "scrape-deck-texts-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 47,
-    "skipped": 545
+    "success": 46,
+    "skipped": 546
   },
   "results": [
     {
@@ -61,13 +61,6 @@
       "format": "modern",
       "archetype": "amulet-titan",
       "path": "latest/decks/modern/amulet-titan.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "success",
-      "format": "modern",
-      "archetype": "asmo-food",
-      "path": "latest/decks/modern/asmo-food.json"
     },
     {
       "scope": "archetype-decks",
@@ -214,14 +207,6 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "hardened-scales",
-      "path": "latest/decks/modern/hardened-scales.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
       "status": "success",
       "format": "modern",
       "archetype": "hollow-one",
@@ -354,6 +339,14 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "modern",
+      "archetype": "mono-green-tron",
+      "path": "latest/decks/modern/mono-green-tron.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "modern",
       "archetype": "naya-energy",
       "path": "latest/decks/modern/naya-energy.json",
       "message": "No decks found within the last 7 days."
@@ -415,6 +408,13 @@
       "format": "modern",
       "archetype": "sultai-midrange",
       "path": "latest/decks/modern/sultai-midrange.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "modern",
+      "archetype": "temur-midrange",
+      "path": "latest/decks/modern/temur-midrange.json"
     },
     {
       "scope": "archetype-decks",
@@ -3536,14 +3536,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
-      "deck_id": "7724305",
-      "path": "archive/deck-texts/modern/7724305.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
       "deck_id": "7724351",
       "path": "archive/deck-texts/modern/7724351.json",
       "message": "Reused existing published deck-text blob."
@@ -3811,6 +3803,13 @@
       "deck_id": "7726111",
       "path": "archive/deck-texts/modern/7726111.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "modern",
+      "deck_id": "7726112",
+      "path": "archive/deck-texts/modern/7726112.json"
     },
     {
       "scope": "deck-text",
@@ -4686,17 +4685,19 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7727220",
-      "path": "archive/deck-texts/modern/7727220.json"
+      "path": "archive/deck-texts/modern/7727220.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7727222",
-      "path": "archive/deck-texts/modern/7727222.json"
+      "path": "archive/deck-texts/modern/7727222.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }

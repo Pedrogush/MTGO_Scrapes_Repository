@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-11T15:29:44Z",
+  "generated_at": "2026-04-11T16:28:50Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 30,
-    "skipped": 31
+    "skipped": 32
   },
   "results": [
     {
@@ -188,6 +188,14 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
+      "archetype": "boros-tokens",
+      "path": "latest/radars/standard/boros-tokens.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
       "archetype": "dimir-control",
       "path": "latest/radars/standard/dimir-control.json",
       "message": "No published decks were available for radar generation."
@@ -330,6 +338,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "jeskai-tempo",
+      "path": "latest/radars/standard/jeskai-tempo.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "mono-green-landfall",
@@ -423,14 +439,6 @@
       "format": "standard",
       "archetype": "temur-battlecrier-combo",
       "path": "latest/radars/standard/temur-battlecrier-combo.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "temur-floodcaller-combo",
-      "path": "latest/radars/standard/temur-floodcaller-combo.json",
       "message": "No published decks were available for radar generation."
     },
     {

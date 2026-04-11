@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-11T15:29:46Z",
+  "generated_at": "2026-04-11T16:28:53Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 18,
-    "success": 47
+    "skipped": 17,
+    "success": 48
   },
   "results": [
     {
@@ -223,14 +223,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "hardened-scales",
-      "path": "latest/radars/modern/hardened-scales.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
       "archetype": "hollow-one",
@@ -439,6 +431,13 @@
       "format": "modern",
       "archetype": "sultai-midrange",
       "path": "latest/radars/modern/sultai-midrange.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "temur-midrange",
+      "path": "latest/radars/modern/temur-midrange.json"
     },
     {
       "scope": "archetype-radar",

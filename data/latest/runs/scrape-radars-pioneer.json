@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-11T15:29:47Z",
+  "generated_at": "2026-04-11T16:28:55Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 23,
-    "success": 25
+    "success": 26
   },
   "results": [
     {
@@ -301,6 +301,13 @@
       "format": "pioneer",
       "archetype": "rakdos-midrange",
       "path": "latest/radars/pioneer/rakdos-midrange.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "rakdos-prowess",
+      "path": "latest/radars/pioneer/rakdos-prowess.json"
     },
     {
       "scope": "archetype-radar",

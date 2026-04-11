@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-11T15:29:46Z",
+  "generated_at": "2026-04-11T16:28:52Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 8,
-    "success": 16
+    "success": 17
   },
   "results": [
     {
@@ -17,6 +17,13 @@
       "archetype": "azorius-initiative",
       "path": "latest/radars/vintage/azorius-initiative.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "blue-control",
+      "path": "latest/radars/vintage/blue-control.json"
     },
     {
       "scope": "archetype-radar",
