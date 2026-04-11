@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-11T01:56:16Z",
+  "generated_at": "2026-04-11T03:20:48Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 45,
-    "skipped": 15
+    "success": 46,
+    "skipped": 14
   },
   "results": [
     {
@@ -338,11 +338,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "ninjas",
-      "path": "latest/radars/legacy/ninjas.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/ninjas.json"
     },
     {
       "scope": "archetype-radar",
