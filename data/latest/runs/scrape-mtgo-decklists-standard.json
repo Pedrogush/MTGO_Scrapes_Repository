@@ -1,13 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-12T22:26:19Z",
+  "generated_at": "2026-04-12T23:26:35Z",
   "command": "scrape-mtgo-decklists-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 12,
-    "skipped": 1,
+    "cached": 13,
     "success": 1
   },
   "results": [
@@ -27,15 +26,16 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "skipped",
+      "status": "cached",
       "format": "standard",
-      "message": "https://www.mtgo.com/decklist/standard-challenge-32-2026-04-0212838882: Event returned no decklists."
+      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-1112838882.json",
+      "message": "Loaded 32 decks from archive."
     },
     {
       "scope": "mtgo-event",
       "status": "cached",
       "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-league-2026-04-0210429.json",
+      "path": "archive/mtgo-decklists/standard/standard-league-2026-04-1110429.json",
       "message": "Loaded 1 decks from archive."
     },
     {
