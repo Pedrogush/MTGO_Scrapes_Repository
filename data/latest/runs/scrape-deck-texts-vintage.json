@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-12T15:25:59Z",
+  "generated_at": "2026-04-12T16:25:53Z",
   "command": "scrape-deck-texts-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 19,
-    "skipped": 195
+    "success": 25,
+    "skipped": 194
   },
   "results": [
     {
@@ -33,11 +33,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "blue-tempo",
-      "path": "latest/decks/vintage/blue-tempo.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/vintage/blue-tempo.json"
     },
     {
       "scope": "archetype-decks",
@@ -156,11 +155,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "red-prison",
-      "path": "latest/decks/vintage/red-prison.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/vintage/red-prison.json"
     },
     {
       "scope": "archetype-decks",
@@ -1697,10 +1695,46 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "vintage",
       "deck_id": "7728957",
-      "path": "archive/deck-texts/vintage/7728957.json"
+      "path": "archive/deck-texts/vintage/7728957.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "vintage",
+      "deck_id": "7729065",
+      "path": "archive/deck-texts/vintage/7729065.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "vintage",
+      "deck_id": "7729067",
+      "path": "archive/deck-texts/vintage/7729067.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "vintage",
+      "deck_id": "7729070",
+      "path": "archive/deck-texts/vintage/7729070.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "vintage",
+      "deck_id": "7729073",
+      "path": "archive/deck-texts/vintage/7729073.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "vintage",
+      "deck_id": "7729077",
+      "path": "archive/deck-texts/vintage/7729077.json"
     }
   ]
 }

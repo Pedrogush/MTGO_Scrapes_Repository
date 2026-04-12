@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-12T15:27:41Z",
+  "generated_at": "2026-04-12T16:30:43Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 45,
-    "skipped": 15
+    "success": 46,
+    "skipped": 14
   },
   "results": [
     {
@@ -331,11 +331,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "nic-fit",
-      "path": "latest/radars/legacy/nic-fit.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/nic-fit.json"
     },
     {
       "scope": "archetype-radar",
