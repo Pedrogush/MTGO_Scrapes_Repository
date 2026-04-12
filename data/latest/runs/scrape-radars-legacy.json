@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-12T16:30:43Z",
+  "generated_at": "2026-04-12T17:30:52Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 46,
-    "skipped": 14
+    "success": 48,
+    "skipped": 12
   },
   "results": [
     {
@@ -38,6 +38,13 @@
       "archetype": "azorius-stoneblade",
       "path": "latest/radars/legacy/azorius-stoneblade.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "azorius-tempo",
+      "path": "latest/radars/legacy/azorius-tempo.json"
     },
     {
       "scope": "archetype-radar",
@@ -82,14 +89,6 @@
       "format": "legacy",
       "archetype": "boros-initiative",
       "path": "latest/radars/legacy/boros-initiative.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "burn",
-      "path": "latest/radars/legacy/burn.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -187,18 +186,17 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
-      "archetype": "elves",
-      "path": "latest/radars/legacy/elves.json",
-      "message": "No published decks were available for radar generation."
+      "archetype": "esper-control",
+      "path": "latest/radars/legacy/esper-control.json"
     },
     {
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "esper-control",
-      "path": "latest/radars/legacy/esper-control.json"
+      "archetype": "esper-vial",
+      "path": "latest/radars/legacy/esper-vial.json"
     },
     {
       "scope": "archetype-radar",

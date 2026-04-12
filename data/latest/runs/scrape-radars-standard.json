@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-12T16:30:39Z",
+  "generated_at": "2026-04-12T17:30:51Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 31,
+    "success": 32,
     "skipped": 31
   },
   "results": [
@@ -154,14 +154,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "boros-aggro",
-      "path": "latest/radars/standard/boros-aggro.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "boros-burn",
@@ -196,6 +188,14 @@
       "format": "standard",
       "archetype": "dimir-control",
       "path": "latest/radars/standard/dimir-control.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "dimir-discard",
+      "path": "latest/radars/standard/dimir-discard.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -248,14 +248,6 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
-      "archetype": "grixis-reanimator",
-      "path": "latest/radars/standard/grixis-reanimator.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
       "archetype": "gruul-aggro",
       "path": "latest/radars/standard/gruul-aggro.json",
       "message": "No published decks were available for radar generation."
@@ -274,6 +266,14 @@
       "format": "standard",
       "archetype": "gruul-landfall",
       "path": "latest/radars/standard/gruul-landfall.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "izzet-elementals",
+      "path": "latest/radars/standard/izzet-elementals.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -344,6 +344,21 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "mono-black-control",
+      "path": "latest/radars/standard/mono-black-control.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "mono-blue-control",
+      "path": "latest/radars/standard/mono-blue-control.json"
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "mono-green-landfall",
@@ -362,14 +377,6 @@
       "format": "standard",
       "archetype": "mono-white-momo",
       "path": "latest/radars/standard/mono-white-momo.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "orzhov-aggro",
-      "path": "latest/radars/standard/orzhov-aggro.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

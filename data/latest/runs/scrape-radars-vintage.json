@@ -1,15 +1,29 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-12T16:30:40Z",
+  "generated_at": "2026-04-12T17:30:54Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 5,
-    "success": 20
+    "success": 25,
+    "skipped": 5
   },
   "results": [
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "4c-initiative",
+      "path": "latest/radars/vintage/4c-initiative.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "4c-midrange",
+      "path": "latest/radars/vintage/4c-midrange.json"
+    },
     {
       "scope": "archetype-radar",
       "status": "skipped",
@@ -17,6 +31,13 @@
       "archetype": "azorius-initiative",
       "path": "latest/radars/vintage/azorius-initiative.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "beseech-storm",
+      "path": "latest/radars/vintage/beseech-storm.json"
     },
     {
       "scope": "archetype-radar",
@@ -115,8 +136,22 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "vintage",
+      "archetype": "mono-white-aggro",
+      "path": "latest/radars/vintage/mono-white-aggro.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
       "archetype": "mono-white-initiative",
       "path": "latest/radars/vintage/mono-white-initiative.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "naya-initiative",
+      "path": "latest/radars/vintage/naya-initiative.json"
     },
     {
       "scope": "archetype-radar",
