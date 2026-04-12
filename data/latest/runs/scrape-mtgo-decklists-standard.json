@@ -1,12 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-12T20:26:20Z",
+  "generated_at": "2026-04-12T22:26:19Z",
   "command": "scrape-mtgo-decklists-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 14,
+    "cached": 12,
+    "skipped": 1,
     "success": 1
   },
   "results": [
@@ -26,16 +27,15 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "cached",
+      "status": "skipped",
       "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-1112838882.json",
-      "message": "Loaded 32 decks from archive."
+      "message": "https://www.mtgo.com/decklist/standard-challenge-32-2026-04-0212838882: Event returned no decklists."
     },
     {
       "scope": "mtgo-event",
       "status": "cached",
       "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-league-2026-04-1110429.json",
+      "path": "archive/mtgo-decklists/standard/standard-league-2026-04-0210429.json",
       "message": "Loaded 1 decks from archive."
     },
     {
@@ -56,15 +56,15 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0912838850.json",
-      "message": "Loaded 32 decks from archive."
+      "path": "archive/mtgo-decklists/standard/standard-league-2026-04-0910429.json",
+      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-event",
       "status": "cached",
       "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-league-2026-04-0910429.json",
-      "message": "Loaded 1 decks from archive."
+      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0912838850.json",
+      "message": "Loaded 32 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -100,13 +100,6 @@
       "format": "standard",
       "path": "archive/mtgo-decklists/standard/standard-league-2026-04-0610429.json",
       "message": "Loaded 2 decks from archive."
-    },
-    {
-      "scope": "mtgo-event",
-      "status": "cached",
-      "format": "standard",
-      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-0512838148.json",
-      "message": "Loaded 32 decks from archive."
     },
     {
       "scope": "mtgo-decklists",
