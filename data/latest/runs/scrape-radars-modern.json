@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-13T16:45:50Z",
+  "generated_at": "2026-04-13T17:41:14Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 15,
-    "success": 50
+    "skipped": 16,
+    "success": 51
   },
   "results": [
     {
@@ -24,14 +24,6 @@
       "format": "modern",
       "archetype": "4c-control",
       "path": "latest/radars/modern/4c-control.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "4c-genericblink",
-      "path": "latest/radars/modern/4c-genericblink.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -224,6 +216,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "modern",
+      "archetype": "hardened-scales",
+      "path": "latest/radars/modern/hardened-scales.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
       "archetype": "hollow-one",
@@ -242,6 +242,14 @@
       "format": "modern",
       "archetype": "indomitable-creativity",
       "path": "latest/radars/modern/indomitable-creativity.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "modern",
+      "archetype": "infect",
+      "path": "latest/radars/modern/infect.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -292,6 +300,13 @@
       "format": "modern",
       "archetype": "jeskai-energy",
       "path": "latest/radars/modern/jeskai-energy.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "jund-saga",
+      "path": "latest/radars/modern/jund-saga.json"
     },
     {
       "scope": "archetype-radar",
