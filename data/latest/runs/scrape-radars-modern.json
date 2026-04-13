@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-12T23:27:09Z",
+  "generated_at": "2026-04-13T01:07:25Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 16,
-    "success": 49
+    "skipped": 18,
+    "success": 47
   },
   "results": [
     {
@@ -159,10 +159,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "esper-control",
-      "path": "latest/radars/modern/esper-control.json"
+      "path": "latest/radars/modern/esper-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -440,10 +441,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "temur-steel-cutter",
-      "path": "latest/radars/modern/temur-steel-cutter.json"
+      "path": "latest/radars/modern/temur-steel-cutter.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

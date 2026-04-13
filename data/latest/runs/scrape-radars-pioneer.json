@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-12T23:27:06Z",
+  "generated_at": "2026-04-13T01:07:32Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 25,
-    "success": 23
+    "skipped": 26,
+    "success": 22
   },
   "results": [
     {
@@ -223,10 +223,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "mardu-transmogrify",
-      "path": "latest/radars/pioneer/mardu-transmogrify.json"
+      "path": "latest/radars/pioneer/mardu-transmogrify.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
