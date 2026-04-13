@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-13T15:46:37Z",
+  "generated_at": "2026-04-13T16:41:41Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 31,
-    "skipped": 363
+    "success": 34,
+    "skipped": 362
   },
   "results": [
     {
@@ -48,11 +48,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "standard",
       "archetype": "4c-kona",
-      "path": "latest/decks/standard/4c-kona.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/standard/4c-kona.json"
     },
     {
       "scope": "archetype-decks",
@@ -137,25 +136,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "bant-omniscience",
-      "path": "latest/decks/standard/bant-omniscience.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
       "status": "success",
       "format": "standard",
       "archetype": "bant-ouroboroid",
       "path": "latest/decks/standard/bant-ouroboroid.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "success",
-      "format": "standard",
-      "archetype": "boros-burn",
-      "path": "latest/decks/standard/boros-burn.json"
     },
     {
       "scope": "archetype-decks",
@@ -178,6 +162,14 @@
       "format": "standard",
       "archetype": "boros-tokens",
       "path": "latest/decks/standard/boros-tokens.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "dimir-control",
+      "path": "latest/decks/standard/dimir-control.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -222,14 +214,6 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "standard",
-      "archetype": "grixis-monument",
-      "path": "latest/decks/standard/grixis-monument.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
       "archetype": "gruul-aggro",
       "path": "latest/decks/standard/gruul-aggro.json",
       "message": "No decks found within the last 7 days."
@@ -246,8 +230,8 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "standard",
-      "archetype": "izzet-elementals",
-      "path": "latest/decks/standard/izzet-elementals.json",
+      "archetype": "gruul-landfall",
+      "path": "latest/decks/standard/gruul-landfall.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -310,6 +294,13 @@
     },
     {
       "scope": "archetype-decks",
+      "status": "success",
+      "format": "standard",
+      "archetype": "jeskai-lessons",
+      "path": "latest/decks/standard/jeskai-lessons.json"
+    },
+    {
+      "scope": "archetype-decks",
       "status": "skipped",
       "format": "standard",
       "archetype": "jeskai-tempo",
@@ -351,6 +342,14 @@
       "format": "standard",
       "archetype": "mono-white-momo",
       "path": "latest/decks/standard/mono-white-momo.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "orzhov-control",
+      "path": "latest/decks/standard/orzhov-control.json",
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -404,6 +403,14 @@
       "format": "standard",
       "archetype": "sultai-control",
       "path": "latest/decks/standard/sultai-control.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "sultai-excruciator",
+      "path": "latest/decks/standard/sultai-excruciator.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -2814,14 +2821,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "standard",
-      "deck_id": "7729030",
-      "path": "archive/deck-texts/standard/7729030.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "standard",
       "deck_id": "7729031",
       "path": "archive/deck-texts/standard/7729031.json",
       "message": "Reused existing published deck-text blob."
@@ -3076,6 +3075,13 @@
     },
     {
       "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7730474",
+      "path": "archive/deck-texts/standard/7730474.json"
+    },
+    {
+      "scope": "deck-text",
       "status": "skipped",
       "format": "standard",
       "deck_id": "7730475",
@@ -3089,6 +3095,13 @@
       "deck_id": "7730476",
       "path": "archive/deck-texts/standard/7730476.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7730477",
+      "path": "archive/deck-texts/standard/7730477.json"
     },
     {
       "scope": "deck-text",

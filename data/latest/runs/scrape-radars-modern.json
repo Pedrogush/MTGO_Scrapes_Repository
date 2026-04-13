@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-13T15:48:18Z",
+  "generated_at": "2026-04-13T16:45:50Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 18,
-    "success": 47
+    "skipped": 15,
+    "success": 50
   },
   "results": [
     {
@@ -231,11 +231,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "humans",
-      "path": "latest/radars/modern/humans.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/humans.json"
     },
     {
       "scope": "archetype-radar",
@@ -390,11 +389,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "rakdos-midrange",
-      "path": "latest/radars/modern/rakdos-midrange.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/rakdos-midrange.json"
     },
     {
       "scope": "archetype-radar",
@@ -441,11 +439,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "temur-steel-cutter",
-      "path": "latest/radars/modern/temur-steel-cutter.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/temur-steel-cutter.json"
     },
     {
       "scope": "archetype-radar",

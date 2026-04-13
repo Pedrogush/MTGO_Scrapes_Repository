@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-13T15:48:21Z",
+  "generated_at": "2026-04-13T16:45:42Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 48,
-    "skipped": 12
+    "success": 52,
+    "skipped": 8
   },
   "results": [
     {
@@ -33,11 +33,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "azorius-stoneblade",
-      "path": "latest/radars/legacy/azorius-stoneblade.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/azorius-stoneblade.json"
     },
     {
       "scope": "archetype-radar",
@@ -77,11 +76,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "blue-cloudpost",
-      "path": "latest/radars/legacy/blue-cloudpost.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/blue-cloudpost.json"
     },
     {
       "scope": "archetype-radar",
@@ -271,19 +269,17 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "led-dredge",
-      "path": "latest/radars/legacy/led-dredge.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/led-dredge.json"
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "loam-pox",
-      "path": "latest/radars/legacy/loam-pox.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/loam-pox.json"
     },
     {
       "scope": "archetype-radar",
