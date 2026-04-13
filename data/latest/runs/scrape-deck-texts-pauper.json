@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-13T22:30:57Z",
+  "generated_at": "2026-04-13T23:30:24Z",
   "command": "scrape-deck-texts-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 43,
-    "skipped": 529
+    "success": 44,
+    "skipped": 528
   },
   "results": [
     {
@@ -827,14 +827,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pauper",
-      "deck_id": "7722482",
-      "path": "archive/deck-texts/pauper/7722482.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pauper",
       "deck_id": "7722483",
       "path": "archive/deck-texts/pauper/7722483.json",
       "message": "Reused existing published deck-text blob."
@@ -1237,14 +1229,6 @@
       "format": "pauper",
       "deck_id": "7724202",
       "path": "archive/deck-texts/pauper/7724202.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pauper",
-      "deck_id": "7724203",
-      "path": "archive/deck-texts/pauper/7724203.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -4537,10 +4521,25 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "deck_id": "7732597",
-      "path": "archive/deck-texts/pauper/7732597.json"
+      "path": "archive/deck-texts/pauper/7732597.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7732688",
+      "path": "archive/deck-texts/pauper/7732688.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7732689",
+      "path": "archive/deck-texts/pauper/7732689.json"
     }
   ]
 }
