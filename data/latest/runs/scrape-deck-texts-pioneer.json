@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-14T16:40:42Z",
+  "generated_at": "2026-04-14T17:40:46Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 26,
-    "skipped": 316
+    "skipped": 314
   },
   "results": [
     {
@@ -15,14 +15,6 @@
       "status": "success",
       "format": "pioneer",
       "path": "latest/archetypes/pioneer.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "4c-auras",
-      "path": "latest/decks/pioneer/4c-auras.json",
-      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -160,14 +152,6 @@
       "format": "pioneer",
       "archetype": "esper-midrange",
       "path": "latest/decks/pioneer/esper-midrange.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "golgari-elves",
-      "path": "latest/decks/pioneer/golgari-elves.json",
-      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",

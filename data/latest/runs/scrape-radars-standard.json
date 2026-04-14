@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-14T16:42:27Z",
+  "generated_at": "2026-04-14T17:44:36Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 32,
-    "skipped": 30
+    "skipped": 29
   },
   "results": [
     {
@@ -23,14 +23,6 @@
       "format": "standard",
       "archetype": "4c-control",
       "path": "latest/radars/standard/4c-control.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "4c-elementals",
-      "path": "latest/radars/standard/4c-elementals.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -163,14 +155,6 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
-      "archetype": "boros-tokens",
-      "path": "latest/radars/standard/boros-tokens.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
       "archetype": "dimir-control",
       "path": "latest/radars/standard/dimir-control.json",
       "message": "No published decks were available for radar generation."
@@ -243,6 +227,14 @@
       "format": "standard",
       "archetype": "gruul-landfall",
       "path": "latest/radars/standard/gruul-landfall.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "izzet-elementals",
+      "path": "latest/radars/standard/izzet-elementals.json",
       "message": "No published decks were available for radar generation."
     },
     {

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-14T16:42:34Z",
+  "generated_at": "2026-04-14T17:44:38Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 51,
-    "skipped": 9
+    "success": 52,
+    "skipped": 8
   },
   "results": [
     {
@@ -91,6 +91,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "blue-dredge",
+      "path": "latest/radars/legacy/blue-dredge.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
       "archetype": "boros-initiative",
@@ -102,14 +110,6 @@
       "format": "legacy",
       "archetype": "cephalid-breakfast",
       "path": "latest/radars/legacy/cephalid-breakfast.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "colorless-cloudpost",
-      "path": "latest/radars/legacy/colorless-cloudpost.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -295,6 +295,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "merfolk",
+      "path": "latest/radars/legacy/merfolk.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "mono-black-midrange",
       "path": "latest/radars/legacy/mono-black-midrange.json"
     },
@@ -377,11 +384,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "ruby-storm",
-      "path": "latest/radars/legacy/ruby-storm.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/ruby-storm.json"
     },
     {
       "scope": "archetype-radar",
@@ -417,13 +423,6 @@
       "format": "legacy",
       "archetype": "sultai-tempo",
       "path": "latest/radars/legacy/sultai-tempo.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "temur-delver",
-      "path": "latest/radars/legacy/temur-delver.json"
     },
     {
       "scope": "archetype-radar",

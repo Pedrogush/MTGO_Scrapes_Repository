@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-14T16:42:27Z",
+  "generated_at": "2026-04-14T17:44:35Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 16,
-    "success": 51
+    "success": 50
   },
   "results": [
     {
@@ -30,8 +30,8 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "modern",
-      "archetype": "5c-midrange",
-      "path": "latest/radars/modern/5c-midrange.json",
+      "archetype": "4c-genericblink",
+      "path": "latest/radars/modern/4c-genericblink.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -247,14 +247,6 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "modern",
-      "archetype": "infect",
-      "path": "latest/radars/modern/infect.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
       "archetype": "izzet-murktide",
       "path": "latest/radars/modern/izzet-murktide.json",
       "message": "No published decks were available for radar generation."
@@ -305,13 +297,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
-      "archetype": "jund-saga",
-      "path": "latest/radars/modern/jund-saga.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
       "archetype": "lantern",
       "path": "latest/radars/modern/lantern.json"
     },
@@ -335,6 +320,14 @@
       "format": "modern",
       "archetype": "mardu-genericblink",
       "path": "latest/radars/modern/mardu-genericblink.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "modern",
+      "archetype": "merfolk",
+      "path": "latest/radars/modern/merfolk.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

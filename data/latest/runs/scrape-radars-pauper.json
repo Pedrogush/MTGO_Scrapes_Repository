@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-14T16:42:32Z",
+  "generated_at": "2026-04-14T17:44:31Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 21,
-    "success": 40
+    "skipped": 18,
+    "success": 43
   },
   "results": [
     {
@@ -42,11 +42,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "bogles",
-      "path": "latest/radars/pauper/bogles.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/bogles.json"
     },
     {
       "scope": "archetype-radar",
@@ -173,14 +172,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pauper",
-      "archetype": "food-retriever-combo",
-      "path": "latest/radars/pauper/food-retriever-combo.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "pauper",
       "archetype": "glintblade",
@@ -223,11 +214,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "infect",
-      "path": "latest/radars/pauper/infect.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/infect.json"
     },
     {
       "scope": "archetype-radar",
@@ -312,11 +302,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "mono-black",
-      "path": "latest/radars/pauper/mono-black.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/mono-black.json"
     },
     {
       "scope": "archetype-radar",
@@ -332,6 +321,14 @@
       "format": "pauper",
       "archetype": "mono-blue-faeries",
       "path": "latest/radars/pauper/mono-blue-faeries.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "pauper",
+      "archetype": "mono-green-aggro",
+      "path": "latest/radars/pauper/mono-green-aggro.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

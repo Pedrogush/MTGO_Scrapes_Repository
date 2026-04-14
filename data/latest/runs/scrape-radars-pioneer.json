@@ -1,23 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-14T16:42:37Z",
+  "generated_at": "2026-04-14T17:44:46Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 24,
-    "success": 26
+    "success": 26,
+    "skipped": 22
   },
   "results": [
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "4c-auras",
-      "path": "latest/radars/pioneer/4c-auras.json",
-      "message": "No published decks were available for radar generation."
-    },
     {
       "scope": "archetype-radar",
       "status": "success",
@@ -154,14 +146,6 @@
       "format": "pioneer",
       "archetype": "esper-midrange",
       "path": "latest/radars/pioneer/esper-midrange.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "golgari-elves",
-      "path": "latest/radars/pioneer/golgari-elves.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
