@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-13T23:33:25Z",
+  "generated_at": "2026-04-14T01:05:33Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 54,
-    "skipped": 6
+    "success": 51,
+    "skipped": 9
   },
   "results": [
     {
@@ -69,10 +69,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "beseech-storm",
-      "path": "latest/radars/legacy/beseech-storm.json"
+      "path": "latest/radars/legacy/beseech-storm.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -154,10 +155,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "dimir-reanimator",
-      "path": "latest/radars/legacy/dimir-reanimator.json"
+      "path": "latest/radars/legacy/dimir-reanimator.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -182,10 +184,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "esper-control",
-      "path": "latest/radars/legacy/esper-control.json"
+      "path": "latest/radars/legacy/esper-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

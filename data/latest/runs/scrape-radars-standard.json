@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-13T23:33:27Z",
+  "generated_at": "2026-04-14T01:05:29Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 32,
-    "skipped": 30
+    "success": 31,
+    "skipped": 31
   },
   "results": [
     {
@@ -123,10 +123,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "bant-airbending-combo",
-      "path": "latest/radars/standard/bant-airbending-combo.json"
+      "path": "latest/radars/standard/bant-airbending-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
