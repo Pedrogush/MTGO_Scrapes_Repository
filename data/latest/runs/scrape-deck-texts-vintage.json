@@ -1,39 +1,34 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T18:41:01Z",
+  "generated_at": "2026-04-15T19:46:02Z",
   "command": "scrape-deck-texts-vintage",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "stale-fallback": 1,
-    "hard-failure": 2,
-    "skipped": 235,
-    "success": 22
+    "success": 25,
+    "skipped": 237
   },
   "results": [
     {
       "scope": "archetype-list",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "vintage",
-      "path": "latest/archetypes/vintage.json",
-      "message": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "path": "latest/archetypes/vintage.json"
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "vintage",
       "archetype": "4c-initiative",
-      "path": "latest/decks/vintage/4c-initiative.json",
-      "message": "Deck scrape returned no rows for 4c Initiative"
+      "path": "latest/decks/vintage/4c-initiative.json"
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "vintage",
       "archetype": "4c-midrange",
-      "path": "latest/decks/vintage/4c-midrange.json",
-      "message": "Deck scrape returned no rows for 4C Midrange"
+      "path": "latest/decks/vintage/4c-midrange.json"
     },
     {
       "scope": "archetype-decks",
@@ -1617,6 +1612,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "vintage",
+      "deck_id": "7729066",
+      "path": "archive/deck-texts/vintage/7729066.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "vintage",
       "deck_id": "7729067",
       "path": "archive/deck-texts/vintage/7729067.json",
       "message": "Reused existing published deck-text blob."
@@ -1627,6 +1630,14 @@
       "format": "vintage",
       "deck_id": "7729068",
       "path": "archive/deck-texts/vintage/7729068.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "vintage",
+      "deck_id": "7729069",
+      "path": "archive/deck-texts/vintage/7729069.json",
       "message": "Reused existing published deck-text blob."
     },
     {

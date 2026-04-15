@@ -1,15 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T18:41:03Z",
+  "generated_at": "2026-04-15T19:46:04Z",
   "command": "scrape-deck-texts-modern",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 45,
-    "hard-failure": 2,
-    "skipped": 697,
-    "stale-fallback": 3
+    "success": 48,
+    "skipped": 699
   },
   "results": [
     {
@@ -20,11 +18,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "modern",
       "archetype": "4-5c-omnath",
       "path": "latest/decks/modern/4-5c-omnath.json",
-      "message": "Deck scrape returned no rows for 4/5c Omnath"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -36,11 +34,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "modern",
       "archetype": "4c-genericblink",
       "path": "latest/decks/modern/4c-genericblink.json",
-      "message": "Deck scrape returned no rows for 4c GenericBlink"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -66,11 +64,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "modern",
       "archetype": "azorius-control",
-      "path": "latest/decks/modern/azorius-control.json",
-      "message": "Deck scrape returned no rows for Azorius Control"
+      "path": "latest/decks/modern/azorius-control.json"
     },
     {
       "scope": "archetype-decks",
@@ -125,11 +122,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "modern",
       "archetype": "eldrazi",
-      "path": "latest/decks/modern/eldrazi.json",
-      "message": "Deck scrape returned no rows for Eldrazi"
+      "path": "latest/decks/modern/eldrazi.json"
     },
     {
       "scope": "archetype-decks",
@@ -362,11 +358,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "modern",
       "archetype": "orzhov-genericblink",
-      "path": "latest/decks/modern/orzhov-genericblink.json",
-      "message": "Deck scrape returned no rows for Orzhov GenericBlink"
+      "path": "latest/decks/modern/orzhov-genericblink.json"
     },
     {
       "scope": "archetype-decks",

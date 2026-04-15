@@ -1,22 +1,20 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T18:41:01Z",
+  "generated_at": "2026-04-15T19:45:59Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "stale-fallback": 3,
-    "skipped": 309,
-    "success": 24
+    "success": 25,
+    "skipped": 311
   },
   "results": [
     {
       "scope": "archetype-list",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "pioneer",
-      "path": "latest/archetypes/pioneer.json",
-      "message": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "path": "latest/archetypes/pioneer.json"
     },
     {
       "scope": "archetype-decks",
@@ -52,11 +50,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "5c-legends",
       "path": "latest/decks/pioneer/5c-legends.json",
-      "message": "Deck scrape returned no rows for 5c Legends"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -127,11 +125,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "boros-token-control",
       "path": "latest/decks/pioneer/boros-token-control.json",
-      "message": "Deck scrape returned no rows for Boros Token Control"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
