@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T08:54:22Z",
+  "generated_at": "2026-04-15T09:52:41Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
@@ -26,10 +26,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "vintage",
-      "archetype": "beseech-storm",
-      "path": "latest/radars/vintage/beseech-storm.json"
+      "archetype": "azorius-initiative",
+      "path": "latest/radars/vintage/azorius-initiative.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -54,18 +55,17 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
-      "archetype": "counter-vine",
-      "path": "latest/radars/vintage/counter-vine.json",
-      "message": "No published decks were available for radar generation."
+      "archetype": "dimir-lurrus-control",
+      "path": "latest/radars/vintage/dimir-lurrus-control.json"
     },
     {
       "scope": "archetype-radar",
       "status": "success",
       "format": "vintage",
-      "archetype": "dimir-lurrus-control",
-      "path": "latest/radars/vintage/dimir-lurrus-control.json"
+      "archetype": "doomsday",
+      "path": "latest/radars/vintage/doomsday.json"
     },
     {
       "scope": "archetype-radar",

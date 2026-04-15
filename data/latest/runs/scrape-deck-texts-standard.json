@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T08:51:48Z",
+  "generated_at": "2026-04-15T09:48:56Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 31,
-    "stale-fallback": 1,
-    "skipped": 383
+    "success": 30,
+    "skipped": 384,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -26,11 +26,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "standard",
       "archetype": "4c-control",
-      "path": "latest/decks/standard/4c-control.json",
-      "message": "Deck scrape returned no rows for 4c Control"
+      "path": "latest/decks/standard/4c-control.json"
     },
     {
       "scope": "archetype-decks",
@@ -240,10 +239,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "izzet-lessons",
-      "path": "latest/decks/standard/izzet-lessons.json"
+      "path": "latest/decks/standard/izzet-lessons.json",
+      "message": "Deck scrape returned no rows for Izzet Lessons"
     },
     {
       "scope": "archetype-decks",
@@ -3294,10 +3294,11 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7734669",
-      "path": "archive/deck-texts/standard/7734669.json"
+      "path": "archive/deck-texts/standard/7734669.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }

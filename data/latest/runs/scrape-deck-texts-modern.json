@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T08:51:48Z",
+  "generated_at": "2026-04-15T09:48:59Z",
   "command": "scrape-deck-texts-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 47,
-    "skipped": 692,
-    "stale-fallback": 2
+    "success": 48,
+    "skipped": 693
   },
   "results": [
     {
@@ -43,11 +42,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "modern",
       "archetype": "affinity",
-      "path": "latest/decks/modern/affinity.json",
-      "message": "Deck scrape returned no rows for Affinity"
+      "path": "latest/decks/modern/affinity.json"
     },
     {
       "scope": "archetype-decks",
@@ -446,11 +444,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "modern",
       "archetype": "yawgmoth",
-      "path": "latest/decks/modern/yawgmoth.json",
-      "message": "Deck scrape returned no rows for Yawgmoth"
+      "path": "latest/decks/modern/yawgmoth.json"
     },
     {
       "scope": "deck-text",
@@ -5886,10 +5883,11 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7734670",
-      "path": "archive/deck-texts/modern/7734670.json"
+      "path": "archive/deck-texts/modern/7734670.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }
