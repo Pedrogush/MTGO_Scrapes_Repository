@@ -1,29 +1,29 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T16:50:08Z",
+  "generated_at": "2026-04-15T17:56:06Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 15,
-    "success": 50
+    "success": 49
   },
   "results": [
     {
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "modern",
-      "archetype": "4-5c-omnath",
-      "path": "latest/radars/modern/4-5c-omnath.json",
+      "archetype": "4c-control",
+      "path": "latest/radars/modern/4c-control.json",
       "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "modern",
-      "archetype": "4c-control",
-      "path": "latest/radars/modern/4c-control.json",
+      "archetype": "4c-genericblink",
+      "path": "latest/radars/modern/4c-genericblink.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -422,13 +422,6 @@
       "format": "modern",
       "archetype": "sultai-midrange",
       "path": "latest/radars/modern/sultai-midrange.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
-      "archetype": "temur-midrange",
-      "path": "latest/radars/modern/temur-midrange.json"
     },
     {
       "scope": "archetype-radar",

@@ -1,22 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T16:50:11Z",
+  "generated_at": "2026-04-15T17:55:51Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 31,
+    "success": 29,
     "skipped": 26
   },
   "results": [
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "standard",
-      "archetype": "4c-artifacts",
-      "path": "latest/radars/standard/4c-artifacts.json"
-    },
     {
       "scope": "archetype-radar",
       "status": "success",
@@ -30,6 +23,14 @@
       "format": "standard",
       "archetype": "4c-elementals",
       "path": "latest/radars/standard/4c-elementals.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "4c-harmonizer-combo",
+      "path": "latest/radars/standard/4c-harmonizer-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -272,21 +273,6 @@
       "archetype": "jeskai-tempo",
       "path": "latest/radars/standard/jeskai-tempo.json",
       "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "mono-black-control",
-      "path": "latest/radars/standard/mono-black-control.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "standard",
-      "archetype": "mono-black-midrange",
-      "path": "latest/radars/standard/mono-black-midrange.json"
     },
     {
       "scope": "archetype-radar",

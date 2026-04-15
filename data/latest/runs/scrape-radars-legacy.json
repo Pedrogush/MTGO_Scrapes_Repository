@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T16:50:16Z",
+  "generated_at": "2026-04-15T17:55:55Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 43,
-    "skipped": 7
+    "success": 46,
+    "skipped": 9
   },
   "results": [
     {
@@ -16,13 +16,6 @@
       "format": "legacy",
       "archetype": "4c-control",
       "path": "latest/radars/legacy/4c-control.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "8-cast",
-      "path": "latest/radars/legacy/8-cast.json"
     },
     {
       "scope": "archetype-radar",
@@ -54,17 +47,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "beanstalk-control-non-yorion",
-      "path": "latest/radars/legacy/beanstalk-control-non-yorion.json"
-    },
-    {
-      "scope": "archetype-radar",
       "status": "skipped",
       "format": "legacy",
-      "archetype": "beseech-storm",
-      "path": "latest/radars/legacy/beseech-storm.json",
+      "archetype": "beanstalk-control-yorion",
+      "path": "latest/radars/legacy/beanstalk-control-yorion.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -80,6 +66,14 @@
       "format": "legacy",
       "archetype": "blue-cloudpost",
       "path": "latest/radars/legacy/blue-cloudpost.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "blue-dredge",
+      "path": "latest/radars/legacy/blue-dredge.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -251,6 +245,35 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "lands",
+      "path": "latest/radars/legacy/lands.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "led-dredge",
+      "path": "latest/radars/legacy/led-dredge.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "loam-pox",
+      "path": "latest/radars/legacy/loam-pox.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "maverick",
+      "path": "latest/radars/legacy/maverick.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "merfolk",
       "path": "latest/radars/legacy/merfolk.json"
     },
@@ -258,8 +281,8 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "mono-black-pox",
-      "path": "latest/radars/legacy/mono-black-pox.json"
+      "archetype": "mono-black-midrange",
+      "path": "latest/radars/legacy/mono-black-midrange.json"
     },
     {
       "scope": "archetype-radar",
@@ -314,6 +337,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "painter",
+      "path": "latest/radars/legacy/painter.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "red-stompy",
       "path": "latest/radars/legacy/red-stompy.json"
     },
@@ -337,6 +367,13 @@
       "format": "legacy",
       "archetype": "sneak-and-show",
       "path": "latest/radars/legacy/sneak-and-show.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "stiflenought",
+      "path": "latest/radars/legacy/stiflenought.json"
     },
     {
       "scope": "archetype-radar",

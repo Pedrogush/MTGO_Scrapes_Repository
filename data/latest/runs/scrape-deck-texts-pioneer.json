@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T16:38:14Z",
+  "generated_at": "2026-04-15T17:39:36Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 20,
-    "skipped": 256,
-    "stale-fallback": 1,
-    "hard-failure": 7
+    "success": 23,
+    "skipped": 264,
+    "hard-failure": 7,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -28,11 +28,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "4c-rona-combo",
       "path": "latest/decks/pioneer/4c-rona-combo.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for 4c Rona Combo"
     },
     {
       "scope": "archetype-decks",
@@ -82,19 +82,18 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "pioneer",
       "archetype": "azorius-control",
-      "path": "latest/decks/pioneer/azorius-control.json",
-      "message": "Deck scrape returned no rows for Azorius Control"
+      "path": "latest/decks/pioneer/azorius-control.json"
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "azorius-flash",
       "path": "latest/decks/pioneer/azorius-flash.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Azorius Flash"
     },
     {
       "scope": "archetype-decks",
@@ -120,11 +119,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "boros-midrange",
       "path": "latest/decks/pioneer/boros-midrange.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Boros Midrange"
     },
     {
       "scope": "archetype-decks",
@@ -136,11 +135,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "dimir-midrange",
       "path": "latest/decks/pioneer/dimir-midrange.json",
-      "message": "Deck scrape returned no rows for Dimir Midrange"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -217,18 +216,19 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "mardu-transmogrify",
-      "path": "latest/decks/pioneer/mardu-transmogrify.json"
+      "path": "latest/decks/pioneer/mardu-transmogrify.json",
+      "message": "Deck scrape returned no rows for Mardu Transmogrify"
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "mono-black-discard",
       "path": "latest/decks/pioneer/mono-black-discard.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Mono-Black Discard"
     },
     {
       "scope": "archetype-decks",
@@ -255,19 +255,18 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "naya-midrange",
       "path": "latest/decks/pioneer/naya-midrange.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Naya Midrange"
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "pioneer",
       "archetype": "niv-to-light",
-      "path": "latest/decks/pioneer/niv-to-light.json",
-      "message": "Deck scrape returned no rows for Niv to Light"
+      "path": "latest/decks/pioneer/niv-to-light.json"
     },
     {
       "scope": "archetype-decks",
@@ -322,19 +321,18 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "rakdos-vampires",
       "path": "latest/decks/pioneer/rakdos-vampires.json",
-      "message": "Deck scrape returned no rows for Rakdos Vampires"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "pioneer",
       "archetype": "selesnya-angels",
-      "path": "latest/decks/pioneer/selesnya-angels.json",
-      "message": "Deck scrape returned no rows for Selesnya Angels"
+      "path": "latest/decks/pioneer/selesnya-angels.json"
     },
     {
       "scope": "archetype-decks",
@@ -353,11 +351,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "pioneer",
       "archetype": "simic-scapeshift",
-      "path": "latest/decks/pioneer/simic-scapeshift.json",
-      "message": "Deck scrape returned no rows for Simic Scapeshift"
+      "path": "latest/decks/pioneer/simic-scapeshift.json"
     },
     {
       "scope": "archetype-decks",
@@ -381,6 +378,14 @@
       "format": "pioneer",
       "deck_id": "7723507",
       "path": "archive/deck-texts/pioneer/7723507.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
+      "deck_id": "7723841",
+      "path": "archive/deck-texts/pioneer/7723841.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -437,6 +442,14 @@
       "format": "pioneer",
       "deck_id": "7724365",
       "path": "archive/deck-texts/pioneer/7724365.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
+      "deck_id": "7724366",
+      "path": "archive/deck-texts/pioneer/7724366.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -509,6 +522,14 @@
       "format": "pioneer",
       "deck_id": "7724880",
       "path": "archive/deck-texts/pioneer/7724880.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
+      "deck_id": "7724881",
+      "path": "archive/deck-texts/pioneer/7724881.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -915,6 +936,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
+      "deck_id": "7726311",
+      "path": "archive/deck-texts/pioneer/7726311.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
       "deck_id": "7726312",
       "path": "archive/deck-texts/pioneer/7726312.json",
       "message": "Reused existing published deck-text blob."
@@ -925,6 +954,14 @@
       "format": "pioneer",
       "deck_id": "7726314",
       "path": "archive/deck-texts/pioneer/7726314.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
+      "deck_id": "7726317",
+      "path": "archive/deck-texts/pioneer/7726317.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -1395,6 +1432,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
+      "deck_id": "7729647",
+      "path": "archive/deck-texts/pioneer/7729647.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
       "deck_id": "7729648",
       "path": "archive/deck-texts/pioneer/7729648.json",
       "message": "Reused existing published deck-text blob."
@@ -1589,6 +1634,14 @@
       "format": "pioneer",
       "deck_id": "7729678",
       "path": "archive/deck-texts/pioneer/7729678.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
+      "deck_id": "7730209",
+      "path": "archive/deck-texts/pioneer/7730209.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -1899,6 +1952,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
+      "deck_id": "7730391",
+      "path": "archive/deck-texts/pioneer/7730391.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
       "deck_id": "7730392",
       "path": "archive/deck-texts/pioneer/7730392.json",
       "message": "Reused existing published deck-text blob."
@@ -2003,14 +2064,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
-      "deck_id": "7731893",
-      "path": "archive/deck-texts/pioneer/7731893.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pioneer",
       "deck_id": "7731894",
       "path": "archive/deck-texts/pioneer/7731894.json",
       "message": "Reused existing published deck-text blob."
@@ -2091,6 +2144,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
+      "deck_id": "7733049",
+      "path": "archive/deck-texts/pioneer/7733049.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
       "deck_id": "7733050",
       "path": "archive/deck-texts/pioneer/7733050.json",
       "message": "Reused existing published deck-text blob."
@@ -2155,6 +2216,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
+      "deck_id": "7733059",
+      "path": "archive/deck-texts/pioneer/7733059.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
       "deck_id": "7733060",
       "path": "archive/deck-texts/pioneer/7733060.json",
       "message": "Reused existing published deck-text blob."
@@ -2187,6 +2256,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
+      "deck_id": "7733065",
+      "path": "archive/deck-texts/pioneer/7733065.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
       "deck_id": "7733066",
       "path": "archive/deck-texts/pioneer/7733066.json",
       "message": "Reused existing published deck-text blob."
@@ -2213,6 +2290,14 @@
       "format": "pioneer",
       "deck_id": "7733071",
       "path": "archive/deck-texts/pioneer/7733071.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
+      "deck_id": "7733073",
+      "path": "archive/deck-texts/pioneer/7733073.json",
       "message": "Reused existing published deck-text blob."
     },
     {
