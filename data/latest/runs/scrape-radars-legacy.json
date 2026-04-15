@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T10:46:23Z",
+  "generated_at": "2026-04-15T11:40:01Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 49,
-    "skipped": 10
+    "success": 50,
+    "skipped": 9
   },
   "results": [
     {
@@ -103,14 +103,6 @@
       "format": "legacy",
       "archetype": "boros-initiative",
       "path": "latest/radars/legacy/boros-initiative.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "cephalid-breakfast",
-      "path": "latest/radars/legacy/cephalid-breakfast.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -375,6 +367,13 @@
       "format": "legacy",
       "archetype": "painter",
       "path": "latest/radars/legacy/painter.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "red-stompy",
+      "path": "latest/radars/legacy/red-stompy.json"
     },
     {
       "scope": "archetype-radar",

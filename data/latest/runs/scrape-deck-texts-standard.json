@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T10:41:38Z",
+  "generated_at": "2026-04-15T11:37:20Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 29,
-    "skipped": 383,
-    "stale-fallback": 3
+    "success": 30,
+    "stale-fallback": 1,
+    "skipped": 384
   },
   "results": [
     {
@@ -26,10 +26,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "4c-control",
-      "path": "latest/decks/standard/4c-control.json"
+      "path": "latest/decks/standard/4c-control.json",
+      "message": "Deck scrape returned no rows for 4c Control"
     },
     {
       "scope": "archetype-decks",
@@ -177,11 +178,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "standard",
       "archetype": "dimir-excruciator",
-      "path": "latest/decks/standard/dimir-excruciator.json",
-      "message": "Deck scrape returned no rows for Dimir Excruciator"
+      "path": "latest/decks/standard/dimir-excruciator.json"
     },
     {
       "scope": "archetype-decks",
@@ -380,11 +380,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "skipped",
       "format": "standard",
       "archetype": "selesnya-landfall",
       "path": "latest/decks/standard/selesnya-landfall.json",
-      "message": "Deck scrape returned no rows for Selesnya Landfall"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -448,11 +448,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "standard",
       "archetype": "temur-lessons",
-      "path": "latest/decks/standard/temur-lessons.json",
-      "message": "Deck scrape returned no rows for Temur Lessons"
+      "path": "latest/decks/standard/temur-lessons.json"
     },
     {
       "scope": "archetype-decks",

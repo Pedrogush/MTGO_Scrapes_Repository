@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T10:46:20Z",
+  "generated_at": "2026-04-15T11:40:05Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 16,
-    "success": 42
+    "success": 44
   },
   "results": [
     {
@@ -150,14 +150,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pauper",
-      "archetype": "esper-affinity",
-      "path": "latest/radars/pauper/esper-affinity.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "pauper",
       "archetype": "familiars",
@@ -265,6 +257,13 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "success",
+      "format": "pauper",
+      "archetype": "jund-wildfire",
+      "path": "latest/radars/pauper/jund-wildfire.json"
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "pauper",
       "archetype": "kiln-fiend",
@@ -314,6 +313,14 @@
       "format": "pauper",
       "archetype": "mono-blue-faeries",
       "path": "latest/radars/pauper/mono-blue-faeries.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "pauper",
+      "archetype": "mono-green-aggro",
+      "path": "latest/radars/pauper/mono-green-aggro.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -403,6 +410,13 @@
       "format": "pauper",
       "archetype": "spy-combo",
       "path": "latest/radars/pauper/spy-combo.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pauper",
+      "archetype": "tron",
+      "path": "latest/radars/pauper/tron.json"
     },
     {
       "scope": "archetype-radar",
