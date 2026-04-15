@@ -1,13 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T07:53:35Z",
+  "generated_at": "2026-04-15T08:51:46Z",
   "command": "scrape-deck-texts-pioneer",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 25,
-    "skipped": 311
+    "success": 24,
+    "skipped": 310,
+    "stale-fallback": 1,
+    "hard-failure": 1
   },
   "results": [
     {
@@ -58,10 +60,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "5c-scapeshift",
-      "path": "latest/decks/pioneer/5c-scapeshift.json"
+      "path": "latest/decks/pioneer/5c-scapeshift.json",
+      "message": "Deck scrape returned no rows for 5c Scapeshift"
     },
     {
       "scope": "archetype-decks",
@@ -251,11 +254,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "naya-midrange",
       "path": "latest/decks/pioneer/naya-midrange.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Naya Midrange"
     },
     {
       "scope": "archetype-decks",

@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T07:53:29Z",
+  "generated_at": "2026-04-15T08:51:48Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 31,
-    "skipped": 384
+    "stale-fallback": 1,
+    "skipped": 383
   },
   "results": [
     {
@@ -25,10 +26,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "4c-control",
-      "path": "latest/decks/standard/4c-control.json"
+      "path": "latest/decks/standard/4c-control.json",
+      "message": "Deck scrape returned no rows for 4c Control"
     },
     {
       "scope": "archetype-decks",
@@ -624,14 +626,6 @@
       "format": "standard",
       "deck_id": "7723196",
       "path": "archive/deck-texts/standard/7723196.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "standard",
-      "deck_id": "7723197",
-      "path": "archive/deck-texts/standard/7723197.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -3297,6 +3291,13 @@
       "deck_id": "7734516",
       "path": "archive/deck-texts/standard/7734516.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7734669",
+      "path": "archive/deck-texts/standard/7734669.json"
     }
   ]
 }
