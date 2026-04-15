@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T15:57:31Z",
+  "generated_at": "2026-04-15T16:50:16Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 46,
-    "skipped": 8
+    "success": 43,
+    "skipped": 7
   },
   "results": [
     {
@@ -63,14 +63,6 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "legacy",
-      "archetype": "beanstalk-control-yorion",
-      "path": "latest/radars/legacy/beanstalk-control-yorion.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
       "archetype": "beseech-storm",
       "path": "latest/radars/legacy/beseech-storm.json",
       "message": "No published decks were available for radar generation."
@@ -88,14 +80,6 @@
       "format": "legacy",
       "archetype": "blue-cloudpost",
       "path": "latest/radars/legacy/blue-cloudpost.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "blue-dredge",
-      "path": "latest/radars/legacy/blue-dredge.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -132,6 +116,13 @@
       "format": "legacy",
       "archetype": "creative-technique",
       "path": "latest/radars/legacy/creative-technique.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "death-and-taxes-60-card",
+      "path": "latest/radars/legacy/death-and-taxes-60-card.json"
     },
     {
       "scope": "archetype-radar",
@@ -178,6 +169,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "esper-control",
+      "path": "latest/radars/legacy/esper-control.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
       "archetype": "esper-vial",
@@ -189,6 +188,13 @@
       "format": "legacy",
       "archetype": "goblins",
       "path": "latest/radars/legacy/goblins.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "green-cloudpost",
+      "path": "latest/radars/legacy/green-cloudpost.json"
     },
     {
       "scope": "archetype-radar",
@@ -245,35 +251,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "lands",
-      "path": "latest/radars/legacy/lands.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "led-dredge",
-      "path": "latest/radars/legacy/led-dredge.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "loam-pox",
-      "path": "latest/radars/legacy/loam-pox.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "maverick",
-      "path": "latest/radars/legacy/maverick.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
       "archetype": "merfolk",
       "path": "latest/radars/legacy/merfolk.json"
     },
@@ -281,15 +258,8 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "mono-black-midrange",
-      "path": "latest/radars/legacy/mono-black-midrange.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "mystic-forge-combo",
-      "path": "latest/radars/legacy/mystic-forge-combo.json"
+      "archetype": "mono-black-pox",
+      "path": "latest/radars/legacy/mono-black-pox.json"
     },
     {
       "scope": "archetype-radar",
@@ -344,13 +314,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "painter",
-      "path": "latest/radars/legacy/painter.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
       "archetype": "red-stompy",
       "path": "latest/radars/legacy/red-stompy.json"
     },
@@ -379,15 +342,23 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "stiflenought",
-      "path": "latest/radars/legacy/stiflenought.json"
+      "archetype": "sultai-depths",
+      "path": "latest/radars/legacy/sultai-depths.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "sultai-tempo",
+      "path": "latest/radars/legacy/sultai-tempo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "sultai-depths",
-      "path": "latest/radars/legacy/sultai-depths.json"
+      "archetype": "the-epic-storm",
+      "path": "latest/radars/legacy/the-epic-storm.json"
     },
     {
       "scope": "format-card-pool",

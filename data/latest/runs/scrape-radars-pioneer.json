@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T15:57:29Z",
+  "generated_at": "2026-04-15T16:50:09Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 21,
-    "success": 25
+    "skipped": 20,
+    "success": 21
   },
   "results": [
     {
@@ -89,14 +89,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "azorius-heroic",
-      "path": "latest/radars/pioneer/azorius-heroic.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "pioneer",
       "archetype": "boros-convoke",
@@ -108,6 +100,14 @@
       "format": "pioneer",
       "archetype": "boros-hammer-time",
       "path": "latest/radars/pioneer/boros-hammer-time.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "pioneer",
+      "archetype": "boros-midrange",
+      "path": "latest/radars/pioneer/boros-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -214,13 +214,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
-      "format": "pioneer",
-      "archetype": "mono-red-prowess",
-      "path": "latest/radars/pioneer/mono-red-prowess.json"
-    },
-    {
-      "scope": "archetype-radar",
       "status": "skipped",
       "format": "pioneer",
       "archetype": "mono-white-humans",
@@ -234,13 +227,6 @@
       "archetype": "naya-midrange",
       "path": "latest/radars/pioneer/naya-midrange.json",
       "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "pioneer",
-      "archetype": "niv-to-light",
-      "path": "latest/radars/pioneer/niv-to-light.json"
     },
     {
       "scope": "archetype-radar",
@@ -295,21 +281,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "rakdos-vampires",
-      "path": "latest/radars/pioneer/rakdos-vampires.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "pioneer",
-      "archetype": "selesnya-angels",
-      "path": "latest/radars/pioneer/selesnya-angels.json"
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "pioneer",
       "archetype": "selesnya-company",
@@ -322,13 +293,6 @@
       "archetype": "selesnya-hardened-scales",
       "path": "latest/radars/pioneer/selesnya-hardened-scales.json",
       "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "pioneer",
-      "archetype": "simic-scapeshift",
-      "path": "latest/radars/pioneer/simic-scapeshift.json"
     },
     {
       "scope": "archetype-radar",

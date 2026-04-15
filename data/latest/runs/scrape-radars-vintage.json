@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T15:57:30Z",
+  "generated_at": "2026-04-15T16:50:16Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 24,
+    "success": 18,
     "skipped": 5
   },
   "results": [
@@ -50,13 +50,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "vintage",
-      "archetype": "blue-tempo",
-      "path": "latest/radars/vintage/blue-tempo.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
       "archetype": "blue-tinker",
       "path": "latest/radars/vintage/blue-tinker.json"
     },
@@ -67,27 +60,6 @@
       "archetype": "counter-vine",
       "path": "latest/radars/vintage/counter-vine.json",
       "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "dimir-lurrus-control",
-      "path": "latest/radars/vintage/dimir-lurrus-control.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "doomsday",
-      "path": "latest/radars/vintage/doomsday.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "dredge",
-      "path": "latest/radars/vintage/dredge.json"
     },
     {
       "scope": "archetype-radar",
@@ -117,6 +89,13 @@
       "format": "vintage",
       "archetype": "lurrus-breach",
       "path": "latest/radars/vintage/lurrus-breach.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "lurrus-po",
+      "path": "latest/radars/vintage/lurrus-po.json"
     },
     {
       "scope": "archetype-radar",
@@ -179,20 +158,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "vintage",
-      "archetype": "red-prison",
-      "path": "latest/radars/vintage/red-prison.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "scam",
-      "path": "latest/radars/vintage/scam.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
       "archetype": "sphere-shops",
       "path": "latest/radars/vintage/sphere-shops.json"
     },
@@ -203,13 +168,6 @@
       "archetype": "stiflenought",
       "path": "latest/radars/vintage/stiflenought.json",
       "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "sultai-midrange",
-      "path": "latest/radars/vintage/sultai-midrange.json"
     },
     {
       "scope": "format-card-pool",
