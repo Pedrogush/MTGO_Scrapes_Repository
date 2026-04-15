@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T11:37:19Z",
+  "generated_at": "2026-04-15T12:39:52Z",
   "command": "scrape-deck-texts-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
@@ -35,11 +35,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "modern",
       "archetype": "4c-genericblink",
       "path": "latest/decks/modern/4c-genericblink.json",
-      "message": "Deck scrape returned no rows for 4c GenericBlink"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -221,11 +221,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "izzet-murktide",
       "path": "latest/decks/modern/izzet-murktide.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Izzet Murktide"
     },
     {
       "scope": "archetype-decks",

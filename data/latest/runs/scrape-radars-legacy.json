@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T11:40:01Z",
+  "generated_at": "2026-04-15T12:42:45Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 50,
-    "skipped": 9
+    "skipped": 10
   },
   "results": [
     {
@@ -103,6 +103,14 @@
       "format": "legacy",
       "archetype": "boros-initiative",
       "path": "latest/radars/legacy/boros-initiative.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "cephalid-breakfast",
+      "path": "latest/radars/legacy/cephalid-breakfast.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

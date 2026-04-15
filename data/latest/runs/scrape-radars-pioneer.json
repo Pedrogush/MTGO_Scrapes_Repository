@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T11:39:59Z",
+  "generated_at": "2026-04-15T12:42:37Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 22,
-    "success": 25
+    "skipped": 23,
+    "success": 24
   },
   "results": [
     {
@@ -113,6 +113,14 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "pioneer",
+      "archetype": "boros-midrange",
+      "path": "latest/radars/pioneer/boros-midrange.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "pioneer",
       "archetype": "boros-token-control",
       "path": "latest/radars/pioneer/boros-token-control.json",
       "message": "No published decks were available for radar generation."
@@ -161,13 +169,6 @@
       "format": "pioneer",
       "archetype": "gruul-prowess",
       "path": "latest/radars/pioneer/gruul-prowess.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "pioneer",
-      "archetype": "hidden-strings",
-      "path": "latest/radars/pioneer/hidden-strings.json"
     },
     {
       "scope": "archetype-radar",

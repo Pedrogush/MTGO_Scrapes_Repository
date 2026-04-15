@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T11:37:20Z",
+  "generated_at": "2026-04-15T12:39:47Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 30,
-    "stale-fallback": 1,
-    "skipped": 384
+    "skipped": 384,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -26,11 +26,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "standard",
       "archetype": "4c-control",
-      "path": "latest/decks/standard/4c-control.json",
-      "message": "Deck scrape returned no rows for 4c Control"
+      "path": "latest/decks/standard/4c-control.json"
     },
     {
       "scope": "archetype-decks",
@@ -140,10 +139,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "bant-ouroboroid",
-      "path": "latest/decks/standard/bant-ouroboroid.json"
+      "path": "latest/decks/standard/bant-ouroboroid.json",
+      "message": "Deck scrape returned no rows for Bant Ouroboroid"
     },
     {
       "scope": "archetype-decks",

@@ -1,21 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T11:37:19Z",
+  "generated_at": "2026-04-15T12:39:42Z",
   "command": "scrape-deck-texts-legacy",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 50,
-    "skipped": 462,
-    "hard-failure": 1
+    "stale-fallback": 1,
+    "success": 49,
+    "skipped": 463
   },
   "results": [
     {
       "scope": "archetype-list",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
-      "path": "latest/archetypes/legacy.json"
+      "path": "latest/archetypes/legacy.json",
+      "message": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "scope": "archetype-decks",
@@ -113,11 +114,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "cephalid-breakfast",
       "path": "latest/decks/legacy/cephalid-breakfast.json",
-      "message": "Deck scrape returned no rows for Cephalid Breakfast"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
