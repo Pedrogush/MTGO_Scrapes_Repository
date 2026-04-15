@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T12:42:35Z",
+  "generated_at": "2026-04-15T13:56:40Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 23,
+    "success": 24,
     "skipped": 5
   },
   "results": [
@@ -122,6 +122,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "vintage",
+      "archetype": "lurrus-po",
+      "path": "latest/radars/vintage/lurrus-po.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
       "archetype": "lurrus-vault-key",
       "path": "latest/radars/vintage/lurrus-vault-key.json"
     },
@@ -172,8 +179,8 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "vintage",
-      "archetype": "red-prison",
-      "path": "latest/radars/vintage/red-prison.json"
+      "archetype": "raker-shops",
+      "path": "latest/radars/vintage/raker-shops.json"
     },
     {
       "scope": "archetype-radar",

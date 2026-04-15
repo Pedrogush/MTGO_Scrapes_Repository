@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T12:42:45Z",
+  "generated_at": "2026-04-15T13:56:40Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 50,
+    "success": 48,
     "skipped": 10
   },
   "results": [
@@ -195,13 +195,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "esper-vial",
-      "path": "latest/radars/legacy/esper-vial.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
       "archetype": "goblins",
       "path": "latest/radars/legacy/goblins.json"
     },
@@ -255,13 +248,6 @@
       "format": "legacy",
       "archetype": "jeskai-stoneblade",
       "path": "latest/radars/legacy/jeskai-stoneblade.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "jund",
-      "path": "latest/radars/legacy/jund.json"
     },
     {
       "scope": "archetype-radar",

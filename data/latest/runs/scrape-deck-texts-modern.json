@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T12:39:52Z",
+  "generated_at": "2026-04-15T13:53:20Z",
   "command": "scrape-deck-texts-modern",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 48,
-    "skipped": 692,
-    "hard-failure": 1
+    "success": 47,
+    "skipped": 693,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -221,11 +221,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "modern",
       "archetype": "izzet-murktide",
       "path": "latest/decks/modern/izzet-murktide.json",
-      "message": "Deck scrape returned no rows for Izzet Murktide"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -366,10 +366,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "rakdos-midrange",
-      "path": "latest/decks/modern/rakdos-midrange.json"
+      "path": "latest/decks/modern/rakdos-midrange.json",
+      "message": "Deck scrape returned no rows for Rakdos Midrange"
     },
     {
       "scope": "archetype-decks",
