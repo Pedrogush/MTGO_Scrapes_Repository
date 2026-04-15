@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T17:55:55Z",
+  "generated_at": "2026-04-15T18:49:11Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 46,
-    "skipped": 9
+    "skipped": 10
   },
   "results": [
     {
@@ -21,22 +21,8 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "affinity-stompy",
-      "path": "latest/radars/legacy/affinity-stompy.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "aluren",
-      "path": "latest/radars/legacy/aluren.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "azorius-stoneblade",
-      "path": "latest/radars/legacy/azorius-stoneblade.json"
+      "archetype": "8-cast",
+      "path": "latest/radars/legacy/8-cast.json"
     },
     {
       "scope": "archetype-radar",
@@ -47,10 +33,25 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "beanstalk-control-non-yorion",
+      "path": "latest/radars/legacy/beanstalk-control-non-yorion.json"
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "legacy",
       "archetype": "beanstalk-control-yorion",
       "path": "latest/radars/legacy/beanstalk-control-yorion.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "beseech-storm",
+      "path": "latest/radars/legacy/beseech-storm.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -288,6 +289,20 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "mono-black-pox",
+      "path": "latest/radars/legacy/mono-black-pox.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "mystic-forge-combo",
+      "path": "latest/radars/legacy/mystic-forge-combo.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "naya-initiative",
       "path": "latest/radars/legacy/naya-initiative.json"
     },
@@ -332,13 +347,6 @@
       "format": "legacy",
       "archetype": "oops-all-spells",
       "path": "latest/radars/legacy/oops-all-spells.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "painter",
-      "path": "latest/radars/legacy/painter.json"
     },
     {
       "scope": "archetype-radar",

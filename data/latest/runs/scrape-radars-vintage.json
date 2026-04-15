@@ -1,22 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T17:55:46Z",
+  "generated_at": "2026-04-15T18:49:14Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 21,
-    "skipped": 5
+    "skipped": 5,
+    "success": 23
   },
   "results": [
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "4c-midrange",
-      "path": "latest/radars/vintage/4c-midrange.json"
-    },
     {
       "scope": "archetype-radar",
       "status": "skipped",
@@ -60,6 +53,13 @@
       "archetype": "counter-vine",
       "path": "latest/radars/vintage/counter-vine.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "dimir-lurrus-control",
+      "path": "latest/radars/vintage/dimir-lurrus-control.json"
     },
     {
       "scope": "archetype-radar",
@@ -117,6 +117,13 @@
       "format": "vintage",
       "archetype": "lurrus-vault-key",
       "path": "latest/radars/vintage/lurrus-vault-key.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "mono-white-aggro",
+      "path": "latest/radars/vintage/mono-white-aggro.json"
     },
     {
       "scope": "archetype-radar",
@@ -189,6 +196,13 @@
       "archetype": "stiflenought",
       "path": "latest/radars/vintage/stiflenought.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "sultai-midrange",
+      "path": "latest/radars/vintage/sultai-midrange.json"
     },
     {
       "scope": "format-card-pool",
