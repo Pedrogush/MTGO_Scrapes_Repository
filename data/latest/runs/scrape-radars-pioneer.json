@@ -1,21 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-14T23:32:39Z",
+  "generated_at": "2026-04-15T01:06:08Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 26,
-    "skipped": 22
+    "skipped": 23,
+    "success": 25
   },
   "results": [
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "4c-legends",
-      "path": "latest/radars/pioneer/4c-legends.json"
+      "path": "latest/radars/pioneer/4c-legends.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

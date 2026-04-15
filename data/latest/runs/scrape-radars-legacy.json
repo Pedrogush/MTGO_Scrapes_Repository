@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-14T23:32:40Z",
+  "generated_at": "2026-04-15T01:06:06Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 52,
-    "skipped": 8
+    "success": 50,
+    "skipped": 10
   },
   "results": [
     {
@@ -106,10 +106,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "cephalid-breakfast",
-      "path": "latest/radars/legacy/cephalid-breakfast.json"
+      "path": "latest/radars/legacy/cephalid-breakfast.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -419,10 +420,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "sultai-tempo",
-      "path": "latest/radars/legacy/sultai-tempo.json"
+      "path": "latest/radars/legacy/sultai-tempo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
