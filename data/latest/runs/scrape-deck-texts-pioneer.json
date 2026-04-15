@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T06:54:25Z",
+  "generated_at": "2026-04-15T07:53:35Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 24,
-    "skipped": 311,
-    "stale-fallback": 1
+    "success": 25,
+    "skipped": 311
   },
   "results": [
     {
@@ -59,11 +58,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "pioneer",
       "archetype": "5c-scapeshift",
-      "path": "latest/decks/pioneer/5c-scapeshift.json",
-      "message": "Deck scrape returned no rows for 5c Scapeshift"
+      "path": "latest/decks/pioneer/5c-scapeshift.json"
     },
     {
       "scope": "archetype-decks",
