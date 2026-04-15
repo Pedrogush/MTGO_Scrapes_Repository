@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T05:55:43Z",
+  "generated_at": "2026-04-15T06:54:26Z",
   "command": "scrape-deck-texts-vintage",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 25,
-    "skipped": 236
+    "skipped": 235,
+    "hard-failure": 1
   },
   "results": [
     {
@@ -68,11 +69,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "counter-vine",
       "path": "latest/decks/vintage/counter-vine.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Counter Vine"
     },
     {
       "scope": "archetype-decks",

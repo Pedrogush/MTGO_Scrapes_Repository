@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T05:55:44Z",
+  "generated_at": "2026-04-15T06:54:26Z",
   "command": "scrape-deck-texts-legacy",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 50,
-    "skipped": 460
+    "success": 52,
+    "skipped": 459,
+    "hard-failure": 1
   },
   "results": [
     {
@@ -75,11 +76,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "beseech-storm",
       "path": "latest/decks/legacy/beseech-storm.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Beseech Storm"
     },
     {
       "scope": "archetype-decks",
@@ -4038,6 +4039,20 @@
       "deck_id": "7734321",
       "path": "archive/deck-texts/legacy/7734321.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7734513",
+      "path": "archive/deck-texts/legacy/7734513.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7734514",
+      "path": "archive/deck-texts/legacy/7734514.json"
     }
   ]
 }

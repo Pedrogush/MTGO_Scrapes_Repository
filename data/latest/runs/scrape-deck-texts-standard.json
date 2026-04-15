@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T05:55:43Z",
+  "generated_at": "2026-04-15T06:54:26Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 32,
-    "skipped": 381
+    "skipped": 382,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -176,10 +177,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "dimir-excruciator",
-      "path": "latest/decks/standard/dimir-excruciator.json"
+      "path": "latest/decks/standard/dimir-excruciator.json",
+      "message": "Deck scrape returned no rows for Dimir Excruciator"
     },
     {
       "scope": "archetype-decks",
@@ -3188,10 +3190,11 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7734393",
-      "path": "archive/deck-texts/standard/7734393.json"
+      "path": "archive/deck-texts/standard/7734393.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
@@ -3280,6 +3283,20 @@
       "deck_id": "7734406",
       "path": "archive/deck-texts/standard/7734406.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7734515",
+      "path": "archive/deck-texts/standard/7734515.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7734516",
+      "path": "archive/deck-texts/standard/7734516.json"
     }
   ]
 }
