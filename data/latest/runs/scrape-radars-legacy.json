@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T09:52:22Z",
+  "generated_at": "2026-04-15T10:46:23Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
@@ -51,6 +51,13 @@
       "format": "legacy",
       "archetype": "azorius-tempo",
       "path": "latest/radars/legacy/azorius-tempo.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "beanstalk-control-non-yorion",
+      "path": "latest/radars/legacy/beanstalk-control-non-yorion.json"
     },
     {
       "scope": "archetype-radar",
@@ -368,13 +375,6 @@
       "format": "legacy",
       "archetype": "painter",
       "path": "latest/radars/legacy/painter.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "red-stompy",
-      "path": "latest/radars/legacy/red-stompy.json"
     },
     {
       "scope": "archetype-radar",

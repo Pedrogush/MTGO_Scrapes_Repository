@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T09:52:17Z",
+  "generated_at": "2026-04-15T10:46:15Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 23,
-    "success": 25
+    "skipped": 21,
+    "success": 23
   },
   "results": [
     {
@@ -195,28 +195,6 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "pioneer",
-      "archetype": "jund-goblins",
-      "path": "latest/radars/pioneer/jund-goblins.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "pioneer",
-      "archetype": "jund-sacrifice",
-      "path": "latest/radars/pioneer/jund-sacrifice.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "pioneer",
-      "archetype": "mardu-transmogrify",
-      "path": "latest/radars/pioneer/mardu-transmogrify.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
       "archetype": "mono-black-discard",
       "path": "latest/radars/pioneer/mono-black-discard.json",
       "message": "No published decks were available for radar generation."
@@ -241,14 +219,6 @@
       "format": "pioneer",
       "archetype": "mono-white-humans",
       "path": "latest/radars/pioneer/mono-white-humans.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "naya-midrange",
-      "path": "latest/radars/pioneer/naya-midrange.json",
       "message": "No published decks were available for radar generation."
     },
     {

@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T09:48:56Z",
+  "generated_at": "2026-04-15T10:41:38Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 30,
-    "skipped": 384,
-    "stale-fallback": 1
+    "success": 29,
+    "skipped": 383,
+    "stale-fallback": 3
   },
   "results": [
     {
@@ -177,10 +177,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "dimir-excruciator",
-      "path": "latest/decks/standard/dimir-excruciator.json"
+      "path": "latest/decks/standard/dimir-excruciator.json",
+      "message": "Deck scrape returned no rows for Dimir Excruciator"
     },
     {
       "scope": "archetype-decks",
@@ -239,11 +240,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "standard",
       "archetype": "izzet-lessons",
-      "path": "latest/decks/standard/izzet-lessons.json",
-      "message": "Deck scrape returned no rows for Izzet Lessons"
+      "path": "latest/decks/standard/izzet-lessons.json"
     },
     {
       "scope": "archetype-decks",
@@ -380,11 +380,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "selesnya-landfall",
       "path": "latest/decks/standard/selesnya-landfall.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Selesnya Landfall"
     },
     {
       "scope": "archetype-decks",
@@ -448,10 +448,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "temur-lessons",
-      "path": "latest/decks/standard/temur-lessons.json"
+      "path": "latest/decks/standard/temur-lessons.json",
+      "message": "Deck scrape returned no rows for Temur Lessons"
     },
     {
       "scope": "archetype-decks",

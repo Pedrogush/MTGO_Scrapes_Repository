@@ -1,13 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T09:48:59Z",
+  "generated_at": "2026-04-15T10:41:38Z",
   "command": "scrape-deck-texts-modern",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 48,
-    "skipped": 693
+    "success": 46,
+    "skipped": 691,
+    "stale-fallback": 1,
+    "hard-failure": 1
   },
   "results": [
     {
@@ -270,10 +272,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "lantern",
-      "path": "latest/decks/modern/lantern.json"
+      "path": "latest/decks/modern/lantern.json",
+      "message": "Deck scrape returned no rows for Lantern"
     },
     {
       "scope": "archetype-decks",
@@ -415,10 +418,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "temur-steel-cutter",
-      "path": "latest/decks/modern/temur-steel-cutter.json"
+      "path": "latest/decks/modern/temur-steel-cutter.json",
+      "message": "Deck scrape returned no rows for Temur Steel-Cutter"
     },
     {
       "scope": "archetype-decks",
@@ -4597,14 +4601,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
-      "deck_id": "7731910",
-      "path": "archive/deck-texts/modern/7731910.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
       "deck_id": "7731911",
       "path": "archive/deck-texts/modern/7731911.json",
       "message": "Reused existing published deck-text blob."
@@ -4791,14 +4787,6 @@
       "format": "modern",
       "deck_id": "7732175",
       "path": "archive/deck-texts/modern/7732175.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
-      "deck_id": "7732176",
-      "path": "archive/deck-texts/modern/7732176.json",
       "message": "Reused existing published deck-text blob."
     },
     {

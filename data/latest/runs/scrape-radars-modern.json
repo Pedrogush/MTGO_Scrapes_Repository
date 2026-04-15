@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T09:52:21Z",
+  "generated_at": "2026-04-15T10:46:21Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 16,
-    "success": 50
+    "success": 49
   },
   "results": [
     {
@@ -444,13 +444,6 @@
       "format": "modern",
       "archetype": "temur-prowess",
       "path": "latest/radars/modern/temur-prowess.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
-      "archetype": "temur-steel-cutter",
-      "path": "latest/radars/modern/temur-steel-cutter.json"
     },
     {
       "scope": "archetype-radar",
