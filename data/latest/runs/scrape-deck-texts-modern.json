@@ -1,14 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T13:53:20Z",
+  "generated_at": "2026-04-15T14:50:34Z",
   "command": "scrape-deck-texts-modern",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 47,
-    "skipped": 693,
-    "stale-fallback": 1
+    "success": 46,
+    "skipped": 690,
+    "hard-failure": 3,
+    "stale-fallback": 2
   },
   "results": [
     {
@@ -35,18 +36,19 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "4c-genericblink",
       "path": "latest/decks/modern/4c-genericblink.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for 4c GenericBlink"
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "affinity",
-      "path": "latest/decks/modern/affinity.json"
+      "path": "latest/decks/modern/affinity.json",
+      "message": "Deck scrape returned no rows for Affinity"
     },
     {
       "scope": "archetype-decks",
@@ -64,10 +66,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "belcher",
-      "path": "latest/decks/modern/belcher.json"
+      "path": "latest/decks/modern/belcher.json",
+      "message": "Deck scrape returned no rows for Belcher"
     },
     {
       "scope": "archetype-decks",
@@ -92,11 +95,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "dimir-murktide",
       "path": "latest/decks/modern/dimir-murktide.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Dimir Murktide"
     },
     {
       "scope": "archetype-decks",
@@ -136,11 +139,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "esper-control",
       "path": "latest/decks/modern/esper-control.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Esper Control"
     },
     {
       "scope": "archetype-decks",
@@ -366,11 +369,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "modern",
       "archetype": "rakdos-midrange",
-      "path": "latest/decks/modern/rakdos-midrange.json",
-      "message": "Deck scrape returned no rows for Rakdos Midrange"
+      "path": "latest/decks/modern/rakdos-midrange.json"
     },
     {
       "scope": "archetype-decks",

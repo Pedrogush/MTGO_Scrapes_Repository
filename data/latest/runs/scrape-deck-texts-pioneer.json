@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T13:53:20Z",
+  "generated_at": "2026-04-15T14:50:34Z",
   "command": "scrape-deck-texts-pioneer",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 24,
-    "skipped": 307,
-    "hard-failure": 2
+    "success": 25,
+    "skipped": 310,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -43,11 +43,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "5c-indomitable-creativity",
       "path": "latest/decks/pioneer/5c-indomitable-creativity.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for 5c Indomitable Creativity"
     },
     {
       "scope": "archetype-decks",
@@ -179,11 +179,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "pioneer",
       "archetype": "hidden-strings",
-      "path": "latest/decks/pioneer/hidden-strings.json",
-      "message": "Deck scrape returned no rows for Hidden Strings"
+      "path": "latest/decks/pioneer/hidden-strings.json"
     },
     {
       "scope": "archetype-decks",
@@ -201,11 +200,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "jund-goblins",
       "path": "latest/decks/pioneer/jund-goblins.json",
-      "message": "Deck scrape returned no rows for Jund Goblins"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -1814,6 +1813,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
+      "deck_id": "7729665",
+      "path": "archive/deck-texts/pioneer/7729665.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
       "deck_id": "7729666",
       "path": "archive/deck-texts/pioneer/7729666.json",
       "message": "Reused existing published deck-text blob."
@@ -2030,6 +2037,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
+      "deck_id": "7730227",
+      "path": "archive/deck-texts/pioneer/7730227.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
       "deck_id": "7730228",
       "path": "archive/deck-texts/pioneer/7730228.json",
       "message": "Reused existing published deck-text blob."
@@ -2240,6 +2255,14 @@
       "format": "pioneer",
       "deck_id": "7730394",
       "path": "archive/deck-texts/pioneer/7730394.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
+      "deck_id": "7730395",
+      "path": "archive/deck-texts/pioneer/7730395.json",
       "message": "Reused existing published deck-text blob."
     },
     {

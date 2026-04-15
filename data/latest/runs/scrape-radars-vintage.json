@@ -1,22 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T13:56:40Z",
+  "generated_at": "2026-04-15T14:55:58Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 24,
+    "success": 22,
     "skipped": 5
   },
   "results": [
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "4c-initiative",
-      "path": "latest/radars/vintage/4c-initiative.json"
-    },
     {
       "scope": "archetype-radar",
       "status": "success",
@@ -50,13 +43,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "vintage",
-      "archetype": "blue-tempo",
-      "path": "latest/radars/vintage/blue-tempo.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
       "archetype": "blue-tinker",
       "path": "latest/radars/vintage/blue-tinker.json"
     },
@@ -81,13 +67,6 @@
       "format": "vintage",
       "archetype": "doomsday",
       "path": "latest/radars/vintage/doomsday.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "dredge",
-      "path": "latest/radars/vintage/dredge.json"
     },
     {
       "scope": "archetype-radar",
@@ -181,6 +160,13 @@
       "format": "vintage",
       "archetype": "raker-shops",
       "path": "latest/radars/vintage/raker-shops.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "red-prison",
+      "path": "latest/radars/vintage/red-prison.json"
     },
     {
       "scope": "archetype-radar",
