@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T14:55:59Z",
+  "generated_at": "2026-04-15T15:57:31Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 45,
-    "skipped": 9
+    "success": 46,
+    "skipped": 8
   },
   "results": [
     {
@@ -28,8 +28,22 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "affinity-stompy",
+      "path": "latest/radars/legacy/affinity-stompy.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "aluren",
       "path": "latest/radars/legacy/aluren.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "azorius-stoneblade",
+      "path": "latest/radars/legacy/azorius-stoneblade.json"
     },
     {
       "scope": "archetype-radar",
@@ -102,6 +116,20 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "coveted-jewel-combo",
+      "path": "latest/radars/legacy/coveted-jewel-combo.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "cradle-control",
+      "path": "latest/radars/legacy/cradle-control.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "creative-technique",
       "path": "latest/radars/legacy/creative-technique.json"
     },
@@ -109,8 +137,8 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "death-and-taxes-60-card",
-      "path": "latest/radars/legacy/death-and-taxes-60-card.json"
+      "archetype": "death-and-taxes-yorion-black-white",
+      "path": "latest/radars/legacy/death-and-taxes-yorion-black-white.json"
     },
     {
       "scope": "archetype-radar",
@@ -161,13 +189,6 @@
       "format": "legacy",
       "archetype": "goblins",
       "path": "latest/radars/legacy/goblins.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "green-cloudpost",
-      "path": "latest/radars/legacy/green-cloudpost.json"
     },
     {
       "scope": "archetype-radar",
@@ -262,13 +283,6 @@
       "format": "legacy",
       "archetype": "mono-black-midrange",
       "path": "latest/radars/legacy/mono-black-midrange.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "mono-black-pox",
-      "path": "latest/radars/legacy/mono-black-pox.json"
     },
     {
       "scope": "archetype-radar",
@@ -374,21 +388,6 @@
       "format": "legacy",
       "archetype": "sultai-depths",
       "path": "latest/radars/legacy/sultai-depths.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "sultai-tempo",
-      "path": "latest/radars/legacy/sultai-tempo.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "the-epic-storm",
-      "path": "latest/radars/legacy/the-epic-storm.json"
     },
     {
       "scope": "format-card-pool",

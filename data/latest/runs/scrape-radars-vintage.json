@@ -1,15 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T14:55:58Z",
+  "generated_at": "2026-04-15T15:57:30Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 22,
+    "success": 24,
     "skipped": 5
   },
   "results": [
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "4c-initiative",
+      "path": "latest/radars/vintage/4c-initiative.json"
+    },
     {
       "scope": "archetype-radar",
       "status": "success",
@@ -38,6 +45,13 @@
       "format": "vintage",
       "archetype": "blue-control",
       "path": "latest/radars/vintage/blue-control.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "blue-tempo",
+      "path": "latest/radars/vintage/blue-tempo.json"
     },
     {
       "scope": "archetype-radar",
@@ -72,6 +86,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "vintage",
+      "archetype": "dredge",
+      "path": "latest/radars/vintage/dredge.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
       "archetype": "esper-lurrus-control",
       "path": "latest/radars/vintage/esper-lurrus-control.json"
     },
@@ -96,13 +117,6 @@
       "format": "vintage",
       "archetype": "lurrus-breach",
       "path": "latest/radars/vintage/lurrus-breach.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "lurrus-po",
-      "path": "latest/radars/vintage/lurrus-po.json"
     },
     {
       "scope": "archetype-radar",

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T14:50:39Z",
+  "generated_at": "2026-04-15T15:42:50Z",
   "command": "scrape-deck-texts-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 28,
-    "skipped": 382,
+    "success": 30,
+    "skipped": 381,
     "stale-fallback": 3,
     "hard-failure": 2
   },
@@ -79,11 +79,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "standard",
       "archetype": "5c-elementals",
-      "path": "latest/decks/standard/5c-elementals.json",
-      "message": "Deck scrape returned no rows for 5c Elementals"
+      "path": "latest/decks/standard/5c-elementals.json"
     },
     {
       "scope": "archetype-decks",
@@ -118,11 +117,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "standard",
       "archetype": "azorius-tempo",
-      "path": "latest/decks/standard/azorius-tempo.json",
-      "message": "Deck scrape returned no rows for Azorius Tempo"
+      "path": "latest/decks/standard/azorius-tempo.json"
     },
     {
       "scope": "archetype-decks",
@@ -226,11 +224,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "gruul-landfall",
       "path": "latest/decks/standard/gruul-landfall.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Gruul Landfall"
     },
     {
       "scope": "archetype-decks",
@@ -264,10 +262,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "izzet-self-bounce",
-      "path": "latest/decks/standard/izzet-self-bounce.json"
+      "path": "latest/decks/standard/izzet-self-bounce.json",
+      "message": "Deck scrape returned no rows for Izzet Self-Bounce"
     },
     {
       "scope": "archetype-decks",
@@ -315,11 +314,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "mono-black-control",
       "path": "latest/decks/standard/mono-black-control.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Mono-Black Control"
     },
     {
       "scope": "archetype-decks",
@@ -421,18 +420,19 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "sultai-reanimator",
-      "path": "latest/decks/standard/sultai-reanimator.json"
+      "path": "latest/decks/standard/sultai-reanimator.json",
+      "message": "Deck scrape returned no rows for Sultai Reanimator"
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "standard",
       "archetype": "temur-battlecrier-combo",
       "path": "latest/decks/standard/temur-battlecrier-combo.json",
-      "message": "Deck scrape returned no rows for Temur Battlecrier Combo"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -443,11 +443,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "standard",
       "archetype": "temur-kona",
-      "path": "latest/decks/standard/temur-kona.json",
-      "message": "Deck scrape returned no rows for Temur Kona"
+      "path": "latest/decks/standard/temur-kona.json"
     },
     {
       "scope": "archetype-decks",
@@ -3302,6 +3301,13 @@
       "deck_id": "7734669",
       "path": "archive/deck-texts/standard/7734669.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7734881",
+      "path": "archive/deck-texts/standard/7734881.json"
     }
   ]
 }

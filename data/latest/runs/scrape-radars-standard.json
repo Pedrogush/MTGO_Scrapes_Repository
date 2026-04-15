@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T14:56:01Z",
+  "generated_at": "2026-04-15T15:57:36Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
@@ -305,14 +305,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "mono-black-control",
-      "path": "latest/radars/standard/mono-black-control.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "mono-blue-control",
@@ -415,6 +407,14 @@
       "format": "standard",
       "archetype": "sultai-reanimator",
       "path": "latest/radars/standard/sultai-reanimator.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "temur-battlecrier-combo",
+      "path": "latest/radars/standard/temur-battlecrier-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
