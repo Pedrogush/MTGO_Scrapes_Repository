@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T23:32:04Z",
+  "generated_at": "2026-04-16T01:08:39Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 17,
-    "success": 50
+    "skipped": 18,
+    "success": 49
   },
   "results": [
     {
@@ -65,10 +65,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "azorius-control",
-      "path": "latest/radars/modern/azorius-control.json"
+      "path": "latest/radars/modern/azorius-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

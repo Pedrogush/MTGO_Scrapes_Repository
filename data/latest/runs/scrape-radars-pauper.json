@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T23:31:54Z",
+  "generated_at": "2026-04-16T01:08:13Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
@@ -10,6 +10,14 @@
     "success": 45
   },
   "results": [
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "pauper",
+      "archetype": "4c-reanimator",
+      "path": "latest/radars/pauper/4c-reanimator.json",
+      "message": "No published decks were available for radar generation."
+    },
     {
       "scope": "archetype-radar",
       "status": "skipped",
@@ -320,14 +328,6 @@
       "format": "pauper",
       "archetype": "mono-blue-faeries",
       "path": "latest/radars/pauper/mono-blue-faeries.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pauper",
-      "archetype": "mono-green-aggro",
-      "path": "latest/radars/pauper/mono-green-aggro.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

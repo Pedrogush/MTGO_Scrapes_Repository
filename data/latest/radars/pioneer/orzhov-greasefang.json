@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-04-15T23:31:54Z",
+  "generated_at": "2026-04-16T01:08:19Z",
   "format": "pioneer",
   "source": "published-deck-texts",
   "archetype": {
@@ -12,7 +12,7 @@
   "decks_failed": 0,
   "mainboard_cards": [
     {
-      "card_name": "Concealed Courtyard",
+      "card_name": "Fatal Push",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -36,6 +36,18 @@
       }
     },
     {
+      "card_name": "Monument to Endurance",
+      "appearances": 50,
+      "total_copies": 200,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 50
+      }
+    },
+    {
       "card_name": "Greasefang, Okiba Boss",
       "appearances": 50,
       "total_copies": 200,
@@ -48,7 +60,7 @@
       }
     },
     {
-      "card_name": "Monument to Endurance",
+      "card_name": "Thoughtseize",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -84,19 +96,7 @@
       }
     },
     {
-      "card_name": "Fatal Push",
-      "appearances": 50,
-      "total_copies": 200,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 50
-      }
-    },
-    {
-      "card_name": "Thoughtseize",
+      "card_name": "Concealed Courtyard",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -123,42 +123,29 @@
     {
       "card_name": "Iron-Shield Elf",
       "appearances": 50,
-      "total_copies": 196,
+      "total_copies": 195,
       "max_copies": 4,
-      "avg_copies": 3.92,
+      "avg_copies": 3.9,
       "inclusion_rate": 100.0,
-      "expected_copies": 3.92,
+      "expected_copies": 3.9,
       "copy_distribution": {
-        "4": 46,
-        "3": 4
+        "4": 45,
+        "3": 5
       }
     },
     {
       "card_name": "Guardian of New Benalia",
       "appearances": 49,
-      "total_copies": 157,
+      "total_copies": 156,
       "max_copies": 4,
-      "avg_copies": 3.2,
+      "avg_copies": 3.18,
       "inclusion_rate": 98.0,
-      "expected_copies": 3.14,
+      "expected_copies": 3.12,
       "copy_distribution": {
-        "4": 11,
-        "3": 37,
+        "4": 10,
+        "3": 38,
         "2": 1,
         "0": 1
-      }
-    },
-    {
-      "card_name": "Brightclimb Pathway",
-      "appearances": 50,
-      "total_copies": 112,
-      "max_copies": 4,
-      "avg_copies": 2.24,
-      "inclusion_rate": 100.0,
-      "expected_copies": 2.24,
-      "copy_distribution": {
-        "4": 6,
-        "2": 44
       }
     },
     {
@@ -176,44 +163,57 @@
       }
     },
     {
+      "card_name": "Brightclimb Pathway",
+      "appearances": 50,
+      "total_copies": 110,
+      "max_copies": 4,
+      "avg_copies": 2.2,
+      "inclusion_rate": 100.0,
+      "expected_copies": 2.2,
+      "copy_distribution": {
+        "4": 5,
+        "2": 45
+      }
+    },
+    {
       "card_name": "Bleachbone Verge",
       "appearances": 50,
-      "total_copies": 100,
+      "total_copies": 101,
       "max_copies": 3,
-      "avg_copies": 2.0,
+      "avg_copies": 2.02,
       "inclusion_rate": 100.0,
-      "expected_copies": 2.0,
+      "expected_copies": 2.02,
       "copy_distribution": {
         "3": 3,
-        "2": 44,
-        "1": 3
+        "2": 45,
+        "1": 2
       }
     },
     {
       "card_name": "Shadowy Backstreet",
-      "appearances": 44,
-      "total_copies": 88,
+      "appearances": 45,
+      "total_copies": 90,
       "max_copies": 2,
       "avg_copies": 2.0,
-      "inclusion_rate": 88.0,
-      "expected_copies": 1.76,
+      "inclusion_rate": 90.0,
+      "expected_copies": 1.8,
       "copy_distribution": {
-        "2": 44,
-        "0": 6
+        "2": 45,
+        "0": 5
       }
     },
     {
       "card_name": "Plains",
-      "appearances": 47,
-      "total_copies": 53,
+      "appearances": 48,
+      "total_copies": 54,
       "max_copies": 2,
-      "avg_copies": 1.13,
-      "inclusion_rate": 94.0,
-      "expected_copies": 1.06,
+      "avg_copies": 1.12,
+      "inclusion_rate": 96.0,
+      "expected_copies": 1.08,
       "copy_distribution": {
         "2": 6,
-        "1": 41,
-        "0": 3
+        "1": 42,
+        "0": 2
       }
     },
     {
@@ -257,20 +257,20 @@
       }
     },
     {
-      "card_name": "Geier Reach Sanitarium",
-      "appearances": 47,
-      "total_copies": 47,
+      "card_name": "Swamp",
+      "appearances": 48,
+      "total_copies": 48,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 94.0,
-      "expected_copies": 0.94,
+      "inclusion_rate": 96.0,
+      "expected_copies": 0.96,
       "copy_distribution": {
-        "1": 47,
-        "0": 3
+        "1": 48,
+        "0": 2
       }
     },
     {
-      "card_name": "Swamp",
+      "card_name": "Geier Reach Sanitarium",
       "appearances": 47,
       "total_copies": 47,
       "max_copies": 1,
@@ -297,15 +297,15 @@
     },
     {
       "card_name": "Lively Dirge",
-      "appearances": 40,
-      "total_copies": 40,
+      "appearances": 41,
+      "total_copies": 41,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 80.0,
-      "expected_copies": 0.8,
+      "inclusion_rate": 82.0,
+      "expected_copies": 0.82,
       "copy_distribution": {
-        "1": 40,
-        "0": 10
+        "1": 41,
+        "0": 9
       }
     },
     {
@@ -323,16 +323,16 @@
     },
     {
       "card_name": "Seasoned Hallowblade",
-      "appearances": 5,
-      "total_copies": 8,
+      "appearances": 6,
+      "total_copies": 9,
       "max_copies": 4,
-      "avg_copies": 1.6,
-      "inclusion_rate": 10.0,
-      "expected_copies": 0.16,
+      "avg_copies": 1.5,
+      "inclusion_rate": 12.0,
+      "expected_copies": 0.18,
       "copy_distribution": {
         "4": 1,
-        "1": 4,
-        "0": 45
+        "1": 5,
+        "0": 44
       }
     },
     {
@@ -350,32 +350,19 @@
     },
     {
       "card_name": "Snow-Covered Plains",
-      "appearances": 3,
-      "total_copies": 6,
+      "appearances": 2,
+      "total_copies": 4,
       "max_copies": 2,
       "avg_copies": 2.0,
-      "inclusion_rate": 6.0,
-      "expected_copies": 0.12,
+      "inclusion_rate": 4.0,
+      "expected_copies": 0.08,
       "copy_distribution": {
-        "2": 3,
-        "0": 47
+        "2": 2,
+        "0": 48
       }
     },
     {
       "card_name": "Duress",
-      "appearances": 3,
-      "total_copies": 3,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 6.0,
-      "expected_copies": 0.06,
-      "copy_distribution": {
-        "1": 3,
-        "0": 47
-      }
-    },
-    {
-      "card_name": "Snow-Covered Swamp",
       "appearances": 3,
       "total_copies": 3,
       "max_copies": 1,
@@ -399,21 +386,34 @@
         "1": 3,
         "0": 47
       }
+    },
+    {
+      "card_name": "Snow-Covered Swamp",
+      "appearances": 2,
+      "total_copies": 2,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 4.0,
+      "expected_copies": 0.04,
+      "copy_distribution": {
+        "1": 2,
+        "0": 48
+      }
     }
   ],
   "sideboard_cards": [
     {
       "card_name": "Doorkeeper Thrull",
       "appearances": 50,
-      "total_copies": 148,
+      "total_copies": 149,
       "max_copies": 4,
-      "avg_copies": 2.96,
+      "avg_copies": 2.98,
       "inclusion_rate": 100.0,
-      "expected_copies": 2.96,
+      "expected_copies": 2.98,
       "copy_distribution": {
         "4": 3,
-        "3": 42,
-        "2": 5
+        "3": 43,
+        "2": 4
       }
     },
     {
@@ -432,18 +432,18 @@
     },
     {
       "card_name": "Soul-Guide Lantern",
-      "appearances": 45,
-      "total_copies": 98,
+      "appearances": 46,
+      "total_copies": 100,
       "max_copies": 4,
-      "avg_copies": 2.18,
-      "inclusion_rate": 90.0,
-      "expected_copies": 1.96,
+      "avg_copies": 2.17,
+      "inclusion_rate": 92.0,
+      "expected_copies": 2.0,
       "copy_distribution": {
         "4": 3,
         "3": 3,
-        "2": 38,
+        "2": 39,
         "1": 1,
-        "0": 5
+        "0": 4
       }
     },
     {
@@ -476,73 +476,59 @@
     },
     {
       "card_name": "Loran of the Third Path",
-      "appearances": 33,
-      "total_copies": 59,
+      "appearances": 34,
+      "total_copies": 60,
       "max_copies": 2,
-      "avg_copies": 1.79,
-      "inclusion_rate": 66.0,
-      "expected_copies": 1.18,
+      "avg_copies": 1.76,
+      "inclusion_rate": 68.0,
+      "expected_copies": 1.2,
       "copy_distribution": {
         "2": 26,
-        "1": 7,
-        "0": 17
+        "1": 8,
+        "0": 16
       }
     },
     {
       "card_name": "High Noon",
-      "appearances": 25,
-      "total_copies": 48,
+      "appearances": 24,
+      "total_copies": 46,
       "max_copies": 2,
       "avg_copies": 1.92,
-      "inclusion_rate": 50.0,
-      "expected_copies": 0.96,
+      "inclusion_rate": 48.0,
+      "expected_copies": 0.92,
       "copy_distribution": {
-        "2": 23,
+        "2": 22,
         "1": 2,
-        "0": 25
+        "0": 26
       }
     },
     {
       "card_name": "Vanishing Verse",
       "appearances": 24,
-      "total_copies": 45,
+      "total_copies": 44,
       "max_copies": 4,
-      "avg_copies": 1.88,
+      "avg_copies": 1.83,
       "inclusion_rate": 48.0,
-      "expected_copies": 0.9,
+      "expected_copies": 0.88,
       "copy_distribution": {
         "4": 3,
         "3": 4,
-        "2": 4,
-        "1": 13,
+        "2": 3,
+        "1": 14,
         "0": 26
       }
     },
     {
       "card_name": "Go Blank",
-      "appearances": 14,
-      "total_copies": 14,
+      "appearances": 15,
+      "total_copies": 15,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 28.0,
-      "expected_copies": 0.28,
+      "inclusion_rate": 30.0,
+      "expected_copies": 0.3,
       "copy_distribution": {
-        "1": 14,
-        "0": 36
-      }
-    },
-    {
-      "card_name": "Unlicensed Hearse",
-      "appearances": 5,
-      "total_copies": 9,
-      "max_copies": 2,
-      "avg_copies": 1.8,
-      "inclusion_rate": 10.0,
-      "expected_copies": 0.18,
-      "copy_distribution": {
-        "2": 4,
-        "1": 1,
-        "0": 45
+        "1": 15,
+        "0": 35
       }
     },
     {
@@ -556,6 +542,20 @@
       "copy_distribution": {
         "1": 8,
         "0": 42
+      }
+    },
+    {
+      "card_name": "Unlicensed Hearse",
+      "appearances": 4,
+      "total_copies": 7,
+      "max_copies": 2,
+      "avg_copies": 1.75,
+      "inclusion_rate": 8.0,
+      "expected_copies": 0.14,
+      "copy_distribution": {
+        "2": 3,
+        "1": 1,
+        "0": 46
       }
     },
     {

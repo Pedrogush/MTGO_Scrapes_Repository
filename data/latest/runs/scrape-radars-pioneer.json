@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-15T23:31:54Z",
+  "generated_at": "2026-04-16T01:08:19Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 23,
+    "skipped": 22,
     "success": 25
   },
   "results": [
@@ -241,14 +241,6 @@
       "format": "pioneer",
       "archetype": "mono-white-humans",
       "path": "latest/radars/pioneer/mono-white-humans.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "naya-midrange",
-      "path": "latest/radars/pioneer/naya-midrange.json",
       "message": "No published decks were available for radar generation."
     },
     {
