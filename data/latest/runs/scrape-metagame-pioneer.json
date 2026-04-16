@@ -1,20 +1,19 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-16T03:23:16Z",
+  "generated_at": "2026-04-16T05:14:59Z",
   "command": "scrape-metagame-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "stale-fallback": 1
+    "success": 1
   },
   "results": [
     {
       "scope": "metagame",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "pioneer",
-      "path": "latest/metagame/pioneer.json",
-      "message": "HTTP Error 502: "
+      "path": "latest/metagame/pioneer.json"
     }
   ]
 }

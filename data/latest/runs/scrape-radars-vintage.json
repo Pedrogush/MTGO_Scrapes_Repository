@@ -1,15 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-16T03:30:17Z",
+  "generated_at": "2026-04-16T05:17:41Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 24,
+    "success": 25,
     "skipped": 5
   },
   "results": [
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "4c-initiative",
+      "path": "latest/radars/vintage/4c-initiative.json"
+    },
     {
       "scope": "archetype-radar",
       "status": "success",

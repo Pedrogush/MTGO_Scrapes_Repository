@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-16T03:23:18Z",
+  "generated_at": "2026-04-16T05:14:57Z",
   "command": "scrape-deck-texts-standard",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 36,
-    "hard-failure": 1,
-    "skipped": 321
+    "success": 33,
+    "skipped": 325
   },
   "results": [
     {
@@ -40,11 +39,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "standard",
       "archetype": "4c-harmonizer-combo",
       "path": "latest/decks/standard/4c-harmonizer-combo.json",
-      "message": "Deck scrape returned no rows for 4c Harmonizer Combo"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -2819,24 +2818,27 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7735433",
-      "path": "archive/deck-texts/standard/7735433.json"
+      "path": "archive/deck-texts/standard/7735433.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7735434",
-      "path": "archive/deck-texts/standard/7735434.json"
+      "path": "archive/deck-texts/standard/7735434.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7735435",
-      "path": "archive/deck-texts/standard/7735435.json"
+      "path": "archive/deck-texts/standard/7735435.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }
