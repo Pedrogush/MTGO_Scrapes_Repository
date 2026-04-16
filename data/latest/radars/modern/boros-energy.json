@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-04-16T18:43:51Z",
+  "generated_at": "2026-04-16T19:44:22Z",
   "format": "modern",
   "source": "published-deck-texts",
   "archetype": {
@@ -12,19 +12,7 @@
   "decks_failed": 0,
   "mainboard_cards": [
     {
-      "card_name": "Phlage, Titan of Fire's Fury",
-      "appearances": 50,
-      "total_copies": 200,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 50
-      }
-    },
-    {
-      "card_name": "Arid Mesa",
+      "card_name": "Ajani, Nacatl Pariah",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -48,7 +36,7 @@
       }
     },
     {
-      "card_name": "Ajani, Nacatl Pariah",
+      "card_name": "Ocelot Pride",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -60,7 +48,19 @@
       }
     },
     {
-      "card_name": "Ocelot Pride",
+      "card_name": "Phlage, Titan of Fire's Fury",
+      "appearances": 50,
+      "total_copies": 200,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 50
+      }
+    },
+    {
+      "card_name": "Arid Mesa",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -100,14 +100,14 @@
     {
       "card_name": "Marsh Flats",
       "appearances": 50,
-      "total_copies": 179,
+      "total_copies": 180,
       "max_copies": 4,
-      "avg_copies": 3.58,
+      "avg_copies": 3.6,
       "inclusion_rate": 100.0,
-      "expected_copies": 3.58,
+      "expected_copies": 3.6,
       "copy_distribution": {
-        "4": 32,
-        "3": 15,
+        "4": 33,
+        "3": 14,
         "2": 3
       }
     },
@@ -279,29 +279,29 @@
     },
     {
       "card_name": "Blood Moon",
-      "appearances": 32,
-      "total_copies": 38,
+      "appearances": 31,
+      "total_copies": 37,
       "max_copies": 2,
       "avg_copies": 1.19,
-      "inclusion_rate": 64.0,
-      "expected_copies": 0.76,
+      "inclusion_rate": 62.0,
+      "expected_copies": 0.74,
       "copy_distribution": {
         "2": 6,
-        "1": 26,
-        "0": 18
+        "1": 25,
+        "0": 19
       }
     },
     {
       "card_name": "Mountain",
-      "appearances": 36,
-      "total_copies": 36,
+      "appearances": 35,
+      "total_copies": 35,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 72.0,
-      "expected_copies": 0.72,
+      "inclusion_rate": 70.0,
+      "expected_copies": 0.7,
       "copy_distribution": {
-        "1": 36,
-        "0": 14
+        "1": 35,
+        "0": 15
       }
     },
     {
@@ -347,15 +347,15 @@
     },
     {
       "card_name": "Static Prison",
-      "appearances": 5,
-      "total_copies": 5,
+      "appearances": 6,
+      "total_copies": 6,
       "max_copies": 1,
       "avg_copies": 1.0,
-      "inclusion_rate": 10.0,
-      "expected_copies": 0.1,
+      "inclusion_rate": 12.0,
+      "expected_copies": 0.12,
       "copy_distribution": {
-        "1": 5,
-        "0": 45
+        "1": 6,
+        "0": 44
       }
     },
     {
@@ -441,17 +441,17 @@
   "sideboard_cards": [
     {
       "card_name": "Obsidian Charmaw",
-      "appearances": 44,
-      "total_copies": 120,
+      "appearances": 45,
+      "total_copies": 122,
       "max_copies": 4,
-      "avg_copies": 2.73,
-      "inclusion_rate": 88.0,
-      "expected_copies": 2.4,
+      "avg_copies": 2.71,
+      "inclusion_rate": 90.0,
+      "expected_copies": 2.44,
       "copy_distribution": {
         "4": 3,
         "3": 26,
-        "2": 15,
-        "0": 6
+        "2": 16,
+        "0": 5
       }
     },
     {
@@ -486,14 +486,28 @@
     {
       "card_name": "Wear // Tear",
       "appearances": 50,
-      "total_copies": 84,
+      "total_copies": 83,
       "max_copies": 2,
-      "avg_copies": 1.68,
+      "avg_copies": 1.66,
       "inclusion_rate": 100.0,
-      "expected_copies": 1.68,
+      "expected_copies": 1.66,
       "copy_distribution": {
-        "2": 34,
-        "1": 16
+        "2": 33,
+        "1": 17
+      }
+    },
+    {
+      "card_name": "Surgical Extraction",
+      "appearances": 49,
+      "total_copies": 60,
+      "max_copies": 2,
+      "avg_copies": 1.22,
+      "inclusion_rate": 98.0,
+      "expected_copies": 1.2,
+      "copy_distribution": {
+        "2": 11,
+        "1": 38,
+        "0": 1
       }
     },
     {
@@ -511,73 +525,59 @@
       }
     },
     {
-      "card_name": "Surgical Extraction",
-      "appearances": 48,
-      "total_copies": 58,
-      "max_copies": 2,
-      "avg_copies": 1.21,
-      "inclusion_rate": 96.0,
-      "expected_copies": 1.16,
-      "copy_distribution": {
-        "2": 10,
-        "1": 38,
-        "0": 2
-      }
-    },
-    {
       "card_name": "Celestial Purge",
-      "appearances": 33,
-      "total_copies": 54,
+      "appearances": 32,
+      "total_copies": 52,
       "max_copies": 3,
-      "avg_copies": 1.64,
-      "inclusion_rate": 66.0,
-      "expected_copies": 1.08,
+      "avg_copies": 1.62,
+      "inclusion_rate": 64.0,
+      "expected_copies": 1.04,
       "copy_distribution": {
         "3": 1,
-        "2": 19,
+        "2": 18,
         "1": 13,
-        "0": 17
+        "0": 18
       }
     },
     {
       "card_name": "Blood Moon",
-      "appearances": 40,
-      "total_copies": 52,
+      "appearances": 39,
+      "total_copies": 51,
       "max_copies": 2,
-      "avg_copies": 1.3,
-      "inclusion_rate": 80.0,
-      "expected_copies": 1.04,
+      "avg_copies": 1.31,
+      "inclusion_rate": 78.0,
+      "expected_copies": 1.02,
       "copy_distribution": {
         "2": 12,
-        "1": 28,
-        "0": 10
+        "1": 27,
+        "0": 11
       }
     },
     {
       "card_name": "Vexing Bauble",
-      "appearances": 20,
-      "total_copies": 33,
+      "appearances": 21,
+      "total_copies": 35,
       "max_copies": 2,
-      "avg_copies": 1.65,
-      "inclusion_rate": 40.0,
-      "expected_copies": 0.66,
+      "avg_copies": 1.67,
+      "inclusion_rate": 42.0,
+      "expected_copies": 0.7,
       "copy_distribution": {
-        "2": 13,
+        "2": 14,
         "1": 7,
-        "0": 30
+        "0": 29
       }
     },
     {
       "card_name": "High Noon",
       "appearances": 24,
-      "total_copies": 31,
+      "total_copies": 32,
       "max_copies": 2,
-      "avg_copies": 1.29,
+      "avg_copies": 1.33,
       "inclusion_rate": 48.0,
-      "expected_copies": 0.62,
+      "expected_copies": 0.64,
       "copy_distribution": {
-        "2": 7,
-        "1": 17,
+        "2": 8,
+        "1": 16,
         "0": 26
       }
     },
@@ -638,33 +638,6 @@
       }
     },
     {
-      "card_name": "Meltdown",
-      "appearances": 5,
-      "total_copies": 5,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 10.0,
-      "expected_copies": 0.1,
-      "copy_distribution": {
-        "1": 5,
-        "0": 45
-      }
-    },
-    {
-      "card_name": "Molten Rain",
-      "appearances": 3,
-      "total_copies": 5,
-      "max_copies": 3,
-      "avg_copies": 1.67,
-      "inclusion_rate": 6.0,
-      "expected_copies": 0.1,
-      "copy_distribution": {
-        "3": 1,
-        "1": 2,
-        "0": 47
-      }
-    },
-    {
       "card_name": "Containment Priest",
       "appearances": 4,
       "total_copies": 4,
@@ -691,7 +664,34 @@
       }
     },
     {
-      "card_name": "Exorcise",
+      "card_name": "Meltdown",
+      "appearances": 4,
+      "total_copies": 4,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 8.0,
+      "expected_copies": 0.08,
+      "copy_distribution": {
+        "1": 4,
+        "0": 46
+      }
+    },
+    {
+      "card_name": "Path to Exile",
+      "appearances": 2,
+      "total_copies": 3,
+      "max_copies": 2,
+      "avg_copies": 1.5,
+      "inclusion_rate": 4.0,
+      "expected_copies": 0.06,
+      "copy_distribution": {
+        "2": 1,
+        "1": 1,
+        "0": 48
+      }
+    },
+    {
+      "card_name": "Molten Rain",
       "appearances": 2,
       "total_copies": 2,
       "max_copies": 1,
@@ -704,16 +704,16 @@
       }
     },
     {
-      "card_name": "Path to Exile",
-      "appearances": 1,
+      "card_name": "Exorcise",
+      "appearances": 2,
       "total_copies": 2,
-      "max_copies": 2,
-      "avg_copies": 2.0,
-      "inclusion_rate": 2.0,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 4.0,
       "expected_copies": 0.04,
       "copy_distribution": {
-        "2": 1,
-        "0": 49
+        "1": 2,
+        "0": 48
       }
     },
     {
