@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-16T15:51:09Z",
+  "generated_at": "2026-04-16T16:48:47Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 33,
+    "success": 32,
     "skipped": 354
   },
   "results": [
@@ -80,14 +80,6 @@
       "format": "standard",
       "archetype": "5c-elementals",
       "path": "latest/decks/standard/5c-elementals.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "5c-ouroboroid",
-      "path": "latest/decks/standard/5c-ouroboroid.json",
-      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -313,13 +305,6 @@
       "scope": "archetype-decks",
       "status": "success",
       "format": "standard",
-      "archetype": "mono-black-midrange",
-      "path": "latest/decks/standard/mono-black-midrange.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "success",
-      "format": "standard",
       "archetype": "mono-blue-control",
       "path": "latest/decks/standard/mono-blue-control.json"
     },
@@ -394,6 +379,14 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "standard",
+      "archetype": "simic-landfall",
+      "path": "latest/decks/standard/simic-landfall.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
       "archetype": "simic-ouroboroid",
       "path": "latest/decks/standard/simic-ouroboroid.json",
       "message": "No decks found within the last 7 days."
@@ -427,6 +420,14 @@
       "format": "standard",
       "archetype": "sultai-reanimator",
       "path": "latest/decks/standard/sultai-reanimator.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "temur-battlecrier-combo",
+      "path": "latest/decks/standard/temur-battlecrier-combo.json",
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -1774,14 +1775,6 @@
       "format": "standard",
       "deck_id": "7728564",
       "path": "archive/deck-texts/standard/7728564.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "standard",
-      "deck_id": "7729023",
-      "path": "archive/deck-texts/standard/7729023.json",
       "message": "Reused existing published deck-text blob."
     },
     {
