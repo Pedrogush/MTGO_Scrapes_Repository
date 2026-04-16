@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-04-16T07:55:11Z",
+  "generated_at": "2026-04-16T08:55:09Z",
   "format": "pauper",
   "source": "published-deck-texts",
   "archetype": {
@@ -25,7 +25,7 @@
       }
     },
     {
-      "card_name": "Lightning Bolt",
+      "card_name": "Fiery Temper",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -37,7 +37,7 @@
       }
     },
     {
-      "card_name": "Fiery Temper",
+      "card_name": "Grab the Prize",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -61,7 +61,7 @@
       }
     },
     {
-      "card_name": "Grab the Prize",
+      "card_name": "Lightning Bolt",
       "appearances": 50,
       "total_copies": 200,
       "max_copies": 4,
@@ -112,20 +112,6 @@
       }
     },
     {
-      "card_name": "Faithless Looting",
-      "appearances": 50,
-      "total_copies": 186,
-      "max_copies": 4,
-      "avg_copies": 3.72,
-      "inclusion_rate": 100.0,
-      "expected_copies": 3.72,
-      "copy_distribution": {
-        "4": 38,
-        "3": 10,
-        "2": 2
-      }
-    },
-    {
       "card_name": "Highway Robbery",
       "appearances": 50,
       "total_copies": 186,
@@ -139,16 +125,30 @@
       }
     },
     {
+      "card_name": "Faithless Looting",
+      "appearances": 50,
+      "total_copies": 185,
+      "max_copies": 4,
+      "avg_copies": 3.7,
+      "inclusion_rate": 100.0,
+      "expected_copies": 3.7,
+      "copy_distribution": {
+        "4": 37,
+        "3": 11,
+        "2": 2
+      }
+    },
+    {
       "card_name": "Fireblast",
       "appearances": 50,
-      "total_copies": 151,
+      "total_copies": 152,
       "max_copies": 4,
-      "avg_copies": 3.02,
+      "avg_copies": 3.04,
       "inclusion_rate": 100.0,
-      "expected_copies": 3.02,
+      "expected_copies": 3.04,
       "copy_distribution": {
-        "4": 1,
-        "3": 49
+        "4": 2,
+        "3": 48
       }
     },
     {
@@ -262,48 +262,49 @@
   "sideboard_cards": [
     {
       "card_name": "Pyroblast",
-      "appearances": 42,
-      "total_copies": 148,
+      "appearances": 43,
+      "total_copies": 152,
       "max_copies": 4,
-      "avg_copies": 3.52,
-      "inclusion_rate": 84.0,
-      "expected_copies": 2.96,
+      "avg_copies": 3.53,
+      "inclusion_rate": 86.0,
+      "expected_copies": 3.04,
       "copy_distribution": {
-        "4": 31,
+        "4": 32,
         "3": 3,
         "2": 7,
         "1": 1,
-        "0": 8
+        "0": 7
       }
     },
     {
       "card_name": "Relic of Progenitus",
-      "appearances": 45,
-      "total_copies": 128,
-      "max_copies": 3,
-      "avg_copies": 2.84,
-      "inclusion_rate": 90.0,
-      "expected_copies": 2.56,
+      "appearances": 46,
+      "total_copies": 132,
+      "max_copies": 4,
+      "avg_copies": 2.87,
+      "inclusion_rate": 92.0,
+      "expected_copies": 2.64,
       "copy_distribution": {
+        "4": 1,
         "3": 38,
         "2": 7,
-        "0": 5
+        "0": 4
       }
     },
     {
       "card_name": "Searing Blaze",
-      "appearances": 46,
-      "total_copies": 100,
+      "appearances": 47,
+      "total_copies": 103,
       "max_copies": 4,
-      "avg_copies": 2.17,
-      "inclusion_rate": 92.0,
-      "expected_copies": 2.0,
+      "avg_copies": 2.19,
+      "inclusion_rate": 94.0,
+      "expected_copies": 2.06,
       "copy_distribution": {
         "4": 1,
-        "3": 7,
+        "3": 8,
         "2": 37,
         "1": 1,
-        "0": 4
+        "0": 3
       }
     },
     {
@@ -323,32 +324,32 @@
     },
     {
       "card_name": "Red Elemental Blast",
-      "appearances": 33,
-      "total_copies": 88,
+      "appearances": 32,
+      "total_copies": 84,
       "max_copies": 4,
-      "avg_copies": 2.67,
-      "inclusion_rate": 66.0,
-      "expected_copies": 1.76,
+      "avg_copies": 2.62,
+      "inclusion_rate": 64.0,
+      "expected_copies": 1.68,
       "copy_distribution": {
-        "4": 10,
+        "4": 9,
         "3": 4,
         "2": 17,
         "1": 2,
-        "0": 17
+        "0": 18
       }
     },
     {
       "card_name": "Smash to Smithereens",
       "appearances": 30,
-      "total_copies": 73,
+      "total_copies": 75,
       "max_copies": 4,
-      "avg_copies": 2.43,
+      "avg_copies": 2.5,
       "inclusion_rate": 60.0,
-      "expected_copies": 1.46,
+      "expected_copies": 1.5,
       "copy_distribution": {
-        "4": 1,
+        "4": 2,
         "3": 11,
-        "2": 18,
+        "2": 17,
         "0": 20
       }
     },
@@ -395,43 +396,15 @@
     },
     {
       "card_name": "Tormod's Crypt",
-      "appearances": 2,
-      "total_copies": 6,
-      "max_copies": 4,
-      "avg_copies": 3.0,
-      "inclusion_rate": 4.0,
-      "expected_copies": 0.12,
-      "copy_distribution": {
-        "4": 1,
-        "2": 1,
-        "0": 48
-      }
-    },
-    {
-      "card_name": "Campfire",
-      "appearances": 2,
-      "total_copies": 6,
-      "max_copies": 4,
-      "avg_copies": 3.0,
-      "inclusion_rate": 4.0,
-      "expected_copies": 0.12,
-      "copy_distribution": {
-        "4": 1,
-        "2": 1,
-        "0": 48
-      }
-    },
-    {
-      "card_name": "Tectonic Hazard",
-      "appearances": 2,
+      "appearances": 1,
       "total_copies": 4,
-      "max_copies": 2,
-      "avg_copies": 2.0,
-      "inclusion_rate": 4.0,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 2.0,
       "expected_copies": 0.08,
       "copy_distribution": {
-        "2": 2,
-        "0": 48
+        "4": 1,
+        "0": 49
       }
     },
     {
@@ -475,6 +448,32 @@
     },
     {
       "card_name": "Electrickery",
+      "appearances": 1,
+      "total_copies": 2,
+      "max_copies": 2,
+      "avg_copies": 2.0,
+      "inclusion_rate": 2.0,
+      "expected_copies": 0.04,
+      "copy_distribution": {
+        "2": 1,
+        "0": 49
+      }
+    },
+    {
+      "card_name": "Tectonic Hazard",
+      "appearances": 1,
+      "total_copies": 2,
+      "max_copies": 2,
+      "avg_copies": 2.0,
+      "inclusion_rate": 2.0,
+      "expected_copies": 0.04,
+      "copy_distribution": {
+        "2": 1,
+        "0": 49
+      }
+    },
+    {
+      "card_name": "Campfire",
       "appearances": 1,
       "total_copies": 2,
       "max_copies": 2,
@@ -540,19 +539,6 @@
     },
     {
       "card_name": "Nihil Spellbomb",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 2.0,
-      "expected_copies": 0.02,
-      "copy_distribution": {
-        "1": 1,
-        "0": 49
-      }
-    },
-    {
-      "card_name": "Fiery Cannonade",
       "appearances": 1,
       "total_copies": 1,
       "max_copies": 1,
