@@ -1,22 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-16T02:02:00Z",
+  "generated_at": "2026-04-16T03:30:17Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 21,
-    "skipped": 3
+    "success": 24,
+    "skipped": 5
   },
   "results": [
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "4c-initiative",
-      "path": "latest/radars/vintage/4c-initiative.json"
-    },
     {
       "scope": "archetype-radar",
       "status": "success",
@@ -79,8 +72,30 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "vintage",
+      "archetype": "doomsday",
+      "path": "latest/radars/vintage/doomsday.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
       "archetype": "dredge",
       "path": "latest/radars/vintage/dredge.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "esper-lurrus-control",
+      "path": "latest/radars/vintage/esper-lurrus-control.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "vintage",
+      "archetype": "grixis-lurrus-control",
+      "path": "latest/radars/vintage/grixis-lurrus-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -114,6 +129,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "vintage",
+      "archetype": "mono-white-aggro",
+      "path": "latest/radars/vintage/mono-white-aggro.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
       "archetype": "mono-white-initiative",
       "path": "latest/radars/vintage/mono-white-initiative.json"
     },
@@ -123,6 +145,21 @@
       "format": "vintage",
       "archetype": "naya-initiative",
       "path": "latest/radars/vintage/naya-initiative.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "oath-of-druids",
+      "path": "latest/radars/vintage/oath-of-druids.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "vintage",
+      "archetype": "oops-all-spells",
+      "path": "latest/radars/vintage/oops-all-spells.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

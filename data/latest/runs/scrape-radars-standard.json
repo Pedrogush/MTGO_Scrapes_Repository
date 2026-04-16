@@ -1,15 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-16T02:01:57Z",
+  "generated_at": "2026-04-16T03:30:16Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 31,
+    "success": 33,
     "skipped": 28
   },
   "results": [
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "4c-artifacts",
+      "path": "latest/radars/standard/4c-artifacts.json"
+    },
     {
       "scope": "archetype-radar",
       "status": "success",
@@ -23,14 +30,6 @@
       "format": "standard",
       "archetype": "4c-elementals",
       "path": "latest/radars/standard/4c-elementals.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "4c-harmonizer-combo",
-      "path": "latest/radars/standard/4c-harmonizer-combo.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -90,6 +89,14 @@
       "format": "standard",
       "archetype": "allies",
       "path": "latest/radars/standard/allies.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "azorius-control",
+      "path": "latest/radars/standard/azorius-control.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -310,6 +317,13 @@
       "format": "standard",
       "archetype": "mono-black-midrange",
       "path": "latest/radars/standard/mono-black-midrange.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "mono-blue-control",
+      "path": "latest/radars/standard/mono-blue-control.json"
     },
     {
       "scope": "archetype-radar",

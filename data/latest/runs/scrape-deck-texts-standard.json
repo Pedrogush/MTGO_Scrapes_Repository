@@ -1,15 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-16T01:55:36Z",
+  "generated_at": "2026-04-16T03:23:18Z",
   "command": "scrape-deck-texts-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 29,
-    "hard-failure": 3,
-    "skipped": 315,
-    "stale-fallback": 2
+    "success": 36,
+    "hard-failure": 1,
+    "skipped": 321
   },
   "results": [
     {
@@ -20,11 +19,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "standard",
       "archetype": "4c-artifacts",
-      "path": "latest/decks/standard/4c-artifacts.json",
-      "message": "Deck scrape returned no rows for 4c Artifacts"
+      "path": "latest/decks/standard/4c-artifacts.json"
     },
     {
       "scope": "archetype-decks",
@@ -42,11 +40,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "4c-harmonizer-combo",
       "path": "latest/decks/standard/4c-harmonizer-combo.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for 4c Harmonizer Combo"
     },
     {
       "scope": "archetype-decks",
@@ -102,11 +100,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "standard",
       "archetype": "azorius-control",
       "path": "latest/decks/standard/azorius-control.json",
-      "message": "Deck scrape returned no rows for Azorius Control"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -262,11 +260,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "standard",
       "archetype": "izzet-spellementals",
-      "path": "latest/decks/standard/izzet-spellementals.json",
-      "message": "Deck scrape returned no rows for Izzet Spellementals"
+      "path": "latest/decks/standard/izzet-spellementals.json"
     },
     {
       "scope": "archetype-decks",
@@ -322,11 +319,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "standard",
       "archetype": "mono-blue-control",
-      "path": "latest/decks/standard/mono-blue-control.json",
-      "message": "Deck scrape returned no rows for Mono-Blue Control"
+      "path": "latest/decks/standard/mono-blue-control.json"
     },
     {
       "scope": "archetype-decks",
@@ -344,11 +340,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "standard",
       "archetype": "mono-white-momo",
-      "path": "latest/decks/standard/mono-white-momo.json",
-      "message": "Deck scrape returned no rows for Mono-White Momo"
+      "path": "latest/decks/standard/mono-white-momo.json"
     },
     {
       "scope": "archetype-decks",
@@ -1258,6 +1253,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "standard",
+      "deck_id": "7726650",
+      "path": "archive/deck-texts/standard/7726650.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "standard",
       "deck_id": "7726651",
       "path": "archive/deck-texts/standard/7726651.json",
       "message": "Reused existing published deck-text blob."
@@ -1492,6 +1495,14 @@
       "format": "standard",
       "deck_id": "7727610",
       "path": "archive/deck-texts/standard/7727610.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "standard",
+      "deck_id": "7727611",
+      "path": "archive/deck-texts/standard/7727611.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -1748,6 +1759,14 @@
       "format": "standard",
       "deck_id": "7728371",
       "path": "archive/deck-texts/standard/7728371.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "standard",
+      "deck_id": "7728372",
+      "path": "archive/deck-texts/standard/7728372.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -2188,6 +2207,14 @@
       "format": "standard",
       "deck_id": "7732598",
       "path": "archive/deck-texts/standard/7732598.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "standard",
+      "deck_id": "7732815",
+      "path": "archive/deck-texts/standard/7732815.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -2738,6 +2765,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "standard",
+      "deck_id": "7734406",
+      "path": "archive/deck-texts/standard/7734406.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "standard",
       "deck_id": "7734515",
       "path": "archive/deck-texts/standard/7734515.json",
       "message": "Reused existing published deck-text blob."
@@ -2770,9 +2805,38 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "standard",
+      "deck_id": "7734881",
+      "path": "archive/deck-texts/standard/7734881.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "standard",
       "deck_id": "7735296",
       "path": "archive/deck-texts/standard/7735296.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7735433",
+      "path": "archive/deck-texts/standard/7735433.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7735434",
+      "path": "archive/deck-texts/standard/7735434.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7735435",
+      "path": "archive/deck-texts/standard/7735435.json"
     }
   ]
 }

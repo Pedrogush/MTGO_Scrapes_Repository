@@ -1,20 +1,19 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-16T01:55:24Z",
+  "generated_at": "2026-04-16T03:23:21Z",
   "command": "scrape-metagame-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "stale-fallback": 1
+    "success": 1
   },
   "results": [
     {
       "scope": "metagame",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "modern",
-      "path": "latest/metagame/modern.json",
-      "message": "Failed to perform, curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "path": "latest/metagame/modern.json"
     }
   ]
 }
