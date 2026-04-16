@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-16T01:05:59Z",
+  "generated_at": "2026-04-16T01:55:30Z",
   "command": "scrape-deck-texts-pauper",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 46,
-    "skipped": 485
+    "success": 44,
+    "hard-failure": 4,
+    "skipped": 479
   },
   "results": [
     {
@@ -18,11 +19,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "4c-reanimator",
       "path": "latest/decks/pauper/4c-reanimator.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for 4c Reanimator"
     },
     {
       "scope": "archetype-decks",
@@ -70,10 +71,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "boros-moxite",
-      "path": "latest/decks/pauper/boros-moxite.json"
+      "path": "latest/decks/pauper/boros-moxite.json",
+      "message": "Deck scrape returned no rows for Boros Moxite"
     },
     {
       "scope": "archetype-decks",
@@ -142,10 +144,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "dredge",
-      "path": "latest/decks/pauper/dredge.json"
+      "path": "latest/decks/pauper/dredge.json",
+      "message": "Deck scrape returned no rows for Dredge"
     },
     {
       "scope": "archetype-decks",
@@ -262,11 +265,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "jeskai-synthesizer",
       "path": "latest/decks/pauper/jeskai-synthesizer.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Jeskai Synthesizer"
     },
     {
       "scope": "archetype-decks",
@@ -2496,14 +2499,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pauper",
-      "deck_id": "7730152",
-      "path": "archive/deck-texts/pauper/7730152.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pauper",
       "deck_id": "7730153",
       "path": "archive/deck-texts/pauper/7730153.json",
       "message": "Reused existing published deck-text blob."
@@ -3160,14 +3155,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pauper",
-      "deck_id": "7732382",
-      "path": "archive/deck-texts/pauper/7732382.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pauper",
       "deck_id": "7732437",
       "path": "archive/deck-texts/pauper/7732437.json",
       "message": "Reused existing published deck-text blob."
@@ -3306,14 +3293,6 @@
       "format": "pauper",
       "deck_id": "7733524",
       "path": "archive/deck-texts/pauper/7733524.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pauper",
-      "deck_id": "7733526",
-      "path": "archive/deck-texts/pauper/7733526.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -3936,14 +3915,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pauper",
-      "deck_id": "7734954",
-      "path": "archive/deck-texts/pauper/7734954.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pauper",
       "deck_id": "7734955",
       "path": "archive/deck-texts/pauper/7734955.json",
       "message": "Reused existing published deck-text blob."
@@ -4192,24 +4163,24 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pauper",
-      "deck_id": "7734994",
-      "path": "archive/deck-texts/pauper/7734994.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pauper",
       "deck_id": "7734995",
       "path": "archive/deck-texts/pauper/7734995.json",
       "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "deck_id": "7735298",
-      "path": "archive/deck-texts/pauper/7735298.json"
+      "path": "archive/deck-texts/pauper/7735298.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7735370",
+      "path": "archive/deck-texts/pauper/7735370.json"
     }
   ]
 }

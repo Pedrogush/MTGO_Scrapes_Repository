@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-16T01:08:20Z",
+  "generated_at": "2026-04-16T02:02:02Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 48,
+    "success": 42,
     "skipped": 12
   },
   "results": [
@@ -30,13 +30,6 @@
       "format": "legacy",
       "archetype": "affinity-stompy",
       "path": "latest/radars/legacy/affinity-stompy.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "aluren",
-      "path": "latest/radars/legacy/aluren.json"
     },
     {
       "scope": "archetype-radar",
@@ -81,13 +74,6 @@
       "format": "legacy",
       "archetype": "blue-artifacts",
       "path": "latest/radars/legacy/blue-artifacts.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "blue-cloudpost",
-      "path": "latest/radars/legacy/blue-cloudpost.json"
     },
     {
       "scope": "archetype-radar",
@@ -340,13 +326,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "nic-fit",
-      "path": "latest/radars/legacy/nic-fit.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
       "archetype": "ninjas",
       "path": "latest/radars/legacy/ninjas.json"
     },
@@ -384,27 +363,6 @@
       "format": "legacy",
       "archetype": "red-stompy",
       "path": "latest/radars/legacy/red-stompy.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "ruby-storm",
-      "path": "latest/radars/legacy/ruby-storm.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "selesnya-depths",
-      "path": "latest/radars/legacy/selesnya-depths.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "sneak-and-show",
-      "path": "latest/radars/legacy/sneak-and-show.json"
     },
     {
       "scope": "archetype-radar",
