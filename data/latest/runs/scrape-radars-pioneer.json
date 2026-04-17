@@ -1,22 +1,21 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T01:57:09Z",
+  "generated_at": "2026-04-17T03:25:53Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 24,
-    "success": 23
+    "success": 25,
+    "skipped": 22
   },
   "results": [
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "4c-legends",
-      "path": "latest/radars/pioneer/4c-legends.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/4c-legends.json"
     },
     {
       "scope": "archetype-radar",
@@ -289,11 +288,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "rakdos-prowess",
-      "path": "latest/radars/pioneer/rakdos-prowess.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/rakdos-prowess.json"
     },
     {
       "scope": "archetype-radar",
