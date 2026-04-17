@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T15:40:00Z",
+  "generated_at": "2026-04-17T16:39:10Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 32,
+    "success": 34,
     "skipped": 30
   },
   "results": [
@@ -314,6 +314,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
+      "archetype": "mono-black-midrange",
+      "path": "latest/radars/standard/mono-black-midrange.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
       "archetype": "mono-blue-control",
       "path": "latest/radars/standard/mono-blue-control.json"
     },
@@ -459,6 +466,13 @@
       "archetype": "temur-lessons",
       "path": "latest/radars/standard/temur-lessons.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "temur-leyline-aggro",
+      "path": "latest/radars/standard/temur-leyline-aggro.json"
     },
     {
       "scope": "archetype-radar",

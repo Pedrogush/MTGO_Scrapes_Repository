@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T15:39:59Z",
+  "generated_at": "2026-04-17T16:39:02Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 15,
-    "success": 53
+    "skipped": 16,
+    "success": 51
   },
   "results": [
     {
@@ -50,10 +50,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "asmo-food",
-      "path": "latest/radars/modern/asmo-food.json"
+      "path": "latest/radars/modern/asmo-food.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -76,13 +77,6 @@
       "format": "modern",
       "archetype": "belcher",
       "path": "latest/radars/modern/belcher.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
-      "archetype": "boros-burn",
-      "path": "latest/radars/modern/boros-burn.json"
     },
     {
       "scope": "archetype-radar",
@@ -310,6 +304,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
+      "archetype": "kethis-combo",
+      "path": "latest/radars/modern/kethis-combo.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
       "archetype": "lantern",
       "path": "latest/radars/modern/lantern.json"
     },
@@ -457,13 +458,6 @@
       "format": "modern",
       "archetype": "temur-prowess",
       "path": "latest/radars/modern/temur-prowess.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
-      "archetype": "temur-steel-cutter",
-      "path": "latest/radars/modern/temur-steel-cutter.json"
     },
     {
       "scope": "archetype-radar",

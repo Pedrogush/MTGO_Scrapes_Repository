@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T15:38:14Z",
+  "generated_at": "2026-04-17T16:33:57Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 32,
-    "skipped": 350
+    "success": 36,
+    "skipped": 349
   },
   "results": [
     {
@@ -147,14 +147,6 @@
       "format": "standard",
       "archetype": "boros-momo",
       "path": "latest/decks/standard/boros-momo.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "dimir-control",
-      "path": "latest/decks/standard/dimir-control.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -304,6 +296,13 @@
       "scope": "archetype-decks",
       "status": "success",
       "format": "standard",
+      "archetype": "mono-black-midrange",
+      "path": "latest/decks/standard/mono-black-midrange.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "standard",
       "archetype": "mono-blue-control",
       "path": "latest/decks/standard/mono-blue-control.json"
     },
@@ -401,14 +400,6 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "standard",
-      "archetype": "sultai-control",
-      "path": "latest/decks/standard/sultai-control.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
       "archetype": "sultai-excruciator",
       "path": "latest/decks/standard/sultai-excruciator.json",
       "message": "No decks found within the last 7 days."
@@ -449,6 +440,13 @@
       "archetype": "temur-lessons",
       "path": "latest/decks/standard/temur-lessons.json",
       "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "standard",
+      "archetype": "temur-leyline-aggro",
+      "path": "latest/decks/standard/temur-leyline-aggro.json"
     },
     {
       "scope": "archetype-decks",
@@ -1223,6 +1221,14 @@
       "format": "standard",
       "deck_id": "7728564",
       "path": "archive/deck-texts/standard/7728564.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "standard",
+      "deck_id": "7729023",
+      "path": "archive/deck-texts/standard/7729023.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -2979,6 +2985,13 @@
     },
     {
       "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7736972",
+      "path": "archive/deck-texts/standard/7736972.json"
+    },
+    {
+      "scope": "deck-text",
       "status": "skipped",
       "format": "standard",
       "deck_id": "7736973",
@@ -3032,6 +3045,13 @@
       "deck_id": "7736979",
       "path": "archive/deck-texts/standard/7736979.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7737411",
+      "path": "archive/deck-texts/standard/7737411.json"
     }
   ]
 }

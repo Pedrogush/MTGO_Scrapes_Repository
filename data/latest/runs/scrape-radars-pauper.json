@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T15:40:00Z",
+  "generated_at": "2026-04-17T16:39:02Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 14,
-    "success": 47
+    "skipped": 11,
+    "success": 50
   },
   "results": [
     {
@@ -263,11 +263,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "jund-gardens",
-      "path": "latest/radars/pauper/jund-gardens.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/jund-gardens.json"
     },
     {
       "scope": "archetype-radar",
@@ -296,14 +295,6 @@
       "format": "pauper",
       "archetype": "mardu-synthesizer",
       "path": "latest/radars/pauper/mardu-synthesizer.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pauper",
-      "archetype": "monarch",
-      "path": "latest/radars/pauper/monarch.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -373,11 +364,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "poison-storm",
-      "path": "latest/radars/pauper/poison-storm.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/poison-storm.json"
     },
     {
       "scope": "archetype-radar",
@@ -415,6 +405,13 @@
       "format": "pauper",
       "archetype": "spy-combo",
       "path": "latest/radars/pauper/spy-combo.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pauper",
+      "archetype": "storm",
+      "path": "latest/radars/pauper/storm.json"
     },
     {
       "scope": "archetype-radar",

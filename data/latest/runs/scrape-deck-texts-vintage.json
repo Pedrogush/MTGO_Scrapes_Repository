@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T15:38:31Z",
+  "generated_at": "2026-04-17T16:34:18Z",
   "command": "scrape-deck-texts-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 24,
+    "success": 29,
     "skipped": 173
   },
   "results": [
@@ -123,6 +123,13 @@
       "format": "vintage",
       "archetype": "lurrus-breach",
       "path": "latest/decks/vintage/lurrus-breach.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "lurrus-drs",
+      "path": "latest/decks/vintage/lurrus-drs.json"
     },
     {
       "scope": "archetype-decks",
@@ -248,6 +255,20 @@
       "deck_id": "7727384",
       "path": "archive/deck-texts/vintage/7727384.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "vintage",
+      "deck_id": "7727521",
+      "path": "archive/deck-texts/vintage/7727521.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "vintage",
+      "deck_id": "7727769",
+      "path": "archive/deck-texts/vintage/7727769.json"
     },
     {
       "scope": "deck-text",
@@ -1387,6 +1408,13 @@
     },
     {
       "scope": "deck-text",
+      "status": "success",
+      "format": "vintage",
+      "deck_id": "7736462",
+      "path": "archive/deck-texts/vintage/7736462.json"
+    },
+    {
+      "scope": "deck-text",
       "status": "skipped",
       "format": "vintage",
       "deck_id": "7736463",
@@ -1472,6 +1500,13 @@
       "deck_id": "7736473",
       "path": "archive/deck-texts/vintage/7736473.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "vintage",
+      "deck_id": "7736474",
+      "path": "archive/deck-texts/vintage/7736474.json"
     },
     {
       "scope": "deck-text",
