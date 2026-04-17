@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T17:35:01Z",
+  "generated_at": "2026-04-17T18:36:49Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 51,
-    "skipped": 9
+    "success": 52,
+    "skipped": 8
   },
   "results": [
     {
@@ -184,11 +184,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "esper-control",
-      "path": "latest/radars/legacy/esper-control.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/esper-control.json"
     },
     {
       "scope": "archetype-radar",

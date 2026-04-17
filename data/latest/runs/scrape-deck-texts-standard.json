@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T17:32:42Z",
+  "generated_at": "2026-04-17T18:33:59Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 34,
-    "skipped": 351
+    "success": 36,
+    "skipped": 350
   },
   "results": [
     {
@@ -383,11 +383,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "standard",
       "archetype": "simic-ouroboroid",
-      "path": "latest/decks/standard/simic-ouroboroid.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/standard/simic-ouroboroid.json"
     },
     {
       "scope": "archetype-decks",
@@ -3054,6 +3053,13 @@
       "deck_id": "7737411",
       "path": "archive/deck-texts/standard/7737411.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7737580",
+      "path": "archive/deck-texts/standard/7737580.json"
     }
   ]
 }
