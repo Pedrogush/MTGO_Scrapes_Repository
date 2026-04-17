@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T05:59:15Z",
+  "generated_at": "2026-04-17T06:55:52Z",
   "command": "scrape-deck-texts-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 55,
-    "skipped": 704
+    "success": 50,
+    "skipped": 709
   },
   "results": [
     {
@@ -5993,38 +5993,43 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7736921",
-      "path": "archive/deck-texts/modern/7736921.json"
+      "path": "archive/deck-texts/modern/7736921.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7736922",
-      "path": "archive/deck-texts/modern/7736922.json"
+      "path": "archive/deck-texts/modern/7736922.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7736923",
-      "path": "archive/deck-texts/modern/7736923.json"
+      "path": "archive/deck-texts/modern/7736923.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7736924",
-      "path": "archive/deck-texts/modern/7736924.json"
+      "path": "archive/deck-texts/modern/7736924.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7736925",
-      "path": "archive/deck-texts/modern/7736925.json"
+      "path": "archive/deck-texts/modern/7736925.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }
