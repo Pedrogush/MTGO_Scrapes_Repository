@@ -1,21 +1,21 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T06:56:27Z",
+  "generated_at": "2026-04-17T08:52:50Z",
   "command": "scrape-mtgo-decklists-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 2,
-    "cached": 13
+    "cached": 14,
+    "success": 1
   },
   "results": [
     {
       "scope": "mtgo-event",
-      "status": "success",
+      "status": "cached",
       "format": "standard",
       "path": "archive/mtgo-decklists/standard/standard-league-2026-04-1710429.json",
-      "message": "Cached 1/1 decks."
+      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-event",
