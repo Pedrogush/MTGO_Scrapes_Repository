@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-18T22:27:04Z",
+  "generated_at": "2026-04-18T23:28:38Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 11,
-    "success": 21
+    "skipped": 10,
+    "success": 22
   },
   "results": [
     {
@@ -174,11 +174,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "oops-all-spells",
-      "path": "latest/radars/vintage/oops-all-spells.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/vintage/oops-all-spells.json"
     },
     {
       "scope": "archetype-radar",
