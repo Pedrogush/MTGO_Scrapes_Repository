@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T23:29:24Z",
+  "generated_at": "2026-04-18T01:02:15Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 35,
-    "skipped": 29
+    "success": 32,
+    "skipped": 32
   },
   "results": [
     {
@@ -355,10 +355,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "orzhov-midrange",
-      "path": "latest/radars/standard/orzhov-midrange.json"
+      "path": "latest/radars/standard/orzhov-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -431,10 +432,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "sultai-reanimator",
-      "path": "latest/radars/standard/sultai-reanimator.json"
+      "path": "latest/radars/standard/sultai-reanimator.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -453,10 +455,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "temur-kona",
-      "path": "latest/radars/standard/temur-kona.json"
+      "path": "latest/radars/standard/temur-kona.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

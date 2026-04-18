@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T23:29:23Z",
+  "generated_at": "2026-04-18T01:02:13Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 27,
-    "skipped": 20
+    "success": 25,
+    "skipped": 22
   },
   "results": [
     {
@@ -104,10 +104,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "boros-hammer-time",
-      "path": "latest/radars/pioneer/boros-hammer-time.json"
+      "path": "latest/radars/pioneer/boros-hammer-time.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -143,10 +144,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "esper-midrange",
-      "path": "latest/radars/pioneer/esper-midrange.json"
+      "path": "latest/radars/pioneer/esper-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

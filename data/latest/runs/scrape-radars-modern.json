@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-17T23:29:24Z",
+  "generated_at": "2026-04-18T01:02:14Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 16,
-    "success": 51
+    "skipped": 18,
+    "success": 49
   },
   "results": [
     {
@@ -224,10 +224,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "hollow-one",
-      "path": "latest/radars/modern/hollow-one.json"
+      "path": "latest/radars/modern/hollow-one.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -461,10 +462,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "the-rock",
-      "path": "latest/radars/modern/the-rock.json"
+      "path": "latest/radars/modern/the-rock.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
