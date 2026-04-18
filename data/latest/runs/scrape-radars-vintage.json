@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-18T16:29:40Z",
+  "generated_at": "2026-04-18T17:29:29Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 11,
-    "success": 20
+    "success": 21
   },
   "results": [
     {
@@ -186,6 +186,13 @@
       "format": "vintage",
       "archetype": "paradoxical-outcome",
       "path": "latest/radars/vintage/paradoxical-outcome.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "prison-shops",
+      "path": "latest/radars/vintage/prison-shops.json"
     },
     {
       "scope": "archetype-radar",

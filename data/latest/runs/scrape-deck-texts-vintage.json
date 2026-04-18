@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-18T16:26:35Z",
+  "generated_at": "2026-04-18T17:27:17Z",
   "command": "scrape-deck-texts-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 20,
+    "success": 22,
     "skipped": 164
   },
   "results": [
@@ -192,6 +192,13 @@
       "format": "vintage",
       "archetype": "paradoxical-outcome",
       "path": "latest/decks/vintage/paradoxical-outcome.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "prison-shops",
+      "path": "latest/decks/vintage/prison-shops.json"
     },
     {
       "scope": "archetype-decks",
@@ -1340,6 +1347,13 @@
       "deck_id": "7738176",
       "path": "archive/deck-texts/vintage/7738176.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "vintage",
+      "deck_id": "7738177",
+      "path": "archive/deck-texts/vintage/7738177.json"
     },
     {
       "scope": "deck-text",

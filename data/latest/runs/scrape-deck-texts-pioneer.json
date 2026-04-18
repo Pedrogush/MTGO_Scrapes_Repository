@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-18T16:26:35Z",
+  "generated_at": "2026-04-18T17:27:21Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 34,
-    "skipped": 227
+    "success": 33,
+    "skipped": 232
   },
   "results": [
     {
@@ -306,6 +306,13 @@
     },
     {
       "scope": "archetype-decks",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "rakdos-tree",
+      "path": "latest/decks/pioneer/rakdos-tree.json"
+    },
+    {
+      "scope": "archetype-decks",
       "status": "skipped",
       "format": "pioneer",
       "archetype": "rakdos-vampires",
@@ -348,6 +355,13 @@
       "archetype": "soulflayer",
       "path": "latest/decks/pioneer/soulflayer.json",
       "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "sultai-midrange",
+      "path": "latest/decks/pioneer/sultai-midrange.json"
     },
     {
       "scope": "archetype-decks",
@@ -2030,38 +2044,57 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "deck_id": "7738802",
-      "path": "archive/deck-texts/pioneer/7738802.json"
+      "path": "archive/deck-texts/pioneer/7738802.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
       "status": "success",
+      "format": "pioneer",
+      "deck_id": "7738804",
+      "path": "archive/deck-texts/pioneer/7738804.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
       "format": "pioneer",
       "deck_id": "7738806",
-      "path": "archive/deck-texts/pioneer/7738806.json"
+      "path": "archive/deck-texts/pioneer/7738806.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "deck_id": "7738807",
-      "path": "archive/deck-texts/pioneer/7738807.json"
+      "path": "archive/deck-texts/pioneer/7738807.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "deck_id": "7738809",
-      "path": "archive/deck-texts/pioneer/7738809.json"
+      "path": "archive/deck-texts/pioneer/7738809.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
       "status": "success",
       "format": "pioneer",
+      "deck_id": "7738812",
+      "path": "archive/deck-texts/pioneer/7738812.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
       "deck_id": "7738855",
-      "path": "archive/deck-texts/pioneer/7738855.json"
+      "path": "archive/deck-texts/pioneer/7738855.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }

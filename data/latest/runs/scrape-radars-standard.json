@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-18T16:29:44Z",
+  "generated_at": "2026-04-18T17:29:36Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 33,
-    "skipped": 31
+    "skipped": 30
   },
   "results": [
     {
@@ -390,14 +390,6 @@
       "format": "standard",
       "archetype": "selesnya-ouroboroid",
       "path": "latest/radars/standard/selesnya-ouroboroid.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "simic-landfall",
-      "path": "latest/radars/standard/simic-landfall.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

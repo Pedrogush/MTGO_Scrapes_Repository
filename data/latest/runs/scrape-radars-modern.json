@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-18T16:29:41Z",
+  "generated_at": "2026-04-18T17:29:43Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 16,
-    "success": 51
+    "skipped": 15,
+    "success": 54
   },
   "results": [
     {
@@ -33,6 +33,13 @@
       "archetype": "4c-genericblink",
       "path": "latest/radars/modern/4c-genericblink.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "5c-midrange",
+      "path": "latest/radars/modern/5c-midrange.json"
     },
     {
       "scope": "archetype-radar",
@@ -76,6 +83,13 @@
       "format": "modern",
       "archetype": "belcher",
       "path": "latest/radars/modern/belcher.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "boros-burn",
+      "path": "latest/radars/modern/boros-burn.json"
     },
     {
       "scope": "archetype-radar",
@@ -215,13 +229,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
-      "archetype": "hardened-scales",
-      "path": "latest/radars/modern/hardened-scales.json"
-    },
-    {
-      "scope": "archetype-radar",
       "status": "skipped",
       "format": "modern",
       "archetype": "hollow-one",
@@ -336,14 +343,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "merfolk",
-      "path": "latest/radars/modern/merfolk.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
       "archetype": "mill",
@@ -412,6 +411,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
+      "archetype": "rakdos-delirium",
+      "path": "latest/radars/modern/rakdos-delirium.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
       "archetype": "rakdos-midrange",
       "path": "latest/radars/modern/rakdos-midrange.json"
     },
@@ -457,6 +463,13 @@
       "format": "modern",
       "archetype": "temur-prowess",
       "path": "latest/radars/modern/temur-prowess.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "temur-steel-cutter",
+      "path": "latest/radars/modern/temur-steel-cutter.json"
     },
     {
       "scope": "archetype-radar",

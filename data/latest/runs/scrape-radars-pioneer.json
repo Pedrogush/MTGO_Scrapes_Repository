@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-18T16:29:38Z",
+  "generated_at": "2026-04-18T17:29:32Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 29,
+    "success": 31,
     "skipped": 18
   },
   "results": [
@@ -300,6 +300,13 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "rakdos-tree",
+      "path": "latest/radars/pioneer/rakdos-tree.json"
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "pioneer",
       "archetype": "rakdos-vampires",
@@ -342,6 +349,13 @@
       "archetype": "soulflayer",
       "path": "latest/radars/pioneer/soulflayer.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "sultai-midrange",
+      "path": "latest/radars/pioneer/sultai-midrange.json"
     },
     {
       "scope": "archetype-radar",
