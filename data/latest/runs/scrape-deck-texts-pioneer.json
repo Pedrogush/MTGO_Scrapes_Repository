@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-18T15:27:04Z",
+  "generated_at": "2026-04-18T16:26:35Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 27,
-    "skipped": 229
+    "success": 34,
+    "skipped": 227
   },
   "results": [
     {
@@ -110,11 +110,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "boros-hammer-time",
-      "path": "latest/decks/pioneer/boros-hammer-time.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pioneer/boros-hammer-time.json"
     },
     {
       "scope": "archetype-decks",
@@ -142,11 +141,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "esper-control",
-      "path": "latest/decks/pioneer/esper-control.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pioneer/esper-control.json"
     },
     {
       "scope": "archetype-decks",
@@ -2029,6 +2027,41 @@
       "deck_id": "7738135",
       "path": "archive/deck-texts/pioneer/7738135.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7738802",
+      "path": "archive/deck-texts/pioneer/7738802.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7738806",
+      "path": "archive/deck-texts/pioneer/7738806.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7738807",
+      "path": "archive/deck-texts/pioneer/7738807.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7738809",
+      "path": "archive/deck-texts/pioneer/7738809.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7738855",
+      "path": "archive/deck-texts/pioneer/7738855.json"
     }
   ]
 }
