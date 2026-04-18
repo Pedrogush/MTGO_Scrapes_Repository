@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-18T20:25:54Z",
+  "generated_at": "2026-04-18T21:25:37Z",
   "command": "scrape-deck-texts-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 54,
-    "skipped": 633
+    "success": 52,
+    "skipped": 635
   },
   "results": [
     {
@@ -3186,14 +3186,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
-      "deck_id": "7735380",
-      "path": "archive/deck-texts/modern/7735380.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
       "deck_id": "7735381",
       "path": "archive/deck-texts/modern/7735381.json",
       "message": "Reused existing published deck-text blob."
@@ -5432,24 +5424,34 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7739102",
-      "path": "archive/deck-texts/modern/7739102.json"
+      "path": "archive/deck-texts/modern/7739102.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7739103",
-      "path": "archive/deck-texts/modern/7739103.json"
+      "path": "archive/deck-texts/modern/7739103.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "modern",
+      "deck_id": "7739104",
+      "path": "archive/deck-texts/modern/7739104.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
       "status": "success",
       "format": "modern",
-      "deck_id": "7739104",
-      "path": "archive/deck-texts/modern/7739104.json"
+      "deck_id": "7739203",
+      "path": "archive/deck-texts/modern/7739203.json"
     }
   ]
 }
