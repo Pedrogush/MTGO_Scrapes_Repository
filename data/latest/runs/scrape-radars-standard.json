@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-18T07:42:57Z",
+  "generated_at": "2026-04-18T08:32:38Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 32,
-    "skipped": 32
+    "success": 33,
+    "skipped": 31
   },
   "results": [
     {
@@ -48,11 +48,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "standard",
       "archetype": "4c-omniscience",
-      "path": "latest/radars/standard/4c-omniscience.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/standard/4c-omniscience.json"
     },
     {
       "scope": "archetype-radar",
