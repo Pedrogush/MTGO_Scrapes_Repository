@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-18T23:28:35Z",
+  "generated_at": "2026-04-19T01:10:23Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 34,
-    "skipped": 29
+    "success": 30,
+    "skipped": 33
   },
   "results": [
     {
@@ -280,17 +280,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "jeskai-elementals",
-      "path": "latest/radars/standard/jeskai-elementals.json"
+      "path": "latest/radars/standard/jeskai-elementals.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "jeskai-lessons",
-      "path": "latest/radars/standard/jeskai-lessons.json"
+      "path": "latest/radars/standard/jeskai-lessons.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -310,10 +312,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "mono-black-midrange",
-      "path": "latest/radars/standard/mono-black-midrange.json"
+      "path": "latest/radars/standard/mono-black-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -438,10 +441,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "temur-harmonizer-combo",
-      "path": "latest/radars/standard/temur-harmonizer-combo.json"
+      "path": "latest/radars/standard/temur-harmonizer-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
