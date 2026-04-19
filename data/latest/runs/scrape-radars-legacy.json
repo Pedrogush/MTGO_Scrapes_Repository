@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-19T08:36:32Z",
+  "generated_at": "2026-04-19T09:35:16Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 16,
-    "success": 44
+    "skipped": 15,
+    "success": 45
   },
   "results": [
     {
@@ -325,11 +325,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "naya-initiative",
-      "path": "latest/radars/legacy/naya-initiative.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/naya-initiative.json"
     },
     {
       "scope": "archetype-radar",

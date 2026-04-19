@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-19T08:36:53Z",
+  "generated_at": "2026-04-19T09:35:19Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 19,
-    "success": 50
+    "skipped": 18,
+    "success": 51
   },
   "results": [
     {
@@ -222,11 +222,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "hammer-time",
-      "path": "latest/radars/modern/hammer-time.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/hammer-time.json"
     },
     {
       "scope": "archetype-radar",
