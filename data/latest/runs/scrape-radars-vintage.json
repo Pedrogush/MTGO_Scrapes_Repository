@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-19T12:30:01Z",
+  "generated_at": "2026-04-19T13:42:44Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 13,
-    "success": 19
+    "skipped": 11,
+    "success": 21
   },
   "results": [
     {
@@ -57,11 +57,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "blue-tinker",
-      "path": "latest/radars/vintage/blue-tinker.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/vintage/blue-tinker.json"
     },
     {
       "scope": "archetype-radar",
@@ -80,11 +79,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "doomsday",
-      "path": "latest/radars/vintage/doomsday.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/vintage/doomsday.json"
     },
     {
       "scope": "archetype-radar",
