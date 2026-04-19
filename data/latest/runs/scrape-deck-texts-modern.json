@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-19T14:29:15Z",
+  "generated_at": "2026-04-19T15:27:02Z",
   "command": "scrape-deck-texts-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 51,
-    "skipped": 517
+    "success": 52,
+    "skipped": 518
   },
   "results": [
     {
@@ -790,14 +790,6 @@
       "format": "modern",
       "deck_id": "7731694",
       "path": "archive/deck-texts/modern/7731694.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
-      "deck_id": "7731695",
-      "path": "archive/deck-texts/modern/7731695.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -4490,17 +4482,40 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7740052",
-      "path": "archive/deck-texts/modern/7740052.json"
+      "path": "archive/deck-texts/modern/7740052.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "modern",
+      "deck_id": "7740097",
+      "path": "archive/deck-texts/modern/7740097.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
       "status": "success",
       "format": "modern",
-      "deck_id": "7740097",
-      "path": "archive/deck-texts/modern/7740097.json"
+      "deck_id": "7740242",
+      "path": "archive/deck-texts/modern/7740242.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "modern",
+      "deck_id": "7740243",
+      "path": "archive/deck-texts/modern/7740243.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "modern",
+      "deck_id": "7740244",
+      "path": "archive/deck-texts/modern/7740244.json"
     }
   ]
 }
