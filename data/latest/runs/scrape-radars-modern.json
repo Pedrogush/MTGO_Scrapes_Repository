@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-19T13:42:57Z",
+  "generated_at": "2026-04-19T14:31:01Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 18,
-    "success": 51
+    "skipped": 17,
+    "success": 52
   },
   "results": [
     {
@@ -453,11 +453,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "temur-midrange",
-      "path": "latest/radars/modern/temur-midrange.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/temur-midrange.json"
     },
     {
       "scope": "archetype-radar",
