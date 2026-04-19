@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-19T18:29:10Z",
+  "generated_at": "2026-04-19T19:31:44Z",
   "command": "scrape-deck-texts-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 46,
-    "skipped": 343
+    "success": 49,
+    "skipped": 342
   },
   "results": [
     {
@@ -401,11 +401,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "selesnya-depths",
-      "path": "latest/decks/legacy/selesnya-depths.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/legacy/selesnya-depths.json"
     },
     {
       "scope": "archetype-decks",
@@ -3074,6 +3073,20 @@
       "deck_id": "7741340",
       "path": "archive/deck-texts/legacy/7741340.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7741501",
+      "path": "archive/deck-texts/legacy/7741501.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7741502",
+      "path": "archive/deck-texts/legacy/7741502.json"
     }
   ]
 }

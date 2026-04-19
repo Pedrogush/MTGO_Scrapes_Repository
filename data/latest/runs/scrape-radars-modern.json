@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-19T18:30:47Z",
+  "generated_at": "2026-04-19T19:35:09Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 16,
-    "success": 52
+    "skipped": 14,
+    "success": 54
   },
   "results": [
     {
@@ -430,11 +430,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "simic-midrange",
-      "path": "latest/radars/modern/simic-midrange.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/simic-midrange.json"
     },
     {
       "scope": "archetype-radar",
@@ -467,11 +466,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "the-rock",
-      "path": "latest/radars/modern/the-rock.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/modern/the-rock.json"
     },
     {
       "scope": "archetype-radar",
