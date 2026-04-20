@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T15:48:53Z",
+  "generated_at": "2026-04-20T16:46:15Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 30,
-    "skipped": 19
+    "success": 32,
+    "skipped": 18
   },
   "results": [
     {
@@ -226,11 +226,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "mono-red-aggro",
-      "path": "latest/radars/pioneer/mono-red-aggro.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/mono-red-aggro.json"
     },
     {
       "scope": "archetype-radar",
@@ -327,6 +326,13 @@
       "archetype": "selesnya-angels",
       "path": "latest/radars/pioneer/selesnya-angels.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "selesnya-company",
+      "path": "latest/radars/pioneer/selesnya-company.json"
     },
     {
       "scope": "archetype-radar",

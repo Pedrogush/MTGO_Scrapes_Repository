@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T15:46:07Z",
+  "generated_at": "2026-04-20T16:40:18Z",
   "command": "scrape-deck-texts-standard",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 31,
-    "skipped": 367,
-    "hard-failure": 1
+    "skipped": 368
   },
   "results": [
     {
@@ -355,11 +354,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "standard",
       "archetype": "orzhov-midrange",
       "path": "latest/decks/standard/orzhov-midrange.json",
-      "message": "Deck scrape returned no rows for Orzhov Midrange"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
