@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T03:26:23Z",
+  "generated_at": "2026-04-20T05:24:47Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 30,
-    "skipped": 35
+    "success": 31,
+    "skipped": 34
   },
   "results": [
     {
@@ -388,11 +388,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "standard",
       "archetype": "rakdos-monument",
-      "path": "latest/radars/standard/rakdos-monument.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/standard/rakdos-monument.json"
     },
     {
       "scope": "archetype-radar",
