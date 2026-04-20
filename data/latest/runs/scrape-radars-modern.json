@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T16:46:28Z",
+  "generated_at": "2026-04-20T17:39:59Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 16,
-    "success": 52
+    "skipped": 15,
+    "success": 53
   },
   "results": [
     {
@@ -16,14 +16,6 @@
       "format": "modern",
       "archetype": "4-5c-omnath",
       "path": "latest/radars/modern/4-5c-omnath.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "4c-control",
-      "path": "latest/radars/modern/4c-control.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -161,6 +153,13 @@
       "format": "modern",
       "archetype": "esper-midrange",
       "path": "latest/radars/modern/esper-midrange.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "esper-murktide",
+      "path": "latest/radars/modern/esper-murktide.json"
     },
     {
       "scope": "archetype-radar",

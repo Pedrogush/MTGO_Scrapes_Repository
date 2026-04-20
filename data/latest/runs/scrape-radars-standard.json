@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T16:46:13Z",
+  "generated_at": "2026-04-20T17:40:03Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 31,
-    "skipped": 34
+    "skipped": 36
   },
   "results": [
     {
@@ -138,6 +138,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "boros-burn",
+      "path": "latest/radars/standard/boros-burn.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "boros-dragons",
@@ -200,8 +208,8 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
-      "archetype": "golgari-insidious-roots",
-      "path": "latest/radars/standard/golgari-insidious-roots.json",
+      "archetype": "golgari-dragons",
+      "path": "latest/radars/standard/golgari-dragons.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -218,6 +226,14 @@
       "format": "standard",
       "archetype": "golgari-midrange",
       "path": "latest/radars/standard/golgari-midrange.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "grixis-control",
+      "path": "latest/radars/standard/grixis-control.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -314,14 +330,6 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
-      "archetype": "jeskai-tempo",
-      "path": "latest/radars/standard/jeskai-tempo.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
       "archetype": "mono-black-control",
       "path": "latest/radars/standard/mono-black-control.json",
       "message": "No published decks were available for radar generation."
@@ -354,6 +362,14 @@
       "format": "standard",
       "archetype": "mono-red-aggro",
       "path": "latest/radars/standard/mono-red-aggro.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "mono-white-enchantments",
+      "path": "latest/radars/standard/mono-white-enchantments.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

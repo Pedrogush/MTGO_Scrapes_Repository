@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T16:46:15Z",
+  "generated_at": "2026-04-20T17:40:03Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 32,
-    "skipped": 18
+    "success": 35,
+    "skipped": 16
   },
   "results": [
     {
@@ -228,6 +228,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "pioneer",
+      "archetype": "mono-black-midrange",
+      "path": "latest/radars/pioneer/mono-black-midrange.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
       "archetype": "mono-red-aggro",
       "path": "latest/radars/pioneer/mono-red-aggro.json"
     },
@@ -250,16 +257,22 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "pioneer",
+      "archetype": "mono-white-token-control",
+      "path": "latest/radars/pioneer/mono-white-token-control.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
       "archetype": "niv-to-light",
       "path": "latest/radars/pioneer/niv-to-light.json"
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "nykthos-ramp",
-      "path": "latest/radars/pioneer/nykthos-ramp.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/nykthos-ramp.json"
     },
     {
       "scope": "archetype-radar",
@@ -348,14 +361,6 @@
       "format": "pioneer",
       "archetype": "simic-scapeshift",
       "path": "latest/radars/pioneer/simic-scapeshift.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "soulflayer",
-      "path": "latest/radars/pioneer/soulflayer.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T16:46:15Z",
+  "generated_at": "2026-04-20T17:40:04Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 16,
-    "success": 44
+    "skipped": 15,
+    "success": 45
   },
   "results": [
     {
@@ -232,14 +232,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "infect",
-      "path": "latest/radars/legacy/infect.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
       "archetype": "izzet-delver",
@@ -372,6 +364,13 @@
       "format": "legacy",
       "archetype": "oops-all-spells",
       "path": "latest/radars/legacy/oops-all-spells.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "orzhov-stoneblade",
+      "path": "latest/radars/legacy/orzhov-stoneblade.json"
     },
     {
       "scope": "archetype-radar",

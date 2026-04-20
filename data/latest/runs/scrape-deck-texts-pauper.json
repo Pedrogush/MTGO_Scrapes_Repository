@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T16:40:10Z",
+  "generated_at": "2026-04-20T17:37:53Z",
   "command": "scrape-deck-texts-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 49,
-    "skipped": 491
+    "success": 47,
+    "skipped": 493
   },
   "results": [
     {
@@ -20,24 +20,8 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "pauper",
-      "archetype": "4c-reanimator",
-      "path": "latest/decks/pauper/4c-reanimator.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pauper",
-      "archetype": "azorius-faeries",
-      "path": "latest/decks/pauper/azorius-faeries.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pauper",
-      "archetype": "black-burn",
-      "path": "latest/decks/pauper/black-burn.json",
+      "archetype": "azorius-affinity",
+      "path": "latest/decks/pauper/azorius-affinity.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -212,6 +196,22 @@
     },
     {
       "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "pauper",
+      "archetype": "grixis-control",
+      "path": "latest/decks/pauper/grixis-control.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "pauper",
+      "archetype": "grixis-reanimator",
+      "path": "latest/decks/pauper/grixis-reanimator.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
       "status": "success",
       "format": "pauper",
       "archetype": "gruul-ponza",
@@ -373,13 +373,6 @@
       "scope": "archetype-decks",
       "status": "success",
       "format": "pauper",
-      "archetype": "poison-storm",
-      "path": "latest/decks/pauper/poison-storm.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "success",
-      "format": "pauper",
       "archetype": "ruby-storm",
       "path": "latest/decks/pauper/ruby-storm.json"
     },
@@ -387,16 +380,16 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "pauper",
-      "archetype": "selesnya-ramp",
-      "path": "latest/decks/pauper/selesnya-ramp.json",
+      "archetype": "selesnya-ephemerate",
+      "path": "latest/decks/pauper/selesnya-ephemerate.json",
       "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "pauper",
-      "archetype": "serpentine-curve",
-      "path": "latest/decks/pauper/serpentine-curve.json",
+      "archetype": "selesnya-ramp",
+      "path": "latest/decks/pauper/selesnya-ramp.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -420,6 +413,14 @@
       "format": "pauper",
       "archetype": "storm",
       "path": "latest/decks/pauper/storm.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "pauper",
+      "archetype": "temur-ponza",
+      "path": "latest/decks/pauper/temur-ponza.json",
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -2136,14 +2137,6 @@
       "format": "pauper",
       "deck_id": "7737408",
       "path": "archive/deck-texts/pauper/7737408.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pauper",
-      "deck_id": "7737414",
-      "path": "archive/deck-texts/pauper/7737414.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -4268,17 +4261,26 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "deck_id": "7742833",
-      "path": "archive/deck-texts/pauper/7742833.json"
+      "path": "archive/deck-texts/pauper/7742833.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pauper",
+      "deck_id": "7742835",
+      "path": "archive/deck-texts/pauper/7742835.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
       "status": "success",
       "format": "pauper",
-      "deck_id": "7742835",
-      "path": "archive/deck-texts/pauper/7742835.json"
+      "deck_id": "7743260",
+      "path": "archive/deck-texts/pauper/7743260.json"
     }
   ]
 }

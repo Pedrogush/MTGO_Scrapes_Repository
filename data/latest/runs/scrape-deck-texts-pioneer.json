@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T16:40:11Z",
+  "generated_at": "2026-04-20T17:37:59Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 34,
-    "skipped": 258
+    "success": 38,
+    "skipped": 257
   },
   "results": [
     {
@@ -132,14 +132,6 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "pioneer",
-      "archetype": "boros-token-control",
-      "path": "latest/decks/pioneer/boros-token-control.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
       "archetype": "dimir-midrange",
       "path": "latest/decks/pioneer/dimir-midrange.json",
       "message": "No decks found within the last 7 days."
@@ -234,6 +226,13 @@
       "scope": "archetype-decks",
       "status": "success",
       "format": "pioneer",
+      "archetype": "mono-black-midrange",
+      "path": "latest/decks/pioneer/mono-black-midrange.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "pioneer",
       "archetype": "mono-red-aggro",
       "path": "latest/decks/pioneer/mono-red-aggro.json"
     },
@@ -256,16 +255,22 @@
       "scope": "archetype-decks",
       "status": "success",
       "format": "pioneer",
+      "archetype": "mono-white-token-control",
+      "path": "latest/decks/pioneer/mono-white-token-control.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "pioneer",
       "archetype": "niv-to-light",
       "path": "latest/decks/pioneer/niv-to-light.json"
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "nykthos-ramp",
-      "path": "latest/decks/pioneer/nykthos-ramp.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pioneer/nykthos-ramp.json"
     },
     {
       "scope": "archetype-decks",
@@ -354,14 +359,6 @@
       "format": "pioneer",
       "archetype": "simic-scapeshift",
       "path": "latest/decks/pioneer/simic-scapeshift.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "soulflayer",
-      "path": "latest/decks/pioneer/soulflayer.json",
-      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -1667,6 +1664,13 @@
     },
     {
       "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7741417",
+      "path": "archive/deck-texts/pioneer/7741417.json"
+    },
+    {
+      "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
       "deck_id": "7741418",
@@ -2299,17 +2303,33 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "deck_id": "7742947",
-      "path": "archive/deck-texts/pioneer/7742947.json"
+      "path": "archive/deck-texts/pioneer/7742947.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
       "status": "success",
       "format": "pioneer",
+      "deck_id": "7742948",
+      "path": "archive/deck-texts/pioneer/7742948.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
       "deck_id": "7742953",
-      "path": "archive/deck-texts/pioneer/7742953.json"
+      "path": "archive/deck-texts/pioneer/7742953.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7742955",
+      "path": "archive/deck-texts/pioneer/7742955.json"
     }
   ]
 }

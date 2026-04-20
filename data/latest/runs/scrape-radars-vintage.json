@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T16:46:11Z",
+  "generated_at": "2026-04-20T17:41:19Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 12,
+    "skipped": 10,
     "success": 20
   },
   "results": [
@@ -98,14 +98,6 @@
       "format": "vintage",
       "archetype": "esper-lurrus-control",
       "path": "latest/radars/vintage/esper-lurrus-control.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "vintage",
-      "archetype": "grixis-lurrus-control",
-      "path": "latest/radars/vintage/grixis-lurrus-control.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -222,14 +214,6 @@
       "format": "vintage",
       "archetype": "sphere-shops",
       "path": "latest/radars/vintage/sphere-shops.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "vintage",
-      "archetype": "stiflenought",
-      "path": "latest/radars/vintage/stiflenought.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

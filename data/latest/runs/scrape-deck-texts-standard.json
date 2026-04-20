@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T16:40:18Z",
+  "generated_at": "2026-04-20T17:37:57Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
@@ -75,14 +75,6 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "5c-control",
-      "path": "latest/decks/standard/5c-control.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
       "status": "success",
       "format": "standard",
       "archetype": "5c-elementals",
@@ -144,6 +136,14 @@
     },
     {
       "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "boros-burn",
+      "path": "latest/decks/standard/boros-burn.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
       "status": "success",
       "format": "standard",
       "archetype": "boros-dragons",
@@ -198,8 +198,8 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "standard",
-      "archetype": "golgari-insidious-roots",
-      "path": "latest/decks/standard/golgari-insidious-roots.json",
+      "archetype": "golgari-dragons",
+      "path": "latest/decks/standard/golgari-dragons.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -208,6 +208,14 @@
       "format": "standard",
       "archetype": "golgari-midrange",
       "path": "latest/decks/standard/golgari-midrange.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "grixis-control",
+      "path": "latest/decks/standard/grixis-control.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -296,14 +304,6 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "standard",
-      "archetype": "jeskai-tempo",
-      "path": "latest/decks/standard/jeskai-tempo.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
       "archetype": "mono-black-control",
       "path": "latest/decks/standard/mono-black-control.json",
       "message": "No decks found within the last 7 days."
@@ -339,6 +339,14 @@
     },
     {
       "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "mono-white-enchantments",
+      "path": "latest/decks/standard/mono-white-enchantments.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
       "status": "success",
       "format": "standard",
       "archetype": "mono-white-momo",
@@ -358,14 +366,6 @@
       "format": "standard",
       "archetype": "orzhov-midrange",
       "path": "latest/decks/standard/orzhov-midrange.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "rakdos-discard",
-      "path": "latest/decks/standard/rakdos-discard.json",
       "message": "No decks found within the last 7 days."
     },
     {
