@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T01:57:15Z",
+  "generated_at": "2026-04-20T03:26:22Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 30,
-    "skipped": 20
+    "success": 31,
+    "skipped": 19
   },
   "results": [
     {
@@ -34,11 +34,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "5c-indomitable-creativity",
-      "path": "latest/radars/pioneer/5c-indomitable-creativity.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/5c-indomitable-creativity.json"
     },
     {
       "scope": "archetype-radar",
