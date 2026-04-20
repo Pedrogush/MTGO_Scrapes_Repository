@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T14:56:27Z",
+  "generated_at": "2026-04-20T15:49:01Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 31,
-    "skipped": 34
+    "skipped": 33
   },
   "results": [
     {
@@ -368,14 +368,6 @@
       "format": "standard",
       "archetype": "orzhov-control",
       "path": "latest/radars/standard/orzhov-control.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "orzhov-midrange",
-      "path": "latest/radars/standard/orzhov-midrange.json",
       "message": "No published decks were available for radar generation."
     },
     {
