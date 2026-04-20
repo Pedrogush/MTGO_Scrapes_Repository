@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-04-19T23:28:56Z",
+  "generated_at": "2026-04-20T01:08:46Z",
   "format": "pauper",
   "source": "published-deck-texts",
   "archetype": {
@@ -11,6 +11,19 @@
   "total_decks_analyzed": 3,
   "decks_failed": 0,
   "mainboard_cards": [
+    {
+      "card_name": "Plains",
+      "appearances": 3,
+      "total_copies": 13,
+      "max_copies": 5,
+      "avg_copies": 4.33,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.33,
+      "copy_distribution": {
+        "5": 2,
+        "3": 1
+      }
+    },
     {
       "card_name": "Kor Skyfisher",
       "appearances": 3,
@@ -57,20 +70,6 @@
       "expected_copies": 4.0,
       "copy_distribution": {
         "4": 3
-      }
-    },
-    {
-      "card_name": "Plains",
-      "appearances": 3,
-      "total_copies": 12,
-      "max_copies": 5,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "5": 1,
-        "4": 1,
-        "3": 1
       }
     },
     {
@@ -122,18 +121,6 @@
       }
     },
     {
-      "card_name": "Galvanic Blast",
-      "appearances": 3,
-      "total_copies": 9,
-      "max_copies": 3,
-      "avg_copies": 3.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 3.0,
-      "copy_distribution": {
-        "3": 3
-      }
-    },
-    {
       "card_name": "Journey to Nowhere",
       "appearances": 3,
       "total_copies": 9,
@@ -146,16 +133,15 @@
       }
     },
     {
-      "card_name": "Ancient Den",
+      "card_name": "Galvanic Blast",
       "appearances": 3,
-      "total_copies": 8,
+      "total_copies": 9,
       "max_copies": 3,
-      "avg_copies": 2.67,
+      "avg_copies": 3.0,
       "inclusion_rate": 100.0,
-      "expected_copies": 2.67,
+      "expected_copies": 3.0,
       "copy_distribution": {
-        "3": 2,
-        "2": 1
+        "3": 3
       }
     },
     {
@@ -182,6 +168,19 @@
       "copy_distribution": {
         "4": 2,
         "0": 1
+      }
+    },
+    {
+      "card_name": "Ancient Den",
+      "appearances": 3,
+      "total_copies": 7,
+      "max_copies": 3,
+      "avg_copies": 2.33,
+      "inclusion_rate": 100.0,
+      "expected_copies": 2.33,
+      "copy_distribution": {
+        "3": 1,
+        "2": 2
       }
     },
     {
@@ -341,6 +340,19 @@
       }
     },
     {
+      "card_name": "Smash to Dust",
+      "appearances": 3,
+      "total_copies": 7,
+      "max_copies": 3,
+      "avg_copies": 2.33,
+      "inclusion_rate": 100.0,
+      "expected_copies": 2.33,
+      "copy_distribution": {
+        "3": 2,
+        "1": 1
+      }
+    },
+    {
       "card_name": "Destroy Evil",
       "appearances": 3,
       "total_copies": 6,
@@ -355,26 +367,14 @@
     {
       "card_name": "Vulshok Sorcerer",
       "appearances": 2,
-      "total_copies": 6,
+      "total_copies": 5,
       "max_copies": 3,
-      "avg_copies": 3.0,
+      "avg_copies": 2.5,
       "inclusion_rate": 66.7,
-      "expected_copies": 2.0,
+      "expected_copies": 1.67,
       "copy_distribution": {
-        "3": 2,
-        "0": 1
-      }
-    },
-    {
-      "card_name": "Smash to Dust",
-      "appearances": 2,
-      "total_copies": 6,
-      "max_copies": 3,
-      "avg_copies": 3.0,
-      "inclusion_rate": 66.7,
-      "expected_copies": 2.0,
-      "copy_distribution": {
-        "3": 2,
+        "3": 1,
+        "2": 1,
         "0": 1
       }
     },

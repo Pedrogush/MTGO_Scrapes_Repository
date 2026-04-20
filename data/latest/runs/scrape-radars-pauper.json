@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-19T23:28:56Z",
+  "generated_at": "2026-04-20T01:08:46Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 13,
-    "success": 48
+    "skipped": 14,
+    "success": 47
   },
   "results": [
     {
@@ -256,11 +256,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "jeskai-synthesizer",
-      "path": "latest/radars/pauper/jeskai-synthesizer.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/jeskai-synthesizer.json"
     },
     {
       "scope": "archetype-radar",
@@ -300,10 +299,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "archetype": "mono-black",
-      "path": "latest/radars/pauper/mono-black.json"
+      "path": "latest/radars/pauper/mono-black.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -379,10 +379,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "archetype": "selesnya-ramp",
-      "path": "latest/radars/pauper/selesnya-ramp.json"
+      "path": "latest/radars/pauper/selesnya-ramp.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

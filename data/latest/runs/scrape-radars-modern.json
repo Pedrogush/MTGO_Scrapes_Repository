@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-19T23:28:58Z",
+  "generated_at": "2026-04-20T01:08:51Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 14,
-    "success": 54
+    "skipped": 16,
+    "success": 52
   },
   "results": [
     {
@@ -386,10 +386,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "orzhov-genericblink",
-      "path": "latest/radars/modern/orzhov-genericblink.json"
+      "path": "latest/radars/modern/orzhov-genericblink.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -423,10 +424,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "sam-combo",
-      "path": "latest/radars/modern/sam-combo.json"
+      "path": "latest/radars/modern/sam-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

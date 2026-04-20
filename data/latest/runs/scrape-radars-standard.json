@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-19T23:28:53Z",
+  "generated_at": "2026-04-20T01:08:48Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 31,
-    "skipped": 34
+    "success": 30,
+    "skipped": 35
   },
   "results": [
     {
@@ -100,10 +100,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "azorius-momo",
-      "path": "latest/radars/standard/azorius-momo.json"
+      "path": "latest/radars/standard/azorius-momo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
