@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T18:40:19Z",
+  "generated_at": "2026-04-20T19:42:56Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 15,
-    "success": 44
+    "success": 45
   },
   "results": [
     {
@@ -192,6 +192,13 @@
       "format": "legacy",
       "archetype": "esper-control",
       "path": "latest/radars/legacy/esper-control.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "esper-vial",
+      "path": "latest/radars/legacy/esper-vial.json"
     },
     {
       "scope": "archetype-radar",

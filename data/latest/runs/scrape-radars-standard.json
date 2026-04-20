@@ -1,22 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T18:40:20Z",
+  "generated_at": "2026-04-20T19:42:57Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 31,
+    "success": 30,
     "skipped": 36
   },
   "results": [
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "standard",
-      "archetype": "4c-artifacts",
-      "path": "latest/radars/standard/4c-artifacts.json"
-    },
     {
       "scope": "archetype-radar",
       "status": "success",

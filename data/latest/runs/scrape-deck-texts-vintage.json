@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T18:37:57Z",
+  "generated_at": "2026-04-20T19:40:01Z",
   "command": "scrape-deck-texts-vintage",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 19,
-    "skipped": 156,
-    "hard-failure": 1
+    "success": 20,
+    "skipped": 157
   },
   "results": [
     {
@@ -174,11 +173,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "vintage",
       "archetype": "oops-all-spells",
-      "path": "latest/decks/vintage/oops-all-spells.json",
-      "message": "Deck scrape returned no rows for Oops! All Spells"
+      "path": "latest/decks/vintage/oops-all-spells.json"
     },
     {
       "scope": "archetype-decks",
@@ -1069,6 +1067,14 @@
       "format": "vintage",
       "deck_id": "7739305",
       "path": "archive/deck-texts/vintage/7739305.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "vintage",
+      "deck_id": "7739306",
+      "path": "archive/deck-texts/vintage/7739306.json",
       "message": "Reused existing published deck-text blob."
     },
     {
