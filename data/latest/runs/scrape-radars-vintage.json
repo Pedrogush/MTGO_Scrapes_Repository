@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T17:41:19Z",
+  "generated_at": "2026-04-20T18:40:30Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 10,
-    "success": 20
+    "success": 19
   },
   "results": [
     {
@@ -164,13 +164,6 @@
       "format": "vintage",
       "archetype": "oath-of-druids",
       "path": "latest/radars/vintage/oath-of-druids.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "oops-all-spells",
-      "path": "latest/radars/vintage/oops-all-spells.json"
     },
     {
       "scope": "archetype-radar",
