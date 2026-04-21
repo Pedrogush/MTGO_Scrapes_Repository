@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T20:32:56Z",
+  "generated_at": "2026-04-21T21:32:13Z",
   "command": "scrape-deck-texts-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 49,
+    "success": 50,
     "skipped": 409
   },
   "results": [
@@ -3623,6 +3623,13 @@
       "deck_id": "7745723",
       "path": "archive/deck-texts/legacy/7745723.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7745931",
+      "path": "archive/deck-texts/legacy/7745931.json"
     }
   ]
 }
