@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T13:53:32Z",
+  "generated_at": "2026-04-21T14:52:54Z",
   "command": "scrape-deck-texts-pauper",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 44,
-    "skipped": 429
+    "success": 45,
+    "skipped": 428,
+    "hard-failure": 1
   },
   "results": [
     {
@@ -389,11 +390,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "selesnya-ramp",
       "path": "latest/decks/pauper/selesnya-ramp.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Selesnya Ramp"
     },
     {
       "scope": "archetype-decks",
@@ -644,14 +645,6 @@
       "format": "pauper",
       "deck_id": "7735689",
       "path": "archive/deck-texts/pauper/7735689.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pauper",
-      "deck_id": "7735690",
-      "path": "archive/deck-texts/pauper/7735690.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -3744,10 +3737,25 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "deck_id": "7744823",
-      "path": "archive/deck-texts/pauper/7744823.json"
+      "path": "archive/deck-texts/pauper/7744823.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7745205",
+      "path": "archive/deck-texts/pauper/7745205.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7745206",
+      "path": "archive/deck-texts/pauper/7745206.json"
     }
   ]
 }
