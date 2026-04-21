@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T06:58:25Z",
+  "generated_at": "2026-04-21T07:58:27Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 29,
-    "skipped": 36
+    "success": 30,
+    "skipped": 37
   },
   "results": [
     {
@@ -63,6 +63,13 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "4c-reanimator",
+      "path": "latest/radars/standard/4c-reanimator.json"
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
       "archetype": "5c-control",
@@ -105,6 +112,14 @@
       "format": "standard",
       "archetype": "azorius-tempo",
       "path": "latest/radars/standard/azorius-tempo.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "bant-airbending-combo",
+      "path": "latest/radars/standard/bant-airbending-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T06:55:31Z",
+  "generated_at": "2026-04-21T07:55:09Z",
   "command": "scrape-deck-texts-standard",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 29,
-    "skipped": 359,
-    "hard-failure": 2
+    "success": 30,
+    "skipped": 361
   },
   "results": [
     {
@@ -70,11 +69,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "standard",
       "archetype": "4c-reanimator",
-      "path": "latest/decks/standard/4c-reanimator.json",
-      "message": "Deck scrape returned no rows for 4c Reanimator"
+      "path": "latest/decks/standard/4c-reanimator.json"
     },
     {
       "scope": "archetype-decks",
@@ -115,11 +113,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "standard",
       "archetype": "bant-airbending-combo",
       "path": "latest/decks/standard/bant-airbending-combo.json",
-      "message": "Deck scrape returned no rows for Bant Airbending Combo"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -1251,6 +1249,14 @@
       "format": "standard",
       "deck_id": "7737879",
       "path": "archive/deck-texts/standard/7737879.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "standard",
+      "deck_id": "7737880",
+      "path": "archive/deck-texts/standard/7737880.json",
       "message": "Reused existing published deck-text blob."
     },
     {
