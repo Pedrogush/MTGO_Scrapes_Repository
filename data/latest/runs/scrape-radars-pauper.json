@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-20T23:32:00Z",
+  "generated_at": "2026-04-21T01:06:50Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 15,
-    "success": 46
+    "skipped": 18,
+    "success": 43
   },
   "results": [
     {
@@ -34,10 +34,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "archetype": "bogles",
-      "path": "latest/radars/pauper/bogles.json"
+      "path": "latest/radars/pauper/bogles.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -220,10 +221,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "archetype": "infect",
-      "path": "latest/radars/pauper/infect.json"
+      "path": "latest/radars/pauper/infect.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -329,10 +331,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "archetype": "mono-red-pingers",
-      "path": "latest/radars/pauper/mono-red-pingers.json"
+      "path": "latest/radars/pauper/mono-red-pingers.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
