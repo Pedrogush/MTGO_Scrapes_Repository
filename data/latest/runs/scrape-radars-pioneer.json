@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T14:56:50Z",
+  "generated_at": "2026-04-21T15:47:30Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 36,
-    "skipped": 14
+    "skipped": 15
   },
   "results": [
     {
@@ -90,6 +90,14 @@
       "format": "pioneer",
       "archetype": "azorius-heroic",
       "path": "latest/radars/pioneer/azorius-heroic.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "pioneer",
+      "archetype": "boros-convoke",
+      "path": "latest/radars/pioneer/boros-convoke.json",
       "message": "No published decks were available for radar generation."
     },
     {

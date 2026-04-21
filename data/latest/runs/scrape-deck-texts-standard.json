@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T14:52:50Z",
+  "generated_at": "2026-04-21T15:45:18Z",
   "command": "scrape-deck-texts-standard",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 30,
-    "skipped": 360,
-    "hard-failure": 1
+    "skipped": 361
   },
   "results": [
     {
@@ -41,11 +40,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "standard",
       "archetype": "4c-harmonizer-combo",
       "path": "latest/decks/standard/4c-harmonizer-combo.json",
-      "message": "Deck scrape returned no rows for 4c Harmonizer Combo"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",

@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T14:52:54Z",
+  "generated_at": "2026-04-21T15:45:15Z",
   "command": "scrape-deck-texts-pauper",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 45,
-    "skipped": 428,
-    "hard-failure": 1
+    "success": 43,
+    "skipped": 431
   },
   "results": [
     {
@@ -390,11 +389,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "pauper",
       "archetype": "selesnya-ramp",
       "path": "latest/decks/pauper/selesnya-ramp.json",
-      "message": "Deck scrape returned no rows for Selesnya Ramp"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -3745,17 +3744,19 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "deck_id": "7745205",
-      "path": "archive/deck-texts/pauper/7745205.json"
+      "path": "archive/deck-texts/pauper/7745205.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "deck_id": "7745206",
-      "path": "archive/deck-texts/pauper/7745206.json"
+      "path": "archive/deck-texts/pauper/7745206.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }

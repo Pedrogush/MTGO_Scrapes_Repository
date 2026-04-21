@@ -1,15 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T14:52:54Z",
+  "generated_at": "2026-04-21T15:45:25Z",
   "command": "scrape-deck-texts-pioneer",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 35,
-    "skipped": 282,
-    "hard-failure": 1,
-    "stale-fallback": 1
+    "success": 36,
+    "skipped": 283
   },
   "results": [
     {
@@ -102,11 +100,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "boros-convoke",
       "path": "latest/decks/pioneer/boros-convoke.json",
-      "message": "Deck scrape returned no rows for Boros Convoke"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -154,11 +152,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "pioneer",
       "archetype": "golgari-midrange",
-      "path": "latest/decks/pioneer/golgari-midrange.json",
-      "message": "Deck scrape returned no rows for Golgari Midrange"
+      "path": "latest/decks/pioneer/golgari-midrange.json"
     },
     {
       "scope": "archetype-decks",
