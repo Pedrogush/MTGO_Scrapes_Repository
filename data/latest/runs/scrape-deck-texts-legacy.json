@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T01:55:30Z",
+  "generated_at": "2026-04-21T03:23:11Z",
   "command": "scrape-deck-texts-legacy",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 45,
-    "skipped": 390,
-    "hard-failure": 1
+    "success": 48,
+    "skipped": 390
   },
   "results": [
     {
@@ -158,11 +157,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "death-s-shadow",
-      "path": "latest/decks/legacy/death-s-shadow.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/legacy/death-s-shadow.json"
     },
     {
       "scope": "archetype-decks",
@@ -432,11 +430,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "sultai-tempo",
       "path": "latest/decks/legacy/sultai-tempo.json",
-      "message": "Deck scrape returned no rows for Sultai Tempo"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -3452,6 +3450,20 @@
       "deck_id": "7743808",
       "path": "archive/deck-texts/legacy/7743808.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7744002",
+      "path": "archive/deck-texts/legacy/7744002.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7744003",
+      "path": "archive/deck-texts/legacy/7744003.json"
     }
   ]
 }

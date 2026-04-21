@@ -1,22 +1,20 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T01:55:29Z",
+  "generated_at": "2026-04-21T03:23:08Z",
   "command": "scrape-deck-texts-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "stale-fallback": 1,
-    "skipped": 154,
-    "success": 19
+    "success": 20,
+    "skipped": 154
   },
   "results": [
     {
       "scope": "archetype-list",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "vintage",
-      "path": "latest/archetypes/vintage.json",
-      "message": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "path": "latest/archetypes/vintage.json"
     },
     {
       "scope": "archetype-decks",

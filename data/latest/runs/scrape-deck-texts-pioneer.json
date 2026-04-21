@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T01:55:24Z",
+  "generated_at": "2026-04-21T03:23:12Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 34,
-    "skipped": 261,
-    "stale-fallback": 1
+    "success": 35,
+    "skipped": 261
   },
   "results": [
     {
@@ -139,11 +138,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "pioneer",
       "archetype": "esper-control",
-      "path": "latest/decks/pioneer/esper-control.json",
-      "message": "Deck scrape returned no rows for Esper Control"
+      "path": "latest/decks/pioneer/esper-control.json"
     },
     {
       "scope": "archetype-decks",
