@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T01:04:20Z",
+  "generated_at": "2026-04-21T01:55:30Z",
   "command": "scrape-deck-texts-legacy",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 45,
-    "skipped": 391
+    "skipped": 390,
+    "hard-failure": 1
   },
   "results": [
     {
@@ -431,11 +432,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "sultai-tempo",
       "path": "latest/decks/legacy/sultai-tempo.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Sultai Tempo"
     },
     {
       "scope": "archetype-decks",

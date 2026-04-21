@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T01:04:19Z",
+  "generated_at": "2026-04-21T01:55:24Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 37,
-    "skipped": 259
+    "success": 34,
+    "skipped": 261,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -138,10 +139,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "esper-control",
-      "path": "latest/decks/pioneer/esper-control.json"
+      "path": "latest/decks/pioneer/esper-control.json",
+      "message": "Deck scrape returned no rows for Esper Control"
     },
     {
       "scope": "archetype-decks",
@@ -2328,17 +2330,19 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "deck_id": "7743881",
-      "path": "archive/deck-texts/pioneer/7743881.json"
+      "path": "archive/deck-texts/pioneer/7743881.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "deck_id": "7743917",
-      "path": "archive/deck-texts/pioneer/7743917.json"
+      "path": "archive/deck-texts/pioneer/7743917.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }

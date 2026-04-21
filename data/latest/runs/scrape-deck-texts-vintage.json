@@ -1,20 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T01:04:16Z",
+  "generated_at": "2026-04-21T01:55:29Z",
   "command": "scrape-deck-texts-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 21,
-    "skipped": 153
+    "stale-fallback": 1,
+    "skipped": 154,
+    "success": 19
   },
   "results": [
     {
       "scope": "archetype-list",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
-      "path": "latest/archetypes/vintage.json"
+      "path": "latest/archetypes/vintage.json",
+      "message": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "scope": "archetype-decks",
@@ -1375,10 +1377,11 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "vintage",
       "deck_id": "7743863",
-      "path": "archive/deck-texts/vintage/7743863.json"
+      "path": "archive/deck-texts/vintage/7743863.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }
