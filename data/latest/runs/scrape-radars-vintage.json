@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T19:45:13Z",
+  "generated_at": "2026-04-21T20:34:54Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 10,
-    "success": 19
+    "success": 20
   },
   "results": [
     {
@@ -207,6 +207,13 @@
       "format": "vintage",
       "archetype": "scam",
       "path": "latest/radars/vintage/scam.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "sphere-shops",
+      "path": "latest/radars/vintage/sphere-shops.json"
     },
     {
       "scope": "archetype-radar",
