@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T16:45:43Z",
+  "generated_at": "2026-04-21T17:42:28Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 11,
-    "success": 49
+    "success": 47
   },
   "results": [
     {
@@ -17,13 +17,6 @@
       "archetype": "4c-control",
       "path": "latest/radars/legacy/4c-control.json",
       "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "8-cast",
-      "path": "latest/radars/legacy/8-cast.json"
     },
     {
       "scope": "archetype-radar",
@@ -74,13 +67,6 @@
       "format": "legacy",
       "archetype": "beseech-storm",
       "path": "latest/radars/legacy/beseech-storm.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "blue-artifacts",
-      "path": "latest/radars/legacy/blue-artifacts.json"
     },
     {
       "scope": "archetype-radar",

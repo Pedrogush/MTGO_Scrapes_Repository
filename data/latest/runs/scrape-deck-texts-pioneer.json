@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T16:41:15Z",
+  "generated_at": "2026-04-21T17:37:52Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 36,
-    "skipped": 283
+    "skipped": 283,
+    "stale-fallback": 2
   },
   "results": [
     {
@@ -138,10 +139,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "esper-control",
-      "path": "latest/decks/pioneer/esper-control.json"
+      "path": "latest/decks/pioneer/esper-control.json",
+      "message": "Deck scrape returned no rows for Esper Control"
     },
     {
       "scope": "archetype-decks",
@@ -154,8 +156,16 @@
       "scope": "archetype-decks",
       "status": "success",
       "format": "pioneer",
+      "archetype": "golgari-food",
+      "path": "latest/decks/pioneer/golgari-food.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "stale-fallback",
+      "format": "pioneer",
       "archetype": "golgari-midrange",
-      "path": "latest/decks/pioneer/golgari-midrange.json"
+      "path": "latest/decks/pioneer/golgari-midrange.json",
+      "message": "Deck scrape returned no rows for Golgari Midrange"
     },
     {
       "scope": "archetype-decks",
@@ -2332,6 +2342,13 @@
       "deck_id": "7744091",
       "path": "archive/deck-texts/pioneer/7744091.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pioneer",
+      "deck_id": "7744134",
+      "path": "archive/deck-texts/pioneer/7744134.json"
     },
     {
       "scope": "deck-text",

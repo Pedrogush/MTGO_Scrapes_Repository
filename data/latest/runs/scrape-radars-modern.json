@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T16:45:44Z",
+  "generated_at": "2026-04-21T17:42:32Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 17,
-    "success": 51
+    "skipped": 19,
+    "success": 50
   },
   "results": [
     {
@@ -16,6 +16,14 @@
       "format": "modern",
       "archetype": "4-5c-omnath",
       "path": "latest/radars/modern/4-5c-omnath.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "modern",
+      "archetype": "4c-genericblink",
+      "path": "latest/radars/modern/4c-genericblink.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -82,6 +90,14 @@
       "format": "modern",
       "archetype": "death-s-shadow",
       "path": "latest/radars/modern/death-s-shadow.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "modern",
+      "archetype": "devoted-combo",
+      "path": "latest/radars/modern/devoted-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -355,13 +371,6 @@
       "format": "modern",
       "archetype": "mono-green-basking-broodscale-combo",
       "path": "latest/radars/modern/mono-green-basking-broodscale-combo.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
-      "archetype": "mono-green-midrange",
-      "path": "latest/radars/modern/mono-green-midrange.json"
     },
     {
       "scope": "archetype-radar",

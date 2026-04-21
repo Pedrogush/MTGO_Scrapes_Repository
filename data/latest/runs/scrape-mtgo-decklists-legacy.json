@@ -1,12 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T16:42:55Z",
+  "generated_at": "2026-04-21T17:38:56Z",
   "command": "scrape-mtgo-decklists-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "cached": 13,
+    "skipped": 1,
     "success": 1
   },
   "results": [
@@ -16,6 +17,12 @@
       "format": "legacy",
       "path": "archive/mtgo-decklists/legacy/legacy-league-2026-04-2110381.json",
       "message": "Loaded 2 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "skipped",
+      "format": "legacy",
+      "message": "https://www.mtgo.com/decklist/legacy-league-2026-04-2110612: Event returned no decklists."
     },
     {
       "scope": "mtgo-event",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T16:45:39Z",
+  "generated_at": "2026-04-21T17:42:39Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 36,
+    "success": 37,
     "skipped": 15
   },
   "results": [
@@ -151,6 +151,13 @@
       "format": "pioneer",
       "archetype": "esper-midrange",
       "path": "latest/radars/pioneer/esper-midrange.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "golgari-food",
+      "path": "latest/radars/pioneer/golgari-food.json"
     },
     {
       "scope": "archetype-radar",
