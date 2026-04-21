@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T15:45:18Z",
+  "generated_at": "2026-04-21T16:41:17Z",
   "command": "scrape-deck-texts-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 46,
-    "skipped": 395
+    "success": 59,
+    "skipped": 392
   },
   "results": [
     {
@@ -207,11 +207,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "goblins",
-      "path": "latest/decks/legacy/goblins.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/legacy/goblins.json"
     },
     {
       "scope": "archetype-decks",
@@ -393,11 +392,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "ruby-storm",
-      "path": "latest/decks/legacy/ruby-storm.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/legacy/ruby-storm.json"
     },
     {
       "scope": "archetype-decks",
@@ -422,11 +420,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "sultai-depths",
-      "path": "latest/decks/legacy/sultai-depths.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/legacy/sultai-depths.json"
     },
     {
       "scope": "archetype-decks",
@@ -3490,6 +3487,76 @@
       "deck_id": "7744631",
       "path": "archive/deck-texts/legacy/7744631.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7745456",
+      "path": "archive/deck-texts/legacy/7745456.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7745457",
+      "path": "archive/deck-texts/legacy/7745457.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7745458",
+      "path": "archive/deck-texts/legacy/7745458.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7745460",
+      "path": "archive/deck-texts/legacy/7745460.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7745461",
+      "path": "archive/deck-texts/legacy/7745461.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7745463",
+      "path": "archive/deck-texts/legacy/7745463.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7745464",
+      "path": "archive/deck-texts/legacy/7745464.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7745465",
+      "path": "archive/deck-texts/legacy/7745465.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7745685",
+      "path": "archive/deck-texts/legacy/7745685.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "legacy",
+      "deck_id": "7745686",
+      "path": "archive/deck-texts/legacy/7745686.json"
     }
   ]
 }

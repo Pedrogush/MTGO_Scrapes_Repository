@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T15:47:33Z",
+  "generated_at": "2026-04-21T16:45:44Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 17,
-    "success": 50,
-    "stale-fallback": 1
+    "success": 51
   },
   "results": [
     {
@@ -317,11 +316,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "modern",
       "archetype": "mardu-energy",
-      "path": "latest/radars/modern/mardu-energy.json",
-      "message": "No deck texts were available for radar generation."
+      "path": "latest/radars/modern/mardu-energy.json"
     },
     {
       "scope": "archetype-radar",

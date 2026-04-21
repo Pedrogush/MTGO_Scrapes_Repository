@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T15:47:40Z",
+  "generated_at": "2026-04-21T16:45:43Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 14,
-    "success": 46
+    "skipped": 11,
+    "success": 49
   },
   "results": [
     {
@@ -201,11 +201,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "goblins",
-      "path": "latest/radars/legacy/goblins.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/goblins.json"
     },
     {
       "scope": "archetype-radar",
@@ -387,11 +386,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "ruby-storm",
-      "path": "latest/radars/legacy/ruby-storm.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/ruby-storm.json"
     },
     {
       "scope": "archetype-radar",
@@ -416,11 +414,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "sultai-depths",
-      "path": "latest/radars/legacy/sultai-depths.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/legacy/sultai-depths.json"
     },
     {
       "scope": "archetype-radar",
