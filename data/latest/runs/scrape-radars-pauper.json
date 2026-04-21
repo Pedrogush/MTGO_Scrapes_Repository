@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T17:42:41Z",
+  "generated_at": "2026-04-21T18:42:13Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 12,
-    "success": 44
+    "success": 47
   },
   "results": [
     {
@@ -31,6 +31,13 @@
       "format": "pauper",
       "archetype": "blue-terror",
       "path": "latest/radars/pauper/blue-terror.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pauper",
+      "archetype": "bogles",
+      "path": "latest/radars/pauper/bogles.json"
     },
     {
       "scope": "archetype-radar",
@@ -171,6 +178,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "pauper",
+      "archetype": "goblins",
+      "path": "latest/radars/pauper/goblins.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pauper",
       "archetype": "golgari-gardens",
       "path": "latest/radars/pauper/golgari-gardens.json"
     },
@@ -282,6 +296,13 @@
       "archetype": "mardu-synthesizer",
       "path": "latest/radars/pauper/mardu-synthesizer.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pauper",
+      "archetype": "mono-black",
+      "path": "latest/radars/pauper/mono-black.json"
     },
     {
       "scope": "archetype-radar",

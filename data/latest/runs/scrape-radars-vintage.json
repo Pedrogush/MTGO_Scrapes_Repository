@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T17:42:50Z",
+  "generated_at": "2026-04-21T18:42:17Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 9,
-    "success": 18
+    "skipped": 10,
+    "success": 20
   },
   "results": [
     {
@@ -139,6 +139,21 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "vintage",
+      "archetype": "mono-white-aggro",
+      "path": "latest/radars/vintage/mono-white-aggro.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "mono-white-initiative",
+      "path": "latest/radars/vintage/mono-white-initiative.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "vintage",
       "archetype": "naya-initiative",
       "path": "latest/radars/vintage/naya-initiative.json",
       "message": "No published decks were available for radar generation."
@@ -170,6 +185,13 @@
       "format": "vintage",
       "archetype": "prison-shops",
       "path": "latest/radars/vintage/prison-shops.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "raker-shops",
+      "path": "latest/radars/vintage/raker-shops.json"
     },
     {
       "scope": "archetype-radar",
