@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T10:44:59Z",
+  "generated_at": "2026-04-22T11:39:02Z",
   "command": "scrape-deck-texts-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 47,
-    "skipped": 626
+    "success": 46,
+    "skipped": 626,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -190,10 +191,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "hammer-time",
-      "path": "latest/decks/modern/hammer-time.json"
+      "path": "latest/decks/modern/hammer-time.json",
+      "message": "Deck scrape returned no rows for Hammer Time"
     },
     {
       "scope": "archetype-decks",

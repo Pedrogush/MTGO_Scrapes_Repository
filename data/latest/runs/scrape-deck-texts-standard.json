@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T10:44:51Z",
+  "generated_at": "2026-04-22T11:39:01Z",
   "command": "scrape-deck-texts-standard",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 32,
-    "skipped": 371
+    "skipped": 370,
+    "hard-failure": 1
   },
   "results": [
     {
@@ -251,11 +252,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "izzet-elementals",
       "path": "latest/decks/standard/izzet-elementals.json",
-      "message": "No decks found within the last 7 days."
+      "message": "Deck scrape returned no rows for Izzet Elementals"
     },
     {
       "scope": "archetype-decks",

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T10:46:50Z",
+  "generated_at": "2026-04-22T11:41:37Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 9,
-    "success": 21
+    "success": 20
   },
   "results": [
     {
@@ -77,13 +77,6 @@
       "format": "vintage",
       "archetype": "dimir-lurrus-control",
       "path": "latest/radars/vintage/dimir-lurrus-control.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "vintage",
-      "archetype": "doomsday",
-      "path": "latest/radars/vintage/doomsday.json"
     },
     {
       "scope": "archetype-radar",
