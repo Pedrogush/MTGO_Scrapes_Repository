@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T18:39:02Z",
+  "generated_at": "2026-04-22T19:44:07Z",
   "command": "scrape-deck-texts-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 52,
-    "skipped": 629
+    "skipped": 633
   },
   "results": [
     {
@@ -5379,31 +5379,63 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7746956",
-      "path": "archive/deck-texts/modern/7746956.json"
+      "path": "archive/deck-texts/modern/7746956.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7746957",
-      "path": "archive/deck-texts/modern/7746957.json"
+      "path": "archive/deck-texts/modern/7746957.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "deck_id": "7746958",
-      "path": "archive/deck-texts/modern/7746958.json"
+      "path": "archive/deck-texts/modern/7746958.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "modern",
+      "deck_id": "7746959",
+      "path": "archive/deck-texts/modern/7746959.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
       "status": "success",
       "format": "modern",
-      "deck_id": "7746959",
-      "path": "archive/deck-texts/modern/7746959.json"
+      "deck_id": "7746998",
+      "path": "archive/deck-texts/modern/7746998.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "modern",
+      "deck_id": "7746999",
+      "path": "archive/deck-texts/modern/7746999.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "modern",
+      "deck_id": "7747010",
+      "path": "archive/deck-texts/modern/7747010.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "modern",
+      "deck_id": "7747011",
+      "path": "archive/deck-texts/modern/7747011.json"
     }
   ]
 }
