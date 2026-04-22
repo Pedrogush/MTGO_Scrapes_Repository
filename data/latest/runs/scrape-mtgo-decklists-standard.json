@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T19:45:09Z",
+  "generated_at": "2026-04-22T20:35:51Z",
   "command": "scrape-mtgo-decklists-standard",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "cached": 15,
-    "skipped": 1,
+    "hard-failure": 1,
     "success": 1
   },
   "results": [
@@ -34,9 +34,9 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "standard",
-      "message": "https://www.mtgo.com/decklist/standard-league-2026-04-2110660: Event returned no decklists."
+      "message": "https://www.mtgo.com/decklist/standard-league-2026-04-2110660: Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "scope": "mtgo-event",
