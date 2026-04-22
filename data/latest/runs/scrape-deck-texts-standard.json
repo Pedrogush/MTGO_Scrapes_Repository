@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T07:53:49Z",
+  "generated_at": "2026-04-22T08:53:15Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 32,
-    "skipped": 371
+    "success": 31,
+    "skipped": 371,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -62,10 +63,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "4c-ouroboroid",
-      "path": "latest/decks/standard/4c-ouroboroid.json"
+      "path": "latest/decks/standard/4c-ouroboroid.json",
+      "message": "Deck scrape returned no rows for 4c Ouroboroid"
     },
     {
       "scope": "archetype-decks",
