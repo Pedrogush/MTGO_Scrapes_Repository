@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T13:56:22Z",
+  "generated_at": "2026-04-22T14:55:54Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 37,
-    "skipped": 15
+    "skipped": 14
   },
   "results": [
     {
@@ -60,14 +60,6 @@
       "format": "pioneer",
       "archetype": "abzan-greasefang",
       "path": "latest/radars/pioneer/abzan-greasefang.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "abzan-midrange",
-      "path": "latest/radars/pioneer/abzan-midrange.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
