@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T17:39:13Z",
+  "generated_at": "2026-04-22T18:43:56Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 37,
+    "success": 36,
     "skipped": 15
   },
   "results": [
@@ -24,13 +24,6 @@
       "archetype": "4c-rona-combo",
       "path": "latest/radars/pioneer/4c-rona-combo.json",
       "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "pioneer",
-      "archetype": "4c-scapeshift",
-      "path": "latest/radars/pioneer/4c-scapeshift.json"
     },
     {
       "scope": "archetype-radar",

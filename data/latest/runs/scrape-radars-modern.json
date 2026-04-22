@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T17:38:54Z",
+  "generated_at": "2026-04-22T18:44:06Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 18,
-    "success": 51
+    "success": 52
   },
   "results": [
     {
@@ -372,6 +372,13 @@
       "format": "modern",
       "archetype": "mono-green-basking-broodscale-combo",
       "path": "latest/radars/modern/mono-green-basking-broodscale-combo.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "mono-green-midrange",
+      "path": "latest/radars/modern/mono-green-midrange.json"
     },
     {
       "scope": "archetype-radar",

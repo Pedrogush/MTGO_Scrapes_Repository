@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T17:38:50Z",
+  "generated_at": "2026-04-22T18:43:59Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 32,
-    "skipped": 35
+    "success": 33,
+    "skipped": 33
   },
   "results": [
     {
@@ -31,14 +31,6 @@
       "format": "standard",
       "archetype": "4c-elementals",
       "path": "latest/radars/standard/4c-elementals.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "4c-harmonizer-combo",
-      "path": "latest/radars/standard/4c-harmonizer-combo.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -230,6 +222,13 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "golgari-ouroboroid",
+      "path": "latest/radars/standard/golgari-ouroboroid.json"
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
       "archetype": "grixis-control",
@@ -242,14 +241,6 @@
       "format": "standard",
       "archetype": "grixis-reanimator",
       "path": "latest/radars/standard/grixis-reanimator.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "gruul-aggro",
-      "path": "latest/radars/standard/gruul-aggro.json",
       "message": "No published decks were available for radar generation."
     },
     {
