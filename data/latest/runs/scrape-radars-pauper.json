@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T14:55:52Z",
+  "generated_at": "2026-04-22T15:47:50Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 14,
-    "success": 44
+    "success": 45
   },
   "results": [
     {
@@ -160,6 +160,13 @@
       "format": "pauper",
       "archetype": "familiars",
       "path": "latest/radars/pauper/familiars.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pauper",
+      "archetype": "food-gardens",
+      "path": "latest/radars/pauper/food-gardens.json"
     },
     {
       "scope": "archetype-radar",

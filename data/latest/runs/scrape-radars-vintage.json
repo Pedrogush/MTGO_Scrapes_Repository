@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T14:55:51Z",
+  "generated_at": "2026-04-22T15:46:59Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 9,
-    "success": 20
+    "success": 21
   },
   "results": [
     {
@@ -112,6 +112,13 @@
       "format": "vintage",
       "archetype": "lurrus-breach",
       "path": "latest/radars/vintage/lurrus-breach.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "vintage",
+      "archetype": "lurrus-drs",
+      "path": "latest/radars/vintage/lurrus-drs.json"
     },
     {
       "scope": "archetype-radar",

@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T14:53:12Z",
+  "generated_at": "2026-04-22T15:44:39Z",
   "command": "scrape-deck-texts-pioneer",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 37,
-    "skipped": 281,
-    "hard-failure": 1
+    "skipped": 282
   },
   "results": [
     {
@@ -70,11 +69,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "abzan-midrange",
       "path": "latest/decks/pioneer/abzan-midrange.json",
-      "message": "Deck scrape returned no rows for Abzan Midrange"
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",

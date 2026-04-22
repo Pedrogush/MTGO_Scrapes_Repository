@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T14:53:01Z",
+  "generated_at": "2026-04-22T15:44:33Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 33,
-    "skipped": 371,
-    "stale-fallback": 1
+    "success": 32,
+    "skipped": 373
   },
   "results": [
     {
@@ -206,11 +205,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "stale-fallback",
+      "status": "success",
       "format": "standard",
       "archetype": "golgari-midrange",
-      "path": "latest/decks/standard/golgari-midrange.json",
-      "message": "Deck scrape returned no rows for Golgari Midrange"
+      "path": "latest/decks/standard/golgari-midrange.json"
     },
     {
       "scope": "archetype-decks",
@@ -3205,17 +3203,19 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7746721",
-      "path": "archive/deck-texts/standard/7746721.json"
+      "path": "archive/deck-texts/standard/7746721.json",
+      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "deck_id": "7746722",
-      "path": "archive/deck-texts/standard/7746722.json"
+      "path": "archive/deck-texts/standard/7746722.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }
