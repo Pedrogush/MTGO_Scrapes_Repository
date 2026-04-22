@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T15:47:22Z",
+  "generated_at": "2026-04-22T16:42:16Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 37,
+    "success": 36,
     "skipped": 15
   },
   "results": [
@@ -280,13 +280,6 @@
       "format": "pioneer",
       "archetype": "nykthos-ramp",
       "path": "latest/radars/pioneer/nykthos-ramp.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "pioneer",
-      "archetype": "orzhov-greasefang",
-      "path": "latest/radars/pioneer/orzhov-greasefang.json"
     },
     {
       "scope": "archetype-radar",
