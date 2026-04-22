@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T23:28:25Z",
+  "generated_at": "2026-04-22T01:03:01Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 10,
-    "success": 20
+    "skipped": 9,
+    "success": 21
   },
   "results": [
     {
@@ -129,11 +129,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "vintage",
       "archetype": "lurrus-vault-key",
-      "path": "latest/radars/vintage/lurrus-vault-key.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/vintage/lurrus-vault-key.json"
     },
     {
       "scope": "archetype-radar",

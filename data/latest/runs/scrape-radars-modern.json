@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T23:28:20Z",
+  "generated_at": "2026-04-22T01:02:59Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 18,
-    "success": 51
+    "skipped": 19,
+    "success": 50
   },
   "results": [
     {
@@ -253,10 +253,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "infect",
-      "path": "latest/radars/modern/infect.json"
+      "path": "latest/radars/modern/infect.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

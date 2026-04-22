@@ -1,16 +1,23 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-21T23:28:25Z",
+  "generated_at": "2026-04-22T01:02:26Z",
   "command": "scrape-mtgo-decklists-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 15,
     "hard-failure": 1,
+    "cached": 14,
+    "skipped": 1,
     "success": 1
   },
   "results": [
+    {
+      "scope": "mtgo-event",
+      "status": "hard-failure",
+      "format": "pioneer",
+      "message": "https://www.mtgo.com/decklist/pioneer-league-2026-04-2210644: Could not locate deck JSON payload"
+    },
     {
       "scope": "mtgo-event",
       "status": "cached",
@@ -20,9 +27,9 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "pioneer",
-      "message": "https://www.mtgo.com/decklist/pioneer-league-2026-04-2110644: Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "message": "https://www.mtgo.com/decklist/pioneer-league-2026-04-2110644: Event returned no decklists."
     },
     {
       "scope": "mtgo-event",
@@ -113,13 +120,6 @@
       "status": "cached",
       "format": "pioneer",
       "path": "archive/mtgo-decklists/pioneer/pioneer-league-2026-04-1610413.json",
-      "message": "Loaded 1 decks from archive."
-    },
-    {
-      "scope": "mtgo-event",
-      "status": "cached",
-      "format": "pioneer",
-      "path": "archive/mtgo-decklists/pioneer/pioneer-league-2026-04-1510413.json",
       "message": "Loaded 1 decks from archive."
     },
     {
