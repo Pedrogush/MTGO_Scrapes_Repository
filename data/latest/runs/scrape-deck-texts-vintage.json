@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T11:39:09Z",
+  "generated_at": "2026-04-22T12:39:57Z",
   "command": "scrape-deck-texts-vintage",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 21,
-    "skipped": 149,
-    "hard-failure": 1
+    "skipped": 151
   },
   "results": [
     {
@@ -87,11 +86,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "vintage",
       "archetype": "doomsday",
-      "path": "latest/decks/vintage/doomsday.json",
-      "message": "Deck scrape returned no rows for Doomsday"
+      "path": "latest/decks/vintage/doomsday.json"
     },
     {
       "scope": "archetype-decks",
@@ -1234,6 +1232,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "vintage",
+      "deck_id": "7739966",
+      "path": "archive/deck-texts/vintage/7739966.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "vintage",
       "deck_id": "7739967",
       "path": "archive/deck-texts/vintage/7739967.json",
       "message": "Reused existing published deck-text blob."
@@ -1352,10 +1358,11 @@
     },
     {
       "scope": "deck-text",
-      "status": "success",
+      "status": "skipped",
       "format": "vintage",
       "deck_id": "7746600",
-      "path": "archive/deck-texts/vintage/7746600.json"
+      "path": "archive/deck-texts/vintage/7746600.json",
+      "message": "Reused existing published deck-text blob."
     }
   ]
 }

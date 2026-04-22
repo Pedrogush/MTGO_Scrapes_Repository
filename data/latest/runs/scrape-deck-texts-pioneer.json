@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T11:39:02Z",
+  "generated_at": "2026-04-22T12:39:56Z",
   "command": "scrape-deck-texts-pioneer",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 36,
-    "skipped": 281,
-    "hard-failure": 1
+    "success": 37,
+    "skipped": 282
   },
   "results": [
     {
@@ -325,11 +324,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "pioneer",
       "archetype": "rakdos-tree",
-      "path": "latest/decks/pioneer/rakdos-tree.json",
-      "message": "Deck scrape returned no rows for Rakdos Tree"
+      "path": "latest/decks/pioneer/rakdos-tree.json"
     },
     {
       "scope": "archetype-decks",
@@ -972,6 +970,14 @@
       "format": "pioneer",
       "deck_id": "7738802",
       "path": "archive/deck-texts/pioneer/7738802.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pioneer",
+      "deck_id": "7738804",
+      "path": "archive/deck-texts/pioneer/7738804.json",
       "message": "Reused existing published deck-text blob."
     },
     {

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T11:41:37Z",
+  "generated_at": "2026-04-22T12:41:52Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 11,
-    "success": 48
+    "success": 49
   },
   "results": [
     {
@@ -319,6 +319,13 @@
       "format": "legacy",
       "archetype": "mystic-forge-combo",
       "path": "latest/radars/legacy/mystic-forge-combo.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "naya-initiative",
+      "path": "latest/radars/legacy/naya-initiative.json"
     },
     {
       "scope": "archetype-radar",
