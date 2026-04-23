@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T20:39:20Z",
+  "generated_at": "2026-04-23T21:35:59Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 20,
+    "skipped": 19,
     "success": 47,
-    "stale-fallback": 3
+    "stale-fallback": 4
   },
   "results": [
     {
@@ -359,11 +359,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "mill",
       "path": "latest/radars/modern/mill.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
