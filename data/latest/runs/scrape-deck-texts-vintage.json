@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T13:53:52Z",
+  "generated_at": "2026-04-23T15:00:32Z",
   "command": "scrape-deck-texts-vintage",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 20,
-    "skipped": 118
+    "skipped": 118,
+    "hard-failure": 1
   },
   "results": [
     {
@@ -1092,6 +1093,14 @@
       "deck_id": "7747007",
       "path": "archive/deck-texts/vintage/7747007.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "vintage",
+      "deck_id": "7747953",
+      "path": "archive/deck-texts/vintage/7747953.json",
+      "message": "Could not parse deck data for deck 7747953"
     }
   ]
 }
