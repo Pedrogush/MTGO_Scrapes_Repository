@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T16:54:29Z",
+  "generated_at": "2026-04-23T17:50:07Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 34,
-    "skipped": 32
+    "success": 31,
+    "skipped": 27
   },
   "results": [
     {
@@ -23,13 +23,6 @@
       "format": "standard",
       "archetype": "4c-control",
       "path": "latest/radars/standard/4c-control.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "standard",
-      "archetype": "4c-elementals",
-      "path": "latest/radars/standard/4c-elementals.json"
     },
     {
       "scope": "archetype-radar",
@@ -55,13 +48,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
-      "format": "standard",
-      "archetype": "4c-reanimator",
-      "path": "latest/radars/standard/4c-reanimator.json"
-    },
-    {
-      "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
       "archetype": "5c-control",
@@ -74,14 +60,6 @@
       "format": "standard",
       "archetype": "5c-elementals",
       "path": "latest/radars/standard/5c-elementals.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "allies",
-      "path": "latest/radars/standard/allies.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -123,14 +101,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "boros-burn",
-      "path": "latest/radars/standard/boros-burn.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "boros-dragons",
@@ -142,14 +112,6 @@
       "format": "standard",
       "archetype": "boros-leyline-aggro",
       "path": "latest/radars/standard/boros-leyline-aggro.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "boros-manufacturing",
-      "path": "latest/radars/standard/boros-manufacturing.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -239,31 +201,8 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
-      "archetype": "grixis-reanimator",
-      "path": "latest/radars/standard/grixis-reanimator.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "standard",
-      "archetype": "gruul-delirium",
-      "path": "latest/radars/standard/gruul-delirium.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
       "archetype": "gruul-landfall",
       "path": "latest/radars/standard/gruul-landfall.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "izzet-elementals",
-      "path": "latest/radars/standard/izzet-elementals.json",
       "message": "No published decks were available for radar generation."
     },
     {

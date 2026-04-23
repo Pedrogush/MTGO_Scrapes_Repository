@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T16:51:10Z",
+  "generated_at": "2026-04-23T17:46:58Z",
   "command": "scrape-deck-texts-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 43,
+    "success": 44,
     "skipped": 385,
-    "hard-failure": 16
+    "hard-failure": 17
   },
   "results": [
     {
@@ -126,11 +126,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "hard-failure",
+      "status": "success",
       "format": "pauper",
       "archetype": "dredge",
-      "path": "latest/decks/pauper/dredge.json",
-      "message": "Deck scrape returned no rows for Dredge"
+      "path": "latest/decks/pauper/dredge.json"
     },
     {
       "scope": "archetype-decks",
@@ -859,14 +858,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pauper",
-      "deck_id": "7737745",
-      "path": "archive/deck-texts/pauper/7737745.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pauper",
       "deck_id": "7737805",
       "path": "archive/deck-texts/pauper/7737805.json",
       "message": "Reused existing published deck-text blob."
@@ -981,6 +972,14 @@
       "format": "pauper",
       "deck_id": "7738749",
       "path": "archive/deck-texts/pauper/7738749.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "pauper",
+      "deck_id": "7738813",
+      "path": "archive/deck-texts/pauper/7738813.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -3518,6 +3517,22 @@
       "deck_id": "7748069",
       "path": "archive/deck-texts/pauper/7748069.json",
       "message": "Could not parse deck data for deck 7748069"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pauper",
+      "deck_id": "7748120",
+      "path": "archive/deck-texts/pauper/7748120.json",
+      "message": "Could not parse deck data for deck 7748120"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pauper",
+      "deck_id": "7748121",
+      "path": "archive/deck-texts/pauper/7748121.json",
+      "message": "Could not parse deck data for deck 7748121"
     }
   ]
 }

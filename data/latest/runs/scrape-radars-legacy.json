@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T16:54:29Z",
+  "generated_at": "2026-04-23T17:50:11Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 11,
-    "success": 47
+    "success": 49
   },
   "results": [
     {
@@ -147,6 +147,13 @@
       "format": "legacy",
       "archetype": "death-s-shadow",
       "path": "latest/radars/legacy/death-s-shadow.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "dimir-tempo",
+      "path": "latest/radars/legacy/dimir-tempo.json"
     },
     {
       "scope": "archetype-radar",
@@ -397,6 +404,13 @@
       "format": "legacy",
       "archetype": "stiflenought",
       "path": "latest/radars/legacy/stiflenought.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "sultai-depths",
+      "path": "latest/radars/legacy/sultai-depths.json"
     },
     {
       "scope": "archetype-radar",
