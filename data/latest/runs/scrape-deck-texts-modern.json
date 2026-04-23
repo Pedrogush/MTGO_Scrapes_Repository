@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T22:29:54Z",
+  "generated_at": "2026-04-23T23:31:32Z",
   "command": "scrape-deck-texts-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 47,
-    "skipped": 562,
-    "hard-failure": 45
+    "skipped": 559,
+    "hard-failure": 49
   },
   "results": [
     {
@@ -2503,14 +2503,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
-      "deck_id": "7741335",
-      "path": "archive/deck-texts/modern/7741335.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
       "deck_id": "7741336",
       "path": "archive/deck-texts/modern/7741336.json",
       "message": "Reused existing published deck-text blob."
@@ -2825,14 +2817,6 @@
       "format": "modern",
       "deck_id": "7741906",
       "path": "archive/deck-texts/modern/7741906.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
-      "deck_id": "7741974",
-      "path": "archive/deck-texts/modern/7741974.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -3481,14 +3465,6 @@
       "format": "modern",
       "deck_id": "7743015",
       "path": "archive/deck-texts/modern/7743015.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
-      "deck_id": "7743016",
-      "path": "archive/deck-texts/modern/7743016.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -5194,6 +5170,38 @@
       "deck_id": "7748347",
       "path": "archive/deck-texts/modern/7748347.json",
       "message": "Could not parse deck data for deck 7748347"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7748420",
+      "path": "archive/deck-texts/modern/7748420.json",
+      "message": "Could not parse deck data for deck 7748420"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7748421",
+      "path": "archive/deck-texts/modern/7748421.json",
+      "message": "Could not parse deck data for deck 7748421"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7748422",
+      "path": "archive/deck-texts/modern/7748422.json",
+      "message": "Could not parse deck data for deck 7748422"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7748423",
+      "path": "archive/deck-texts/modern/7748423.json",
+      "message": "Could not parse deck data for deck 7748423"
     }
   ]
 }
