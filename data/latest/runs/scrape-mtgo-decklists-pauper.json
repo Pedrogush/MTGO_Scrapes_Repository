@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T06:58:04Z",
+  "generated_at": "2026-04-23T07:55:32Z",
   "command": "scrape-mtgo-decklists-pauper",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 12,
-    "success": 1
+    "cached": 9,
+    "hard-failure": 1,
+    "success": 3
   },
   "results": [
     {
@@ -19,10 +20,9 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "cached",
+      "status": "hard-failure",
       "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-2210636.json",
-      "message": "Loaded 1 decks from archive."
+      "message": "https://www.mtgo.com/decklist/pauper-league-2026-04-2010636: Could not locate deck JSON payload"
     },
     {
       "scope": "mtgo-event",
@@ -47,10 +47,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "cached",
+      "status": "success",
       "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-challenge-32-2026-04-1912839704.json",
-      "message": "Loaded 32 decks from archive."
+      "path": "archive/mtgo-decklists/pauper/pauper-challenge-32-2026-04-1812839704.json",
+      "message": "Cached 32/32 decks."
     },
     {
       "scope": "mtgo-event",
@@ -89,10 +89,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "cached",
+      "status": "success",
       "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-challenge-32-2026-04-1612839659.json",
-      "message": "Loaded 32 decks from archive."
+      "path": "archive/mtgo-decklists/pauper/pauper-challenge-32-2026-04-1412839659.json",
+      "message": "Cached 32/32 decks."
     },
     {
       "scope": "mtgo-decklists",

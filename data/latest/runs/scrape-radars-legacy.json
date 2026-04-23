@@ -1,15 +1,23 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T06:59:10Z",
+  "generated_at": "2026-04-23T07:56:45Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 44,
-    "skipped": 10
+    "skipped": 11,
+    "success": 49
   },
   "results": [
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "4c-control",
+      "path": "latest/radars/legacy/4c-control.json",
+      "message": "No published decks were available for radar generation."
+    },
     {
       "scope": "archetype-radar",
       "status": "success",
@@ -30,6 +38,13 @@
       "format": "legacy",
       "archetype": "aluren",
       "path": "latest/radars/legacy/aluren.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "azorius-stoneblade",
+      "path": "latest/radars/legacy/azorius-stoneblade.json"
     },
     {
       "scope": "archetype-radar",
@@ -172,6 +187,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "goblins",
+      "path": "latest/radars/legacy/goblins.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "green-cloudpost",
       "path": "latest/radars/legacy/green-cloudpost.json"
     },
@@ -202,6 +224,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "jeskai-control",
+      "path": "latest/radars/legacy/jeskai-control.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "jeskai-stoneblade",
       "path": "latest/radars/legacy/jeskai-stoneblade.json"
     },
@@ -225,6 +254,13 @@
       "format": "legacy",
       "archetype": "led-dredge",
       "path": "latest/radars/legacy/led-dredge.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "loam-pox",
+      "path": "latest/radars/legacy/loam-pox.json"
     },
     {
       "scope": "archetype-radar",
@@ -261,6 +297,13 @@
       "format": "legacy",
       "archetype": "mono-white-initiative",
       "path": "latest/radars/legacy/mono-white-initiative.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "mystic-forge-combo",
+      "path": "latest/radars/legacy/mystic-forge-combo.json"
     },
     {
       "scope": "archetype-radar",

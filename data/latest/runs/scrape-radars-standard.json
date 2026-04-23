@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T06:59:03Z",
+  "generated_at": "2026-04-23T07:56:29Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 33,
-    "skipped": 31
+    "success": 34,
+    "skipped": 32
   },
   "results": [
     {
@@ -30,6 +30,13 @@
       "format": "standard",
       "archetype": "4c-elementals",
       "path": "latest/radars/standard/4c-elementals.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "4c-kona",
+      "path": "latest/radars/standard/4c-kona.json"
     },
     {
       "scope": "archetype-radar",
@@ -420,6 +427,14 @@
       "format": "standard",
       "archetype": "simic-ouroboroid",
       "path": "latest/radars/standard/simic-ouroboroid.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "simic-ramp",
+      "path": "latest/radars/standard/simic-ramp.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

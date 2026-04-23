@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T06:59:07Z",
+  "generated_at": "2026-04-23T07:56:38Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 19,
-    "success": 51
+    "success": 48,
+    "stale-fallback": 3
   },
   "results": [
     {
@@ -57,10 +58,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "azorius-genericblink",
-      "path": "latest/radars/modern/azorius-genericblink.json"
+      "path": "latest/radars/modern/azorius-genericblink.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -283,10 +285,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "izzetcontrol",
-      "path": "latest/radars/modern/izzetcontrol.json"
+      "path": "latest/radars/modern/izzetcontrol.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -333,10 +336,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "mardu-energy",
-      "path": "latest/radars/modern/mardu-energy.json"
+      "path": "latest/radars/modern/mardu-energy.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
