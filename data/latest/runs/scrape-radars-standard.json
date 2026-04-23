@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-22T23:34:50Z",
+  "generated_at": "2026-04-23T01:07:25Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 33,
-    "skipped": 33
+    "success": 32,
+    "skipped": 34
   },
   "results": [
     {
@@ -48,10 +48,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "4c-ouroboroid",
-      "path": "latest/radars/standard/4c-ouroboroid.json"
+      "path": "latest/radars/standard/4c-ouroboroid.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
