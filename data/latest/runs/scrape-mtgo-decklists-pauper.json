@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T08:55:28Z",
+  "generated_at": "2026-04-23T09:54:09Z",
   "command": "scrape-mtgo-decklists-pauper",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 12,
-    "success": 1
+    "cached": 10,
+    "hard-failure": 1,
+    "success": 2
   },
   "results": [
     {
@@ -28,15 +29,14 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-2110405.json",
-      "message": "Loaded 1 decks from archive."
+      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-1210405.json",
+      "message": "Loaded 3 decks from archive."
     },
     {
       "scope": "mtgo-event",
-      "status": "cached",
+      "status": "hard-failure",
       "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-2110636.json",
-      "message": "Loaded 2 decks from archive."
+      "message": "https://www.mtgo.com/decklist/pauper-league-2026-04-1110636: Could not locate deck JSON payload"
     },
     {
       "scope": "mtgo-event",
@@ -56,8 +56,8 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-1910405.json",
-      "message": "Loaded 2 decks from archive."
+      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-1010405.json",
+      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -70,8 +70,8 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-1810405.json",
-      "message": "Loaded 1 decks from archive."
+      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-0710405.json",
+      "message": "Loaded 7 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -84,15 +84,15 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-1710405.json",
-      "message": "Loaded 3 decks from archive."
+      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-0610405.json",
+      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-event",
-      "status": "cached",
+      "status": "success",
       "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-challenge-32-2026-04-1612839659.json",
-      "message": "Loaded 32 decks from archive."
+      "path": "archive/mtgo-decklists/pauper/pauper-challenge-32-2026-04-0612839659.json",
+      "message": "Cached 32/32 decks."
     },
     {
       "scope": "mtgo-decklists",
