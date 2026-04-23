@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T09:54:15Z",
+  "generated_at": "2026-04-23T10:49:03Z",
   "command": "scrape-mtgo-decklists-modern",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 16,
-    "hard-failure": 1,
-    "success": 2
+    "cached": 18,
+    "success": 1
   },
   "results": [
     {
@@ -41,9 +40,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "hard-failure",
+      "status": "cached",
       "format": "modern",
-      "message": "https://www.mtgo.com/decklist/modern-league-2026-04-1110628: Could not locate deck JSON payload"
+      "path": "archive/mtgo-decklists/modern/modern-league-2026-04-2110628.json",
+      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -84,8 +84,8 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "modern",
-      "path": "archive/mtgo-decklists/modern/modern-league-2026-04-1010397.json",
-      "message": "Loaded 1 decks from archive."
+      "path": "archive/mtgo-decklists/modern/modern-league-2026-04-1910397.json",
+      "message": "Loaded 3 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -112,8 +112,8 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "modern",
-      "path": "archive/mtgo-decklists/modern/modern-league-2026-04-0710397.json",
-      "message": "Loaded 9 decks from archive."
+      "path": "archive/mtgo-decklists/modern/modern-league-2026-04-1810397.json",
+      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -131,10 +131,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "success",
+      "status": "cached",
       "format": "modern",
-      "path": "archive/mtgo-decklists/modern/modern-challenge-64-2026-04-0612839654.json",
-      "message": "Cached 32/32 decks."
+      "path": "archive/mtgo-decklists/modern/modern-challenge-64-2026-04-1612839654.json",
+      "message": "Loaded 32 decks from archive."
     },
     {
       "scope": "mtgo-decklists",
