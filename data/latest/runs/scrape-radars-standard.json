@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T17:50:07Z",
+  "generated_at": "2026-04-23T18:44:30Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 31,
-    "skipped": 27
+    "success": 34,
+    "skipped": 29
   },
   "results": [
     {
@@ -23,6 +23,13 @@
       "format": "standard",
       "archetype": "4c-control",
       "path": "latest/radars/standard/4c-control.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "4c-elementals",
+      "path": "latest/radars/standard/4c-elementals.json"
     },
     {
       "scope": "archetype-radar",
@@ -45,6 +52,13 @@
       "archetype": "4c-ouroboroid",
       "path": "latest/radars/standard/4c-ouroboroid.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "4c-reanimator",
+      "path": "latest/radars/standard/4c-reanimator.json"
     },
     {
       "scope": "archetype-radar",
@@ -101,6 +115,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "boros-burn",
+      "path": "latest/radars/standard/boros-burn.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "boros-dragons",
@@ -112,6 +134,14 @@
       "format": "standard",
       "archetype": "boros-leyline-aggro",
       "path": "latest/radars/standard/boros-leyline-aggro.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "boros-manufacturing",
+      "path": "latest/radars/standard/boros-manufacturing.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -196,6 +226,13 @@
       "archetype": "grixis-control",
       "path": "latest/radars/standard/grixis-control.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "gruul-delirium",
+      "path": "latest/radars/standard/gruul-delirium.json"
     },
     {
       "scope": "archetype-radar",
