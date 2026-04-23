@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-23T03:23:26Z",
+  "generated_at": "2026-04-23T05:14:27Z",
   "command": "scrape-deck-texts-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 44,
+    "success": 46,
     "skipped": 386
   },
   "results": [
@@ -3404,6 +3404,20 @@
       "deck_id": "7747303",
       "path": "archive/deck-texts/pauper/7747303.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7747482",
+      "path": "archive/deck-texts/pauper/7747482.json"
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "pauper",
+      "deck_id": "7747512",
+      "path": "archive/deck-texts/pauper/7747512.json"
     }
   ]
 }
