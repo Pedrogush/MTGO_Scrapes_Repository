@@ -1,13 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T13:54:38Z",
+  "generated_at": "2026-04-24T14:51:10Z",
   "command": "scrape-mtgo-decklists-modern",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 17,
-    "hard-failure": 1,
+    "cached": 18,
     "success": 1
   },
   "results": [
@@ -34,9 +33,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "hard-failure",
+      "status": "cached",
       "format": "modern",
-      "message": "https://www.mtgo.com/decklist/modern-league-2026-04-1210628: Could not locate deck JSON payload"
+      "path": "archive/mtgo-decklists/modern/modern-league-2026-04-2210628.json",
+      "message": "Loaded 2 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -98,8 +98,8 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "modern",
-      "path": "archive/mtgo-decklists/modern/modern-league-2026-04-0910397.json",
-      "message": "Loaded 4 decks from archive."
+      "path": "archive/mtgo-decklists/modern/modern-league-2026-04-1910397.json",
+      "message": "Loaded 3 decks from archive."
     },
     {
       "scope": "mtgo-event",
