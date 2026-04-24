@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T01:55:43Z",
+  "generated_at": "2026-04-24T03:23:24Z",
   "command": "scrape-deck-texts-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 46,
-    "skipped": 475,
-    "hard-failure": 54
+    "success": 47,
+    "skipped": 473,
+    "hard-failure": 59
   },
   "results": [
     {
@@ -207,11 +207,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "hollow-one",
-      "path": "latest/decks/modern/hollow-one.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/modern/hollow-one.json"
     },
     {
       "scope": "archetype-decks",
@@ -2074,14 +2073,6 @@
       "format": "modern",
       "deck_id": "7741498",
       "path": "archive/deck-texts/modern/7741498.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
-      "deck_id": "7741499",
-      "path": "archive/deck-texts/modern/7741499.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -4563,6 +4554,46 @@
       "deck_id": "7748587",
       "path": "archive/deck-texts/modern/7748587.json",
       "message": "Could not parse deck data for deck 7748587"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7748693",
+      "path": "archive/deck-texts/modern/7748693.json",
+      "message": "Could not parse deck data for deck 7748693"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7748694",
+      "path": "archive/deck-texts/modern/7748694.json",
+      "message": "Could not parse deck data for deck 7748694"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7748695",
+      "path": "archive/deck-texts/modern/7748695.json",
+      "message": "Could not parse deck data for deck 7748695"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7748696",
+      "path": "archive/deck-texts/modern/7748696.json",
+      "message": "Could not parse deck data for deck 7748696"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7748697",
+      "path": "archive/deck-texts/modern/7748697.json",
+      "message": "Could not parse deck data for deck 7748697"
     }
   ]
 }
