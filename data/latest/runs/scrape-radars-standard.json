@@ -1,14 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T15:48:40Z",
+  "generated_at": "2026-04-24T16:42:08Z",
   "command": "scrape-radars-standard",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 32,
-    "skipped": 30,
-    "stale-fallback": 1
+    "skipped": 28,
+    "stale-fallback": 2,
+    "hard-failure": 1
   },
   "results": [
     {
@@ -223,14 +224,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "grixis-control",
-      "path": "latest/radars/standard/grixis-control.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "gruul-delirium",
@@ -301,6 +294,14 @@
       "format": "standard",
       "archetype": "jeskai-lessons",
       "path": "latest/radars/standard/jeskai-lessons.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
+      "archetype": "mardu-monument",
+      "path": "latest/radars/standard/mardu-monument.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -386,11 +387,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "selesnya-landfall",
       "path": "latest/radars/standard/selesnya-landfall.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

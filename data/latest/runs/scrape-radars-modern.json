@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T15:48:36Z",
+  "generated_at": "2026-04-24T16:42:18Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 19,
-    "success": 46,
+    "skipped": 17,
+    "success": 47,
     "hard-failure": 3,
     "stale-fallback": 2
   },
@@ -93,14 +93,6 @@
       "format": "modern",
       "archetype": "death-s-shadow",
       "path": "latest/radars/modern/death-s-shadow.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "devoted-combo",
-      "path": "latest/radars/modern/devoted-combo.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -353,14 +345,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "merfolk",
-      "path": "latest/radars/modern/merfolk.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "stale-fallback",
       "format": "modern",
       "archetype": "mill",
@@ -387,6 +371,13 @@
       "format": "modern",
       "archetype": "mono-green-basking-broodscale-combo",
       "path": "latest/radars/modern/mono-green-basking-broodscale-combo.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "mono-green-midrange",
+      "path": "latest/radars/modern/mono-green-midrange.json"
     },
     {
       "scope": "archetype-radar",

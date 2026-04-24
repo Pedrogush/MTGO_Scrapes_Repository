@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T15:43:04Z",
+  "generated_at": "2026-04-24T16:36:09Z",
   "command": "scrape-deck-texts-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 47,
+    "success": 49,
     "skipped": 466,
-    "hard-failure": 79
+    "hard-failure": 81
   },
   "results": [
     {
@@ -74,14 +74,6 @@
       "format": "modern",
       "archetype": "death-s-shadow",
       "path": "latest/decks/modern/death-s-shadow.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "devoted-combo",
-      "path": "latest/decks/modern/devoted-combo.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -304,16 +296,15 @@
       "scope": "archetype-decks",
       "status": "success",
       "format": "modern",
-      "archetype": "mardu-genericblink",
-      "path": "latest/decks/modern/mardu-genericblink.json"
+      "archetype": "mardu-energy",
+      "path": "latest/decks/modern/mardu-energy.json"
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
-      "archetype": "merfolk",
-      "path": "latest/decks/modern/merfolk.json",
-      "message": "No decks found within the last 7 days."
+      "archetype": "mardu-genericblink",
+      "path": "latest/decks/modern/mardu-genericblink.json"
     },
     {
       "scope": "archetype-decks",
@@ -335,6 +326,13 @@
       "format": "modern",
       "archetype": "mono-green-basking-broodscale-combo",
       "path": "latest/decks/modern/mono-green-basking-broodscale-combo.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "modern",
+      "archetype": "mono-green-midrange",
+      "path": "latest/decks/modern/mono-green-midrange.json"
     },
     {
       "scope": "archetype-decks",
@@ -1095,6 +1093,14 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
+      "deck_id": "7739370",
+      "path": "archive/deck-texts/modern/7739370.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "modern",
       "deck_id": "7739372",
       "path": "archive/deck-texts/modern/7739372.json",
       "message": "Reused existing published deck-text blob."
@@ -1585,6 +1591,14 @@
       "format": "modern",
       "deck_id": "7740970",
       "path": "archive/deck-texts/modern/7740970.json",
+      "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "skipped",
+      "format": "modern",
+      "deck_id": "7740971",
+      "path": "archive/deck-texts/modern/7740971.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -3885,6 +3899,14 @@
     },
     {
       "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7746782",
+      "path": "archive/deck-texts/modern/7746782.json",
+      "message": "Could not parse deck data for deck 7746782"
+    },
+    {
+      "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
       "deck_id": "7746838",
@@ -4354,6 +4376,14 @@
       "deck_id": "7748273",
       "path": "archive/deck-texts/modern/7748273.json",
       "message": "Could not parse deck data for deck 7748273"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7748275",
+      "path": "archive/deck-texts/modern/7748275.json",
+      "message": "Could not parse deck data for deck 7748275"
     },
     {
       "scope": "deck-text",
