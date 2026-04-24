@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T20:38:52Z",
+  "generated_at": "2026-04-24T21:40:50Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 32,
-    "skipped": 28,
-    "stale-fallback": 2,
+    "skipped": 27,
+    "stale-fallback": 3,
     "hard-failure": 1
   },
   "results": [
@@ -395,11 +395,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "selesnya-ouroboroid",
       "path": "latest/radars/standard/selesnya-ouroboroid.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

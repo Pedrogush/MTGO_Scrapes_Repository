@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T20:38:58Z",
+  "generated_at": "2026-04-24T21:40:46Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 17,
     "success": 47,
-    "hard-failure": 3,
-    "stale-fallback": 2
+    "hard-failure": 4,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -345,7 +345,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "mill",
       "path": "latest/radars/modern/mill.json",
