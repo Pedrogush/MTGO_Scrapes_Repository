@@ -1,14 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T05:22:24Z",
+  "generated_at": "2026-04-24T07:02:44Z",
   "command": "scrape-radars-modern",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 19,
     "success": 46,
-    "stale-fallback": 5
+    "hard-failure": 3,
+    "stale-fallback": 2
   },
   "results": [
     {
@@ -58,7 +59,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "azorius-genericblink",
       "path": "latest/radars/modern/azorius-genericblink.json",
@@ -286,7 +287,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "izzetcontrol",
       "path": "latest/radars/modern/izzetcontrol.json",
@@ -337,7 +338,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "mardu-energy",
       "path": "latest/radars/modern/mardu-energy.json",
