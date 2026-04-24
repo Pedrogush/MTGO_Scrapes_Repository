@@ -1,28 +1,31 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T09:52:50Z",
+  "generated_at": "2026-04-24T10:46:22Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 31,
-    "skipped": 172,
-    "hard-failure": 26
+    "stale-fallback": 1,
+    "hard-failure": 27,
+    "skipped": 170,
+    "success": 29
   },
   "results": [
     {
       "scope": "archetype-list",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
-      "path": "latest/archetypes/pioneer.json"
+      "path": "latest/archetypes/pioneer.json",
+      "message": "Failed to perform, curl: (7) Failed to connect to www.mtggoldfish.com port 443 after 2001 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "4c-legends",
-      "path": "latest/decks/pioneer/4c-legends.json"
+      "path": "latest/decks/pioneer/4c-legends.json",
+      "message": "Deck scrape returned no rows for 4c Legends"
     },
     {
       "scope": "archetype-decks",
@@ -1287,14 +1290,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "pioneer",
-      "deck_id": "7741955",
-      "path": "archive/deck-texts/pioneer/7741955.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pioneer",
       "deck_id": "7741956",
       "path": "archive/deck-texts/pioneer/7741956.json",
       "message": "Reused existing published deck-text blob."
@@ -1337,14 +1332,6 @@
       "format": "pioneer",
       "deck_id": "7742948",
       "path": "archive/deck-texts/pioneer/7742948.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "pioneer",
-      "deck_id": "7742953",
-      "path": "archive/deck-texts/pioneer/7742953.json",
       "message": "Reused existing published deck-text blob."
     },
     {

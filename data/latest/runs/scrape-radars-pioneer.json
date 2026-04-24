@@ -1,23 +1,16 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T09:58:25Z",
+  "generated_at": "2026-04-24T10:52:30Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 30,
     "skipped": 21,
+    "success": 29,
     "stale-fallback": 1
   },
   "results": [
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "pioneer",
-      "archetype": "4c-legends",
-      "path": "latest/radars/pioneer/4c-legends.json"
-    },
     {
       "scope": "archetype-radar",
       "status": "skipped",
