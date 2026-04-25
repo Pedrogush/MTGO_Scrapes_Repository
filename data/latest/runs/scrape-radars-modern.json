@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T23:38:03Z",
+  "generated_at": "2026-04-25T01:10:43Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 17,
-    "success": 47,
+    "skipped": 21,
+    "success": 42,
     "hard-failure": 4,
-    "stale-fallback": 1
+    "stale-fallback": 2
   },
   "results": [
     {
@@ -204,10 +204,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "gruul-basking-broodscale-combo",
-      "path": "latest/radars/modern/gruul-basking-broodscale-combo.json"
+      "path": "latest/radars/modern/gruul-basking-broodscale-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -316,10 +317,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "lantern",
-      "path": "latest/radars/modern/lantern.json"
+      "path": "latest/radars/modern/lantern.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -367,17 +369,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "mono-green-basking-broodscale-combo",
-      "path": "latest/radars/modern/mono-green-basking-broodscale-combo.json"
+      "path": "latest/radars/modern/mono-green-basking-broodscale-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "mono-green-midrange",
-      "path": "latest/radars/modern/mono-green-midrange.json"
+      "path": "latest/radars/modern/mono-green-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -389,10 +393,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "naya-energy",
-      "path": "latest/radars/modern/naya-energy.json"
+      "path": "latest/radars/modern/naya-energy.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

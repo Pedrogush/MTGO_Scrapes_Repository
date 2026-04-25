@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T23:38:01Z",
+  "generated_at": "2026-04-25T01:10:47Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 11,
-    "success": 19
+    "skipped": 12,
+    "success": 17,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -167,10 +168,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "vintage",
       "archetype": "oops-all-spells",
-      "path": "latest/radars/vintage/oops-all-spells.json"
+      "path": "latest/radars/vintage/oops-all-spells.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -211,10 +213,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "sphere-shops",
-      "path": "latest/radars/vintage/sphere-shops.json"
+      "path": "latest/radars/vintage/sphere-shops.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

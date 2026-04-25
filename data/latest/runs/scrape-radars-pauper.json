@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T23:38:06Z",
+  "generated_at": "2026-04-25T01:10:44Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 17,
-    "success": 41,
-    "stale-fallback": 1
+    "success": 40,
+    "stale-fallback": 2
   },
   "results": [
     {
@@ -136,10 +136,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "ephemerate-tron",
-      "path": "latest/radars/pauper/ephemerate-tron.json"
+      "path": "latest/radars/pauper/ephemerate-tron.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

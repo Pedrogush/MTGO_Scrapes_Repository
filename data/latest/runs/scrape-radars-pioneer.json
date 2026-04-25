@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-24T23:38:06Z",
+  "generated_at": "2026-04-25T01:10:44Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 30,
-    "skipped": 20,
+    "success": 24,
+    "skipped": 26,
     "stale-fallback": 2
   },
   "results": [
@@ -103,10 +103,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "boros-hammer-time",
-      "path": "latest/radars/pioneer/boros-hammer-time.json"
+      "path": "latest/radars/pioneer/boros-hammer-time.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -141,17 +142,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "esper-control",
-      "path": "latest/radars/pioneer/esper-control.json"
+      "path": "latest/radars/pioneer/esper-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "esper-midrange",
-      "path": "latest/radars/pioneer/esper-midrange.json"
+      "path": "latest/radars/pioneer/esper-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -222,10 +225,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "mardu-transmogrify",
-      "path": "latest/radars/pioneer/mardu-transmogrify.json"
+      "path": "latest/radars/pioneer/mardu-transmogrify.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -332,10 +336,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "rakdos-tree",
-      "path": "latest/radars/pioneer/rakdos-tree.json"
+      "path": "latest/radars/pioneer/rakdos-tree.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -377,10 +382,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "sultai-midrange",
-      "path": "latest/radars/pioneer/sultai-midrange.json"
+      "path": "latest/radars/pioneer/sultai-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
