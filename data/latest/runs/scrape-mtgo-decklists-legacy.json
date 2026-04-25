@@ -1,21 +1,21 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T01:56:26Z",
+  "generated_at": "2026-04-25T03:24:11Z",
   "command": "scrape-mtgo-decklists-legacy",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 1,
+    "hard-failure": 1,
     "cached": 12,
     "success": 1
   },
   "results": [
     {
       "scope": "mtgo-event",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "legacy",
-      "message": "https://www.mtgo.com/decklist/legacy-league-2026-04-2510612: Event returned no decklists."
+      "message": "https://www.mtgo.com/decklist/legacy-league-2026-04-2510612: Could not locate deck JSON payload"
     },
     {
       "scope": "mtgo-event",
