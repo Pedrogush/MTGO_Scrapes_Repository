@@ -1,16 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T19:35:11Z",
+  "generated_at": "2026-04-25T20:27:25Z",
   "command": "scrape-mtgo-decklists-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
+    "skipped": 2,
     "cached": 13,
-    "skipped": 1,
     "success": 1
   },
   "results": [
+    {
+      "scope": "mtgo-event",
+      "status": "skipped",
+      "format": "standard",
+      "message": "https://www.mtgo.com/decklist/standard-challenge-32-2026-04-2512840554: Event returned no decklists."
+    },
     {
       "scope": "mtgo-event",
       "status": "cached",
