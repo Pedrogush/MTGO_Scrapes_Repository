@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T16:38:07Z",
+  "generated_at": "2026-04-25T17:41:00Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 15,
     "success": 40,
-    "hard-failure": 1,
+    "hard-failure": 3,
     "stale-fallback": 3
   },
   "results": [
@@ -233,6 +233,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "pauper",
+      "archetype": "inside-out-combo",
+      "path": "latest/radars/pauper/inside-out-combo.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "pauper",
       "archetype": "izzet-faeries",
@@ -346,6 +354,14 @@
       "format": "pauper",
       "archetype": "mono-red-rally",
       "path": "latest/radars/pauper/mono-red-rally.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "pauper",
+      "archetype": "mono-white-aggro",
+      "path": "latest/radars/pauper/mono-white-aggro.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

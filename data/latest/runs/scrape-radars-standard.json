@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T16:38:03Z",
+  "generated_at": "2026-04-25T17:41:01Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 28,
     "skipped": 30,
-    "hard-failure": 3,
+    "hard-failure": 4,
     "stale-fallback": 2
   },
   "results": [
@@ -238,6 +238,14 @@
       "archetype": "gruul-landfall",
       "path": "latest/radars/standard/gruul-landfall.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
+      "archetype": "gruul-leyline-aggro",
+      "path": "latest/radars/standard/gruul-leyline-aggro.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

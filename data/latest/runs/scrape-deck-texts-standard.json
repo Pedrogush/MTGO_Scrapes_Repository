@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T16:27:05Z",
+  "generated_at": "2026-04-25T17:28:48Z",
   "command": "scrape-deck-texts-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 33,
+    "success": 34,
     "skipped": 157,
-    "hard-failure": 119
+    "hard-failure": 120
   },
   "results": [
     {
@@ -201,6 +201,13 @@
       "archetype": "gruul-delirium",
       "path": "latest/decks/standard/gruul-delirium.json",
       "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "standard",
+      "archetype": "gruul-leyline-aggro",
+      "path": "latest/decks/standard/gruul-leyline-aggro.json"
     },
     {
       "scope": "archetype-decks",
@@ -2392,6 +2399,14 @@
       "deck_id": "7750416",
       "path": "archive/deck-texts/standard/7750416.json",
       "message": "Could not parse deck data for deck 7750416"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "standard",
+      "deck_id": "7750418",
+      "path": "archive/deck-texts/standard/7750418.json",
+      "message": "Could not parse deck data for deck 7750418"
     },
     {
       "scope": "deck-text",

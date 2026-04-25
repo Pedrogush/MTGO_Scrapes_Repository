@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T16:38:05Z",
+  "generated_at": "2026-04-25T17:41:01Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 15,
-    "success": 41,
-    "stale-fallback": 4
+    "success": 40,
+    "stale-fallback": 5
   },
   "results": [
     {
@@ -151,6 +151,14 @@
       "format": "legacy",
       "archetype": "death-s-shadow",
       "path": "latest/radars/legacy/death-s-shadow.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "dimir-reanimator",
+      "path": "latest/radars/legacy/dimir-reanimator.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -330,11 +338,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "nic-fit",
       "path": "latest/radars/legacy/nic-fit.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -428,13 +436,6 @@
       "archetype": "sultai-tempo",
       "path": "latest/radars/legacy/sultai-tempo.json",
       "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "the-epic-gamble",
-      "path": "latest/radars/legacy/the-epic-gamble.json"
     },
     {
       "scope": "archetype-radar",
