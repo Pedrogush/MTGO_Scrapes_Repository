@@ -1,16 +1,23 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T06:48:14Z",
+  "generated_at": "2026-04-25T07:47:40Z",
   "command": "scrape-mtgo-decklists-standard",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
+    "success": 2,
     "cached": 13,
-    "hard-failure": 1,
-    "success": 1
+    "skipped": 1
   },
   "results": [
+    {
+      "scope": "mtgo-event",
+      "status": "success",
+      "format": "standard",
+      "path": "archive/mtgo-decklists/standard/standard-challenge-32-2026-04-2512840549.json",
+      "message": "Cached 32/32 decks."
+    },
     {
       "scope": "mtgo-event",
       "status": "cached",
@@ -69,9 +76,9 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "standard",
-      "message": "https://www.mtgo.com/decklist/standard-league-2026-04-2110660: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "message": "https://www.mtgo.com/decklist/standard-league-2026-04-2110660: Event returned no decklists."
     },
     {
       "scope": "mtgo-event",

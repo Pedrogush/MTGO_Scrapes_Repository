@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T06:56:45Z",
+  "generated_at": "2026-04-25T07:56:18Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 28,
-    "skipped": 31,
+    "skipped": 30,
     "hard-failure": 2,
-    "stale-fallback": 2
+    "stale-fallback": 3
   },
   "results": [
     {
@@ -187,11 +187,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "golgari-dragons",
       "path": "latest/radars/standard/golgari-dragons.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
