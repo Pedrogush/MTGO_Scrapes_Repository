@@ -1,14 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T01:10:44Z",
+  "generated_at": "2026-04-25T02:05:00Z",
   "command": "scrape-radars-pioneer",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 24,
     "skipped": 26,
-    "stale-fallback": 2
+    "hard-failure": 1,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -187,7 +188,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "hidden-strings",
       "path": "latest/radars/pioneer/hidden-strings.json",

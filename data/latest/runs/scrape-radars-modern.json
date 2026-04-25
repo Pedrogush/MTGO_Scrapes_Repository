@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T01:10:43Z",
+  "generated_at": "2026-04-25T02:04:56Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 21,
     "success": 42,
-    "hard-failure": 4,
-    "stale-fallback": 2
+    "hard-failure": 5,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -227,7 +227,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "hollow-one",
       "path": "latest/radars/modern/hollow-one.json",
