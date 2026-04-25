@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T21:26:27Z",
+  "generated_at": "2026-04-25T22:26:11Z",
   "command": "scrape-deck-texts-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 46,
     "skipped": 199,
-    "hard-failure": 216
+    "hard-failure": 217
   },
   "results": [
     {
@@ -3651,6 +3651,14 @@
       "deck_id": "7751222",
       "path": "archive/deck-texts/pauper/7751222.json",
       "message": "Could not parse deck data for deck 7751222"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pauper",
+      "deck_id": "7751397",
+      "path": "archive/deck-texts/pauper/7751397.json",
+      "message": "Could not parse deck data for deck 7751397"
     }
   ]
 }
