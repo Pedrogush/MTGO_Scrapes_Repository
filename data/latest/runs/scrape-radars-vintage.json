@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T22:38:41Z",
+  "generated_at": "2026-04-25T23:39:08Z",
   "command": "scrape-radars-vintage",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 12,
     "success": 17,
-    "stale-fallback": 1
+    "hard-failure": 1
   },
   "results": [
     {
@@ -213,7 +213,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "sphere-shops",
       "path": "latest/radars/vintage/sphere-shops.json",

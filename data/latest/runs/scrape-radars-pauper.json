@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T22:38:40Z",
+  "generated_at": "2026-04-25T23:39:14Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 15,
     "success": 40,
-    "hard-failure": 3,
-    "stale-fallback": 3
+    "hard-failure": 4,
+    "stale-fallback": 2
   },
   "results": [
     {
@@ -137,7 +137,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "ephemerate-tron",
       "path": "latest/radars/pauper/ephemerate-tron.json",

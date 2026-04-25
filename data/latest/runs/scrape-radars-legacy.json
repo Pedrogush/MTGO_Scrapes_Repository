@@ -1,14 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T22:38:34Z",
+  "generated_at": "2026-04-25T23:39:07Z",
   "command": "scrape-radars-legacy",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 15,
+    "skipped": 14,
     "success": 40,
-    "stale-fallback": 5
+    "stale-fallback": 4,
+    "hard-failure": 2
   },
   "results": [
     {
@@ -124,7 +125,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "creative-technique",
       "path": "latest/radars/legacy/creative-technique.json",
@@ -154,11 +155,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "dimir-reanimator",
       "path": "latest/radars/legacy/dimir-reanimator.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -308,7 +309,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "mono-white-initiative",
       "path": "latest/radars/legacy/mono-white-initiative.json",
