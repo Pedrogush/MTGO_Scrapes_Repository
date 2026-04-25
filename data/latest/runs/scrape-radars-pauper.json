@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T15:40:04Z",
+  "generated_at": "2026-04-25T16:38:07Z",
   "command": "scrape-radars-pauper",
-  "status": "success",
+  "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 16,
+    "skipped": 15,
     "success": 40,
+    "hard-failure": 1,
     "stale-fallback": 3
   },
   "results": [
@@ -121,7 +122,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "dredge",
       "path": "latest/radars/pauper/dredge.json",
@@ -144,11 +145,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "esper-affinity",
       "path": "latest/radars/pauper/esper-affinity.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

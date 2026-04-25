@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T15:39:59Z",
+  "generated_at": "2026-04-25T16:38:03Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 28,
     "skipped": 30,
-    "hard-failure": 2,
-    "stale-fallback": 3
+    "hard-failure": 3,
+    "stale-fallback": 2
   },
   "results": [
     {
@@ -389,7 +389,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "selesnya-landfall",
       "path": "latest/radars/standard/selesnya-landfall.json",
