@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T21:44:33Z",
+  "generated_at": "2026-04-26T22:44:08Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 10,
+    "skipped": 9,
     "success": 27,
-    "hard-failure": 5,
+    "hard-failure": 6,
     "stale-fallback": 18
   },
   "results": [
@@ -160,7 +160,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "dimir-reanimator",
       "path": "latest/radars/legacy/dimir-reanimator.json",
@@ -220,11 +220,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "grixis-tempo",
       "path": "latest/radars/legacy/grixis-tempo.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
