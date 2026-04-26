@@ -1,31 +1,31 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T15:45:06Z",
+  "generated_at": "2026-04-26T16:44:28Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 20,
+    "skipped": 18,
     "success": 36,
-    "stale-fallback": 6,
-    "hard-failure": 7
+    "stale-fallback": 7,
+    "hard-failure": 8
   },
   "results": [
     {
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "modern",
-      "archetype": "4-5c-omnath",
-      "path": "latest/radars/modern/4-5c-omnath.json",
+      "archetype": "4c-genericblink",
+      "path": "latest/radars/modern/4c-genericblink.json",
       "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "modern",
-      "archetype": "4c-genericblink",
-      "path": "latest/radars/modern/4c-genericblink.json",
+      "archetype": "5c-midrange",
+      "path": "latest/radars/modern/5c-midrange.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -91,11 +91,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "death-s-shadow",
       "path": "latest/radars/modern/death-s-shadow.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "modern",
+      "archetype": "devoted-combo",
+      "path": "latest/radars/modern/devoted-combo.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -219,14 +227,6 @@
       "archetype": "hammer-time",
       "path": "latest/radars/modern/hammer-time.json",
       "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "hardened-scales",
-      "path": "latest/radars/modern/hardened-scales.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

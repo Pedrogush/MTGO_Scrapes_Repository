@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T15:45:04Z",
+  "generated_at": "2026-04-26T16:44:27Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 15,
+    "skipped": 10,
     "success": 27,
-    "hard-failure": 4,
-    "stale-fallback": 14
+    "hard-failure": 5,
+    "stale-fallback": 18
   },
   "results": [
     {
@@ -68,11 +68,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "beanstalk-control-yorion",
       "path": "latest/radars/legacy/beanstalk-control-yorion.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -99,11 +99,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "boros-initiative",
       "path": "latest/radars/legacy/boros-initiative.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -137,11 +137,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "death-and-taxes-60-card",
       "path": "latest/radars/legacy/death-and-taxes-60-card.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -212,11 +212,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "green-cloudpost",
       "path": "latest/radars/legacy/green-cloudpost.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -320,8 +320,8 @@
       "scope": "archetype-radar",
       "status": "hard-failure",
       "format": "legacy",
-      "archetype": "mono-white-initiative",
-      "path": "latest/radars/legacy/mono-white-initiative.json",
+      "archetype": "mono-white-stax",
+      "path": "latest/radars/legacy/mono-white-stax.json",
       "message": "No deck texts were available for radar generation."
     },
     {
@@ -349,7 +349,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "nic-fit",
       "path": "latest/radars/legacy/nic-fit.json",
@@ -445,11 +445,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "sultai-tempo",
       "path": "latest/radars/legacy/sultai-tempo.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

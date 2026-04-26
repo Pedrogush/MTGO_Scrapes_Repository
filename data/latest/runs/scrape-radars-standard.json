@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T15:45:11Z",
+  "generated_at": "2026-04-26T16:44:28Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 24,
-    "skipped": 31,
-    "hard-failure": 6,
-    "stale-fallback": 3
+    "skipped": 24,
+    "hard-failure": 12,
+    "stale-fallback": 8
   },
   "results": [
     {
@@ -75,11 +75,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "5c-elementals",
       "path": "latest/radars/standard/5c-elementals.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
+      "archetype": "azorius-artifacts",
+      "path": "latest/radars/standard/azorius-artifacts.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -90,6 +98,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
+      "archetype": "azorius-oculus",
+      "path": "latest/radars/standard/azorius-oculus.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "azorius-tempo",
@@ -97,11 +113,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "bant-airbending-combo",
       "path": "latest/radars/standard/bant-airbending-combo.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -121,11 +137,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "boros-burn",
       "path": "latest/radars/standard/boros-burn.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -312,6 +328,14 @@
       "scope": "archetype-radar",
       "status": "hard-failure",
       "format": "standard",
+      "archetype": "lifegain",
+      "path": "latest/radars/standard/lifegain.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
       "archetype": "mardu-monument",
       "path": "latest/radars/standard/mardu-monument.json",
       "message": "No deck texts were available for radar generation."
@@ -334,11 +358,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "mono-blue-control",
       "path": "latest/radars/standard/mono-blue-control.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -353,14 +377,6 @@
       "format": "standard",
       "archetype": "mono-red-aggro",
       "path": "latest/radars/standard/mono-red-aggro.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "mono-white-enchantments",
-      "path": "latest/radars/standard/mono-white-enchantments.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -417,6 +433,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
+      "archetype": "simic-landfall",
+      "path": "latest/radars/standard/simic-landfall.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
       "archetype": "simic-ouroboroid",
@@ -433,11 +457,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "sultai-control",
       "path": "latest/radars/standard/sultai-control.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
+      "archetype": "sultai-excruciator",
+      "path": "latest/radars/standard/sultai-excruciator.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -449,11 +481,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "standard",
-      "archetype": "temur-floodcaller-combo",
-      "path": "latest/radars/standard/temur-floodcaller-combo.json",
-      "message": "No published decks were available for radar generation."
+      "archetype": "temur-control",
+      "path": "latest/radars/standard/temur-control.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
