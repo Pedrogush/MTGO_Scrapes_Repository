@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T22:44:10Z",
+  "generated_at": "2026-04-26T23:45:16Z",
   "command": "scrape-radars-vintage",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 12,
-    "stale-fallback": 10,
-    "success": 7,
-    "hard-failure": 1
+    "stale-fallback": 1,
+    "hard-failure": 10,
+    "success": 7
   },
   "results": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "blue-tempo",
       "path": "latest/radars/vintage/blue-tempo.json",
@@ -62,7 +62,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "blue-tinker",
       "path": "latest/radars/vintage/blue-tinker.json",
@@ -85,7 +85,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "doomsday",
       "path": "latest/radars/vintage/doomsday.json",
@@ -100,7 +100,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "esper-lurrus-control",
       "path": "latest/radars/vintage/esper-lurrus-control.json",
@@ -115,7 +115,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "lurrus-breach",
       "path": "latest/radars/vintage/lurrus-breach.json",
@@ -153,7 +153,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "mono-white-initiative",
       "path": "latest/radars/vintage/mono-white-initiative.json",
@@ -169,7 +169,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "oath-of-druids",
       "path": "latest/radars/vintage/oath-of-druids.json",
@@ -185,7 +185,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "paradoxical-outcome",
       "path": "latest/radars/vintage/paradoxical-outcome.json",
@@ -200,7 +200,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "raker-shops",
       "path": "latest/radars/vintage/raker-shops.json",

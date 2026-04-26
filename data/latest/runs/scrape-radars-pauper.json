@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T22:44:08Z",
+  "generated_at": "2026-04-26T23:45:12Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 14,
     "success": 38,
-    "stale-fallback": 3,
-    "hard-failure": 6
+    "hard-failure": 8,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "boros-moxite",
       "path": "latest/radars/pauper/boros-moxite.json",
@@ -66,7 +66,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "burn",
       "path": "latest/radars/pauper/burn.json",

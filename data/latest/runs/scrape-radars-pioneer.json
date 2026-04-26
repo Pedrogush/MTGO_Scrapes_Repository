@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T22:44:12Z",
+  "generated_at": "2026-04-26T23:45:09Z",
   "command": "scrape-radars-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 17,
     "skipped": 26,
-    "stale-fallback": 4,
-    "hard-failure": 5
+    "stale-fallback": 3,
+    "hard-failure": 6
   },
   "results": [
     {
@@ -193,7 +193,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "izzet-phoenix",
       "path": "latest/radars/pioneer/izzet-phoenix.json",

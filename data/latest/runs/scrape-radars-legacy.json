@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T22:44:08Z",
+  "generated_at": "2026-04-26T23:45:12Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 9,
     "success": 27,
-    "hard-failure": 6,
-    "stale-fallback": 18
+    "hard-failure": 13,
+    "stale-fallback": 11
   },
   "results": [
     {
@@ -52,7 +52,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "azorius-tempo",
       "path": "latest/radars/legacy/azorius-tempo.json",
@@ -60,7 +60,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "beanstalk-control-non-yorion",
       "path": "latest/radars/legacy/beanstalk-control-non-yorion.json",
@@ -121,7 +121,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "cradle-control",
       "path": "latest/radars/legacy/cradle-control.json",
@@ -197,7 +197,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "esper-vial",
       "path": "latest/radars/legacy/esper-vial.json",
@@ -295,7 +295,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "merfolk",
       "path": "latest/radars/legacy/merfolk.json",
@@ -372,7 +372,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "omni-tell",
       "path": "latest/radars/legacy/omni-tell.json",
@@ -416,7 +416,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "selesnya-depths",
       "path": "latest/radars/legacy/selesnya-depths.json",

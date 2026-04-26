@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T22:44:27Z",
+  "generated_at": "2026-04-26T23:45:19Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 16,
     "success": 36,
-    "stale-fallback": 7,
-    "hard-failure": 10
+    "hard-failure": 12,
+    "stale-fallback": 5
   },
   "results": [
     {
@@ -52,7 +52,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "azorius-control",
       "path": "latest/radars/modern/azorius-control.json",
@@ -427,7 +427,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "rakdos-delirium",
       "path": "latest/radars/modern/rakdos-delirium.json",
