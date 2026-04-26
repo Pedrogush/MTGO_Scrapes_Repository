@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T19:51:32Z",
+  "generated_at": "2026-04-26T20:44:23Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 24,
     "skipped": 24,
-    "hard-failure": 12,
-    "stale-fallback": 8
+    "hard-failure": 15,
+    "stale-fallback": 5
   },
   "results": [
     {
@@ -214,7 +214,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "golgari-insidious-roots",
       "path": "latest/radars/standard/golgari-insidious-roots.json",
@@ -394,7 +394,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "orzhov-midrange",
       "path": "latest/radars/standard/orzhov-midrange.json",
@@ -473,7 +473,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "sultai-reanimator",
       "path": "latest/radars/standard/sultai-reanimator.json",
