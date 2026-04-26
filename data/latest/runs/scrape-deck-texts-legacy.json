@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T11:29:26Z",
+  "generated_at": "2026-04-26T12:32:43Z",
   "command": "scrape-deck-texts-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 44,
-    "skipped": 93,
-    "hard-failure": 148
+    "success": 45,
+    "skipped": 92,
+    "hard-failure": 149
   },
   "results": [
     {
@@ -41,11 +41,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "aluren",
-      "path": "latest/decks/legacy/aluren.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/legacy/aluren.json"
     },
     {
       "scope": "archetype-decks",
@@ -2245,6 +2244,14 @@
       "deck_id": "7752124",
       "path": "archive/deck-texts/legacy/7752124.json",
       "message": "Could not parse deck data for deck 7752124"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
+      "deck_id": "7752176",
+      "path": "archive/deck-texts/legacy/7752176.json",
+      "message": "Could not parse deck data for deck 7752176"
     }
   ]
 }
