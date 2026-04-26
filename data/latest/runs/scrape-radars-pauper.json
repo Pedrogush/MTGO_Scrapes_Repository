@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T08:05:06Z",
+  "generated_at": "2026-04-26T08:55:00Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 15,
     "success": 38,
-    "stale-fallback": 4,
-    "hard-failure": 4
+    "stale-fallback": 3,
+    "hard-failure": 5
   },
   "results": [
     {
@@ -442,7 +442,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "walls-combo",
       "path": "latest/radars/pauper/walls-combo.json",
