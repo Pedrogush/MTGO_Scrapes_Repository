@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T10:46:06Z",
+  "generated_at": "2026-04-26T11:43:45Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 20,
     "success": 36,
-    "stale-fallback": 7,
-    "hard-failure": 6
+    "stale-fallback": 6,
+    "hard-failure": 7
   },
   "results": [
     {
@@ -320,7 +320,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "lantern",
       "path": "latest/radars/modern/lantern.json",

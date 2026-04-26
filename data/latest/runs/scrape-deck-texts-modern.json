@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T10:31:34Z",
+  "generated_at": "2026-04-26T11:29:28Z",
   "command": "scrape-deck-texts-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 46,
-    "skipped": 187,
-    "hard-failure": 254
+    "skipped": 185,
+    "hard-failure": 256
   },
   "results": [
     {
@@ -552,14 +552,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
-      "deck_id": "7742215",
-      "path": "archive/deck-texts/modern/7742215.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
       "deck_id": "7742216",
       "path": "archive/deck-texts/modern/7742216.json",
       "message": "Reused existing published deck-text blob."
@@ -586,14 +578,6 @@
       "format": "modern",
       "deck_id": "7742219",
       "path": "archive/deck-texts/modern/7742219.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
-      "deck_id": "7742220",
-      "path": "archive/deck-texts/modern/7742220.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -3859,6 +3843,22 @@
       "deck_id": "7752057",
       "path": "archive/deck-texts/modern/7752057.json",
       "message": "Could not parse deck data for deck 7752057"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7752159",
+      "path": "archive/deck-texts/modern/7752159.json",
+      "message": "Could not parse deck data for deck 7752159"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7752160",
+      "path": "archive/deck-texts/modern/7752160.json",
+      "message": "Could not parse deck data for deck 7752160"
     }
   ]
 }
