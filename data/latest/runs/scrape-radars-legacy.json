@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T09:50:02Z",
+  "generated_at": "2026-04-26T10:46:04Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 20,
+    "skipped": 16,
     "success": 27,
     "hard-failure": 3,
-    "stale-fallback": 10
+    "stale-fallback": 14
   },
   "results": [
     {
@@ -145,11 +145,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "death-and-taxes-yorion-black-white",
       "path": "latest/radars/legacy/death-and-taxes-yorion-black-white.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -272,11 +272,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "led-dredge",
       "path": "latest/radars/legacy/led-dredge.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -341,11 +341,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "necrodominance-combo",
       "path": "latest/radars/legacy/necrodominance-combo.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -387,11 +387,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "orzhov-stoneblade",
       "path": "latest/radars/legacy/orzhov-stoneblade.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
