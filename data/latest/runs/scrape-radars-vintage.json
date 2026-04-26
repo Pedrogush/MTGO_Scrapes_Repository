@@ -1,13 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T23:39:08Z",
+  "generated_at": "2026-04-26T01:20:55Z",
   "command": "scrape-radars-vintage",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 12,
-    "success": 17,
+    "skipped": 13,
+    "stale-fallback": 9,
+    "success": 7,
     "hard-failure": 1
   },
   "results": [
@@ -53,17 +54,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "blue-tempo",
-      "path": "latest/radars/vintage/blue-tempo.json"
+      "path": "latest/radars/vintage/blue-tempo.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "blue-tinker",
-      "path": "latest/radars/vintage/blue-tinker.json"
+      "path": "latest/radars/vintage/blue-tinker.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -82,10 +85,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "doomsday",
-      "path": "latest/radars/vintage/doomsday.json"
+      "path": "latest/radars/vintage/doomsday.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -96,10 +100,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "esper-lurrus-control",
-      "path": "latest/radars/vintage/esper-lurrus-control.json"
+      "path": "latest/radars/vintage/esper-lurrus-control.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -110,17 +115,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "lurrus-breach",
-      "path": "latest/radars/vintage/lurrus-breach.json"
+      "path": "latest/radars/vintage/lurrus-breach.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "vintage",
       "archetype": "lurrus-drs",
-      "path": "latest/radars/vintage/lurrus-drs.json"
+      "path": "latest/radars/vintage/lurrus-drs.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -146,10 +153,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "mono-white-initiative",
-      "path": "latest/radars/vintage/mono-white-initiative.json"
+      "path": "latest/radars/vintage/mono-white-initiative.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -161,10 +169,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "oath-of-druids",
-      "path": "latest/radars/vintage/oath-of-druids.json"
+      "path": "latest/radars/vintage/oath-of-druids.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -176,10 +185,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "paradoxical-outcome",
-      "path": "latest/radars/vintage/paradoxical-outcome.json"
+      "path": "latest/radars/vintage/paradoxical-outcome.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -190,10 +200,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "raker-shops",
-      "path": "latest/radars/vintage/raker-shops.json"
+      "path": "latest/radars/vintage/raker-shops.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T23:39:18Z",
+  "generated_at": "2026-04-26T01:20:53Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 19,
-    "success": 41,
-    "hard-failure": 6,
-    "stale-fallback": 3
+    "skipped": 22,
+    "success": 36,
+    "stale-fallback": 5,
+    "hard-failure": 6
   },
   "results": [
     {
@@ -52,10 +52,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "azorius-control",
-      "path": "latest/radars/modern/azorius-control.json"
+      "path": "latest/radars/modern/azorius-control.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -213,10 +214,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "hammer-time",
-      "path": "latest/radars/modern/hammer-time.json"
+      "path": "latest/radars/modern/hammer-time.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -425,10 +427,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "rakdos-delirium",
-      "path": "latest/radars/modern/rakdos-delirium.json"
+      "path": "latest/radars/modern/rakdos-delirium.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -454,10 +457,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "simic-midrange",
-      "path": "latest/radars/modern/simic-midrange.json"
+      "path": "latest/radars/modern/simic-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -497,10 +501,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "modern",
       "archetype": "through-the-breach",
-      "path": "latest/radars/modern/through-the-breach.json"
+      "path": "latest/radars/modern/through-the-breach.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T23:39:14Z",
+  "generated_at": "2026-04-26T01:21:00Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 15,
-    "success": 40,
-    "hard-failure": 4,
-    "stale-fallback": 2
+    "success": 38,
+    "stale-fallback": 4,
+    "hard-failure": 4
   },
   "results": [
     {
@@ -50,10 +50,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "boros-moxite",
-      "path": "latest/radars/pauper/boros-moxite.json"
+      "path": "latest/radars/pauper/boros-moxite.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -65,10 +66,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "burn",
-      "path": "latest/radars/pauper/burn.json"
+      "path": "latest/radars/pauper/burn.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

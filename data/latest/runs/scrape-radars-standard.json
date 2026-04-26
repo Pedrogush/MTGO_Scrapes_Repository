@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-25T23:39:10Z",
+  "generated_at": "2026-04-26T01:20:59Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 28,
-    "skipped": 27,
+    "success": 24,
+    "skipped": 31,
     "hard-failure": 5,
     "stale-fallback": 4
   },
@@ -35,10 +35,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "4c-kona",
-      "path": "latest/radars/standard/4c-kona.json"
+      "path": "latest/radars/standard/4c-kona.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -74,10 +75,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "5c-elementals",
-      "path": "latest/radars/standard/5c-elementals.json"
+      "path": "latest/radars/standard/5c-elementals.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -134,10 +136,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "boros-leyline-aggro",
-      "path": "latest/radars/standard/boros-leyline-aggro.json"
+      "path": "latest/radars/standard/boros-leyline-aggro.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -331,10 +334,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "mono-blue-control",
-      "path": "latest/radars/standard/mono-blue-control.json"
+      "path": "latest/radars/standard/mono-blue-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
