@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T08:55:33Z",
+  "generated_at": "2026-04-26T09:50:02Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 22,
+    "skipped": 20,
     "success": 36,
-    "stale-fallback": 5,
+    "stale-fallback": 7,
     "hard-failure": 6
   },
   "results": [
@@ -214,11 +214,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "hammer-time",
       "path": "latest/radars/modern/hammer-time.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -435,11 +435,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "rakdos-midrange",
       "path": "latest/radars/modern/rakdos-midrange.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
