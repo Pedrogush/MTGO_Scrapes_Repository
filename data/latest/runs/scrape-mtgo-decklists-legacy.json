@@ -1,21 +1,21 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T01:57:24Z",
+  "generated_at": "2026-04-26T03:24:52Z",
   "command": "scrape-mtgo-decklists-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 1,
-    "cached": 13,
-    "success": 1
+    "success": 2,
+    "cached": 12
   },
   "results": [
     {
       "scope": "mtgo-event",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
-      "message": "https://www.mtgo.com/decklist/legacy-league-2026-04-2610612: Event returned no decklists."
+      "path": "archive/mtgo-decklists/legacy/legacy-league-2026-04-2610612.json",
+      "message": "Cached 3/3 decks."
     },
     {
       "scope": "mtgo-event",
@@ -99,13 +99,6 @@
       "status": "cached",
       "format": "legacy",
       "path": "archive/mtgo-decklists/legacy/legacy-challenge-32-2026-04-1912839702.json",
-      "message": "Loaded 32 decks from archive."
-    },
-    {
-      "scope": "mtgo-event",
-      "status": "cached",
-      "format": "legacy",
-      "path": "archive/mtgo-decklists/legacy/legacy-challenge-32-2026-04-1912839696.json",
       "message": "Loaded 32 decks from archive."
     },
     {
