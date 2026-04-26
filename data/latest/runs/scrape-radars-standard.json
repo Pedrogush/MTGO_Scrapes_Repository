@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T05:33:31Z",
+  "generated_at": "2026-04-26T07:08:53Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 24,
     "skipped": 31,
-    "hard-failure": 5,
-    "stale-fallback": 4
+    "hard-failure": 6,
+    "stale-fallback": 3
   },
   "results": [
     {
@@ -190,7 +190,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "golgari-dragons",
       "path": "latest/radars/standard/golgari-dragons.json",
