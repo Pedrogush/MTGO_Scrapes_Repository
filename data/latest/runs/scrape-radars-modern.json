@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T11:15:36Z",
+  "generated_at": "2026-04-27T12:16:54Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 15,
-    "success": 30,
-    "hard-failure": 14,
-    "stale-fallback": 10
+    "stale-fallback": 11,
+    "success": 29,
+    "hard-failure": 14
   },
   "results": [
     {
@@ -30,10 +30,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "affinity",
-      "path": "latest/radars/modern/affinity.json"
+      "path": "latest/radars/modern/affinity.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
