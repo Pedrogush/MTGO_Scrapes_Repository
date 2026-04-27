@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T23:45:12Z",
+  "generated_at": "2026-04-27T01:26:50Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 9,
-    "success": 27,
+    "skipped": 10,
+    "stale-fallback": 16,
     "hard-failure": 13,
-    "stale-fallback": 11
+    "success": 21
   },
   "results": [
     {
@@ -22,10 +22,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "8-cast",
-      "path": "latest/radars/legacy/8-cast.json"
+      "path": "latest/radars/legacy/8-cast.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -84,10 +85,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "blue-artifacts",
-      "path": "latest/radars/legacy/blue-artifacts.json"
+      "path": "latest/radars/legacy/blue-artifacts.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -205,10 +207,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "goblins",
-      "path": "latest/radars/legacy/goblins.json"
+      "path": "latest/radars/legacy/goblins.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -409,10 +412,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "ruby-storm",
-      "path": "latest/radars/legacy/ruby-storm.json"
+      "path": "latest/radars/legacy/ruby-storm.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -438,10 +442,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "sultai-depths",
-      "path": "latest/radars/legacy/sultai-depths.json"
+      "path": "latest/radars/legacy/sultai-depths.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -453,10 +458,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "the-epic-storm",
-      "path": "latest/radars/legacy/the-epic-storm.json"
+      "path": "latest/radars/legacy/the-epic-storm.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "format-card-pool",

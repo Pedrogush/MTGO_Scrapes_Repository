@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T23:27:41Z",
+  "generated_at": "2026-04-27T01:08:48Z",
   "command": "scrape-deck-texts-vintage",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 18,
-    "skipped": 19,
-    "hard-failure": 217
+    "skipped": 15,
+    "hard-failure": 218
   },
   "results": [
     {
@@ -231,38 +231,6 @@
       "archetype": "sultai-midrange",
       "path": "latest/decks/vintage/sultai-midrange.json",
       "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "vintage",
-      "deck_id": "7742062",
-      "path": "archive/deck-texts/vintage/7742062.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "vintage",
-      "deck_id": "7742330",
-      "path": "archive/deck-texts/vintage/7742330.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "vintage",
-      "deck_id": "7743637",
-      "path": "archive/deck-texts/vintage/7743637.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "vintage",
-      "deck_id": "7743863",
-      "path": "archive/deck-texts/vintage/7743863.json",
-      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
@@ -2023,6 +1991,14 @@
       "deck_id": "7753167",
       "path": "archive/deck-texts/vintage/7753167.json",
       "message": "Could not parse deck data for deck 7753167"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "vintage",
+      "deck_id": "7753518",
+      "path": "archive/deck-texts/vintage/7753518.json",
+      "message": "Could not parse deck data for deck 7753518"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T23:45:16Z",
+  "generated_at": "2026-04-27T01:26:41Z",
   "command": "scrape-radars-vintage",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 12,
-    "stale-fallback": 1,
+    "stale-fallback": 4,
     "hard-failure": 10,
-    "success": 7
+    "success": 4
   },
   "results": [
     {
@@ -93,10 +93,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "dredge",
-      "path": "latest/radars/vintage/dredge.json"
+      "path": "latest/radars/vintage/dredge.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -131,10 +132,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "lurrus-po",
-      "path": "latest/radars/vintage/lurrus-po.json"
+      "path": "latest/radars/vintage/lurrus-po.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -193,10 +195,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "prison-shops",
-      "path": "latest/radars/vintage/prison-shops.json"
+      "path": "latest/radars/vintage/prison-shops.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

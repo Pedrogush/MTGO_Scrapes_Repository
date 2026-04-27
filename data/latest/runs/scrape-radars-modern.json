@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T23:45:19Z",
+  "generated_at": "2026-04-27T01:26:45Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 16,
-    "success": 36,
+    "success": 31,
     "hard-failure": 12,
-    "stale-fallback": 5
+    "stale-fallback": 10
   },
   "results": [
     {
@@ -171,17 +171,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "esper-midrange",
-      "path": "latest/radars/modern/esper-midrange.json"
+      "path": "latest/radars/modern/esper-midrange.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "esper-murktide",
-      "path": "latest/radars/modern/esper-murktide.json"
+      "path": "latest/radars/modern/esper-murktide.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -200,10 +202,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "grixis-midrange",
-      "path": "latest/radars/modern/grixis-midrange.json"
+      "path": "latest/radars/modern/grixis-midrange.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -298,10 +301,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "jeskai-control",
-      "path": "latest/radars/modern/jeskai-control.json"
+      "path": "latest/radars/modern/jeskai-control.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -358,10 +362,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "mono-black-midrange",
-      "path": "latest/radars/modern/mono-black-midrange.json"
+      "path": "latest/radars/modern/mono-black-midrange.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

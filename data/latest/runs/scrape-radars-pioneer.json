@@ -1,23 +1,24 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T23:45:09Z",
+  "generated_at": "2026-04-27T01:26:44Z",
   "command": "scrape-radars-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 17,
-    "skipped": 26,
-    "stale-fallback": 3,
-    "hard-failure": 6
+    "skipped": 30,
+    "stale-fallback": 13,
+    "hard-failure": 6,
+    "success": 3
   },
   "results": [
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "4c-legends",
-      "path": "latest/radars/pioneer/4c-legends.json"
+      "path": "latest/radars/pioneer/4c-legends.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -61,17 +62,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "abzan-greasefang",
-      "path": "latest/radars/pioneer/abzan-greasefang.json"
+      "path": "latest/radars/pioneer/abzan-greasefang.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "azorius-control",
-      "path": "latest/radars/pioneer/azorius-control.json"
+      "path": "latest/radars/pioneer/azorius-control.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -155,10 +158,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "golgari-food",
-      "path": "latest/radars/pioneer/golgari-food.json"
+      "path": "latest/radars/pioneer/golgari-food.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -178,10 +182,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "gruul-prowess",
-      "path": "latest/radars/pioneer/gruul-prowess.json"
+      "path": "latest/radars/pioneer/gruul-prowess.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -201,10 +206,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "izzet-prowess",
-      "path": "latest/radars/pioneer/izzet-prowess.json"
+      "path": "latest/radars/pioneer/izzet-prowess.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -248,10 +254,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "mono-red-aggro",
-      "path": "latest/radars/pioneer/mono-red-aggro.json"
+      "path": "latest/radars/pioneer/mono-red-aggro.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -270,24 +277,27 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "mono-white-token-control",
-      "path": "latest/radars/pioneer/mono-white-token-control.json"
+      "path": "latest/radars/pioneer/mono-white-token-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "niv-to-light",
-      "path": "latest/radars/pioneer/niv-to-light.json"
+      "path": "latest/radars/pioneer/niv-to-light.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "nykthos-ramp",
-      "path": "latest/radars/pioneer/nykthos-ramp.json"
+      "path": "latest/radars/pioneer/nykthos-ramp.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -306,10 +316,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "orzhov-midrange",
-      "path": "latest/radars/pioneer/orzhov-midrange.json"
+      "path": "latest/radars/pioneer/orzhov-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -321,10 +332,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "rakdos-midrange",
-      "path": "latest/radars/pioneer/rakdos-midrange.json"
+      "path": "latest/radars/pioneer/rakdos-midrange.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -352,17 +364,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "selesnya-angels",
-      "path": "latest/radars/pioneer/selesnya-angels.json"
+      "path": "latest/radars/pioneer/selesnya-angels.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "selesnya-company",
-      "path": "latest/radars/pioneer/selesnya-company.json"
+      "path": "latest/radars/pioneer/selesnya-company.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

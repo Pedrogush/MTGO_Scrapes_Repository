@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-26T23:45:18Z",
+  "generated_at": "2026-04-27T01:26:40Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 24,
-    "skipped": 24,
+    "success": 20,
+    "skipped": 26,
     "hard-failure": 15,
-    "stale-fallback": 5
+    "stale-fallback": 7
   },
   "results": [
     {
@@ -91,10 +91,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "azorius-momo",
-      "path": "latest/radars/standard/azorius-momo.json"
+      "path": "latest/radars/standard/azorius-momo.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -145,10 +146,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "boros-dragons",
-      "path": "latest/radars/standard/boros-dragons.json"
+      "path": "latest/radars/standard/boros-dragons.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -373,10 +375,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "mono-red-aggro",
-      "path": "latest/radars/standard/mono-red-aggro.json"
+      "path": "latest/radars/standard/mono-red-aggro.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -387,10 +390,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "orzhov-control",
-      "path": "latest/radars/standard/orzhov-control.json"
+      "path": "latest/radars/standard/orzhov-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
