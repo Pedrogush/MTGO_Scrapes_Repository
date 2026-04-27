@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T12:52:31Z",
+  "generated_at": "2026-04-27T13:54:39Z",
   "command": "scrape-deck-texts-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 43,
-    "skipped": 104,
-    "hard-failure": 320
+    "success": 44,
+    "skipped": 103,
+    "hard-failure": 322
   },
   "results": [
     {
@@ -280,11 +280,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "jund-gardens",
-      "path": "latest/decks/pauper/jund-gardens.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pauper/jund-gardens.json"
     },
     {
       "scope": "archetype-decks",
@@ -3702,6 +3701,22 @@
       "deck_id": "7754106",
       "path": "archive/deck-texts/pauper/7754106.json",
       "message": "Could not parse deck data for deck 7754106"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pauper",
+      "deck_id": "7754731",
+      "path": "archive/deck-texts/pauper/7754731.json",
+      "message": "Could not parse deck data for deck 7754731"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pauper",
+      "deck_id": "7754732",
+      "path": "archive/deck-texts/pauper/7754732.json",
+      "message": "Could not parse deck data for deck 7754732"
     }
   ]
 }
