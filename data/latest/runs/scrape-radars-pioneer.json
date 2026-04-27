@@ -1,24 +1,24 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T16:18:26Z",
+  "generated_at": "2026-04-27T17:17:48Z",
   "command": "scrape-radars-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 30,
+    "stale-fallback": 15,
+    "skipped": 27,
     "hard-failure": 7,
-    "stale-fallback": 12,
     "success": 3
   },
   "results": [
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "4c-legends",
       "path": "latest/radars/pioneer/4c-legends.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -254,11 +254,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "mono-red-aggro",
       "path": "latest/radars/pioneer/mono-red-aggro.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -324,11 +324,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "quintorius-combo",
       "path": "latest/radars/pioneer/quintorius-combo.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

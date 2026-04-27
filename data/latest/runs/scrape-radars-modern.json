@@ -1,23 +1,31 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T16:17:54Z",
+  "generated_at": "2026-04-27T17:17:53Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 15,
+    "hard-failure": 17,
+    "skipped": 13,
     "stale-fallback": 10,
-    "success": 29,
-    "hard-failure": 15
+    "success": 29
   },
   "results": [
     {
       "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "modern",
+      "archetype": "4-5c-omnath",
+      "path": "latest/radars/modern/4-5c-omnath.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "modern",
-      "archetype": "4c-genericblink",
-      "path": "latest/radars/modern/4c-genericblink.json",
+      "archetype": "4c-control",
+      "path": "latest/radars/modern/4c-control.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -211,6 +219,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "modern",
+      "archetype": "grixis-murktide",
+      "path": "latest/radars/modern/grixis-murktide.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
       "archetype": "grixis-reanimator",
@@ -254,22 +270,6 @@
       "format": "modern",
       "archetype": "indomitable-creativity",
       "path": "latest/radars/modern/indomitable-creativity.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "infect",
-      "path": "latest/radars/modern/infect.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "modern",
-      "archetype": "izzet-murktide",
-      "path": "latest/radars/modern/izzet-murktide.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

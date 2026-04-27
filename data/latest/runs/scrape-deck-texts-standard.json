@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T15:53:35Z",
+  "generated_at": "2026-04-27T16:51:30Z",
   "command": "scrape-deck-texts-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 42,
-    "skipped": 73,
-    "hard-failure": 334
+    "skipped": 74,
+    "hard-failure": 337
   },
   "results": [
     {
@@ -115,14 +115,6 @@
       "scope": "archetype-decks",
       "status": "skipped",
       "format": "standard",
-      "archetype": "bant-gearhulk",
-      "path": "latest/decks/standard/bant-gearhulk.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
       "archetype": "bant-ouroboroid",
       "path": "latest/decks/standard/bant-ouroboroid.json",
       "message": "No decks found within the last 7 days."
@@ -219,8 +211,8 @@
       "scope": "archetype-decks",
       "status": "success",
       "format": "standard",
-      "archetype": "gruul-leyline-aggro",
-      "path": "latest/decks/standard/gruul-leyline-aggro.json"
+      "archetype": "izzet-aggro",
+      "path": "latest/decks/standard/izzet-aggro.json"
     },
     {
       "scope": "archetype-decks",
@@ -326,6 +318,14 @@
     },
     {
       "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "mono-white-enchantments",
+      "path": "latest/decks/standard/mono-white-enchantments.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
       "status": "success",
       "format": "standard",
       "archetype": "mono-white-momo",
@@ -373,6 +373,14 @@
       "format": "standard",
       "archetype": "simic-landfall",
       "path": "latest/decks/standard/simic-landfall.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "simic-ouroboroid",
+      "path": "latest/decks/standard/simic-ouroboroid.json",
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -1572,6 +1580,14 @@
       "scope": "deck-text",
       "status": "hard-failure",
       "format": "standard",
+      "deck_id": "7750116",
+      "path": "archive/deck-texts/standard/7750116.json",
+      "message": "Could not parse deck data for deck 7750116"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "standard",
       "deck_id": "7750216",
       "path": "archive/deck-texts/standard/7750216.json",
       "message": "Could not parse deck data for deck 7750216"
@@ -1727,14 +1743,6 @@
       "deck_id": "7750416",
       "path": "archive/deck-texts/standard/7750416.json",
       "message": "Could not parse deck data for deck 7750416"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "standard",
-      "deck_id": "7750418",
-      "path": "archive/deck-texts/standard/7750418.json",
-      "message": "Could not parse deck data for deck 7750418"
     },
     {
       "scope": "deck-text",
@@ -3076,6 +3084,14 @@
       "scope": "deck-text",
       "status": "hard-failure",
       "format": "standard",
+      "deck_id": "7753836",
+      "path": "archive/deck-texts/standard/7753836.json",
+      "message": "Could not parse deck data for deck 7753836"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "standard",
       "deck_id": "7753837",
       "path": "archive/deck-texts/standard/7753837.json",
       "message": "Could not parse deck data for deck 7753837"
@@ -3159,6 +3175,14 @@
       "deck_id": "7753848",
       "path": "archive/deck-texts/standard/7753848.json",
       "message": "Could not parse deck data for deck 7753848"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "standard",
+      "deck_id": "7753849",
+      "path": "archive/deck-texts/standard/7753849.json",
+      "message": "Could not parse deck data for deck 7753849"
     },
     {
       "scope": "deck-text",
@@ -3559,6 +3583,14 @@
       "deck_id": "7755035",
       "path": "archive/deck-texts/standard/7755035.json",
       "message": "Could not parse deck data for deck 7755035"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "standard",
+      "deck_id": "7755467",
+      "path": "archive/deck-texts/standard/7755467.json",
+      "message": "Could not parse deck data for deck 7755467"
     }
   ]
 }

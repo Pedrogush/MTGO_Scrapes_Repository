@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T16:18:03Z",
+  "generated_at": "2026-04-27T17:17:52Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 9,
-    "stale-fallback": 8,
-    "hard-failure": 23,
+    "skipped": 6,
+    "stale-fallback": 9,
+    "hard-failure": 25,
     "success": 20
   },
   "results": [
@@ -164,6 +164,14 @@
       "scope": "archetype-radar",
       "status": "hard-failure",
       "format": "legacy",
+      "archetype": "dimir-control",
+      "path": "latest/radars/legacy/dimir-control.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "legacy",
       "archetype": "dimir-reanimator",
       "path": "latest/radars/legacy/dimir-reanimator.json",
       "message": "No deck texts were available for radar generation."
@@ -189,14 +197,6 @@
       "format": "legacy",
       "archetype": "eldrazi",
       "path": "latest/radars/legacy/eldrazi.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "esper-control",
-      "path": "latest/radars/legacy/esper-control.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -247,11 +247,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "jeskai-control",
       "path": "latest/radars/legacy/jeskai-control.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -291,14 +291,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "maverick",
-      "path": "latest/radars/legacy/maverick.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "hard-failure",
       "format": "legacy",
       "archetype": "merfolk",
@@ -319,6 +311,14 @@
       "archetype": "mono-black-pox",
       "path": "latest/radars/legacy/mono-black-pox.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "legacy",
+      "archetype": "mono-white-initiative",
+      "path": "latest/radars/legacy/mono-white-initiative.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

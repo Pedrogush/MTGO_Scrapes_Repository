@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T15:54:20Z",
+  "generated_at": "2026-04-27T16:51:33Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 22,
-    "skipped": 33,
-    "hard-failure": 213
+    "success": 25,
+    "skipped": 30,
+    "hard-failure": 219
   },
   "results": [
     {
@@ -19,11 +19,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "4c-legends",
-      "path": "latest/decks/pioneer/4c-legends.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pioneer/4c-legends.json"
     },
     {
       "scope": "archetype-decks",
@@ -240,11 +239,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "mono-red-aggro",
-      "path": "latest/decks/pioneer/mono-red-aggro.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pioneer/mono-red-aggro.json"
     },
     {
       "scope": "archetype-decks",
@@ -307,11 +305,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "quintorius-combo",
-      "path": "latest/decks/pioneer/quintorius-combo.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/pioneer/quintorius-combo.json"
     },
     {
       "scope": "archetype-decks",
@@ -1163,14 +1160,6 @@
       "deck_id": "7753062",
       "path": "archive/deck-texts/pioneer/7753062.json",
       "message": "Could not parse deck data for deck 7753062"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7753063",
-      "path": "archive/deck-texts/pioneer/7753063.json",
-      "message": "Could not parse deck data for deck 7753063"
     },
     {
       "scope": "deck-text",
@@ -2131,6 +2120,62 @@
       "deck_id": "7753782",
       "path": "archive/deck-texts/pioneer/7753782.json",
       "message": "Could not parse deck data for deck 7753782"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pioneer",
+      "deck_id": "7755090",
+      "path": "archive/deck-texts/pioneer/7755090.json",
+      "message": "Could not parse deck data for deck 7755090"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pioneer",
+      "deck_id": "7755091",
+      "path": "archive/deck-texts/pioneer/7755091.json",
+      "message": "Could not parse deck data for deck 7755091"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pioneer",
+      "deck_id": "7755093",
+      "path": "archive/deck-texts/pioneer/7755093.json",
+      "message": "Could not parse deck data for deck 7755093"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pioneer",
+      "deck_id": "7755094",
+      "path": "archive/deck-texts/pioneer/7755094.json",
+      "message": "Could not parse deck data for deck 7755094"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pioneer",
+      "deck_id": "7755096",
+      "path": "archive/deck-texts/pioneer/7755096.json",
+      "message": "Could not parse deck data for deck 7755096"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pioneer",
+      "deck_id": "7755097",
+      "path": "archive/deck-texts/pioneer/7755097.json",
+      "message": "Could not parse deck data for deck 7755097"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pioneer",
+      "deck_id": "7755099",
+      "path": "archive/deck-texts/pioneer/7755099.json",
+      "message": "Could not parse deck data for deck 7755099"
     }
   ]
 }

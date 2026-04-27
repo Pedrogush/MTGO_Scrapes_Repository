@@ -1,24 +1,24 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T16:18:01Z",
+  "generated_at": "2026-04-27T17:17:53Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 17,
-    "stale-fallback": 8,
-    "success": 28,
-    "hard-failure": 8
+    "hard-failure": 11,
+    "stale-fallback": 9,
+    "success": 27,
+    "skipped": 14
   },
   "results": [
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "pauper",
-      "archetype": "azorius-affinity",
-      "path": "latest/radars/pauper/azorius-affinity.json",
-      "message": "No published decks were available for radar generation."
+      "archetype": "4c-control",
+      "path": "latest/radars/pauper/4c-control.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -347,10 +347,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "mono-red-madness",
-      "path": "latest/radars/pauper/mono-red-madness.json"
+      "path": "latest/radars/pauper/mono-red-madness.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -392,11 +393,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "pauper",
-      "archetype": "orzhov-aggro",
-      "path": "latest/radars/pauper/orzhov-aggro.json",
-      "message": "No published decks were available for radar generation."
+      "archetype": "poison-storm",
+      "path": "latest/radars/pauper/poison-storm.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -415,6 +416,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "pauper",
+      "archetype": "serpentine-curve",
+      "path": "latest/radars/pauper/serpentine-curve.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "pauper",
       "archetype": "spy-combo",
@@ -426,14 +435,6 @@
       "format": "pauper",
       "archetype": "storm",
       "path": "latest/radars/pauper/storm.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pauper",
-      "archetype": "temur-ponza",
-      "path": "latest/radars/pauper/temur-ponza.json",
       "message": "No published decks were available for radar generation."
     },
     {

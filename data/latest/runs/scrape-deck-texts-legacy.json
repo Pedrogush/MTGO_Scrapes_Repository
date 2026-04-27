@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T15:53:24Z",
+  "generated_at": "2026-04-27T16:51:32Z",
   "command": "scrape-deck-texts-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 51,
-    "skipped": 57,
-    "hard-failure": 350
+    "success": 54,
+    "skipped": 54,
+    "hard-failure": 364
   },
   "results": [
     {
@@ -156,6 +156,13 @@
       "scope": "archetype-decks",
       "status": "success",
       "format": "legacy",
+      "archetype": "dimir-control",
+      "path": "latest/decks/legacy/dimir-control.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "legacy",
       "archetype": "dimir-reanimator",
       "path": "latest/decks/legacy/dimir-reanimator.json"
     },
@@ -179,14 +186,6 @@
       "format": "legacy",
       "archetype": "eldrazi",
       "path": "latest/decks/legacy/eldrazi.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "esper-control",
-      "path": "latest/decks/legacy/esper-control.json",
-      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -233,11 +232,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "legacy",
       "archetype": "jeskai-control",
-      "path": "latest/decks/legacy/jeskai-control.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/legacy/jeskai-control.json"
     },
     {
       "scope": "archetype-decks",
@@ -276,14 +274,6 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "maverick",
-      "path": "latest/decks/legacy/maverick.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
       "status": "success",
       "format": "legacy",
       "archetype": "merfolk",
@@ -303,6 +293,13 @@
       "archetype": "mono-black-pox",
       "path": "latest/decks/legacy/mono-black-pox.json",
       "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "mono-white-initiative",
+      "path": "latest/decks/legacy/mono-white-initiative.json"
     },
     {
       "scope": "archetype-decks",
@@ -785,6 +782,14 @@
     },
     {
       "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
+      "deck_id": "7747395",
+      "path": "archive/deck-texts/legacy/7747395.json",
+      "message": "Could not parse deck data for deck 7747395"
+    },
+    {
+      "scope": "deck-text",
       "status": "skipped",
       "format": "legacy",
       "deck_id": "7747396",
@@ -835,6 +840,14 @@
       "scope": "deck-text",
       "status": "hard-failure",
       "format": "legacy",
+      "deck_id": "7747659",
+      "path": "archive/deck-texts/legacy/7747659.json",
+      "message": "Could not parse deck data for deck 7747659"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
       "deck_id": "7747720",
       "path": "archive/deck-texts/legacy/7747720.json",
       "message": "Could not parse deck data for deck 7747720"
@@ -870,6 +883,14 @@
       "deck_id": "7747934",
       "path": "archive/deck-texts/legacy/7747934.json",
       "message": "Could not parse deck data for deck 7747934"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
+      "deck_id": "7747993",
+      "path": "archive/deck-texts/legacy/7747993.json",
+      "message": "Could not parse deck data for deck 7747993"
     },
     {
       "scope": "deck-text",
@@ -931,9 +952,25 @@
       "scope": "deck-text",
       "status": "hard-failure",
       "format": "legacy",
+      "deck_id": "7748545",
+      "path": "archive/deck-texts/legacy/7748545.json",
+      "message": "Could not parse deck data for deck 7748545"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
       "deck_id": "7748750",
       "path": "archive/deck-texts/legacy/7748750.json",
       "message": "Could not parse deck data for deck 7748750"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
+      "deck_id": "7748913",
+      "path": "archive/deck-texts/legacy/7748913.json",
+      "message": "Could not parse deck data for deck 7748913"
     },
     {
       "scope": "deck-text",
@@ -1139,6 +1176,14 @@
       "scope": "deck-text",
       "status": "hard-failure",
       "format": "legacy",
+      "deck_id": "7750262",
+      "path": "archive/deck-texts/legacy/7750262.json",
+      "message": "Could not parse deck data for deck 7750262"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
       "deck_id": "7750264",
       "path": "archive/deck-texts/legacy/7750264.json",
       "message": "Could not parse deck data for deck 7750264"
@@ -1246,6 +1291,14 @@
       "deck_id": "7750280",
       "path": "archive/deck-texts/legacy/7750280.json",
       "message": "Could not parse deck data for deck 7750280"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
+      "deck_id": "7750281",
+      "path": "archive/deck-texts/legacy/7750281.json",
+      "message": "Could not parse deck data for deck 7750281"
     },
     {
       "scope": "deck-text",
@@ -1614,6 +1667,14 @@
       "deck_id": "7751516",
       "path": "archive/deck-texts/legacy/7751516.json",
       "message": "Could not parse deck data for deck 7751516"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
+      "deck_id": "7751517",
+      "path": "archive/deck-texts/legacy/7751517.json",
+      "message": "Could not parse deck data for deck 7751517"
     },
     {
       "scope": "deck-text",
@@ -2651,6 +2712,22 @@
       "scope": "deck-text",
       "status": "hard-failure",
       "format": "legacy",
+      "deck_id": "7752662",
+      "path": "archive/deck-texts/legacy/7752662.json",
+      "message": "Could not parse deck data for deck 7752662"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
+      "deck_id": "7752664",
+      "path": "archive/deck-texts/legacy/7752664.json",
+      "message": "Could not parse deck data for deck 7752664"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
       "deck_id": "7752665",
       "path": "archive/deck-texts/legacy/7752665.json",
       "message": "Could not parse deck data for deck 7752665"
@@ -2798,6 +2875,14 @@
       "deck_id": "7753093",
       "path": "archive/deck-texts/legacy/7753093.json",
       "message": "Could not parse deck data for deck 7753093"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
+      "deck_id": "7753094",
+      "path": "archive/deck-texts/legacy/7753094.json",
+      "message": "Could not parse deck data for deck 7753094"
     },
     {
       "scope": "deck-text",
@@ -3059,6 +3144,14 @@
       "scope": "deck-text",
       "status": "hard-failure",
       "format": "legacy",
+      "deck_id": "7753276",
+      "path": "archive/deck-texts/legacy/7753276.json",
+      "message": "Could not parse deck data for deck 7753276"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
       "deck_id": "7753277",
       "path": "archive/deck-texts/legacy/7753277.json",
       "message": "Could not parse deck data for deck 7753277"
@@ -3310,6 +3403,14 @@
       "deck_id": "7753710",
       "path": "archive/deck-texts/legacy/7753710.json",
       "message": "Could not parse deck data for deck 7753710"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
+      "deck_id": "7753711",
+      "path": "archive/deck-texts/legacy/7753711.json",
+      "message": "Could not parse deck data for deck 7753711"
     },
     {
       "scope": "deck-text",
@@ -3574,6 +3675,14 @@
       "deck_id": "7753812",
       "path": "archive/deck-texts/legacy/7753812.json",
       "message": "Could not parse deck data for deck 7753812"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "legacy",
+      "deck_id": "7753920",
+      "path": "archive/deck-texts/legacy/7753920.json",
+      "message": "Could not parse deck data for deck 7753920"
     },
     {
       "scope": "deck-text",

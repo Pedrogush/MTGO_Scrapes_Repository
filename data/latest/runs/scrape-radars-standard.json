@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T16:18:02Z",
+  "generated_at": "2026-04-27T17:18:39Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
@@ -119,14 +119,6 @@
       "archetype": "bant-airbending-combo",
       "path": "latest/radars/standard/bant-airbending-combo.json",
       "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "bant-gearhulk",
-      "path": "latest/radars/standard/bant-gearhulk.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -264,8 +256,8 @@
       "scope": "archetype-radar",
       "status": "hard-failure",
       "format": "standard",
-      "archetype": "gruul-leyline-aggro",
-      "path": "latest/radars/standard/gruul-leyline-aggro.json",
+      "archetype": "izzet-aggro",
+      "path": "latest/radars/standard/izzet-aggro.json",
       "message": "No deck texts were available for radar generation."
     },
     {
@@ -380,6 +372,14 @@
       "format": "standard",
       "archetype": "mono-red-aggro",
       "path": "latest/radars/standard/mono-red-aggro.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "mono-white-enchantments",
+      "path": "latest/radars/standard/mono-white-enchantments.json",
       "message": "No published decks were available for radar generation."
     },
     {
