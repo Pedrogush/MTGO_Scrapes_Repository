@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T09:26:54Z",
+  "generated_at": "2026-04-27T10:20:22Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 9,
-    "stale-fallback": 18,
-    "hard-failure": 13,
+    "stale-fallback": 14,
+    "hard-failure": 17,
     "success": 20
   },
   "results": [
@@ -147,7 +147,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "death-and-taxes-yorion-black-white",
       "path": "latest/radars/legacy/death-and-taxes-yorion-black-white.json",
@@ -276,7 +276,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "led-dredge",
       "path": "latest/radars/legacy/led-dredge.json",
@@ -345,7 +345,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "necrodominance-combo",
       "path": "latest/radars/legacy/necrodominance-combo.json",
@@ -391,7 +391,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "orzhov-stoneblade",
       "path": "latest/radars/legacy/orzhov-stoneblade.json",
