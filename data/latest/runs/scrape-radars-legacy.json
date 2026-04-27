@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T02:13:47Z",
+  "generated_at": "2026-04-27T03:42:31Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 10,
-    "stale-fallback": 16,
+    "stale-fallback": 17,
     "hard-failure": 13,
-    "success": 21
+    "success": 20
   },
   "results": [
     {
@@ -170,10 +170,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "dimir-tempo",
-      "path": "latest/radars/legacy/dimir-tempo.json"
+      "path": "latest/radars/legacy/dimir-tempo.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
