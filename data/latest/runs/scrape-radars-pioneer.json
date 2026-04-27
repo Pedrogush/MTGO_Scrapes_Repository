@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T20:15:05Z",
+  "generated_at": "2026-04-27T21:06:33Z",
   "command": "scrape-radars-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "stale-fallback": 15,
+    "stale-fallback": 14,
     "skipped": 27,
-    "hard-failure": 7,
+    "hard-failure": 8,
     "success": 3
   },
   "results": [
@@ -54,7 +54,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "5c-scapeshift",
       "path": "latest/radars/pioneer/5c-scapeshift.json",
