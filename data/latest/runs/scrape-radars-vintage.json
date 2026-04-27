@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T12:16:57Z",
+  "generated_at": "2026-04-27T13:16:45Z",
   "command": "scrape-radars-vintage",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 12,
-    "stale-fallback": 4,
-    "hard-failure": 10,
-    "success": 4
+    "hard-failure": 11,
+    "success": 4,
+    "stale-fallback": 3
   },
   "results": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "azorius-initiative",
       "path": "latest/radars/vintage/azorius-initiative.json",

@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T11:53:05Z",
+  "generated_at": "2026-04-27T12:52:28Z",
   "command": "scrape-deck-texts-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 42,
-    "skipped": 74,
-    "hard-failure": 330
+    "skipped": 73,
+    "hard-failure": 333
   },
   "results": [
     {
@@ -447,14 +447,6 @@
       "format": "standard",
       "archetype": "temur-prowess",
       "path": "latest/decks/standard/temur-prowess.json"
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "standard",
-      "deck_id": "7743931",
-      "path": "archive/deck-texts/standard/7743931.json",
-      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",
@@ -3535,6 +3527,30 @@
       "deck_id": "7754262",
       "path": "archive/deck-texts/standard/7754262.json",
       "message": "Could not parse deck data for deck 7754262"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "standard",
+      "deck_id": "7754567",
+      "path": "archive/deck-texts/standard/7754567.json",
+      "message": "Could not parse deck data for deck 7754567"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "standard",
+      "deck_id": "7754568",
+      "path": "archive/deck-texts/standard/7754568.json",
+      "message": "Could not parse deck data for deck 7754568"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "standard",
+      "deck_id": "7754570",
+      "path": "archive/deck-texts/standard/7754570.json",
+      "message": "Could not parse deck data for deck 7754570"
     }
   ]
 }
