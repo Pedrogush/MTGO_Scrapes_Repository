@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T21:06:48Z",
+  "generated_at": "2026-04-27T22:05:23Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 6,
-    "stale-fallback": 9,
-    "hard-failure": 25,
+    "stale-fallback": 8,
+    "hard-failure": 26,
     "success": 20
   },
   "results": [
@@ -224,7 +224,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "grixis-tempo",
       "path": "latest/radars/legacy/grixis-tempo.json",

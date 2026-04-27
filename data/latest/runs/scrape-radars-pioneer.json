@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T21:06:33Z",
+  "generated_at": "2026-04-27T22:05:28Z",
   "command": "scrape-radars-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "stale-fallback": 14,
+    "stale-fallback": 13,
     "skipped": 27,
-    "hard-failure": 8,
+    "hard-failure": 9,
     "success": 3
   },
   "results": [
@@ -166,7 +166,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "golgari-midrange",
       "path": "latest/radars/pioneer/golgari-midrange.json",
