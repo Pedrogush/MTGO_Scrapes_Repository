@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T15:21:29Z",
+  "generated_at": "2026-04-27T16:18:02Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 19,
     "skipped": 26,
-    "hard-failure": 15,
-    "stale-fallback": 8
+    "hard-failure": 20,
+    "stale-fallback": 3
   },
   "results": [
     {
@@ -75,7 +75,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "5c-elementals",
       "path": "latest/radars/standard/5c-elementals.json",
@@ -114,7 +114,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "bant-airbending-combo",
       "path": "latest/radars/standard/bant-airbending-combo.json",
@@ -138,7 +138,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "boros-burn",
       "path": "latest/radars/standard/boros-burn.json",
@@ -361,7 +361,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "mono-blue-control",
       "path": "latest/radars/standard/mono-blue-control.json",
@@ -462,7 +462,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "sultai-control",
       "path": "latest/radars/standard/sultai-control.json",
