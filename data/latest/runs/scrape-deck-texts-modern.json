@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T07:12:53Z",
+  "generated_at": "2026-04-27T07:58:52Z",
   "command": "scrape-deck-texts-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 50,
-    "skipped": 109,
-    "hard-failure": 328
+    "success": 51,
+    "skipped": 102,
+    "hard-failure": 354
   },
   "results": [
     {
@@ -318,11 +318,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
+      "status": "success",
       "format": "modern",
       "archetype": "mono-green-basking-broodscale-combo",
-      "path": "latest/decks/modern/mono-green-basking-broodscale-combo.json",
-      "message": "No decks found within the last 7 days."
+      "path": "latest/decks/modern/mono-green-basking-broodscale-combo.json"
     },
     {
       "scope": "archetype-decks",
@@ -516,14 +515,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
-      "deck_id": "7744077",
-      "path": "archive/deck-texts/modern/7744077.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
       "deck_id": "7744078",
       "path": "archive/deck-texts/modern/7744078.json",
       "message": "Reused existing published deck-text blob."
@@ -548,24 +539,8 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
-      "deck_id": "7744195",
-      "path": "archive/deck-texts/modern/7744195.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
       "deck_id": "7744242",
       "path": "archive/deck-texts/modern/7744242.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
-      "deck_id": "7744262",
-      "path": "archive/deck-texts/modern/7744262.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -612,14 +587,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
-      "deck_id": "7744818",
-      "path": "archive/deck-texts/modern/7744818.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
       "deck_id": "7744819",
       "path": "archive/deck-texts/modern/7744819.json",
       "message": "Reused existing published deck-text blob."
@@ -652,14 +619,6 @@
       "scope": "deck-text",
       "status": "skipped",
       "format": "modern",
-      "deck_id": "7745204",
-      "path": "archive/deck-texts/modern/7745204.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
       "deck_id": "7745264",
       "path": "archive/deck-texts/modern/7745264.json",
       "message": "Reused existing published deck-text blob."
@@ -670,14 +629,6 @@
       "format": "modern",
       "deck_id": "7745705",
       "path": "archive/deck-texts/modern/7745705.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "modern",
-      "deck_id": "7745706",
-      "path": "archive/deck-texts/modern/7745706.json",
       "message": "Reused existing published deck-text blob."
     },
     {
@@ -1732,14 +1683,6 @@
       "scope": "deck-text",
       "status": "hard-failure",
       "format": "modern",
-      "deck_id": "7749421",
-      "path": "archive/deck-texts/modern/7749421.json",
-      "message": "Could not parse deck data for deck 7749421"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "modern",
       "deck_id": "7749422",
       "path": "archive/deck-texts/modern/7749422.json",
       "message": "Could not parse deck data for deck 7749422"
@@ -1780,33 +1723,9 @@
       "scope": "deck-text",
       "status": "hard-failure",
       "format": "modern",
-      "deck_id": "7749595",
-      "path": "archive/deck-texts/modern/7749595.json",
-      "message": "Could not parse deck data for deck 7749595"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "modern",
       "deck_id": "7749623",
       "path": "archive/deck-texts/modern/7749623.json",
       "message": "Could not parse deck data for deck 7749623"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "modern",
-      "deck_id": "7749624",
-      "path": "archive/deck-texts/modern/7749624.json",
-      "message": "Could not parse deck data for deck 7749624"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "modern",
-      "deck_id": "7749642",
-      "path": "archive/deck-texts/modern/7749642.json",
-      "message": "Could not parse deck data for deck 7749642"
     },
     {
       "scope": "deck-text",
@@ -3855,6 +3774,246 @@
       "deck_id": "7753953",
       "path": "archive/deck-texts/modern/7753953.json",
       "message": "Could not parse deck data for deck 7753953"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754014",
+      "path": "archive/deck-texts/modern/7754014.json",
+      "message": "Could not parse deck data for deck 7754014"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754016",
+      "path": "archive/deck-texts/modern/7754016.json",
+      "message": "Could not parse deck data for deck 7754016"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754017",
+      "path": "archive/deck-texts/modern/7754017.json",
+      "message": "Could not parse deck data for deck 7754017"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754019",
+      "path": "archive/deck-texts/modern/7754019.json",
+      "message": "Could not parse deck data for deck 7754019"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754020",
+      "path": "archive/deck-texts/modern/7754020.json",
+      "message": "Could not parse deck data for deck 7754020"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754021",
+      "path": "archive/deck-texts/modern/7754021.json",
+      "message": "Could not parse deck data for deck 7754021"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754022",
+      "path": "archive/deck-texts/modern/7754022.json",
+      "message": "Could not parse deck data for deck 7754022"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754023",
+      "path": "archive/deck-texts/modern/7754023.json",
+      "message": "Could not parse deck data for deck 7754023"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754025",
+      "path": "archive/deck-texts/modern/7754025.json",
+      "message": "Could not parse deck data for deck 7754025"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754026",
+      "path": "archive/deck-texts/modern/7754026.json",
+      "message": "Could not parse deck data for deck 7754026"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754027",
+      "path": "archive/deck-texts/modern/7754027.json",
+      "message": "Could not parse deck data for deck 7754027"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754028",
+      "path": "archive/deck-texts/modern/7754028.json",
+      "message": "Could not parse deck data for deck 7754028"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754029",
+      "path": "archive/deck-texts/modern/7754029.json",
+      "message": "Could not parse deck data for deck 7754029"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754030",
+      "path": "archive/deck-texts/modern/7754030.json",
+      "message": "Could not parse deck data for deck 7754030"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754031",
+      "path": "archive/deck-texts/modern/7754031.json",
+      "message": "Could not parse deck data for deck 7754031"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754032",
+      "path": "archive/deck-texts/modern/7754032.json",
+      "message": "Could not parse deck data for deck 7754032"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754033",
+      "path": "archive/deck-texts/modern/7754033.json",
+      "message": "Could not parse deck data for deck 7754033"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754034",
+      "path": "archive/deck-texts/modern/7754034.json",
+      "message": "Could not parse deck data for deck 7754034"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754036",
+      "path": "archive/deck-texts/modern/7754036.json",
+      "message": "Could not parse deck data for deck 7754036"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754037",
+      "path": "archive/deck-texts/modern/7754037.json",
+      "message": "Could not parse deck data for deck 7754037"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754038",
+      "path": "archive/deck-texts/modern/7754038.json",
+      "message": "Could not parse deck data for deck 7754038"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754039",
+      "path": "archive/deck-texts/modern/7754039.json",
+      "message": "Could not parse deck data for deck 7754039"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754040",
+      "path": "archive/deck-texts/modern/7754040.json",
+      "message": "Could not parse deck data for deck 7754040"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754041",
+      "path": "archive/deck-texts/modern/7754041.json",
+      "message": "Could not parse deck data for deck 7754041"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754042",
+      "path": "archive/deck-texts/modern/7754042.json",
+      "message": "Could not parse deck data for deck 7754042"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754043",
+      "path": "archive/deck-texts/modern/7754043.json",
+      "message": "Could not parse deck data for deck 7754043"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754044",
+      "path": "archive/deck-texts/modern/7754044.json",
+      "message": "Could not parse deck data for deck 7754044"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754045",
+      "path": "archive/deck-texts/modern/7754045.json",
+      "message": "Could not parse deck data for deck 7754045"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754049",
+      "path": "archive/deck-texts/modern/7754049.json",
+      "message": "Could not parse deck data for deck 7754049"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7754050",
+      "path": "archive/deck-texts/modern/7754050.json",
+      "message": "Could not parse deck data for deck 7754050"
     }
   ]
 }

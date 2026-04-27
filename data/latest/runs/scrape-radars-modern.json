@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T07:31:49Z",
+  "generated_at": "2026-04-27T08:18:21Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 16,
+    "skipped": 15,
     "success": 30,
     "hard-failure": 12,
-    "stale-fallback": 11
+    "stale-fallback": 12
   },
   "results": [
     {
@@ -378,11 +378,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "mono-green-basking-broodscale-combo",
       "path": "latest/radars/modern/mono-green-basking-broodscale-combo.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
