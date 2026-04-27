@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T10:02:24Z",
+  "generated_at": "2026-04-27T10:57:13Z",
   "command": "scrape-mtgo-decklists-standard",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "cached": 15,
-    "hard-failure": 1,
+    "skipped": 1,
     "success": 1
   },
   "results": [
@@ -111,9 +111,9 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "standard",
-      "message": "https://www.mtgo.com/decklist/standard-league-2026-04-2110660: Could not locate deck JSON payload"
+      "message": "https://www.mtgo.com/decklist/standard-league-2026-04-2110660: Event returned no decklists."
     },
     {
       "scope": "mtgo-event",
