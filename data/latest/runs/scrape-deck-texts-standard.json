@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T18:44:46Z",
+  "generated_at": "2026-04-27T19:48:48Z",
   "command": "scrape-deck-texts-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 42,
     "skipped": 74,
-    "hard-failure": 337
+    "hard-failure": 338
   },
   "results": [
     {
@@ -3591,6 +3591,14 @@
       "deck_id": "7755467",
       "path": "archive/deck-texts/standard/7755467.json",
       "message": "Could not parse deck data for deck 7755467"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "standard",
+      "deck_id": "7755735",
+      "path": "archive/deck-texts/standard/7755735.json",
+      "message": "Could not parse deck data for deck 7755735"
     }
   ]
 }
