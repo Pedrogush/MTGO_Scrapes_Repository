@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T08:18:21Z",
+  "generated_at": "2026-04-27T09:26:56Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 15,
     "success": 30,
-    "hard-failure": 12,
-    "stale-fallback": 12
+    "hard-failure": 14,
+    "stale-fallback": 10
   },
   "results": [
     {
@@ -225,7 +225,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "hammer-time",
       "path": "latest/radars/modern/hammer-time.json",
@@ -441,7 +441,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "rakdos-midrange",
       "path": "latest/radars/modern/rakdos-midrange.json",
