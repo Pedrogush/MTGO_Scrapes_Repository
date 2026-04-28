@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T17:25:33Z",
+  "generated_at": "2026-04-28T18:22:20Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 7,
-    "hard-failure": 34,
+    "skipped": 5,
+    "hard-failure": 36,
     "success": 16,
     "stale-fallback": 3
   },
@@ -234,11 +234,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "legacy",
-      "archetype": "hogaak",
-      "path": "latest/radars/legacy/hogaak.json",
-      "message": "No published decks were available for radar generation."
+      "archetype": "helm-leyline-stompy",
+      "path": "latest/radars/legacy/helm-leyline-stompy.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "legacy",
+      "archetype": "infect",
+      "path": "latest/radars/legacy/infect.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -362,14 +370,6 @@
       "archetype": "nic-fit",
       "path": "latest/radars/legacy/nic-fit.json",
       "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "ninjas",
-      "path": "latest/radars/legacy/ninjas.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

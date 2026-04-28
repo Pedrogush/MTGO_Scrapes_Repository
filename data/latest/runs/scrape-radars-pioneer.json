@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T17:25:41Z",
+  "generated_at": "2026-04-28T18:22:22Z",
   "command": "scrape-radars-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 22,
-    "skipped": 27,
+    "hard-failure": 23,
+    "skipped": 25,
     "stale-fallback": 3
   },
   "results": [
@@ -81,14 +81,6 @@
       "format": "pioneer",
       "archetype": "azorius-flash",
       "path": "latest/radars/pioneer/azorius-flash.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "azorius-heroic",
-      "path": "latest/radars/pioneer/azorius-heroic.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -357,14 +349,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "rakdos-vampires",
-      "path": "latest/radars/pioneer/rakdos-vampires.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "hard-failure",
       "format": "pioneer",
       "archetype": "selesnya-angels",
@@ -401,6 +385,14 @@
       "format": "pioneer",
       "archetype": "song-of-creation",
       "path": "latest/radars/pioneer/song-of-creation.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "pioneer",
+      "archetype": "soulflayer",
+      "path": "latest/radars/pioneer/soulflayer.json",
       "message": "No deck texts were available for radar generation."
     },
     {

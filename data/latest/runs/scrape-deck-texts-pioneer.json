@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T16:57:12Z",
+  "generated_at": "2026-04-28T17:53:26Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 25,
-    "skipped": 26,
-    "hard-failure": 238
+    "success": 26,
+    "skipped": 24,
+    "hard-failure": 239
   },
   "results": [
     {
@@ -82,14 +82,6 @@
       "format": "pioneer",
       "archetype": "azorius-flash",
       "path": "latest/decks/pioneer/azorius-flash.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "azorius-heroic",
-      "path": "latest/decks/pioneer/azorius-heroic.json",
       "message": "No decks found within the last 7 days."
     },
     {
@@ -335,14 +327,6 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "rakdos-vampires",
-      "path": "latest/decks/pioneer/rakdos-vampires.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
       "status": "success",
       "format": "pioneer",
       "archetype": "selesnya-angels",
@@ -377,6 +361,13 @@
       "format": "pioneer",
       "archetype": "song-of-creation",
       "path": "latest/decks/pioneer/song-of-creation.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "soulflayer",
+      "path": "latest/decks/pioneer/soulflayer.json"
     },
     {
       "scope": "archetype-decks",
@@ -2104,6 +2095,14 @@
       "deck_id": "7756194",
       "path": "archive/deck-texts/pioneer/7756194.json",
       "message": "Could not parse deck data for deck 7756194"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pioneer",
+      "deck_id": "7756195",
+      "path": "archive/deck-texts/pioneer/7756195.json",
+      "message": "Could not parse deck data for deck 7756195"
     },
     {
       "scope": "deck-text",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T17:25:36Z",
+  "generated_at": "2026-04-28T18:22:21Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 27,
+    "hard-failure": 29,
     "skipped": 15,
     "success": 17,
     "stale-fallback": 10
@@ -24,17 +24,17 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "modern",
-      "archetype": "4c-control",
-      "path": "latest/radars/modern/4c-control.json",
+      "archetype": "5c-midrange",
+      "path": "latest/radars/modern/5c-midrange.json",
       "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "hard-failure",
       "format": "modern",
-      "archetype": "5c-midrange",
-      "path": "latest/radars/modern/5c-midrange.json",
-      "message": "No published decks were available for radar generation."
+      "archetype": "8-rack",
+      "path": "latest/radars/modern/8-rack.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -108,14 +108,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "hard-failure",
-      "format": "modern",
-      "archetype": "devoted-combo",
-      "path": "latest/radars/modern/devoted-combo.json",
-      "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "stale-fallback",
       "format": "modern",
       "archetype": "dimir-midrange",
@@ -128,14 +120,6 @@
       "format": "modern",
       "archetype": "dimir-murktide",
       "path": "latest/radars/modern/dimir-murktide.json",
-      "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "hard-failure",
-      "format": "modern",
-      "archetype": "dimir-reanimator",
-      "path": "latest/radars/modern/dimir-reanimator.json",
       "message": "No deck texts were available for radar generation."
     },
     {
@@ -197,6 +181,22 @@
       "format": "modern",
       "archetype": "esper-murktide",
       "path": "latest/radars/modern/esper-murktide.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "modern",
+      "archetype": "esper-reanimator",
+      "path": "latest/radars/modern/esper-reanimator.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "modern",
+      "archetype": "generic-ragavan",
+      "path": "latest/radars/modern/generic-ragavan.json",
       "message": "No deck texts were available for radar generation."
     },
     {
@@ -323,6 +323,14 @@
       "archetype": "jeskai-energy",
       "path": "latest/radars/modern/jeskai-energy.json",
       "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "modern",
+      "archetype": "jund-saga",
+      "path": "latest/radars/modern/jund-saga.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -516,6 +524,14 @@
       "format": "modern",
       "archetype": "the-rock",
       "path": "latest/radars/modern/the-rock.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "modern",
+      "archetype": "thopter-combo",
+      "path": "latest/radars/modern/thopter-combo.json",
       "message": "No deck texts were available for radar generation."
     },
     {

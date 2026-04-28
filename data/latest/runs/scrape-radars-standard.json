@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T17:25:39Z",
+  "generated_at": "2026-04-28T18:22:30Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 13,
     "stale-fallback": 6,
-    "skipped": 26,
-    "hard-failure": 23
+    "skipped": 25,
+    "hard-failure": 24
   },
   "results": [
     {
@@ -259,6 +259,14 @@
       "scope": "archetype-radar",
       "status": "hard-failure",
       "format": "standard",
+      "archetype": "gruul-leyline-aggro",
+      "path": "latest/radars/standard/gruul-leyline-aggro.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
       "archetype": "izzet-aggro",
       "path": "latest/radars/standard/izzet-aggro.json",
       "message": "No deck texts were available for radar generation."
@@ -345,14 +353,6 @@
       "format": "standard",
       "archetype": "mono-black-control",
       "path": "latest/radars/standard/mono-black-control.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "mono-black-midrange",
-      "path": "latest/radars/standard/mono-black-midrange.json",
       "message": "No published decks were available for radar generation."
     },
     {
