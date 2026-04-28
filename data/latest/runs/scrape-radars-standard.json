@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T03:52:00Z",
+  "generated_at": "2026-04-28T05:53:53Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 15,
-    "stale-fallback": 5,
+    "success": 14,
+    "stale-fallback": 6,
     "skipped": 26,
     "hard-failure": 22
   },
@@ -288,10 +288,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "izzet-self-bounce",
-      "path": "latest/radars/standard/izzet-self-bounce.json"
+      "path": "latest/radars/standard/izzet-self-bounce.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
