@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T13:25:32Z",
+  "generated_at": "2026-04-28T15:39:30Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 14,
-    "stale-fallback": 5,
+    "success": 13,
+    "stale-fallback": 6,
     "skipped": 26,
     "hard-failure": 23
   },
@@ -365,10 +365,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "mono-green-landfall",
-      "path": "latest/radars/standard/mono-green-landfall.json"
+      "path": "latest/radars/standard/mono-green-landfall.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
