@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T05:53:52Z",
+  "generated_at": "2026-04-28T07:40:20Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 7,
-    "hard-failure": 32,
+    "hard-failure": 33,
     "success": 16,
-    "stale-fallback": 5
+    "stale-fallback": 4
   },
   "results": [
     {
@@ -341,7 +341,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "naya-initiative",
       "path": "latest/radars/legacy/naya-initiative.json",
