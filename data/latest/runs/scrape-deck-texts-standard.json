@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T15:09:48Z",
+  "generated_at": "2026-04-28T16:10:47Z",
   "command": "scrape-deck-texts-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
@@ -2918,7 +2918,7 @@
       "format": "standard",
       "deck_id": "7754259",
       "path": "archive/deck-texts/standard/7754259.json",
-      "message": "Could not parse deck data for deck 7754259"
+      "message": "Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "scope": "deck-text",

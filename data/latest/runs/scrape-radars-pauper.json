@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T15:39:14Z",
+  "generated_at": "2026-04-28T16:39:36Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 19,
-    "success": 12,
-    "skipped": 15,
-    "stale-fallback": 15
+    "hard-failure": 20,
+    "stale-fallback": 16,
+    "success": 11,
+    "skipped": 14
   },
   "results": [
     {
@@ -30,10 +30,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "blue-terror",
-      "path": "latest/radars/pauper/blue-terror.json"
+      "path": "latest/radars/pauper/blue-terror.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -334,11 +335,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "mono-black",
       "path": "latest/radars/pauper/mono-black.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -358,7 +359,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "mono-red-madness",
       "path": "latest/radars/pauper/mono-red-madness.json",

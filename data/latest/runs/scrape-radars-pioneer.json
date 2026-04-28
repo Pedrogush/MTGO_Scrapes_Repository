@@ -1,19 +1,19 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T15:39:27Z",
+  "generated_at": "2026-04-28T16:39:50Z",
   "command": "scrape-radars-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "stale-fallback": 6,
+    "hard-failure": 22,
     "skipped": 27,
-    "hard-failure": 19
+    "stale-fallback": 3
   },
   "results": [
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "4c-legends",
       "path": "latest/radars/pioneer/4c-legends.json",
@@ -253,7 +253,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "mono-red-aggro",
       "path": "latest/radars/pioneer/mono-red-aggro.json",
@@ -325,7 +325,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "quintorius-combo",
       "path": "latest/radars/pioneer/quintorius-combo.json",

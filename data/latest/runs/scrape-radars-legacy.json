@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T15:39:20Z",
+  "generated_at": "2026-04-28T16:39:35Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 7,
+    "skipped": 6,
     "hard-failure": 33,
     "success": 16,
-    "stale-fallback": 4
+    "stale-fallback": 3
   },
   "results": [
     {
@@ -89,14 +89,6 @@
       "format": "legacy",
       "archetype": "blue-artifacts",
       "path": "latest/radars/legacy/blue-artifacts.json",
-      "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "hard-failure",
-      "format": "legacy",
-      "archetype": "blue-cloudpost",
-      "path": "latest/radars/legacy/blue-cloudpost.json",
       "message": "No deck texts were available for radar generation."
     },
     {
@@ -249,7 +241,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "jeskai-control",
       "path": "latest/radars/legacy/jeskai-control.json",
@@ -362,14 +354,6 @@
       "archetype": "nic-fit",
       "path": "latest/radars/legacy/nic-fit.json",
       "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "ninjas",
-      "path": "latest/radars/legacy/ninjas.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
