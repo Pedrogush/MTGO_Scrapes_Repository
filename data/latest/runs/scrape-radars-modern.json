@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T10:30:00Z",
+  "generated_at": "2026-04-28T11:25:00Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 26,
+    "hard-failure": 27,
     "skipped": 16,
-    "stale-fallback": 10,
-    "success": 17
+    "success": 17,
+    "stale-fallback": 9
   },
   "results": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "affinity",
       "path": "latest/radars/modern/affinity.json",
