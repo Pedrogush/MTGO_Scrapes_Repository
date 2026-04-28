@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T00:03:02Z",
+  "generated_at": "2026-04-28T01:38:21Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "hard-failure": 18,
-    "success": 27,
-    "skipped": 14,
-    "stale-fallback": 2
+    "success": 12,
+    "skipped": 15,
+    "stale-fallback": 16
   },
   "results": [
     {
@@ -98,10 +98,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "dimir-affinity",
-      "path": "latest/radars/pauper/dimir-affinity.json"
+      "path": "latest/radars/pauper/dimir-affinity.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -120,10 +121,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "dimir-terror",
-      "path": "latest/radars/pauper/dimir-terror.json"
+      "path": "latest/radars/pauper/dimir-terror.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -166,10 +168,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "familiars",
-      "path": "latest/radars/pauper/familiars.json"
+      "path": "latest/radars/pauper/familiars.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -219,17 +222,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "gruul-ponza",
-      "path": "latest/radars/pauper/gruul-ponza.json"
+      "path": "latest/radars/pauper/gruul-ponza.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "gruul-ramp",
-      "path": "latest/radars/pauper/gruul-ramp.json"
+      "path": "latest/radars/pauper/gruul-ramp.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -257,24 +262,27 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "izzet-terror",
-      "path": "latest/radars/pauper/izzet-terror.json"
+      "path": "latest/radars/pauper/izzet-terror.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "jeskai-affinity",
-      "path": "latest/radars/pauper/jeskai-affinity.json"
+      "path": "latest/radars/pauper/jeskai-affinity.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "jeskai-ephemerate",
-      "path": "latest/radars/pauper/jeskai-ephemerate.json"
+      "path": "latest/radars/pauper/jeskai-ephemerate.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -294,17 +302,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "jund-wildfire",
-      "path": "latest/radars/pauper/jund-wildfire.json"
+      "path": "latest/radars/pauper/jund-wildfire.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "kiln-fiend",
-      "path": "latest/radars/pauper/kiln-fiend.json"
+      "path": "latest/radars/pauper/kiln-fiend.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -340,10 +350,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "mono-blue-faeries",
-      "path": "latest/radars/pauper/mono-blue-faeries.json"
+      "path": "latest/radars/pauper/mono-blue-faeries.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -355,10 +366,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "pauper",
       "archetype": "mono-red-pingers",
-      "path": "latest/radars/pauper/mono-red-pingers.json"
+      "path": "latest/radars/pauper/mono-red-pingers.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -401,10 +413,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "ruby-storm",
-      "path": "latest/radars/pauper/ruby-storm.json"
+      "path": "latest/radars/pauper/ruby-storm.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -439,10 +452,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "tron",
-      "path": "latest/radars/pauper/tron.json"
+      "path": "latest/radars/pauper/tron.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -461,10 +475,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "white-aggro",
-      "path": "latest/radars/pauper/white-aggro.json"
+      "path": "latest/radars/pauper/white-aggro.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "format-card-pool",

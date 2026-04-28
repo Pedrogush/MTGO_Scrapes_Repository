@@ -1,15 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T00:02:56Z",
+  "generated_at": "2026-04-28T01:38:16Z",
   "command": "scrape-radars-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "stale-fallback": 3,
+    "stale-fallback": 6,
     "skipped": 27,
-    "hard-failure": 19,
-    "success": 3
+    "hard-failure": 19
   },
   "results": [
     {
@@ -262,10 +261,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "mono-red-prowess",
-      "path": "latest/radars/pioneer/mono-red-prowess.json"
+      "path": "latest/radars/pioneer/mono-red-prowess.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -301,10 +301,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
       "archetype": "orzhov-greasefang",
-      "path": "latest/radars/pioneer/orzhov-greasefang.json"
+      "path": "latest/radars/pioneer/orzhov-greasefang.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -420,9 +421,10 @@
     },
     {
       "scope": "format-card-pool",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pioneer",
-      "path": "latest/card-pools/pioneer.json"
+      "path": "latest/card-pools/pioneer.json",
+      "message": "No deck texts were available for format card-pool generation."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T00:02:58Z",
+  "generated_at": "2026-04-28T01:38:14Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 19,
-    "skipped": 26,
-    "hard-failure": 22,
-    "stale-fallback": 1
+    "success": 15,
+    "stale-fallback": 4,
+    "skipped": 27,
+    "hard-failure": 22
   },
   "results": [
     {
@@ -28,10 +28,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "4c-elementals",
-      "path": "latest/radars/standard/4c-elementals.json"
+      "path": "latest/radars/standard/4c-elementals.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -107,10 +108,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "azorius-tempo",
-      "path": "latest/radars/standard/azorius-tempo.json"
+      "path": "latest/radars/standard/azorius-tempo.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -231,10 +233,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "golgari-ouroboroid",
-      "path": "latest/radars/standard/golgari-ouroboroid.json"
+      "path": "latest/radars/standard/golgari-ouroboroid.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -494,10 +497,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "temur-harmonizer-combo",
-      "path": "latest/radars/standard/temur-harmonizer-combo.json"
+      "path": "latest/radars/standard/temur-harmonizer-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
