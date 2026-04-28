@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T23:01:23Z",
+  "generated_at": "2026-04-28T00:02:58Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 19,
     "skipped": 26,
-    "hard-failure": 20,
-    "stale-fallback": 3
+    "hard-failure": 22,
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "azorius-momo",
       "path": "latest/radars/standard/azorius-momo.json",
@@ -138,7 +138,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "boros-dragons",
       "path": "latest/radars/standard/boros-dragons.json",

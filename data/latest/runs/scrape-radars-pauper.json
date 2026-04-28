@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T23:01:28Z",
+  "generated_at": "2026-04-28T00:03:02Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 12,
-    "stale-fallback": 8,
+    "hard-failure": 18,
     "success": 27,
-    "skipped": 14
+    "skipped": 14,
+    "stale-fallback": 2
   },
   "results": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "black-sacrifice",
       "path": "latest/radars/pauper/black-sacrifice.json",
@@ -37,7 +37,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "bogles",
       "path": "latest/radars/pauper/bogles.json",
@@ -112,7 +112,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "dimir-faeries",
       "path": "latest/radars/pauper/dimir-faeries.json",
@@ -173,7 +173,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "food-gardens",
       "path": "latest/radars/pauper/food-gardens.json",
@@ -181,7 +181,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "glintblade",
       "path": "latest/radars/pauper/glintblade.json",
@@ -308,7 +308,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "madness-burn",
       "path": "latest/radars/pauper/madness-burn.json",

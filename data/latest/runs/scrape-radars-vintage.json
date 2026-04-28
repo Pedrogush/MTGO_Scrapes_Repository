@@ -1,15 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T23:01:22Z",
+  "generated_at": "2026-04-28T00:03:00Z",
   "command": "scrape-radars-vintage",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 12,
-    "hard-failure": 11,
-    "success": 4,
-    "stale-fallback": 3
+    "hard-failure": 14,
+    "success": 4
   },
   "results": [
     {
@@ -93,7 +92,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "dredge",
       "path": "latest/radars/vintage/dredge.json",
@@ -132,7 +131,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "lurrus-po",
       "path": "latest/radars/vintage/lurrus-po.json",
@@ -195,7 +194,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "prison-shops",
       "path": "latest/radars/vintage/prison-shops.json",

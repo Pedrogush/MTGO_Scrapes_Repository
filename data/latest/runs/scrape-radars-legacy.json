@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T23:01:24Z",
+  "generated_at": "2026-04-28T00:03:02Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 6,
-    "stale-fallback": 8,
-    "hard-failure": 26,
-    "success": 20
+    "hard-failure": 31,
+    "success": 20,
+    "stale-fallback": 3
   },
   "results": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "8-cast",
       "path": "latest/radars/legacy/8-cast.json",
@@ -85,7 +85,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "blue-artifacts",
       "path": "latest/radars/legacy/blue-artifacts.json",
@@ -208,7 +208,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "goblins",
       "path": "latest/radars/legacy/goblins.json",
@@ -443,7 +443,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "sultai-depths",
       "path": "latest/radars/legacy/sultai-depths.json",
@@ -459,7 +459,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "the-epic-storm",
       "path": "latest/radars/legacy/the-epic-storm.json",

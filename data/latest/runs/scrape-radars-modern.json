@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-27T23:01:19Z",
+  "generated_at": "2026-04-28T00:02:59Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 19,
+    "hard-failure": 24,
     "skipped": 13,
-    "stale-fallback": 8,
+    "stale-fallback": 3,
     "success": 29
   },
   "results": [
@@ -180,7 +180,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "esper-midrange",
       "path": "latest/radars/modern/esper-midrange.json",
@@ -188,7 +188,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "esper-murktide",
       "path": "latest/radars/modern/esper-murktide.json",
@@ -211,7 +211,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "grixis-midrange",
       "path": "latest/radars/modern/grixis-midrange.json",
@@ -302,7 +302,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "jeskai-control",
       "path": "latest/radars/modern/jeskai-control.json",
@@ -363,7 +363,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "mono-black-midrange",
       "path": "latest/radars/modern/mono-black-midrange.json",
