@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T23:05:12Z",
+  "generated_at": "2026-04-29T00:04:18Z",
   "command": "scrape-radars-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 23,
-    "skipped": 25,
-    "stale-fallback": 3
+    "hard-failure": 26,
+    "skipped": 25
   },
   "results": [
     {
@@ -253,7 +252,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "mono-red-prowess",
       "path": "latest/radars/pioneer/mono-red-prowess.json",
@@ -293,7 +292,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pioneer",
       "archetype": "orzhov-greasefang",
       "path": "latest/radars/pioneer/orzhov-greasefang.json",
@@ -413,7 +412,7 @@
     },
     {
       "scope": "format-card-pool",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pioneer",
       "path": "latest/card-pools/pioneer.json",
       "message": "No deck texts were available for format card-pool generation."

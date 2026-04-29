@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T23:04:59Z",
+  "generated_at": "2026-04-29T00:04:24Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 29,
+    "hard-failure": 38,
     "skipped": 15,
     "success": 17,
-    "stale-fallback": 10
+    "stale-fallback": 1
   },
   "results": [
     {
@@ -108,7 +108,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "dimir-midrange",
       "path": "latest/radars/modern/dimir-midrange.json",
@@ -116,7 +116,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "dimir-murktide",
       "path": "latest/radars/modern/dimir-murktide.json",
@@ -138,7 +138,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "eldrazi-tron",
       "path": "latest/radars/modern/eldrazi-tron.json",
@@ -146,7 +146,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "eldrazi",
       "path": "latest/radars/modern/eldrazi.json",
@@ -201,7 +201,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "goryo-s-vengeance",
       "path": "latest/radars/modern/goryo-s-vengeance.json",
@@ -272,7 +272,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "indomitable-creativity",
       "path": "latest/radars/modern/indomitable-creativity.json",
@@ -302,7 +302,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "jeskai-blink",
       "path": "latest/radars/modern/jeskai-blink.json",
@@ -365,7 +365,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "mardu-genericblink",
       "path": "latest/radars/modern/mardu-genericblink.json",
@@ -520,7 +520,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "the-rock",
       "path": "latest/radars/modern/the-rock.json",

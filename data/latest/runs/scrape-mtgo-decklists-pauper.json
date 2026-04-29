@@ -1,13 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T22:37:35Z",
+  "generated_at": "2026-04-28T23:35:58Z",
   "command": "scrape-mtgo-decklists-pauper",
-  "status": "hard-failure",
+  "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "cached": 9,
-    "hard-failure": 1,
+    "cached": 11,
     "success": 1
   },
   "results": [
@@ -36,7 +35,7 @@
       "scope": "mtgo-event",
       "status": "cached",
       "format": "pauper",
-      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-2210636.json",
+      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-2610636.json",
       "message": "Loaded 1 decks from archive."
     },
     {
@@ -76,9 +75,17 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "hard-failure",
+      "status": "cached",
       "format": "pauper",
-      "message": "https://www.mtgo.com/decklist/pauper-league-2026-04-1810636: Could not locate deck JSON payload"
+      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-2310636.json",
+      "message": "Loaded 4 decks from archive."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "cached",
+      "format": "pauper",
+      "path": "archive/mtgo-decklists/pauper/pauper-league-2026-04-2210636.json",
+      "message": "Loaded 1 decks from archive."
     },
     {
       "scope": "mtgo-decklists",
