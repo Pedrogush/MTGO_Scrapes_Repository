@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T13:23:58Z",
+  "generated_at": "2026-04-29T14:27:14Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 13,
-    "hard-failure": 29,
+    "hard-failure": 31,
     "stale-fallback": 3,
-    "skipped": 23
+    "skipped": 21
   },
   "results": [
     {
@@ -172,6 +172,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
+      "archetype": "boros-tokens",
+      "path": "latest/radars/standard/boros-tokens.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
       "archetype": "dimir-control",
@@ -273,6 +281,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
+      "archetype": "izzet-izzet-spells",
+      "path": "latest/radars/standard/izzet-izzet-spells.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "izzet-lessons",
@@ -357,15 +373,23 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "mono-black-midrange",
+      "path": "latest/radars/standard/mono-black-midrange.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "hard-failure",
       "format": "standard",
-      "archetype": "mono-blue-control",
-      "path": "latest/radars/standard/mono-blue-control.json",
+      "archetype": "mono-blue-spellementals",
+      "path": "latest/radars/standard/mono-blue-spellementals.json",
       "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "mono-green-landfall",
       "path": "latest/radars/standard/mono-green-landfall.json",
@@ -373,19 +397,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "mono-red-aggro",
       "path": "latest/radars/standard/mono-red-aggro.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "mono-white-enchantments",
-      "path": "latest/radars/standard/mono-white-enchantments.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -393,14 +409,6 @@
       "format": "standard",
       "archetype": "mono-white-momo",
       "path": "latest/radars/standard/mono-white-momo.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "orzhov-control",
-      "path": "latest/radars/standard/orzhov-control.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -487,14 +495,6 @@
       "format": "standard",
       "archetype": "sultai-reanimator",
       "path": "latest/radars/standard/sultai-reanimator.json",
-      "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "hard-failure",
-      "format": "standard",
-      "archetype": "temur-control",
-      "path": "latest/radars/standard/temur-control.json",
       "message": "No deck texts were available for radar generation."
     },
     {
