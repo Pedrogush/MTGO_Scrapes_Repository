@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T14:27:14Z",
+  "generated_at": "2026-04-29T15:31:56Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
@@ -9,7 +9,7 @@
     "success": 13,
     "hard-failure": 31,
     "stale-fallback": 3,
-    "skipped": 21
+    "skipped": 22
   },
   "results": [
     {
@@ -80,14 +80,6 @@
       "format": "standard",
       "archetype": "5c-elementals",
       "path": "latest/radars/standard/5c-elementals.json",
-      "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "hard-failure",
-      "format": "standard",
-      "archetype": "azorius-artifacts",
-      "path": "latest/radars/standard/azorius-artifacts.json",
       "message": "No deck texts were available for radar generation."
     },
     {
@@ -367,14 +359,6 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
-      "archetype": "mono-black-control",
-      "path": "latest/radars/standard/mono-black-control.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
       "archetype": "mono-black-midrange",
       "path": "latest/radars/standard/mono-black-midrange.json",
       "message": "No published decks were available for radar generation."
@@ -405,10 +389,26 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "mono-white-enchantments",
+      "path": "latest/radars/standard/mono-white-enchantments.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "mono-white-momo",
       "path": "latest/radars/standard/mono-white-momo.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "orzhov-control",
+      "path": "latest/radars/standard/orzhov-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -495,6 +495,14 @@
       "format": "standard",
       "archetype": "sultai-reanimator",
       "path": "latest/radars/standard/sultai-reanimator.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
+      "archetype": "temur-control",
+      "path": "latest/radars/standard/temur-control.json",
       "message": "No deck texts were available for radar generation."
     },
     {
