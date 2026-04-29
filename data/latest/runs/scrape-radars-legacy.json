@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T17:25:03Z",
+  "generated_at": "2026-04-29T18:21:59Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 6,
-    "hard-failure": 39,
+    "skipped": 8,
+    "hard-failure": 37,
     "stale-fallback": 10,
     "success": 5
   },
@@ -205,6 +205,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "esper-control",
+      "path": "latest/radars/legacy/esper-control.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "hard-failure",
       "format": "legacy",
       "archetype": "esper-vial",
@@ -233,14 +241,6 @@
       "format": "legacy",
       "archetype": "grixis-tempo",
       "path": "latest/radars/legacy/grixis-tempo.json",
-      "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "hard-failure",
-      "format": "legacy",
-      "archetype": "helm-leyline-stompy",
-      "path": "latest/radars/legacy/helm-leyline-stompy.json",
       "message": "No deck texts were available for radar generation."
     },
     {
@@ -334,14 +334,6 @@
       "scope": "archetype-radar",
       "status": "hard-failure",
       "format": "legacy",
-      "archetype": "mono-white-initiative",
-      "path": "latest/radars/legacy/mono-white-initiative.json",
-      "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "hard-failure",
-      "format": "legacy",
       "archetype": "mono-white-stax",
       "path": "latest/radars/legacy/mono-white-stax.json",
       "message": "No deck texts were available for radar generation."
@@ -377,6 +369,14 @@
       "archetype": "nic-fit",
       "path": "latest/radars/legacy/nic-fit.json",
       "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "ninjas",
+      "path": "latest/radars/legacy/ninjas.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

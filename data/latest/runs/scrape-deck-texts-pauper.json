@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T16:51:44Z",
+  "generated_at": "2026-04-29T17:48:58Z",
   "command": "scrape-deck-texts-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
@@ -23,6 +23,13 @@
       "format": "pauper",
       "archetype": "4c-control",
       "path": "latest/decks/pauper/4c-control.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "pauper",
+      "archetype": "azorius-ephemerate",
+      "path": "latest/decks/pauper/azorius-ephemerate.json"
     },
     {
       "scope": "archetype-decks",
@@ -361,13 +368,6 @@
       "format": "pauper",
       "archetype": "mono-white-heroic",
       "path": "latest/decks/pauper/mono-white-heroic.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "success",
-      "format": "pauper",
-      "archetype": "naya-ephemerate",
-      "path": "latest/decks/pauper/naya-ephemerate.json"
     },
     {
       "scope": "archetype-decks",
@@ -3717,14 +3717,6 @@
       "scope": "deck-text",
       "status": "hard-failure",
       "format": "pauper",
-      "deck_id": "7757079",
-      "path": "archive/deck-texts/pauper/7757079.json",
-      "message": "Could not parse deck data for deck 7757079"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pauper",
       "deck_id": "7757080",
       "path": "archive/deck-texts/pauper/7757080.json",
       "message": "Could not parse deck data for deck 7757080"
@@ -4544,6 +4536,14 @@
       "deck_id": "7758576",
       "path": "archive/deck-texts/pauper/7758576.json",
       "message": "Could not parse deck data for deck 7758576"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "pauper",
+      "deck_id": "7758577",
+      "path": "archive/deck-texts/pauper/7758577.json",
+      "message": "Could not parse deck data for deck 7758577"
     },
     {
       "scope": "deck-text",

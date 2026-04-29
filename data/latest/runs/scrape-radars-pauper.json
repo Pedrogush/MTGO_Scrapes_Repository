@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T17:23:40Z",
+  "generated_at": "2026-04-29T18:21:44Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
@@ -18,6 +18,14 @@
       "format": "pauper",
       "archetype": "4c-control",
       "path": "latest/radars/pauper/4c-control.json",
+      "message": "No deck texts were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "pauper",
+      "archetype": "azorius-ephemerate",
+      "path": "latest/radars/pauper/azorius-ephemerate.json",
       "message": "No deck texts were available for radar generation."
     },
     {
@@ -391,14 +399,6 @@
       "format": "pauper",
       "archetype": "mono-white-heroic",
       "path": "latest/radars/pauper/mono-white-heroic.json",
-      "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "hard-failure",
-      "format": "pauper",
-      "archetype": "naya-ephemerate",
-      "path": "latest/radars/pauper/naya-ephemerate.json",
       "message": "No deck texts were available for radar generation."
     },
     {
