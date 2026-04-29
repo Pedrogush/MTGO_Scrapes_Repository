@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T15:31:53Z",
+  "generated_at": "2026-04-29T16:27:43Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 35,
-    "stale-fallback": 8,
+    "hard-failure": 37,
+    "stale-fallback": 6,
     "skipped": 13,
     "success": 5
   },
@@ -30,7 +30,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "blue-terror",
       "path": "latest/radars/pauper/blue-terror.json",
@@ -331,7 +331,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "mono-black",
       "path": "latest/radars/pauper/mono-black.json",

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T15:31:56Z",
+  "generated_at": "2026-04-29T16:28:04Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 13,
-    "hard-failure": 31,
+    "success": 14,
+    "hard-failure": 30,
     "stale-fallback": 3,
     "skipped": 22
   },
@@ -273,14 +273,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "hard-failure",
-      "format": "standard",
-      "archetype": "izzet-izzet-spells",
-      "path": "latest/radars/standard/izzet-izzet-spells.json",
-      "message": "No deck texts were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "izzet-lessons",
@@ -296,11 +288,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "hard-failure",
+      "status": "success",
       "format": "standard",
       "archetype": "izzet-prowess",
-      "path": "latest/radars/standard/izzet-prowess.json",
-      "message": "No deck texts were available for radar generation."
+      "path": "latest/radars/standard/izzet-prowess.json"
     },
     {
       "scope": "archetype-radar",
@@ -316,6 +307,14 @@
       "format": "standard",
       "archetype": "izzet-spellementals",
       "path": "latest/radars/standard/izzet-spellementals.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "hard-failure",
+      "format": "standard",
+      "archetype": "izzet-spells",
+      "path": "latest/radars/standard/izzet-spells.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
