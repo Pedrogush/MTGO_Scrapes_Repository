@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T02:25:54Z",
+  "generated_at": "2026-04-29T03:53:50Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 13,
-    "hard-failure": 27,
-    "stale-fallback": 4,
+    "hard-failure": 29,
+    "stale-fallback": 2,
     "skipped": 24
   },
   "results": [
@@ -296,7 +296,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "izzet-self-bounce",
       "path": "latest/radars/standard/izzet-self-bounce.json",
@@ -451,7 +451,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "simic-ouroboroid",
       "path": "latest/radars/standard/simic-ouroboroid.json",
