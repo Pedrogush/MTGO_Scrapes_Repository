@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-28T23:34:34Z",
+  "generated_at": "2026-04-29T01:10:48Z",
   "command": "scrape-deck-texts-vintage",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 18,
-    "skipped": 15,
+    "skipped": 12,
     "hard-failure": 227
   },
   "results": [
@@ -231,30 +231,6 @@
       "archetype": "sultai-midrange",
       "path": "latest/decks/vintage/sultai-midrange.json",
       "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "vintage",
-      "deck_id": "7746114",
-      "path": "archive/deck-texts/vintage/7746114.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "vintage",
-      "deck_id": "7746600",
-      "path": "archive/deck-texts/vintage/7746600.json",
-      "message": "Reused existing published deck-text blob."
-    },
-    {
-      "scope": "deck-text",
-      "status": "skipped",
-      "format": "vintage",
-      "deck_id": "7747007",
-      "path": "archive/deck-texts/vintage/7747007.json",
-      "message": "Reused existing published deck-text blob."
     },
     {
       "scope": "deck-text",

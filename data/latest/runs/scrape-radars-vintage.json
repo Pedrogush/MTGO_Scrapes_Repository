@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T00:04:23Z",
+  "generated_at": "2026-04-29T01:40:20Z",
   "command": "scrape-radars-vintage",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 12,
     "hard-failure": 14,
-    "success": 4
+    "stale-fallback": 4
   },
   "results": [
     {
@@ -77,10 +77,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "dimir-lurrus-control",
-      "path": "latest/radars/vintage/dimir-lurrus-control.json"
+      "path": "latest/radars/vintage/dimir-lurrus-control.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -108,10 +109,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "jewel-shops",
-      "path": "latest/radars/vintage/jewel-shops.json"
+      "path": "latest/radars/vintage/jewel-shops.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -139,10 +141,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
       "archetype": "lurrus-vault-key",
-      "path": "latest/radars/vintage/lurrus-vault-key.json"
+      "path": "latest/radars/vintage/lurrus-vault-key.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -242,9 +245,10 @@
     },
     {
       "scope": "format-card-pool",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "vintage",
-      "path": "latest/card-pools/vintage.json"
+      "path": "latest/card-pools/vintage.json",
+      "message": "No deck texts were available for format card-pool generation."
     }
   ]
 }

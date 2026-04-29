@@ -1,14 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T00:04:14Z",
+  "generated_at": "2026-04-29T01:40:19Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 5,
+    "skipped": 6,
     "hard-failure": 39,
-    "success": 16
+    "stale-fallback": 10,
+    "success": 5
   },
   "results": [
     {
@@ -45,10 +46,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "azorius-stoneblade",
-      "path": "latest/radars/legacy/azorius-stoneblade.json"
+      "path": "latest/radars/legacy/azorius-stoneblade.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -108,10 +110,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "cephalid-breakfast",
-      "path": "latest/radars/legacy/cephalid-breakfast.json"
+      "path": "latest/radars/legacy/cephalid-breakfast.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -194,10 +197,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "eldrazi",
-      "path": "latest/radars/legacy/eldrazi.json"
+      "path": "latest/radars/legacy/eldrazi.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -264,10 +268,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "jeskai-stoneblade",
-      "path": "latest/radars/legacy/jeskai-stoneblade.json"
+      "path": "latest/radars/legacy/jeskai-stoneblade.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -279,10 +284,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "lands",
-      "path": "latest/radars/legacy/lands.json"
+      "path": "latest/radars/legacy/lands.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -294,10 +300,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "loam-pox",
-      "path": "latest/radars/legacy/loam-pox.json"
+      "path": "latest/radars/legacy/loam-pox.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -309,10 +316,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "mono-black-midrange",
-      "path": "latest/radars/legacy/mono-black-midrange.json"
+      "path": "latest/radars/legacy/mono-black-midrange.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -372,10 +380,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "ocelot-pride-midrange",
-      "path": "latest/radars/legacy/ocelot-pride-midrange.json"
+      "path": "latest/radars/legacy/ocelot-pride-midrange.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -387,10 +396,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "oops-all-spells",
-      "path": "latest/radars/legacy/oops-all-spells.json"
+      "path": "latest/radars/legacy/oops-all-spells.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -402,10 +412,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "painter",
-      "path": "latest/radars/legacy/painter.json"
+      "path": "latest/radars/legacy/painter.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -439,10 +450,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "stiflenought",
-      "path": "latest/radars/legacy/stiflenought.json"
+      "path": "latest/radars/legacy/stiflenought.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

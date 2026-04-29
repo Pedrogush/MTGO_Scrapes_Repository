@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T00:04:17Z",
+  "generated_at": "2026-04-29T01:40:27Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "hard-failure": 35,
-    "stale-fallback": 2,
-    "success": 11,
-    "skipped": 13
+    "stale-fallback": 8,
+    "skipped": 13,
+    "success": 5
   },
   "results": [
     {
@@ -46,10 +46,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "boros-bully",
-      "path": "latest/radars/pauper/boros-bully.json"
+      "path": "latest/radars/pauper/boros-bully.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -84,10 +85,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "cycle-storm",
-      "path": "latest/radars/pauper/cycle-storm.json"
+      "path": "latest/radars/pauper/cycle-storm.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -107,10 +109,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "dimir-control",
-      "path": "latest/radars/pauper/dimir-control.json"
+      "path": "latest/radars/pauper/dimir-control.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -201,10 +204,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "golgari-gardens",
-      "path": "latest/radars/pauper/golgari-gardens.json"
+      "path": "latest/radars/pauper/golgari-gardens.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -367,10 +371,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "mono-red-rally",
-      "path": "latest/radars/pauper/mono-red-rally.json"
+      "path": "latest/radars/pauper/mono-red-rally.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -461,10 +466,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "turbo-fog",
-      "path": "latest/radars/pauper/turbo-fog.json"
+      "path": "latest/radars/pauper/turbo-fog.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",

@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T00:04:24Z",
+  "generated_at": "2026-04-29T01:40:15Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "hard-failure": 38,
     "skipped": 15,
-    "success": 17,
-    "stale-fallback": 1
+    "success": 5,
+    "stale-fallback": 13
   },
   "results": [
     {
@@ -77,10 +77,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "belcher",
-      "path": "latest/radars/modern/belcher.json"
+      "path": "latest/radars/modern/belcher.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -124,17 +125,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "domain-zoo",
-      "path": "latest/radars/modern/domain-zoo.json"
+      "path": "latest/radars/modern/domain-zoo.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "eldrazi-ramp",
-      "path": "latest/radars/modern/eldrazi-ramp.json"
+      "path": "latest/radars/modern/eldrazi-ramp.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -162,10 +165,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "esper-genericblink",
-      "path": "latest/radars/modern/esper-genericblink.json"
+      "path": "latest/radars/modern/esper-genericblink.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -233,10 +237,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "grixis-reanimator",
-      "path": "latest/radars/modern/grixis-reanimator.json"
+      "path": "latest/radars/modern/grixis-reanimator.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -350,10 +355,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "living-end",
-      "path": "latest/radars/modern/living-end.json"
+      "path": "latest/radars/modern/living-end.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -429,10 +435,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "neobrand",
-      "path": "latest/radars/modern/neobrand.json"
+      "path": "latest/radars/modern/neobrand.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -468,17 +475,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "ruby-storm",
-      "path": "latest/radars/modern/ruby-storm.json"
+      "path": "latest/radars/modern/ruby-storm.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "sam-combo",
-      "path": "latest/radars/modern/sam-combo.json"
+      "path": "latest/radars/modern/sam-combo.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -490,10 +499,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "sultai-midrange",
-      "path": "latest/radars/modern/sultai-midrange.json"
+      "path": "latest/radars/modern/sultai-midrange.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -505,10 +515,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "temur-prowess",
-      "path": "latest/radars/modern/temur-prowess.json"
+      "path": "latest/radars/modern/temur-prowess.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -551,10 +562,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "yawgmoth",
-      "path": "latest/radars/modern/yawgmoth.json"
+      "path": "latest/radars/modern/yawgmoth.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "format-card-pool",
