@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T16:27:43Z",
+  "generated_at": "2026-04-29T17:23:40Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "hard-failure": 37,
-    "stale-fallback": 6,
-    "skipped": 13,
-    "success": 5
+    "stale-fallback": 7,
+    "success": 5,
+    "skipped": 12
   },
   "results": [
     {
@@ -62,11 +62,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "pauper",
       "archetype": "boros-synthesizer",
       "path": "latest/radars/pauper/boros-synthesizer.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
