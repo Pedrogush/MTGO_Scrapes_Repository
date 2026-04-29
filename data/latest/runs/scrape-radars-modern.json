@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T10:28:16Z",
+  "generated_at": "2026-04-29T11:26:37Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 38,
-    "skipped": 14,
+    "hard-failure": 39,
+    "skipped": 13,
     "success": 5,
     "stale-fallback": 14
   },
@@ -411,11 +411,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "mono-green-midrange",
       "path": "latest/radars/modern/mono-green-midrange.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -547,7 +547,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "through-the-breach",
       "path": "latest/radars/modern/through-the-breach.json",

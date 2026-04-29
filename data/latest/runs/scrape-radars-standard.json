@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T10:28:24Z",
+  "generated_at": "2026-04-29T11:26:35Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 13,
     "hard-failure": 29,
-    "stale-fallback": 2,
-    "skipped": 24
+    "stale-fallback": 3,
+    "skipped": 23
   },
   "results": [
     {
@@ -507,11 +507,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "temur-kona",
       "path": "latest/radars/standard/temur-kona.json",
-      "message": "No published decks were available for radar generation."
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
