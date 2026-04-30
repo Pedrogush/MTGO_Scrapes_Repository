@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-30T09:36:07Z",
+  "generated_at": "2026-04-30T10:29:29Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 25,
-    "stale-fallback": 13,
-    "hard-failure": 31
+    "stale-fallback": 12,
+    "hard-failure": 32
   },
   "results": [
     {
@@ -525,7 +525,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "temur-kona",
       "path": "latest/radars/standard/temur-kona.json",
