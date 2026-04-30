@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-30T05:26:13Z",
+  "generated_at": "2026-04-30T07:10:28Z",
   "command": "scrape-deck-texts-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 54,
     "skipped": 7,
-    "hard-failure": 611
+    "hard-failure": 614
   },
   "results": [
     {
@@ -5331,6 +5331,30 @@
       "deck_id": "7759161",
       "path": "archive/deck-texts/modern/7759161.json",
       "message": "Could not parse deck data for deck 7759161"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7759186",
+      "path": "archive/deck-texts/modern/7759186.json",
+      "message": "Could not parse deck data for deck 7759186"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7759235",
+      "path": "archive/deck-texts/modern/7759235.json",
+      "message": "Could not parse deck data for deck 7759235"
+    },
+    {
+      "scope": "deck-text",
+      "status": "hard-failure",
+      "format": "modern",
+      "deck_id": "7759236",
+      "path": "archive/deck-texts/modern/7759236.json",
+      "message": "Could not parse deck data for deck 7759236"
     }
   ]
 }
