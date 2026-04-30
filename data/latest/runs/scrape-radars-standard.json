@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T23:08:53Z",
+  "generated_at": "2026-04-30T00:09:05Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "success": 14,
-    "hard-failure": 30,
-    "stale-fallback": 3,
-    "skipped": 22
+    "hard-failure": 31,
+    "skipped": 22,
+    "stale-fallback": 2
   },
   "results": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "standard",
       "archetype": "4c-kona",
       "path": "latest/radars/standard/4c-kona.json",

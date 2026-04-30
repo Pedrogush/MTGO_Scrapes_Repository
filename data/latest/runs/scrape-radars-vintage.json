@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T23:09:27Z",
+  "generated_at": "2026-04-30T00:09:00Z",
   "command": "scrape-radars-vintage",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 12,
-    "hard-failure": 14,
-    "stale-fallback": 4
+    "hard-failure": 18
   },
   "results": [
     {
@@ -77,7 +76,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "dimir-lurrus-control",
       "path": "latest/radars/vintage/dimir-lurrus-control.json",
@@ -109,7 +108,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "jewel-shops",
       "path": "latest/radars/vintage/jewel-shops.json",
@@ -141,7 +140,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "archetype": "lurrus-vault-key",
       "path": "latest/radars/vintage/lurrus-vault-key.json",
@@ -245,7 +244,7 @@
     },
     {
       "scope": "format-card-pool",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "vintage",
       "path": "latest/card-pools/vintage.json",
       "message": "No deck texts were available for format card-pool generation."

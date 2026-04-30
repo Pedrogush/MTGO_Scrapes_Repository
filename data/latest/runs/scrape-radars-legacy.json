@@ -1,14 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T23:08:47Z",
+  "generated_at": "2026-04-30T00:09:00Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 8,
-    "hard-failure": 37,
-    "stale-fallback": 10,
+    "hard-failure": 47,
     "success": 5
   },
   "results": [
@@ -46,7 +45,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "azorius-stoneblade",
       "path": "latest/radars/legacy/azorius-stoneblade.json",
@@ -197,7 +196,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "eldrazi",
       "path": "latest/radars/legacy/eldrazi.json",
@@ -268,7 +267,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "jeskai-stoneblade",
       "path": "latest/radars/legacy/jeskai-stoneblade.json",
@@ -284,7 +283,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "lands",
       "path": "latest/radars/legacy/lands.json",
@@ -300,7 +299,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "loam-pox",
       "path": "latest/radars/legacy/loam-pox.json",
@@ -316,7 +315,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "mono-black-midrange",
       "path": "latest/radars/legacy/mono-black-midrange.json",
@@ -380,7 +379,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "ocelot-pride-midrange",
       "path": "latest/radars/legacy/ocelot-pride-midrange.json",
@@ -396,7 +395,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "oops-all-spells",
       "path": "latest/radars/legacy/oops-all-spells.json",
@@ -412,7 +411,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "painter",
       "path": "latest/radars/legacy/painter.json",
@@ -450,7 +449,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "legacy",
       "archetype": "stiflenought",
       "path": "latest/radars/legacy/stiflenought.json",

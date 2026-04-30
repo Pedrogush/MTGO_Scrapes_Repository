@@ -1,15 +1,15 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T23:08:57Z",
+  "generated_at": "2026-04-30T00:09:07Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 40,
+    "hard-failure": 52,
     "skipped": 12,
     "success": 4,
-    "stale-fallback": 15
+    "stale-fallback": 3
   },
   "results": [
     {
@@ -69,7 +69,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "belcher",
       "path": "latest/radars/modern/belcher.json",
@@ -117,7 +117,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "domain-zoo",
       "path": "latest/radars/modern/domain-zoo.json",
@@ -125,7 +125,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "eldrazi-ramp",
       "path": "latest/radars/modern/eldrazi-ramp.json",
@@ -157,7 +157,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "esper-genericblink",
       "path": "latest/radars/modern/esper-genericblink.json",
@@ -229,7 +229,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "grixis-reanimator",
       "path": "latest/radars/modern/grixis-reanimator.json",
@@ -355,7 +355,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "living-end",
       "path": "latest/radars/modern/living-end.json",
@@ -435,7 +435,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "neobrand",
       "path": "latest/radars/modern/neobrand.json",
@@ -475,7 +475,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "ruby-storm",
       "path": "latest/radars/modern/ruby-storm.json",
@@ -483,7 +483,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "sam-combo",
       "path": "latest/radars/modern/sam-combo.json",
@@ -499,7 +499,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "sultai-midrange",
       "path": "latest/radars/modern/sultai-midrange.json",
@@ -515,7 +515,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "temur-prowess",
       "path": "latest/radars/modern/temur-prowess.json",
@@ -563,7 +563,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "modern",
       "archetype": "yawgmoth",
       "path": "latest/radars/modern/yawgmoth.json",

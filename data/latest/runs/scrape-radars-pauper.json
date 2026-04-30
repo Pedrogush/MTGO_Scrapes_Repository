@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T23:09:03Z",
+  "generated_at": "2026-04-30T00:09:02Z",
   "command": "scrape-radars-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 37,
-    "stale-fallback": 7,
+    "hard-failure": 43,
+    "stale-fallback": 1,
     "success": 5,
     "skipped": 12
   },
@@ -54,7 +54,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "boros-bully",
       "path": "latest/radars/pauper/boros-bully.json",
@@ -93,7 +93,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "cycle-storm",
       "path": "latest/radars/pauper/cycle-storm.json",
@@ -117,7 +117,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "dimir-control",
       "path": "latest/radars/pauper/dimir-control.json",
@@ -212,7 +212,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "golgari-gardens",
       "path": "latest/radars/pauper/golgari-gardens.json",
@@ -379,7 +379,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "mono-red-rally",
       "path": "latest/radars/pauper/mono-red-rally.json",
@@ -466,7 +466,7 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "stale-fallback",
+      "status": "hard-failure",
       "format": "pauper",
       "archetype": "turbo-fog",
       "path": "latest/radars/pauper/turbo-fog.json",
