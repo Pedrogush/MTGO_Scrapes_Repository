@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-30T11:51:06Z",
+  "generated_at": "2026-04-30T12:51:17Z",
   "command": "scrape-deck-texts-pauper",
   "status": "hard-failure",
   "max_stale_hours": 24,
@@ -1223,7 +1223,7 @@
       "format": "pauper",
       "deck_id": "7750831",
       "path": "archive/deck-texts/pauper/7750831.json",
-      "message": "Could not parse deck data for deck 7750831"
+      "message": "Failed to perform, curl: (7) Failed to connect to www.mtggoldfish.com port 443 after 2001 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
     },
     {
       "scope": "deck-text",
