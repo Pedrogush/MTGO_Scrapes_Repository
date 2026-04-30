@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-29T23:34:52Z",
+  "generated_at": "2026-04-30T01:10:18Z",
   "command": "scrape-deck-texts-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 26,
-    "skipped": 24,
-    "hard-failure": 241
+    "success": 24,
+    "skipped": 26,
+    "hard-failure": 224
   },
   "results": [
     {
@@ -164,10 +164,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "gruul-prowess",
-      "path": "latest/decks/pioneer/gruul-prowess.json"
+      "path": "latest/decks/pioneer/gruul-prowess.json",
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -304,10 +305,11 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "success",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "rakdos-midrange",
-      "path": "latest/decks/pioneer/rakdos-midrange.json"
+      "path": "latest/decks/pioneer/rakdos-midrange.json",
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -383,142 +385,6 @@
       "format": "pioneer",
       "archetype": "sultai-scapeshift",
       "path": "latest/decks/pioneer/sultai-scapeshift.json"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748642",
-      "path": "archive/deck-texts/pioneer/7748642.json",
-      "message": "Could not parse deck data for deck 7748642"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748644",
-      "path": "archive/deck-texts/pioneer/7748644.json",
-      "message": "Could not parse deck data for deck 7748644"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748647",
-      "path": "archive/deck-texts/pioneer/7748647.json",
-      "message": "Could not parse deck data for deck 7748647"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748648",
-      "path": "archive/deck-texts/pioneer/7748648.json",
-      "message": "Could not parse deck data for deck 7748648"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748652",
-      "path": "archive/deck-texts/pioneer/7748652.json",
-      "message": "Could not parse deck data for deck 7748652"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748653",
-      "path": "archive/deck-texts/pioneer/7748653.json",
-      "message": "Could not parse deck data for deck 7748653"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748654",
-      "path": "archive/deck-texts/pioneer/7748654.json",
-      "message": "Could not parse deck data for deck 7748654"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748655",
-      "path": "archive/deck-texts/pioneer/7748655.json",
-      "message": "Could not parse deck data for deck 7748655"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748658",
-      "path": "archive/deck-texts/pioneer/7748658.json",
-      "message": "Could not parse deck data for deck 7748658"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748660",
-      "path": "archive/deck-texts/pioneer/7748660.json",
-      "message": "Could not parse deck data for deck 7748660"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748661",
-      "path": "archive/deck-texts/pioneer/7748661.json",
-      "message": "Could not parse deck data for deck 7748661"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748663",
-      "path": "archive/deck-texts/pioneer/7748663.json",
-      "message": "Could not parse deck data for deck 7748663"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748664",
-      "path": "archive/deck-texts/pioneer/7748664.json",
-      "message": "Could not parse deck data for deck 7748664"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748667",
-      "path": "archive/deck-texts/pioneer/7748667.json",
-      "message": "Could not parse deck data for deck 7748667"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748669",
-      "path": "archive/deck-texts/pioneer/7748669.json",
-      "message": "Could not parse deck data for deck 7748669"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748671",
-      "path": "archive/deck-texts/pioneer/7748671.json",
-      "message": "Could not parse deck data for deck 7748671"
-    },
-    {
-      "scope": "deck-text",
-      "status": "hard-failure",
-      "format": "pioneer",
-      "deck_id": "7748673",
-      "path": "archive/deck-texts/pioneer/7748673.json",
-      "message": "Could not parse deck data for deck 7748673"
     },
     {
       "scope": "deck-text",

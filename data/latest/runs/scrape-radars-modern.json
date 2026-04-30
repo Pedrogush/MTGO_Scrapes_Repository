@@ -1,15 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-30T00:09:07Z",
+  "generated_at": "2026-04-30T01:43:03Z",
   "command": "scrape-radars-modern",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "hard-failure": 52,
     "skipped": 12,
-    "success": 4,
-    "stale-fallback": 3
+    "stale-fallback": 7
   },
   "results": [
     {
@@ -38,10 +37,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "amulet-titan",
-      "path": "latest/radars/modern/amulet-titan.json"
+      "path": "latest/radars/modern/amulet-titan.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -285,17 +285,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "izzet-prowess",
-      "path": "latest/radars/modern/izzet-prowess.json"
+      "path": "latest/radars/modern/izzet-prowess.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
       "archetype": "izzet-steel-cutter",
-      "path": "latest/radars/modern/izzet-steel-cutter.json"
+      "path": "latest/radars/modern/izzet-steel-cutter.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -571,9 +573,10 @@
     },
     {
       "scope": "format-card-pool",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "modern",
-      "path": "latest/card-pools/modern.json"
+      "path": "latest/card-pools/modern.json",
+      "message": "No deck texts were available for format card-pool generation."
     }
   ]
 }

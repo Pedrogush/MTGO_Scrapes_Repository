@@ -1,14 +1,14 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-30T00:09:00Z",
+  "generated_at": "2026-04-30T01:42:49Z",
   "command": "scrape-radars-legacy",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 8,
     "hard-failure": 47,
-    "success": 5
+    "stale-fallback": 5
   },
   "results": [
     {
@@ -189,10 +189,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "doomsday",
-      "path": "latest/radars/legacy/doomsday.json"
+      "path": "latest/radars/legacy/doomsday.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -252,10 +253,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "izzet-delver",
-      "path": "latest/radars/legacy/izzet-delver.json"
+      "path": "latest/radars/legacy/izzet-delver.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -419,10 +421,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "red-stompy",
-      "path": "latest/radars/legacy/red-stompy.json"
+      "path": "latest/radars/legacy/red-stompy.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -442,10 +445,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
       "archetype": "sneak-and-show",
-      "path": "latest/radars/legacy/sneak-and-show.json"
+      "path": "latest/radars/legacy/sneak-and-show.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -481,9 +485,10 @@
     },
     {
       "scope": "format-card-pool",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "legacy",
-      "path": "latest/card-pools/legacy.json"
+      "path": "latest/card-pools/legacy.json",
+      "message": "No deck texts were available for format card-pool generation."
     }
   ]
 }

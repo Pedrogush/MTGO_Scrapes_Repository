@@ -1,30 +1,31 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-30T00:09:05Z",
+  "generated_at": "2026-04-30T01:42:39Z",
   "command": "scrape-radars-standard",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "success": 14,
-    "hard-failure": 31,
-    "skipped": 22,
-    "stale-fallback": 2
+    "skipped": 25,
+    "stale-fallback": 13,
+    "hard-failure": 31
   },
   "results": [
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "4c-artifacts",
-      "path": "latest/radars/standard/4c-artifacts.json"
+      "path": "latest/radars/standard/4c-artifacts.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "4c-control",
-      "path": "latest/radars/standard/4c-control.json"
+      "path": "latest/radars/standard/4c-control.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -180,17 +181,19 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "dimir-excruciator",
-      "path": "latest/radars/standard/dimir-excruciator.json"
+      "path": "latest/radars/standard/dimir-excruciator.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "dimir-midrange",
-      "path": "latest/radars/standard/dimir-midrange.json"
+      "path": "latest/radars/standard/dimir-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -226,10 +229,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "golgari-midrange",
-      "path": "latest/radars/standard/golgari-midrange.json"
+      "path": "latest/radars/standard/golgari-midrange.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -273,10 +277,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "izzet-lessons",
-      "path": "latest/radars/standard/izzet-lessons.json"
+      "path": "latest/radars/standard/izzet-lessons.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -288,10 +293,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "izzet-prowess",
-      "path": "latest/radars/standard/izzet-prowess.json"
+      "path": "latest/radars/standard/izzet-prowess.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -303,10 +309,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "izzet-spellementals",
-      "path": "latest/radars/standard/izzet-spellementals.json"
+      "path": "latest/radars/standard/izzet-spellementals.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -318,10 +325,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "jeskai-control",
-      "path": "latest/radars/standard/jeskai-control.json"
+      "path": "latest/radars/standard/jeskai-control.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -333,10 +341,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "jeskai-lessons",
-      "path": "latest/radars/standard/jeskai-lessons.json"
+      "path": "latest/radars/standard/jeskai-lessons.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -396,10 +405,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "mono-white-momo",
-      "path": "latest/radars/standard/mono-white-momo.json"
+      "path": "latest/radars/standard/mono-white-momo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -427,10 +437,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "rakdos-monument",
-      "path": "latest/radars/standard/rakdos-monument.json"
+      "path": "latest/radars/standard/rakdos-monument.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -538,16 +549,18 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
       "archetype": "temur-prowess",
-      "path": "latest/radars/standard/temur-prowess.json"
+      "path": "latest/radars/standard/temur-prowess.json",
+      "message": "No deck texts were available for radar generation."
     },
     {
       "scope": "format-card-pool",
-      "status": "success",
+      "status": "stale-fallback",
       "format": "standard",
-      "path": "latest/card-pools/standard.json"
+      "path": "latest/card-pools/standard.json",
+      "message": "No deck texts were available for format card-pool generation."
     }
   ]
 }

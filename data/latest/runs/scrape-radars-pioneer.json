@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-04-30T00:09:01Z",
+  "generated_at": "2026-04-30T01:42:43Z",
   "command": "scrape-radars-pioneer",
   "status": "hard-failure",
   "max_stale_hours": 24,
   "summary": {
-    "hard-failure": 26,
-    "skipped": 25
+    "hard-failure": 24,
+    "skipped": 27
   },
   "results": [
     {
@@ -172,11 +172,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "gruul-prowess",
       "path": "latest/radars/pioneer/gruul-prowess.json",
-      "message": "No deck texts were available for radar generation."
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -324,11 +324,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "hard-failure",
+      "status": "skipped",
       "format": "pioneer",
       "archetype": "rakdos-midrange",
       "path": "latest/radars/pioneer/rakdos-midrange.json",
-      "message": "No deck texts were available for radar generation."
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
