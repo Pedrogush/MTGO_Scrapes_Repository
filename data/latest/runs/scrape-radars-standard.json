@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-07T12:47:16Z",
+  "generated_at": "2026-09-07T21:44:26Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 52,
+    "success": 54,
     "skipped": 33
   },
   "results": [
@@ -99,14 +99,6 @@
       "format": "standard",
       "archetype": "azorius-tempo",
       "path": "latest/radars/standard/azorius-tempo.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "bant-aggro",
-      "path": "latest/radars/standard/bant-aggro.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -204,6 +196,13 @@
       "archetype": "esper-self-bounce",
       "path": "latest/radars/standard/esper-self-bounce.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "golgari-elves",
+      "path": "latest/radars/standard/golgari-elves.json"
     },
     {
       "scope": "archetype-radar",
@@ -421,6 +420,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "naya-landfall",
+      "path": "latest/radars/standard/naya-landfall.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "orzhov-aggro",
@@ -461,6 +468,13 @@
       "format": "standard",
       "archetype": "selesnya-landfall",
       "path": "latest/radars/standard/selesnya-landfall.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "selesnya-rabbits",
+      "path": "latest/radars/standard/selesnya-rabbits.json"
     },
     {
       "scope": "archetype-radar",

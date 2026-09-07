@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-07T12:47:14Z",
+  "generated_at": "2026-09-07T21:44:10Z",
   "command": "scrape-radars-vintage",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 20,
-    "skipped": 9
+    "skipped": 8
   },
   "results": [
     {
@@ -149,14 +149,6 @@
       "format": "vintage",
       "archetype": "raker-shops",
       "path": "latest/radars/vintage/raker-shops.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "vintage",
-      "archetype": "red-prison",
-      "path": "latest/radars/vintage/red-prison.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
