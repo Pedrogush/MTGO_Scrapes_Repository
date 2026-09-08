@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T11:26:41Z",
+  "generated_at": "2026-09-08T16:48:47Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "success": 60,
-    "skipped": 31
+    "skipped": 30
   },
   "results": [
     {
@@ -178,14 +178,6 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "legacy",
-      "archetype": "esper-tempo",
-      "path": "latest/radars/legacy/esper-tempo.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
       "archetype": "grixis-control",
       "path": "latest/radars/legacy/grixis-control.json",
       "message": "No published decks were available for radar generation."
@@ -301,24 +293,16 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "legacy",
+      "archetype": "mono-black-midrange",
+      "path": "latest/radars/legacy/mono-black-midrange.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
       "archetype": "mono-black-pox",
       "path": "latest/radars/legacy/mono-black-pox.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "mono-black-stompy",
-      "path": "latest/radars/legacy/mono-black-stompy.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "legacy",
-      "archetype": "mono-white-initiative",
-      "path": "latest/radars/legacy/mono-white-initiative.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -341,6 +325,14 @@
       "format": "legacy",
       "archetype": "necrodominance-combo",
       "path": "latest/radars/legacy/necrodominance-combo.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "nic-fit",
+      "path": "latest/radars/legacy/nic-fit.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -445,6 +437,13 @@
       "archetype": "temur-delver",
       "path": "latest/radars/legacy/temur-delver.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "the-epic-gamble",
+      "path": "latest/radars/legacy/the-epic-gamble.json"
     },
     {
       "scope": "archetype-radar",
@@ -656,13 +655,6 @@
       "format": "legacy",
       "archetype": "tes",
       "path": "latest/radars/legacy/tes.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "the-epic-gamble",
-      "path": "latest/radars/legacy/the-epic-gamble.json"
     },
     {
       "scope": "archetype-radar",
