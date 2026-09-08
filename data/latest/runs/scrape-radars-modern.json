@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-07T21:44:28Z",
+  "generated_at": "2026-09-08T04:47:48Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 93,
+    "success": 91,
     "skipped": 21
   },
   "results": [
@@ -574,13 +574,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
-      "archetype": "bant-midrange",
-      "path": "latest/radars/modern/bant-midrange.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
       "archetype": "boros-aggro",
       "path": "latest/radars/modern/boros-aggro.json"
     },
@@ -800,13 +793,6 @@
       "format": "modern",
       "archetype": "soultrader-combo",
       "path": "latest/radars/modern/soultrader-combo.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
-      "archetype": "temur-cutter",
-      "path": "latest/radars/modern/temur-cutter.json"
     },
     {
       "scope": "archetype-radar",

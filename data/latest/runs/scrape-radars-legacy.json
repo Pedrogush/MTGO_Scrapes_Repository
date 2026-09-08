@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-07T21:44:31Z",
+  "generated_at": "2026-09-08T04:49:13Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 65,
-    "skipped": 30
+    "success": 60,
+    "skipped": 31
   },
   "results": [
     {
@@ -283,10 +283,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "maverick",
-      "path": "latest/radars/legacy/maverick.json"
+      "path": "latest/radars/legacy/maverick.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -485,13 +486,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "depths",
-      "path": "latest/radars/legacy/depths.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
       "archetype": "dimir-midrange",
       "path": "latest/radars/legacy/dimir-midrange.json"
     },
@@ -590,13 +584,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "mono-red-prison",
-      "path": "latest/radars/legacy/mono-red-prison.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
       "archetype": "mono-white-human",
       "path": "latest/radars/legacy/mono-white-human.json"
     },
@@ -618,22 +605,8 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "post",
-      "path": "latest/radars/legacy/post.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
       "archetype": "rakdos-stompy",
       "path": "latest/radars/legacy/rakdos-stompy.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "rea-show",
-      "path": "latest/radars/legacy/rea-show.json"
     },
     {
       "scope": "archetype-radar",
