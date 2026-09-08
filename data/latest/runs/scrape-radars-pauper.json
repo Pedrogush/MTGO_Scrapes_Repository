@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T04:47:44Z",
+  "generated_at": "2026-09-08T11:27:39Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 14,
-    "success": 61
+    "success": 62
   },
   "results": [
     {
@@ -499,6 +499,13 @@
       "format": "pauper",
       "archetype": "jund-ramp",
       "path": "latest/radars/pauper/jund-ramp.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pauper",
+      "archetype": "mardu-midrange",
+      "path": "latest/radars/pauper/mardu-midrange.json"
     },
     {
       "scope": "archetype-radar",

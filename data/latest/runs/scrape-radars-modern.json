@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T04:47:48Z",
+  "generated_at": "2026-09-08T11:26:29Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 91,
+    "success": 93,
     "skipped": 21
   },
   "results": [
@@ -630,6 +630,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
+      "archetype": "dimir-shadow",
+      "path": "latest/radars/modern/dimir-shadow.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
       "archetype": "elementals",
       "path": "latest/radars/modern/elementals.json"
     },
@@ -758,6 +765,13 @@
       "format": "modern",
       "archetype": "prowess",
       "path": "latest/radars/modern/prowess.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "rakdos-graveyard",
+      "path": "latest/radars/modern/rakdos-graveyard.json"
     },
     {
       "scope": "archetype-radar",

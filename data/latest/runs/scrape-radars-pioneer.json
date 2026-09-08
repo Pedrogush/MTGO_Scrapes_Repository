@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T04:48:04Z",
+  "generated_at": "2026-09-08T11:26:36Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 37,
-    "success": 28
+    "skipped": 36,
+    "success": 30
   },
   "results": [
     {
@@ -74,11 +74,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pioneer",
       "archetype": "boros-convoke",
-      "path": "latest/radars/pioneer/boros-convoke.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pioneer/boros-convoke.json"
     },
     {
       "scope": "archetype-radar",
@@ -466,6 +465,13 @@
       "format": "pioneer",
       "archetype": "mono-white-hammer-time",
       "path": "latest/radars/pioneer/mono-white-hammer-time.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "rakdos-sacrifice",
+      "path": "latest/radars/pioneer/rakdos-sacrifice.json"
     },
     {
       "scope": "archetype-radar",
