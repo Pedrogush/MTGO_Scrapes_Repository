@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T16:45:08Z",
+  "generated_at": "2026-09-08T21:13:34Z",
   "command": "scrape-mtgo-decklists-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 3,
+    "success": 4,
     "cached": 11
   },
   "results": [
@@ -14,8 +14,15 @@
       "scope": "mtgo-event",
       "status": "success",
       "format": "legacy",
+      "path": "archive/mtgo-decklists/legacy/12853718.json",
+      "message": "Cached 32/32 decks."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "success",
+      "format": "legacy",
       "path": "archive/mtgo-decklists/legacy/n2108556387.json",
-      "message": "Cached 6/6 decks."
+      "message": "Cached 11/11 decks."
     },
     {
       "scope": "mtgo-event",

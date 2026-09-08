@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T16:48:48Z",
+  "generated_at": "2026-09-08T21:42:45Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "skipped": 36,
+    "skipped": 35,
     "success": 30
   },
   "results": [
@@ -305,13 +305,6 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
-      "format": "pioneer",
-      "archetype": "orzhov-greasefang",
-      "path": "latest/radars/pioneer/orzhov-greasefang.json"
-    },
-    {
-      "scope": "archetype-radar",
       "status": "skipped",
       "format": "pioneer",
       "archetype": "quintorius-combo",
@@ -346,6 +339,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "pioneer",
+      "archetype": "rakdos-sacrifice",
+      "path": "latest/radars/pioneer/rakdos-sacrifice.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
       "archetype": "selesnya-angels",
       "path": "latest/radars/pioneer/selesnya-angels.json"
     },
@@ -355,14 +355,6 @@
       "format": "pioneer",
       "archetype": "selesnya-company",
       "path": "latest/radars/pioneer/selesnya-company.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "pioneer",
-      "archetype": "selesnya-counters",
-      "path": "latest/radars/pioneer/selesnya-counters.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -470,8 +462,8 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "pioneer",
-      "archetype": "rakdos-sacrifice",
-      "path": "latest/radars/pioneer/rakdos-sacrifice.json"
+      "archetype": "orzhov-greasefang",
+      "path": "latest/radars/pioneer/orzhov-greasefang.json"
     },
     {
       "scope": "archetype-radar",

@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T16:48:45Z",
+  "generated_at": "2026-09-08T21:42:49Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 53,
-    "skipped": 33
+    "success": 54,
+    "skipped": 31
   },
   "results": [
     {
@@ -102,6 +102,14 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "bant-aggro",
+      "path": "latest/radars/standard/bant-aggro.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "bant-airbending-combo",
@@ -119,6 +127,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
+      "archetype": "boros-aggro",
+      "path": "latest/radars/standard/boros-aggro.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
       "archetype": "boros-dragons",
       "path": "latest/radars/standard/boros-dragons.json"
     },
@@ -128,14 +143,6 @@
       "format": "standard",
       "archetype": "boros-dwarves",
       "path": "latest/radars/standard/boros-dwarves.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "boros-mice",
-      "path": "latest/radars/standard/boros-mice.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -353,26 +360,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "mardu-manufacturing",
-      "path": "latest/radars/standard/mardu-manufacturing.json",
-      "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
       "status": "success",
       "format": "standard",
       "archetype": "mono-black-aggro",
       "path": "latest/radars/standard/mono-black-aggro.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "mono-black-midrange",
-      "path": "latest/radars/standard/mono-black-midrange.json",
-      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -478,6 +469,13 @@
     },
     {
       "scope": "archetype-radar",
+      "status": "success",
+      "format": "standard",
+      "archetype": "simic-landfall",
+      "path": "latest/radars/standard/simic-landfall.json"
+    },
+    {
+      "scope": "archetype-radar",
       "status": "skipped",
       "format": "standard",
       "archetype": "simic-ouroboroid",
@@ -560,13 +558,6 @@
       "archetype": "temur-stormsplitter",
       "path": "latest/radars/standard/temur-stormsplitter.json",
       "message": "No published decks were available for radar generation."
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "standard",
-      "archetype": "boros-aggro",
-      "path": "latest/radars/standard/boros-aggro.json"
     },
     {
       "scope": "archetype-radar",

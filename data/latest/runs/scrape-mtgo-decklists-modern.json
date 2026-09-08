@@ -1,28 +1,28 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T16:45:13Z",
+  "generated_at": "2026-09-08T21:13:36Z",
   "command": "scrape-mtgo-decklists-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 4,
-    "cached": 19
+    "cached": 20,
+    "success": 3
   },
   "results": [
     {
       "scope": "mtgo-event",
-      "status": "success",
+      "status": "cached",
       "format": "modern",
       "path": "archive/mtgo-decklists/modern/12853784.json",
-      "message": "Cached 31/31 decks."
+      "message": "Loaded 31 decks from archive."
     },
     {
       "scope": "mtgo-event",
       "status": "success",
       "format": "modern",
       "path": "archive/mtgo-decklists/modern/n675100847.json",
-      "message": "Cached 39/39 decks."
+      "message": "Cached 56/56 decks."
     },
     {
       "scope": "mtgo-event",

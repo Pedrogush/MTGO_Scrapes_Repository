@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T16:46:58Z",
+  "generated_at": "2026-09-08T21:13:35Z",
   "command": "scrape-deck-texts-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 37,
+    "success": 39,
     "skipped": 194
   },
   "results": [
@@ -37,6 +37,14 @@
       "archetype": "4c-legends",
       "path": "latest/decks/standard/4c-legends.json",
       "message": "All MTGGoldfish rows were MTGO events; published via mtgo-decklists."
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "4c-omniscience",
+      "path": "latest/decks/standard/4c-omniscience.json",
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -84,10 +92,26 @@
     },
     {
       "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "bant-aggro",
+      "path": "latest/decks/standard/bant-aggro.json",
+      "message": "No decks found within the last 7 days."
+    },
+    {
+      "scope": "archetype-decks",
       "status": "success",
       "format": "standard",
       "archetype": "bant-airbending-combo",
       "path": "latest/decks/standard/bant-airbending-combo.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "skipped",
+      "format": "standard",
+      "archetype": "boros-aggro",
+      "path": "latest/decks/standard/boros-aggro.json",
+      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -102,14 +126,6 @@
       "format": "standard",
       "archetype": "boros-dwarves",
       "path": "latest/decks/standard/boros-dwarves.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "boros-mice",
-      "path": "latest/decks/standard/boros-mice.json",
-      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -274,26 +290,10 @@
     },
     {
       "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "mardu-manufacturing",
-      "path": "latest/decks/standard/mardu-manufacturing.json",
-      "message": "No decks found within the last 7 days."
-    },
-    {
-      "scope": "archetype-decks",
       "status": "success",
       "format": "standard",
       "archetype": "mono-black-aggro",
       "path": "latest/decks/standard/mono-black-aggro.json"
-    },
-    {
-      "scope": "archetype-decks",
-      "status": "skipped",
-      "format": "standard",
-      "archetype": "mono-black-midrange",
-      "path": "latest/decks/standard/mono-black-midrange.json",
-      "message": "No decks found within the last 7 days."
     },
     {
       "scope": "archetype-decks",
@@ -396,6 +396,13 @@
       "format": "standard",
       "archetype": "selesnya-rabbits",
       "path": "latest/decks/standard/selesnya-rabbits.json"
+    },
+    {
+      "scope": "archetype-decks",
+      "status": "success",
+      "format": "standard",
+      "archetype": "simic-landfall",
+      "path": "latest/decks/standard/simic-landfall.json"
     },
     {
       "scope": "archetype-decks",
@@ -1795,6 +1802,13 @@
       "deck_id": "7944005",
       "path": "archive/deck-texts/standard/7944005.json",
       "message": "Reused existing published deck-text blob."
+    },
+    {
+      "scope": "deck-text",
+      "status": "success",
+      "format": "standard",
+      "deck_id": "7944006",
+      "path": "archive/deck-texts/standard/7944006.json"
     },
     {
       "scope": "deck-text",
