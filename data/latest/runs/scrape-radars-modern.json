@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-09T04:50:39Z",
+  "generated_at": "2026-09-09T11:34:27Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 101,
+    "success": 103,
     "skipped": 10
   },
   "results": [
@@ -556,6 +556,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
+      "archetype": "bant-blink",
+      "path": "latest/radars/modern/bant-blink.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
       "archetype": "boros-aggro",
       "path": "latest/radars/modern/boros-aggro.json"
     },
@@ -621,6 +628,13 @@
       "format": "modern",
       "archetype": "elementals",
       "path": "latest/radars/modern/elementals.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "esper-control",
+      "path": "latest/radars/modern/esper-control.json"
     },
     {
       "scope": "archetype-radar",

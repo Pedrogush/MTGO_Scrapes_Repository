@@ -1,15 +1,22 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-09T04:48:16Z",
+  "generated_at": "2026-09-09T11:29:00Z",
   "command": "scrape-mtgo-decklists-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 2,
+    "success": 3,
     "cached": 10
   },
   "results": [
+    {
+      "scope": "mtgo-event",
+      "status": "success",
+      "format": "pioneer",
+      "path": "archive/mtgo-decklists/pioneer/n346760584.json",
+      "message": "Cached 4/4 decks."
+    },
     {
       "scope": "mtgo-event",
       "status": "success",

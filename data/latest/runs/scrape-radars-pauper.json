@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-09T04:51:57Z",
+  "generated_at": "2026-09-09T11:34:42Z",
   "command": "scrape-radars-pauper",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 52,
-    "skipped": 23
+    "success": 53,
+    "skipped": 22
   },
   "results": [
     {
@@ -351,11 +351,10 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "skipped",
+      "status": "success",
       "format": "pauper",
       "archetype": "mono-white-heroic",
-      "path": "latest/radars/pauper/mono-white-heroic.json",
-      "message": "No published decks were available for radar generation."
+      "path": "latest/radars/pauper/mono-white-heroic.json"
     },
     {
       "scope": "archetype-radar",
