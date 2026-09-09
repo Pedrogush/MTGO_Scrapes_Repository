@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-09T16:50:28Z",
+  "generated_at": "2026-09-09T21:03:58Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 105,
+    "success": 106,
     "skipped": 9
   },
   "results": [
@@ -676,6 +676,13 @@
       "format": "modern",
       "archetype": "grixis-saga",
       "path": "latest/radars/modern/grixis-saga.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "grixis-wizards",
+      "path": "latest/radars/modern/grixis-wizards.json"
     },
     {
       "scope": "archetype-radar",
