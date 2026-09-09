@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T21:42:49Z",
+  "generated_at": "2026-09-09T04:50:52Z",
   "command": "scrape-radars-standard",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 54,
-    "skipped": 31
+    "success": 51,
+    "skipped": 34
   },
   "results": [
     {
@@ -381,10 +381,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "mono-red-dragons",
-      "path": "latest/radars/standard/mono-red-dragons.json"
+      "path": "latest/radars/standard/mono-red-dragons.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -441,10 +442,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "rakdos-midrange",
-      "path": "latest/radars/standard/rakdos-midrange.json"
+      "path": "latest/radars/standard/rakdos-midrange.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -484,10 +486,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "standard",
       "archetype": "sultai-control",
-      "path": "latest/radars/standard/sultai-control.json"
+      "path": "latest/radars/standard/sultai-control.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T21:42:36Z",
+  "generated_at": "2026-09-09T04:50:54Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
@@ -578,6 +578,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "mono-white-initiative",
+      "path": "latest/radars/legacy/mono-white-initiative.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "naya-stompy",
       "path": "latest/radars/legacy/naya-stompy.json"
     },
@@ -587,13 +594,6 @@
       "format": "legacy",
       "archetype": "orzhov-hogaak",
       "path": "latest/radars/legacy/orzhov-hogaak.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "rakdos-stompy",
-      "path": "latest/radars/legacy/rakdos-stompy.json"
     },
     {
       "scope": "archetype-radar",

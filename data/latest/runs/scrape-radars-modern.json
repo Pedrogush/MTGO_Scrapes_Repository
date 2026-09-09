@@ -1,12 +1,12 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-08T21:43:04Z",
+  "generated_at": "2026-09-09T04:50:39Z",
   "command": "scrape-radars-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 103,
+    "success": 101,
     "skipped": 10
   },
   "results": [
@@ -710,20 +710,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
-      "archetype": "mono-red-aggro",
-      "path": "latest/radars/modern/mono-red-aggro.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
-      "archetype": "mono-white-scam",
-      "path": "latest/radars/modern/mono-white-scam.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
       "archetype": "necrodominance",
       "path": "latest/radars/modern/necrodominance.json"
     },
@@ -759,13 +745,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "modern",
-      "archetype": "rakdos-scam",
-      "path": "latest/radars/modern/rakdos-scam.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "modern",
       "archetype": "ramp-eldrazi",
       "path": "latest/radars/modern/ramp-eldrazi.json"
     },
@@ -796,6 +775,13 @@
       "format": "modern",
       "archetype": "wbrg-energy",
       "path": "latest/radars/modern/wbrg-energy.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "modern",
+      "archetype": "wurg-creativity",
+      "path": "latest/radars/modern/wurg-creativity.json"
     },
     {
       "scope": "archetype-radar",
