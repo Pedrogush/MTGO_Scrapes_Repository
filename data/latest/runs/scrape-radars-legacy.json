@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-09T11:35:01Z",
+  "generated_at": "2026-09-09T16:51:48Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 64,
-    "skipped": 25
+    "success": 66,
+    "skipped": 27
   },
   "results": [
     {
@@ -89,6 +89,14 @@
       "format": "legacy",
       "archetype": "boros-energy",
       "path": "latest/radars/legacy/boros-energy.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
+      "archetype": "boros-initiative",
+      "path": "latest/radars/legacy/boros-initiative.json",
       "message": "No published decks were available for radar generation."
     },
     {
@@ -297,6 +305,14 @@
       "scope": "archetype-radar",
       "status": "skipped",
       "format": "legacy",
+      "archetype": "mono-black-midrange",
+      "path": "latest/radars/legacy/mono-black-midrange.json",
+      "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "skipped",
+      "format": "legacy",
       "archetype": "mono-black-pox",
       "path": "latest/radars/legacy/mono-black-pox.json",
       "message": "No published decks were available for radar generation."
@@ -430,13 +446,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "the-epic-gamble",
-      "path": "latest/radars/legacy/the-epic-gamble.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
       "archetype": "the-epic-storm",
       "path": "latest/radars/legacy/the-epic-storm.json"
     },
@@ -522,6 +531,13 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
+      "archetype": "golgari-zenith",
+      "path": "latest/radars/legacy/golgari-zenith.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
       "archetype": "grixis-delver",
       "path": "latest/radars/legacy/grixis-delver.json"
     },
@@ -566,6 +582,13 @@
       "format": "legacy",
       "archetype": "mono-red-initiative",
       "path": "latest/radars/legacy/mono-red-initiative.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "mono-red-prison",
+      "path": "latest/radars/legacy/mono-red-prison.json"
     },
     {
       "scope": "archetype-radar",
@@ -643,6 +666,13 @@
       "format": "legacy",
       "archetype": "tes",
       "path": "latest/radars/legacy/tes.json"
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "legacy",
+      "archetype": "the-epic-gamble",
+      "path": "latest/radars/legacy/the-epic-gamble.json"
     },
     {
       "scope": "archetype-radar",

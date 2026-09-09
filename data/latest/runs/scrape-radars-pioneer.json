@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-09T11:36:15Z",
+  "generated_at": "2026-09-09T16:50:09Z",
   "command": "scrape-radars-pioneer",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
     "skipped": 35,
-    "success": 30
+    "success": 31
   },
   "results": [
     {
@@ -394,6 +394,13 @@
       "archetype": "temur-lessons",
       "path": "latest/radars/pioneer/temur-lessons.json",
       "message": "No published decks were available for radar generation."
+    },
+    {
+      "scope": "archetype-radar",
+      "status": "success",
+      "format": "pioneer",
+      "archetype": "black-demons",
+      "path": "latest/radars/pioneer/black-demons.json"
     },
     {
       "scope": "archetype-radar",
