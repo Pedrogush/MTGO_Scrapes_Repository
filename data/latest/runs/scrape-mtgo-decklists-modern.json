@@ -1,21 +1,35 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-09T21:00:49Z",
+  "generated_at": "2026-09-10T04:48:50Z",
   "command": "scrape-mtgo-decklists-modern",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 3,
-    "cached": 19
+    "success": 4,
+    "cached": 18
   },
   "results": [
     {
       "scope": "mtgo-event",
       "status": "success",
       "format": "modern",
+      "path": "archive/mtgo-decklists/modern/n444258898.json",
+      "message": "Cached 3/3 decks."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "success",
+      "format": "modern",
+      "path": "archive/mtgo-decklists/modern/12853726.json",
+      "message": "Cached 32/32 decks."
+    },
+    {
+      "scope": "mtgo-event",
+      "status": "success",
+      "format": "modern",
       "path": "archive/mtgo-decklists/modern/n584733350.json",
-      "message": "Cached 46/46 decks."
+      "message": "Cached 58/58 decks."
     },
     {
       "scope": "mtgo-event",
@@ -40,10 +54,10 @@
     },
     {
       "scope": "mtgo-event",
-      "status": "success",
+      "status": "cached",
       "format": "modern",
       "path": "archive/mtgo-decklists/modern/n675100847.json",
-      "message": "Cached 67/67 decks."
+      "message": "Loaded 67 decks from archive."
     },
     {
       "scope": "mtgo-event",
@@ -142,20 +156,6 @@
       "format": "modern",
       "path": "archive/mtgo-decklists/modern/n1643401412.json",
       "message": "Loaded 51 decks from archive."
-    },
-    {
-      "scope": "mtgo-event",
-      "status": "cached",
-      "format": "modern",
-      "path": "archive/mtgo-decklists/modern/12853730.json",
-      "message": "Loaded 32 decks from archive."
-    },
-    {
-      "scope": "mtgo-event",
-      "status": "cached",
-      "format": "modern",
-      "path": "archive/mtgo-decklists/modern/n1709053283.json",
-      "message": "Loaded 45 decks from archive."
     },
     {
       "scope": "mtgo-decklists",

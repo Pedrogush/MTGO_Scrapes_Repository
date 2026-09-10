@@ -1,13 +1,13 @@
 {
   "schema_version": "1",
   "kind": "publisher_run",
-  "generated_at": "2026-09-09T21:03:54Z",
+  "generated_at": "2026-09-10T04:52:10Z",
   "command": "scrape-radars-legacy",
   "status": "success",
   "max_stale_hours": 24,
   "summary": {
-    "success": 66,
-    "skipped": 27
+    "success": 57,
+    "skipped": 32
   },
   "results": [
     {
@@ -19,10 +19,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "affinity-stompy",
-      "path": "latest/radars/legacy/affinity-stompy.json"
+      "path": "latest/radars/legacy/affinity-stompy.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -280,10 +281,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "mardu-energy",
-      "path": "latest/radars/legacy/mardu-energy.json"
+      "path": "latest/radars/legacy/mardu-energy.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -326,10 +328,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "naya-initiative",
-      "path": "latest/radars/legacy/naya-initiative.json"
+      "path": "latest/radars/legacy/naya-initiative.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -341,10 +344,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "ninjas",
-      "path": "latest/radars/legacy/ninjas.json"
+      "path": "latest/radars/legacy/ninjas.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -407,10 +411,11 @@
     },
     {
       "scope": "archetype-radar",
-      "status": "success",
+      "status": "skipped",
       "format": "legacy",
       "archetype": "sewer-cam-combo",
-      "path": "latest/radars/legacy/sewer-cam-combo.json"
+      "path": "latest/radars/legacy/sewer-cam-combo.json",
+      "message": "No published decks were available for radar generation."
     },
     {
       "scope": "archetype-radar",
@@ -468,13 +473,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "creative-combo",
-      "path": "latest/radars/legacy/creative-combo.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
       "archetype": "death-taxes",
       "path": "latest/radars/legacy/death-taxes.json"
     },
@@ -512,13 +510,6 @@
       "format": "legacy",
       "archetype": "goblins",
       "path": "latest/radars/legacy/goblins.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "golgari-hogaak",
-      "path": "latest/radars/legacy/golgari-hogaak.json"
     },
     {
       "scope": "archetype-radar",
@@ -650,13 +641,6 @@
       "scope": "archetype-radar",
       "status": "success",
       "format": "legacy",
-      "archetype": "temur-cascade-rhinos",
-      "path": "latest/radars/legacy/temur-cascade-rhinos.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
       "archetype": "temur-stompy",
       "path": "latest/radars/legacy/temur-stompy.json"
     },
@@ -666,13 +650,6 @@
       "format": "legacy",
       "archetype": "tes",
       "path": "latest/radars/legacy/tes.json"
-    },
-    {
-      "scope": "archetype-radar",
-      "status": "success",
-      "format": "legacy",
-      "archetype": "the-epic-gamble",
-      "path": "latest/radars/legacy/the-epic-gamble.json"
     },
     {
       "scope": "archetype-radar",

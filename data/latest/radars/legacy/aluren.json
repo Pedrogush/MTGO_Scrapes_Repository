@@ -1,7 +1,7 @@
 {
   "schema_version": "1",
   "kind": "archetype_radar",
-  "generated_at": "2026-09-09T21:03:54Z",
+  "generated_at": "2026-09-10T04:52:10Z",
   "format": "legacy",
   "source": "published-deck-texts",
   "archetype": {
@@ -24,19 +24,7 @@
       }
     },
     {
-      "card_name": "Aluren",
-      "appearances": 11,
-      "total_copies": 44,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 11
-      }
-    },
-    {
-      "card_name": "Lotus Petal",
+      "card_name": "Ponder",
       "appearances": 11,
       "total_copies": 44,
       "max_copies": 4,
@@ -72,30 +60,6 @@
       }
     },
     {
-      "card_name": "Show and Tell",
-      "appearances": 11,
-      "total_copies": 44,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 11
-      }
-    },
-    {
-      "card_name": "Ponder",
-      "appearances": 11,
-      "total_copies": 44,
-      "max_copies": 4,
-      "avg_copies": 4.0,
-      "inclusion_rate": 100.0,
-      "expected_copies": 4.0,
-      "copy_distribution": {
-        "4": 11
-      }
-    },
-    {
       "card_name": "Stock Up",
       "appearances": 11,
       "total_copies": 44,
@@ -108,16 +72,39 @@
       }
     },
     {
-      "card_name": "Ancient Tomb",
+      "card_name": "Show and Tell",
       "appearances": 11,
-      "total_copies": 43,
+      "total_copies": 44,
       "max_copies": 4,
-      "avg_copies": 3.91,
+      "avg_copies": 4.0,
       "inclusion_rate": 100.0,
-      "expected_copies": 3.91,
+      "expected_copies": 4.0,
       "copy_distribution": {
-        "4": 10,
-        "3": 1
+        "4": 11
+      }
+    },
+    {
+      "card_name": "Lotus Petal",
+      "appearances": 11,
+      "total_copies": 44,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 11
+      }
+    },
+    {
+      "card_name": "Aluren",
+      "appearances": 11,
+      "total_copies": 44,
+      "max_copies": 4,
+      "avg_copies": 4.0,
+      "inclusion_rate": 100.0,
+      "expected_copies": 4.0,
+      "copy_distribution": {
+        "4": 11
       }
     },
     {
@@ -135,6 +122,19 @@
     },
     {
       "card_name": "Misty Rainforest",
+      "appearances": 11,
+      "total_copies": 43,
+      "max_copies": 4,
+      "avg_copies": 3.91,
+      "inclusion_rate": 100.0,
+      "expected_copies": 3.91,
+      "copy_distribution": {
+        "4": 10,
+        "3": 1
+      }
+    },
+    {
+      "card_name": "Ancient Tomb",
       "appearances": 11,
       "total_copies": 43,
       "max_copies": 4,
@@ -266,13 +266,14 @@
     {
       "card_name": "Polluted Delta",
       "appearances": 10,
-      "total_copies": 10,
-      "max_copies": 1,
-      "avg_copies": 1.0,
+      "total_copies": 11,
+      "max_copies": 2,
+      "avg_copies": 1.1,
       "inclusion_rate": 90.9,
-      "expected_copies": 0.91,
+      "expected_copies": 1.0,
       "copy_distribution": {
-        "1": 10,
+        "2": 1,
+        "1": 9,
         "0": 1
       }
     },
@@ -340,19 +341,6 @@
         "1": 1,
         "0": 10
       }
-    },
-    {
-      "card_name": "Underground Sea",
-      "appearances": 1,
-      "total_copies": 1,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 9.1,
-      "expected_copies": 0.09,
-      "copy_distribution": {
-        "1": 1,
-        "0": 10
-      }
     }
   ],
   "sideboard_cards": [
@@ -386,57 +374,71 @@
     {
       "card_name": "Faerie Macabre",
       "appearances": 9,
-      "total_copies": 22,
+      "total_copies": 21,
       "max_copies": 4,
-      "avg_copies": 2.44,
+      "avg_copies": 2.33,
       "inclusion_rate": 81.8,
-      "expected_copies": 2.0,
+      "expected_copies": 1.91,
       "copy_distribution": {
-        "4": 2,
+        "4": 1,
+        "3": 1,
         "2": 7,
         "0": 2
       }
     },
     {
-      "card_name": "Veil of Summer",
-      "appearances": 10,
+      "card_name": "Defense Grid",
+      "appearances": 8,
       "total_copies": 18,
-      "max_copies": 2,
-      "avg_copies": 1.8,
-      "inclusion_rate": 90.9,
+      "max_copies": 3,
+      "avg_copies": 2.25,
+      "inclusion_rate": 72.7,
       "expected_copies": 1.64,
       "copy_distribution": {
-        "2": 8,
-        "1": 2,
+        "3": 2,
+        "2": 6,
+        "0": 3
+      }
+    },
+    {
+      "card_name": "Veil of Summer",
+      "appearances": 10,
+      "total_copies": 17,
+      "max_copies": 2,
+      "avg_copies": 1.7,
+      "inclusion_rate": 90.9,
+      "expected_copies": 1.55,
+      "copy_distribution": {
+        "2": 7,
+        "1": 3,
         "0": 1
       }
     },
     {
-      "card_name": "Defense Grid",
-      "appearances": 7,
-      "total_copies": 16,
-      "max_copies": 3,
-      "avg_copies": 2.29,
-      "inclusion_rate": 63.6,
-      "expected_copies": 1.45,
+      "card_name": "Force of Negation",
+      "appearances": 9,
+      "total_copies": 10,
+      "max_copies": 2,
+      "avg_copies": 1.11,
+      "inclusion_rate": 81.8,
+      "expected_copies": 0.91,
       "copy_distribution": {
-        "3": 2,
-        "2": 5,
-        "0": 4
+        "2": 1,
+        "1": 8,
+        "0": 2
       }
     },
     {
-      "card_name": "Force of Negation",
-      "appearances": 8,
-      "total_copies": 9,
-      "max_copies": 2,
-      "avg_copies": 1.12,
-      "inclusion_rate": 72.7,
-      "expected_copies": 0.82,
+      "card_name": "Disruptor Flute",
+      "appearances": 5,
+      "total_copies": 5,
+      "max_copies": 1,
+      "avg_copies": 1.0,
+      "inclusion_rate": 45.5,
+      "expected_copies": 0.45,
       "copy_distribution": {
-        "2": 1,
-        "1": 7,
-        "0": 3
+        "1": 5,
+        "0": 6
       }
     },
     {
@@ -454,7 +456,7 @@
       }
     },
     {
-      "card_name": "Disruptor Flute",
+      "card_name": "Dismember",
       "appearances": 4,
       "total_copies": 4,
       "max_copies": 1,
@@ -521,19 +523,6 @@
       }
     },
     {
-      "card_name": "Dismember",
-      "appearances": 3,
-      "total_copies": 3,
-      "max_copies": 1,
-      "avg_copies": 1.0,
-      "inclusion_rate": 27.3,
-      "expected_copies": 0.27,
-      "copy_distribution": {
-        "1": 3,
-        "0": 8
-      }
-    },
-    {
       "card_name": "Grafdigger's Cage",
       "appearances": 3,
       "total_copies": 3,
@@ -544,19 +533,6 @@
       "copy_distribution": {
         "1": 3,
         "0": 8
-      }
-    },
-    {
-      "card_name": "Barrowgoyf",
-      "appearances": 1,
-      "total_copies": 3,
-      "max_copies": 3,
-      "avg_copies": 3.0,
-      "inclusion_rate": 9.1,
-      "expected_copies": 0.27,
-      "copy_distribution": {
-        "3": 1,
-        "0": 10
       }
     },
     {
